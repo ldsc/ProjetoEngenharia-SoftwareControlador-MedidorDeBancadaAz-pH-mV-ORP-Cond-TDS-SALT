@@ -13,3 +13,8 @@ VERSÃO V2
 - projeto de painel de análise estatística
 - adição da temperatura fixa como opção
 
+VERSAO V3
+
+- adição de gráficos ao monitor avançado
+- funcionalidade de gravação usando arquivos .csv
+- funcionalidade do painel de análise estatística (Analyzer)
