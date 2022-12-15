@@ -146,7 +146,7 @@ status open
 
 
 \backslash
-lfoot{SeuNomeAqui} 
+lfoot{Gustavo Escher , Pedro Ribeiro} 
 \backslash
 rfoot{
 \backslash
@@ -181,20 +181,20 @@ today ele vai colocar data no material impresso
 \end_layout
 
 \begin_layout Standard
-No presente projeto de engenharia desenvolve-se o software XXXX, um software
- aplicado a engenharia de petróleo e que utiliza o paradigma da orientação
- a objetos.
+O estudo da qualidade da água 
 \end_layout
 
-\begin_layout Itemize
-O primeiro parágrafo da introdução pode ser um super resumo do trabalho.
- A ideia é fazer um resumo do resumo.
-\end_layout
-
-\begin_layout Itemize
-ESTE MODELO TEM TEXTOS EXPLICATVOS QUE DEVEM SER ELIMINADOS DA VERSÃO FINAL.
- O OBJETIVO DE COLOCAR AS EXPLICAÇÕES É FACILITAR O ENTENDIMENTO DO QUE
- DEVE ENTRAR EM CADA SEÇÃO.
+\begin_layout Standard
+Há muitas razões importantes para estudar a qualidade da água.
+ A qualidade da água nos ajuda a entender o que está acontecendo na subsuperfíci
+e, onde e quão rápido a água está se movendo, quais reações geoquímicas
+ estão ocorrendo, identificando diferentes fontes de água, etc.
+ Isso se relaciona diretamente com os aspectos dos estudos realizados no
+ laboratório de petrofísica do LENEP, através de diversos equipamentos capazes
+ de fazer a leitura de medidas das propriedades das rochas e dos fluidos
+ de saturação das mesmas.
+ A água, por ser o fluido de saturação mais comum do subsolo, atribui-se
+ de grande interesse o estudo de suas propriedades.
 \end_layout
 
 \begin_layout Section
@@ -209,30 +209,28 @@ name "sec:Escopo-do-Problema"
 \end_layout
 
 \begin_layout Standard
-Segundo o CREA/CONFEA um dos quesitos fundamentais que diferenciam a atuação
- de um tecnólogo da atuação de um engenheiro é a capacidade de desenvolver
- um projeto em engenharia; Neste trabalho, desenvolve-se um projeto em engenhari
-a de software aplicado a solução de um problema específico de engenharia
- de petróleo.
- Trabalhando-se com todo ciclo de um projeto, isto é, especificação, elaboração,
- análise, projeto, desenvolvimento, teste e documentação.
+Medidas realizadas no Medidor de bancada e passíveis de análise: 
+\end_layout
+
+\begin_layout Standard
+• pH ou Potencial Hidrogeniônico; 
+\end_layout
+
+\begin_layout Standard
+• Condutividade; 
+\end_layout
+
+\begin_layout Standard
+• Total de sólidos dissolvidos (TDS); 
+\end_layout
+
+\begin_layout Standard
+• Potencial de Oxi-redução (ORP); e 
+\end_layout
+
+\begin_layout Standard
+• Salinidade.
  
-\end_layout
-
-\begin_layout Itemize
-Definir o escopo do projeto de engenharia, a ideia geral do software, acentuar
- sua importância, usos e aplicações em engenharia [de petróleo].
-\end_layout
-
-\begin_layout Itemize
-Delimitar o assunto.
- Situá-lo no tempo e no espaço.
- Situá-lo em relação a outros softwares.
-\end_layout
-
-\begin_layout Itemize
-Neste capítulo podem entrar figuras que ilustram a ideia geral, o detalhamento
- será feito depois, na elaboração.
 \end_layout
 
 \begin_layout Section
@@ -260,14 +258,13 @@ Objetivo geral:
 
 \begin_deeper
 \begin_layout Itemize
-Descreva aqui o objetivo geral do projeto de engenharia, incluindo vínculos
- com engenharia de petróleo e com modelagem matemática computacional (ideia
- de lógica, algoritmos,...).
+Analisar a qualidade da água a ser utilizada em experimentos no laboratório
+ de petrofísica.
 \end_layout
 
 \begin_layout Itemize
-Desenvolver um projeto de engenharia de software para ...[.....descrever de forma
- clara, direta, objetiva, o objetivo geral do software].
+Desenvolver um projeto de engenharia de software para organizar a medidas
+ realizadas em arquivos de disco.
 \end_layout
 
 \end_deeper
@@ -295,21 +292,11 @@ o os fluxos de processamento).
 \end_layout
 
 \begin_layout Itemize
-Calcular XXX[.....descrever de forma clara, direta, objetiva, cada objetivo específic
-o, cada parte do software].
-\end_layout
-
-\begin_layout Itemize
-Calcular XXX[.....descrever de forma clara, direta, objetiva, cada objetivo específic
-o, cada parte do software].
+Acompanhar medidas em tempo real a partir de gráficos integrados ao software.
 \end_layout
 
 \begin_layout Itemize
 Simular (realizar simulações para teste do software desenvolvido).
-\end_layout
-
-\begin_layout Itemize
-Implementar manual simplificado de uso do software.
 \end_layout
 
 \end_deeper

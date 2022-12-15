@@ -247,23 +247,58 @@ o sobre o assunto...
 Identificação de pacotes – assuntos
 \end_layout
 
-\begin_layout Standard
-...aqui...
+\begin_layout Itemize
+Propriedades da água: propriedades medidas pelo aparelho.
+ São medidas propriedades empíricas das amostras de águas, as quais fazem
+ parte da matéria de físico-química.
 \end_layout
 
 \begin_layout Itemize
-Nome Pacote: Descrição.
- O que é, para que serve, como se relaciona com os demais pacotes.
+Físico-química:é a disciplina que estuda os fenômenos químicos sob a ótica
+ dos princípios, conceitos e práticas da física, sendo assim a combinação
+ dessas duas ciências: a física e a química.
+ Dessa forma, busca-se explicar os fenômenos químicos através dos conceitos
+ de movimento, energia, força, tempo, temperatura, pressão, volume, calor,
+ e trabalho, química quântica e equilíbrio químico, mecânica estatística
+ e eletroquímica.
 \end_layout
 
 \begin_layout Itemize
-Nome Pacote: Descrição.
- O que é, para que serve, como se relaciona com os demais pacotes.
+Propriedades Químicas: uma propriedade química é uma propriedade qualificada
+ das substâncias, ou seja, varia de substância para substância, seja ela
+ simples (elemento) ou não (composto).
+ Seria por assim dizer uma propriedade acidental e não essencial.
 \end_layout
 
 \begin_layout Itemize
-Nome Pacote: Descrição.
- O que é, para que serve, como se relaciona com os demais pacotes.
+Literatura Qualidade da Água: a qualidade da água é um conjunto de característic
+as físicas, químicas e biológicas que ela apresenta, de acordo com a sua
+ utilização.
+ Os padrões de classificação mais usados pretendem classificar a água de
+ acordo com a sua potabilidade, a segurança que apresenta para o ser humano
+ e para o bem estar dos ecossistemas.
+ Usa das propriedades da água para definir parâmetros de qualidade.
+\end_layout
+
+\begin_layout Itemize
+Gráficos: é a tentativa de se expressar visualmente dados ou valores numéricos,
+ de maneiras diferentes, assim facilitando a sua compreensão.
+ Faz parte da matemática como um todo e utiliza elementos da matéria estatística.
+\end_layout
+
+\begin_layout Itemize
+Estatística: é uma ciência que se dedica à coleta, análise e interpretação
+ de dados.
+ Preocupa-se com os métodos de coleta, organização, resumo, apresentação
+ e interpretação dos dados, assim como tirar conclusões sobre as características
+ das fontes donde estes foram retirados, para melhor compreender as situações.
+ Faz parte da matemática como um todo.
+\end_layout
+
+\begin_layout Itemize
+Matemática: o trabalho matemático consiste em procurar e relacionar padrões,
+ de modo a formular conjecturas cuja veracidade ou falsidade é provada por
+ meio de deduções rigorosas a partir de axiomas e definições.
 \end_layout
 
 \begin_layout Section
@@ -278,12 +313,9 @@ name "sec: Diagrama de pacotes – assuntos"
 \end_layout
 
 \begin_layout Standard
-...aqui...
-\end_layout
-
-\begin_layout Standard
-coloque aqui texto falando do diagrama de pacotes, referencie a figura.
- Veja Figura 
+Diagrama de assuntos e pacotes para elaboração do software controlador Az®
+ pH/mV/ORP/Cond./TDS/SALT.
+ Veja a Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Diagrama-de-Pacotes"
@@ -302,7 +334,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename imagens/DiagramaDeComponentes-Assuntos-Pacotes.png
+	filename /home/escher/Documentos/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica-master/MaterialAuxiliar/Diagrama de Assuntos e Pacotes.jpg
 	lyxscale 50
 	width 100text%
 
@@ -336,19 +368,7 @@ name "fig:Diagrama-de-Pacotes"
 \end_layout
 
 \begin_layout Description
-Nota: 
-\begin_inset space ~
-\end_inset
 
-
-\begin_inset Newline newline
-\end_inset
-
-Não perca de vista a visão do todo; do projeto de engenharia como um todo.
- Cada capítulo, cada seção, cada parágrafo deve se encaixar.
- Este é um diferencial fundamental do engenheiro em relação ao técnico,
- a capacidade de desenvolver projetos, de ver o todo e suas diferentes partes,
- de modelar processos/sistemas/produtos de engenharia.
 \end_layout
 
 \end_body

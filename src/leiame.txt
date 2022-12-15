@@ -1,6 +1,5 @@
+O BUILD DEVE SER FEITO PELO QT CREATOR USANDO A PASTA ESCHER-V3
 
-Colocar aqui códigos desenvolvidos, arquivos .hy .cpp.
+OS DOCUMENTOS FORA DA PASTA DIZEM RESPEITO A LÓGICA CENTRAL DO PROGRAMA
 
-Aqui não entram arquivos usados em testes;
-Arquivos usados para testar o funcionamento do programa ficam no diretório test.
-
+FIZ ASSIM POIS A BIBLIOTECA QTCUSTOMPLOT É BEM PESADA

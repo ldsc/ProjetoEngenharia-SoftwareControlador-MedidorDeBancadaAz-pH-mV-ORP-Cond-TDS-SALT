@@ -1,0 +1,19 @@
+\hypertarget{sensor_8h_source}{}\doxysection{sensor.\+h}
+\label{sensor_8h_source}\index{C:/Users/gusta/SoftwareControlador-\/MedidorDeBancadaAz-\/pH-\/mV-\/ORP-\/Cond-\/TDS-\/SALT/src/sensor.h@{C:/Users/gusta/SoftwareControlador-\/MedidorDeBancadaAz-\/pH-\/mV-\/ORP-\/Cond-\/TDS-\/SALT/src/sensor.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef SENSOR\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define SENSOR\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}measure.h"{}}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{keyword}{class }\mbox{\hyperlink{class_i_sensor}{ISensor}}}
+\DoxyCodeLine{7 \{}
+\DoxyCodeLine{8 \textcolor{keyword}{public}:}
+\DoxyCodeLine{9     \textcolor{keyword}{virtual} \mbox{\hyperlink{class_i_measure}{IMeasure}}* GetMeasure(EMeasureMode mode, EMeasureUnit unit) = 0;}
+\DoxyCodeLine{10     \textcolor{keyword}{virtual} ESensorType GetSensorType() = 0;}
+\DoxyCodeLine{11 \};}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// SENSOR\_H}}
+
+\end{DoxyCode}
