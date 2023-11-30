@@ -1,0 +1,15 @@
+# ninja log v5
+21	94	0	C:/Users/gusta/SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/MaterialAuxiliar/TrabalhoBueno/escher-v1/build-escher-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	6e9edb6a48c0f840
+2	3400	6905825105159227	escher_autogen/timestamp	ae5da5dfaa1f02f0
+2	3400	6905825105159227	escher_autogen/mocs_compilation.cpp	ae5da5dfaa1f02f0
+2	3400	6905825105159227	C:/Users/gusta/SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/MaterialAuxiliar/TrabalhoBueno/escher-v1/build-escher-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/escher_autogen/timestamp	ae5da5dfaa1f02f0
+2	3400	6905825105159227	C:/Users/gusta/SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/MaterialAuxiliar/TrabalhoBueno/escher-v1/build-escher-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/escher_autogen/mocs_compilation.cpp	ae5da5dfaa1f02f0
+3447	5643	6905825134609897	CMakeFiles/escher.dir/measure.cpp.obj	9f445302d4e2d064
+3524	5719	6905825134849815	CMakeFiles/escher.dir/report.cpp.obj	48327662274c97c0
+3500	5866	6905825136719201	CMakeFiles/escher.dir/meter.cpp.obj	1d25c2a6ea7092a0
+5651	7387	6905825152054190	CMakeFiles/escher.dir/sensor.cpp.obj	da4c74f0a5e7a35
+3401	10783	6905825186587967	CMakeFiles/escher.dir/escher_autogen/mocs_compilation.cpp.obj	aa081b35a863e182
+3465	11066	6905825189556997	CMakeFiles/escher.dir/main.cpp.obj	1c5c8dcf0d5e8edf
+5720	11544	6905825194345427	CMakeFiles/escher.dir/aboutwindow.cpp.obj	59ec3de743bf5967
+3483	11969	6905825198544053	CMakeFiles/escher.dir/mainwindow.cpp.obj	b6bcf145b6da80c2
+11971	13116	6905825209970317	escher.exe	37a1affc25f5d468
