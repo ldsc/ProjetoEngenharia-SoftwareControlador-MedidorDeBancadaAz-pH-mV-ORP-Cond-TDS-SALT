@@ -302,7 +302,20 @@ main
 \end_layout
 
 \begin_layout Standard
-Apresenta-se na listagem 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+utils.cpp .h
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Apresenta-se na listagem
 \begin_inset ERT
 status open
 
@@ -310,7 +323,7 @@ status open
 
 
 \backslash
-ref{CAplicacao-h}
+ref{measure.h}
 \end_layout
 
 \end_inset
@@ -328,11 +341,7 @@ ref{CAplicacao-h} temos o label; o mesmo deve ser igual ao que se encontra
 
 \end_inset
 
- o arquivo com código da classe 
-\family typewriter
-CAplicacao
-\family default
-.
+ o arquivo com código da classe measure.h.
 \end_layout
 
 \begin_layout Standard
@@ -345,8 +354,8 @@ status open
 \backslash
 lstset{style=C++} 
 \backslash
-lstinputlisting[ caption={Arquivo de cabeçalho da classe CAplicacao}, label={CAp
-licacao-h}] {../../src/CAplicacao.h}
+lstinputlisting[ caption={Arquivo de cabeçalho da classe measure.h}, label={measu
+re.h}] {../../src/measure.h}
 \end_layout
 
 \end_inset
@@ -363,16 +372,12 @@ status open
 
 
 \backslash
-ref{CAplicacao-cpp}
+ref{measure.cpp}
 \end_layout
 
 \end_inset
 
- o arquivo de implementação da classe 
-\family typewriter
-CAplicacao
-\family default
-.
+ o arquivo de implementação da classe measure.cpp.
  
 \end_layout
 
@@ -386,8 +391,172 @@ status open
 \backslash
 lstset{style=C++} 
 \backslash
-lstinputlisting[ caption={Arquivo de implementação da classe CAplicacao},
- label={CAplicacao-cpp}] {../../src/CAplicacao.cpp}
+lstinputlisting[ caption={Arquivo de implementação da classe measure.cpp},
+ label={measure.cpp}] {../../src/measure.cpp}
+\end_layout
+
+\end_inset
+
+Apresenta-se na listagem
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{sensor.h}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+note que dentro de 
+\backslash
+ref{CAplicacao-h} temos o label; o mesmo deve ser igual ao que se encontra
+ abaixo label={CAplicacao-h}
+\end_layout
+
+\end_inset
+
+ o arquivo com código da classe sensor.h.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstset{style=C++} 
+\backslash
+lstinputlisting[ caption={Arquivo de cabeçalho da classe sensor.h}, label={sensor.
+h}] {../../src/sensor.h}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Apresenta-se na listagem 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{sensor.cpp}
+\end_layout
+
+\end_inset
+
+ o arquivo de implementação da classe sensor.cpp.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstset{style=C++} 
+\backslash
+lstinputlisting[ caption={Arquivo de implementação da classe sensor.cpp},
+ label={sensor.cpp}] {../../src/sensor.cpp}
+\end_layout
+
+\end_inset
+
+Apresenta-se na listagem
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{utils.h}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+note que dentro de 
+\backslash
+ref{CAplicacao-h} temos o label; o mesmo deve ser igual ao que se encontra
+ abaixo label={CAplicacao-h}
+\end_layout
+
+\end_inset
+
+ o arquivo com código da classe utils.h.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstset{style=C++} 
+\backslash
+lstinputlisting[ caption={Arquivo de cabeçalho da classe utils.h}, label={utils.h}
+] {../../src/utils.h}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Apresenta-se na listagem 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{utils.cpp}
+\end_layout
+
+\end_inset
+
+ o arquivo de implementação da classe measure.cpp.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstset{style=C++} 
+\backslash
+lstinputlisting[ caption={Arquivo de implementação da classe utils.cpp},
+ label={utils.cpp}] {../../src/utils.cpp}
 \end_layout
 
 \end_inset
@@ -400,16 +569,12 @@ status open
 
 
 \backslash
-ref{programa-cpp}
+ref{main.cpp}
 \end_layout
 
 \end_inset
 
- o programa que usa a classe 
-\family typewriter
-CAplicacao
-\family default
-.
+ o programa main.cpp.
  
 \end_layout
 
@@ -430,7 +595,7 @@ lstinputlisting[ caption={
 
 Arquivo de implementação da função 
 \backslash
-texttt{main()}}, label={programa-cpp}] {../../src/Programa.cpp}
+texttt{main()}}, label={main.cpp}] {../../src/main.cpp}
 \end_layout
 
 \end_inset
@@ -450,9 +615,10 @@ note que para saída mudamos a cor de fundo para azul; geramos a saída e
 \end_inset
 
 
-\end_layout
+\begin_inset Note Note
+status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
@@ -463,6 +629,11 @@ status open
 lstset{style=out}   
 \backslash
 lstinputlisting[caption=] {../../src/Programa.out}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset

@@ -334,7 +334,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/escher/Documentos/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica-master/MaterialAuxiliar/Diagrama de Assuntos e Pacotes.jpg
+	filename imagens/Diagrama de Assuntos e Pacotes.jpg
 	lyxscale 50
 	width 100text%
 
@@ -364,10 +364,6 @@ name "fig:Diagrama-de-Pacotes"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Description
 
 \end_layout
 

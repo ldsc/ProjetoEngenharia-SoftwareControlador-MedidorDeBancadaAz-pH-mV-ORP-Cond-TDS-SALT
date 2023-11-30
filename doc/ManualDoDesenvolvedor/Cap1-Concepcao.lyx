@@ -288,8 +288,9 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename C:/Users/gusta/Downloads/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica-master (2)/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica-master/MaterialAuxiliar/specs.png
+	filename imagens/specs.png
 
 \end_inset
 
@@ -997,8 +998,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/home/escher/Documentos/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica-master/MaterialAuxiliar/Diagrama de caso de uso geral.png
-	lyxscale 50
+	filename imagens/Diagrama de caso de uso geral.png
+	lyxscale 20
 	width 100text%
 
 \end_inset
@@ -1060,7 +1061,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/home/escher/Documentos/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica-master/MaterialAuxiliar/Diagrama de caso de uso específico do programa.jpg
+	filename imagens/Diagrama de caso de uso específico do programa.jpg
 	width 100text%
 
 \end_inset

@@ -404,5 +404,17 @@ name "fig:Etapas para o desenvolvimento do software"
 
 \end_layout
 
+\begin_layout Standard
+Maiores detalhes veja 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "adb-prog-livroCpp"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
 \end_body
 \end_document

@@ -228,9 +228,11 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/escher/Documentos/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica-master/MaterialAuxiliar/class diagram.png
-	lyxscale 50
-	width 12cm
+	filename imagens/class diagram.png
+	lyxscale 30
+	width 100text%
+	height 80theight%
+	keepAspectRatio
 	rotateAngle 90
 
 \end_inset
@@ -430,8 +432,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/escher/Documentos/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica-master/MaterialAuxiliar/Diagrama de sequência.jpg
-	lyxscale 50
+	filename imagens/Diagrama de sequência.jpg
 	width 100text%
 	rotateAngle 90
 
@@ -583,7 +584,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/escher/Documentos/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica-master/MaterialAuxiliar/Diagrama de comunicação.jpg
+	filename imagens/Diagrama de comunicação.jpg
 	lyxscale 85
 	width 100text%
 
@@ -684,7 +685,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/escher/Documentos/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica-master/MaterialAuxiliar/Diagrama de estado.jpg
+	filename imagens/Diagrama de estado.jpg
 	lyxscale 85
 	width 100text%
 
@@ -754,7 +755,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/escher/Documentos/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica-master/MaterialAuxiliar/Diagrama de atividade (media).jpg
+	filename imagens/Diagrama de atividade (media).jpg
 	lyxscale 85
 	width 100text%
 
