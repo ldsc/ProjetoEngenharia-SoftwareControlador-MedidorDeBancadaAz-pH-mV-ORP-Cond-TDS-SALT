@@ -1,0 +1,228 @@
+
+======================================
+Comandos Básicos de GIT - documentados
+======================================
+
+git config
+---------------
+Um dos comandos git mais usados ​​é o git config que pode ser usado para definir valores de configuração específicos do usuário como e-mail, algoritmo preferido para diff, nome de usuário e formato de arquivo etc. Por exemplo, o seguinte comando pode ser usado para definir o email:
+Uso:
+git config --global user.email sam@google.com
+
+git init
+---------------
+Este comando é usado para criar um novo repositório GIT.
+Uso: git init
+
+git add
+---------------
+O comando git add pode ser usado para adicionar arquivos ao índice. Por exemplo, o seguinte comando irá adicionar um arquivo chamado temp.txt presente no diretório local para o índice:
+Uso: git add temp.txt
+
+git clone
+---------------
+O comando git clone é usado para fins de verificação de repositório. Se o repositório estiver em um servidor remoto.
+Uso:
+git clone alex@93.188.160.58:/path/to/repository
+
+Por outro lado, se uma cópia de trabalho de um repositório local for criada, use:
+git clone /path/to/repository
+
+git commit
+---------------
+O comando git commit é usado para confirmar as alterações na cabeça. Tenha em atenção que quaisquer alterações efetuadas não irão para o repositório remoto.
+Uso:
+git commit –m “coloque sua mensagem aqui”
+Uso: Atualiza todos os arquivos antigos do projeto que foram modificados
+git commit -a –m “coloque sua mensagem aqui”
+
+git status
+---------------
+O comando git status exibe a lista de arquivos alterados juntamente com os arquivos que ainda não foram adicionados ou confirmados. Uso:
+git status
+
+git push
+---------------
+é outro dos comandos git básicos mais usados. Um simples envio envia as alterações feitas para o ramo mestre do repositório remoto associado ao diretório de trabalho. Por exemplo:
+git push origin master
+
+git checkout
+---------------
+O comando git checkout pode ser usado para criar ramos ou alternar entre eles. Por exemplo, o seguinte cria um novo ramo e muda para ele:
+
+git remote
+---------------
+O comando git remote permite que um usuário se conecte a um repositório remoto.
+
+O comando a seguir lista os repositórios remotos atualmente configurados:
+git remote: Esse comando permite que o usuário se conecte a um servidor remoto:
+git remote add origin <93.188.160.58>
+
+git branch
+---------------
+O comando git branch pode ser usado para listar, criar ou excluir ramos.
+
+Para listar todos os ramos presentes no repositório, use:
+git branch
+Para criar um ramo e ficar onde esta:
+git branch <branch-name>
+Para criar um ramo e mudar para ele:
+git checkout -b <branch-name>
+Para excluir um ramo:
+git branch –d <branch-name>
+Para mudar de um ramo para outro, use:
+git checkout <branch-name>
+
+git pull
+---------------
+Para mesclar todas as alterações do repositório remoto para o diretório de trabalho local. Uso:
+git pull
+
+https://docs.github.com/pt/issues/tracking-your-work-with-issues/creating-an-issue
+
+git issue
+---------------
+Usado para criar issues (problemas, como relatório de erros/bugs ou features a serem desenvolvidas).
+Note que também é uma forma de documentar atividades desenvolvidas.
+git issue create --title "My new issue" --body "Here are more details."
+Você também pode especificar responsáveis, etiquetas, marcos e projetos.
+git issue create --title "My new issue" --body "Here are more details." --assignee @me,monalisa --label "bug,help wanted" --project onboarding --milestone "learning codebase"
+
+git merge
+---------------
+O comando git merge é usado para mesclar uma ramificação no ramo ativo(copia do branch para o ramo ativo). Uso:
+git merge <branch-name>
+
+git rebase
+---------------
+O comando git rebase é usado de forma similar ao merge, mas ele oculta o ramo criado, fazendo com que o mesmo seja equivalente a uma continuidade no ramo ativo. A ideia é criar um ramo, trabalhar nele, depois, ao dar o rebase, é como se ele tivesse sido uma continuidade.
+git rebase <branch-name>
+
+git diff
+---------------
+O comando git diff é usado para listar os conflitos. Para visualizar conflitos com o arquivo base, use
+git diff --base <file-name>
+
+O seguinte comando é usado para exibir os conflitos entre ramos about-to-be-merged antes de mesclá-los:
+git diff <source-branch> <target-branch>
+
+Para simplesmente listar todos os conflitos atuais, use:
+git diff
+
+git tag
+---------------
+A marcação é usada para marcar compromissos específicos com alças simples. Um exemplo pode ser:
+
+git tag 1.1.0 <insert-commitID-here>
+Já o comando "git tag v1" cria checkout ativo uma tag v1.
+
+git log
+---------------
+Executar o comando git log exibe uma lista de compromissos em uma ramificação, juntamente com os detalhes pertinentes. Uso:
+git log
+git log --graph --oneline --all
+
+git reset
+---------------
+Para redefinir o índice e o diretório de trabalho para o estado do último commit. Apaga modificações. Uso:
+git reset --hard HEAD
+
+git rm
+---------------
+Usado para remover arquivos ou diretórios.
+git rm pode ser usado para remover arquivos do índice e do diretório de trabalho. Uso:
+git rm filename.txt
+
+git stash
+---------------
+Provavelmente um dos menos conhecidos comandos git básicos é git stash que ajuda a salvar as mudanças que não devem ser cometidos imediatamente, mas em uma base temporária. Neste caso você ainda não terminou um commit, mas quer fazer um backup das mudanças feitas. Uso:
+git stash
+
+git show
+---------------
+Para visualizar informações sobre qualquer objeto git, use o comando git show. Por exemplo:
+git show
+
+git fetch
+---------------
+Permite que um usuário obtenha todos os objetos do repositório remoto que atualmente não residem no diretório de trabalho local. Exemplo de uso:
+git fetch origin
+
+git ls-tree
+---------------
+Para exibir um objeto de árvore juntamente com o nome e o modo de cada item e o valor SHA-1 do blob, use o comando git ls-tree. Por exemplo:
+git ls-tree HEAD
+
+git cat-file
+---------------
+Usando o valor SHA-1, exiba o tipo de um objeto usando o comando git cat-file. Por exemplo:
+git cat-file –p d670460b4b4aece5915caf5c68d12f560a9fe3e4
+
+git grep
+---------------
+git grep permite que um usuário procure através das árvores de conteúdo frases e / ou palavras. Por exemplo, para pesquisar www.hostinger.com em todos os arquivos use:
+git grep "www.hostinger.com"
+
+gitk
+---------------
+é uma interface gráfica para uso do git.
+gitgui: é uma interface gráfica para uso do git.
+
+git instaweb
+---------------
+Com o comando git instaweb, um servidor web pode ser executado em interface com o repositório local. Um navegador da Web também é automaticamente direcionado para ele. Por exemplo:
+git instaweb –httpd=webrick
+
+git gc
+---------------
+Para otimizar o repositório através da coleta de lixo, que irá limpar arquivos desnecessários e otimizá-los, use:
+git gc
+
+git archive
+---------------
+O comando git archive permite que um usuário crie um arquivo zip ou tar contendo os componentes de uma única árvore de repositório. Por exemplo:
+git archive --format=tar master
+
+git prune
+---------------
+Através do comando git prune, os objetos que não têm ponteiros de entrada são excluídos. Uso:
+git prune
+
+git fsck
+---------------
+Para executar uma verificação de integridade do sistema de arquivos git, use o comando git fsck. Todos os objetos corrompidos são identificados:
+git fsck
+
+git rebase
+---------------
+O comando git rebase é usado para reaplicação de compromissos em outro ramo. Por exemplo:
+git rebase master
+
+
+==========================
+Comandos Básicos de GIT
+==========================
+git config --global user.email andreduartebueno@google.com
+.gitignore       -> arquivo com lista do que será ignorado (extensões: ex: *.o *~).
+git init         -> inicializa repositório.
+git add          -> adiciona arquivos/diretórios.
+git rm           -> remove arquivos/diretórios.
+git commit –m “msg” -> cria um commit a ser enviado para servidor.
+git push         -> REP_LOCAL => REP_SERVIDOR (envia para servidor).
+git status       -> estado do repositório.
+git pull         -> REP_LOCAL <= REP_SERVIDOR (recebe).
+git tag          -> cria uma tag.
+git log          -> exibe uma lista de compromissos e detalhes.
+git show         -> mostra informações.
+git ls-tree HEAD                -> mostra informações árvore diretórios.
+git cat-file                    -> mostra arquivo.
+git grep                        -> pesquisa.
+==Ramos==
+git clone http://path           -> clona projeto.
+git checkout -b <branch-name>   -> cria ramo e alterna para ele.
+git checkout <branch-name>      -> alterna para o ramo <branch-name>.
+git branch                      -> lista os ramos.
+git branch –d <branch-name>     -> deleta ramo.
+git merge <branch-name>         -> mesclar uma ramificação no ramo ativo.
+git diff                        -> listar diferenças / conflitos.
+git stash                       -> salvar as mudanças sem gerar um commit.

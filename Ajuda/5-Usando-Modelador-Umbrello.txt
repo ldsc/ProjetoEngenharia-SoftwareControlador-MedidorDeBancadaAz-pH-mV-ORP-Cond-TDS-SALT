@@ -1,0 +1,39 @@
+
+Sobre o Umbrello
+=================
+Segundo o site https://apps.kde.org/pt-br/umbrello/:
+"Umbrello é uma ferramenta de modelação de UML (Unified Modelling Language) e gerador de código. Ele pode criar diagramas de softwares e outros sistemas, usando o formato de UML padrão da indústria, assim como gerar código a partir de diagramas UML, em uma grande variedade de linguagens de programação.
+
+Funcionalidades:
+
+Formatos suportados: XMI
+Há suporte para diversos tipos de diagramas: casos de uso, classe, sequência, comunicação, estado, atividade, componente, distribuição, relacionamento de entidade"
+
+Ou seja, permite a construção de diagramas UML, permite importar e exportar códigos.
+
+Porque o Umbrello
+=================
+
+O modelador umbrello foi selecionado por ser software livre e estar disponível em múltiplas plataformas, incluindo:
+- GNU/Linux,
+- Windows e
+- MAC-OS-X.
+
+O mesmo umbrello instalado nas máquinas da sala de aulas do Setor de Modelagem Matemática Computacional do LENEP
+(Distribuição GNU/Linux/Fedora - https://fedoraproject.org/).
+
+O umbrello pode ser obtido aqui:
+https://apps.kde.org/pt-br/umbrello/
+
+Como funciona?
+================
+1. Vá para o diretório versao-01/uml e abra o arquivo ProjetoEngenharia-Titulo.xml.
+2. Inclua os Modelos estruturais e dinâmicos (diagramas UML necessários).
+3. Exporte as imagens dos diagramas.
+4. Copia as imagens para doc/ManualDoDesenvolvedor/imagens.
+
+Nota
+=====
+A versão atual esta apresentando alguns bugs que não existiam antes.
+Sugere-se criar cópia do arquivo na medida em que for trabalhando.
+

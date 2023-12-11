@@ -1,0 +1,90 @@
+1) Atulizar o arquivo /etc/dnf/dnf.conf
+[main]
+gpgcheck=True
+installonly_limit=3
+clean_requirements_on_remove=True
+best=False
+skip_if_unavailable=True
+fastestmirror=1
+max_parallel_downloads=10 
+deltarpm=true
+
+2) Ativar RPM fusion
+dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+3) Atualizar sistema
+dnf -y upgrade --refresh
+
+4) Instalar pacotes abaixo
+
+# Pacotes edição de texto
+dnf install kate emacs
+dnf install aspell-pt_BR
+
+# Pacotes programação global(ggtags)
+dnf install g++ clang global cpplint cppcheck kdiff3 kdevelop qt-creator qt-devel rabbitvcs-nautilus doxygen libasan libubsan
+
+# Pacotes navegação
+dnf install AdobeReader
+
+# Pacotes arquivos pdf
+dnf install google-chrome
+
+# Pacotes LyX/Tex/Latex
+dnf install lyx 'tex(esint10.pfb)'  'tex(lgrcmr.fd)' 'tex(subscript.sty)' 'tex(lgrenc.def)'
+dnf install texlive-prettyref
+dnf install texlive-textgreek
+dnf install texlive-accents
+dnf install texlive-babel-portuges
+dnf install texlive-multirow texlive-tablefootnote
+dnf install texlive-abnt texlive-abntex2
+dnf install texlive-pmboxdraw
+dnf install texlive-sectsty
+dnf install texlive-prettyref
+dnf install texlive-greek-fontenc texlive-cbfonts
+dnf install texlive-luainputenc
+
+# Pacotes gráficos/fotos
+dnf install gimp gthumb
+
+# Pacotes atualização do sistema
+dnf install dnf-plugin-system-upgrade
+
+# Pacotes modernos tldr=man fdfind=find btop=top bat=cat, fdupes=arquivos duplicados
+dnf install -y tldr
+dnf install -y fdfind
+dnf install -y btop
+dnf install -y bashtop
+dnf install ncdu
+dnf install duf
+dnf install bat
+dnf install fdupes
+#dnf install tldr fdfind btop bashtop ncdu duf bat
+
+dnf install tldr fdfind btop bashtop
+
+5) Instalar dropbox
+http://www.dropbox.com
+sudo dnf install nautilus-dropbox
+
+6) Codecs e multimidia
+dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
+dnf groupupdate sound-and-video
+dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel ffmpeg gstreamer-ffmpeg
+dnf install lame\* --exclude=lame-devel
+dnf group upgrade --with-optional Multimedia
+
+# Decoders
+dnf install ffmpeg ffmpeg-libs libva libva-utils
+
+dnf install intel-media-driver
+
+# Gnome plugins
+dnf install gnome-tweaks
+dnf install nautilus-python
+
+https://extensions.gnome.org/extension/3843/just-perfection/
+https://extensions.gnome.org/extension/5446/quick-settings-tweaker/
+https://extensions.gnome.org/extension/779/clipboard-indicator/
+
+

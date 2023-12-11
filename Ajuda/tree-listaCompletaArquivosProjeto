@@ -1,0 +1,111 @@
+.
+├── AjudaEstudantes
+│   ├── instrucoes-git.txt
+│   ├── instrucoes-javadoc-doxygen.txt
+│   ├── instrucoes-lyx.txt
+│   ├── intrucoes-diretorio.txt
+│   └── tree-listaCompletaArquivosProjeto
+├── doc
+│   ├── instrucoes
+│   ├── ManualDoDesenvolvedor
+│   │   ├── bibliografia.bib
+│   │   ├── Cap0b-ResumoAbstract.lyx
+│   │   ├── Cap0-Capa-ProjetoDisciplina.lyx
+│   │   ├── Cap0-Capa-ProjetoDisciplina.lyx~
+│   │   ├── Cap0-Capa-ProjetoTCC.lyx
+│   │   ├── Cap0-Introducao-Escopo-Objetivos-Metodologia.lyx
+│   │   ├── Cap1-Concepcao.lyx
+│   │   ├── Cap2-Elaboracao.lyx
+│   │   ├── Cap3-AnaliseOrientadaAObjeto.lyx
+│   │   ├── Cap4-Projeto.lyx
+│   │   ├── Cap5-Ciclos-Planejamento-Detalhamento.lyx
+│   │   ├── Cap6-Ciclos-Construcao-Implementacao.lyx
+│   │   ├── Cap7-Teste.lyx
+│   │   ├── Cap8-DocumentacaoDoDesenvolvedor.lyx
+│   │   ├── Cap-Apendice-A.lyx
+│   │   ├── imagens
+│   │   │   ├── AnaliseDeDominio.png
+│   │   │   ├── DiagramaDeAtividade-ClasseIntegral-MetodoArea.png
+│   │   │   ├── DiagramaDeCasoDeUso-Especifico-AnaliseDosResultados.png
+│   │   │   ├── DiagramaDeCasoUso-Geral.png
+│   │   │   ├── DiagramaDeClasses.png
+│   │   │   ├── DiagramaDeComponentes-Assuntos-Pacotes.png
+│   │   │   ├── DiagramaDeComponentes-Asuntos-Pacotes-Imago.png
+│   │   │   ├── DiagramaDeComponentes-Distribuicao.png
+│   │   │   ├── DiagramaDeComunicacao.png
+│   │   │   ├── DiagramaDeEstado-ClasseSimulador.png
+│   │   │   ├── DiagramaDeEstados-ClasseAluno.png
+│   │   │   ├── DiagramaDeSequencia-Eventos.png
+│   │   │   ├── DiagramDeExecucao.png
+│   │   │   ├── EngenhariaSoftware-Geral.dia
+│   │   │   ├── EngenhariaSoftware-Geral-Elaboracao-DiagramaAssuntos.png
+│   │   │   ├── EngenhariaSoftware-Geral.png
+│   │   │   ├── instrucoes
+│   │   │   ├── Interface-Simulador-Tiago.png
+│   │   │   ├── Interface-Simulador-Transcal-Guilherme1.png
+│   │   │   ├── Interface-Simulador-Transcal-Guilherme2.png
+│   │   │   └── Interface-SimuladorTranscal-Nicholas.png
+│   │   ├── Instrucoes_para_o_master.txt
+│   │   ├── Makefile
+│   │   ├── ProjetoEngenharia-ManualDoDesenvolvedor-ComInstrucoes.pdf
+│   │   ├── ProjetoEngenharia-ManualDoDesenvolvedor.lyx
+│   │   └── ProjetoEngenharia-ManualDoDesenvolvedor.pdf
+│   ├── ManualDoUsuario
+│   │   ├── bibliografia.bib
+│   │   ├── Cap0-Capa.lyx
+│   │   ├── Cap1-Instalacao-Dependencias.lyx
+│   │   ├── Cap2-Interface-ComoUsar.lyx
+│   │   ├── Cap2-Interface-ComoUsar.lyx~
+│   │   ├── Cap3-ExemplosDeUso.lyx
+│   │   ├── Cap4-Contatos.lyx
+│   │   ├── imagens
+│   │   │   ├── Interface-Simulador-Tiago.png
+│   │   │   ├── Interface-Simulador-Transcal-Guilherme1.png
+│   │   │   ├── Interface-Simulador-Transcal-Guilherme2.png
+│   │   │   └── Interface-SimuladorTranscal-Nicholas.png
+│   │   ├── ProjetoEngenharia-ManualDoUsuario.lyx
+│   │   └── ProjetoEngenharia-ManualDoUsuario.pdf
+│   └── ManualTecnico
+├── master
+├── MaterialAuxiliar
+│   └── leiame.txt
+├── MaterialExterno
+│   ├── Gnuplot
+│   │   ├── CGnuplot.cpp
+│   │   ├── CGnuplot.h
+│   │   ├── CGnuplot-Leiame.txt
+│   │   ├── CGnuplot.teste.cpp
+│   │   ├── CGnuplot.teste.min.cpp
+│   │   └── P07-C06-Gnuplot.pdf
+│   ├── guiasReferencia
+│   │   ├── 00-Como_estudar.pdf
+│   │   ├── 01-UML_Diagramas_UML.pdf
+│   │   ├── 02-C++11.cpp
+│   │   ├── 02-C++17-Bart.pdf
+│   │   ├── 02-C++20-Bart_jan2020.pdf
+│   │   ├── 02-C++-GuiaReferencia-C++11-14-17-20-23.pdf
+│   │   ├── 02-C_plus_plusRef_Card.pdf
+│   │   ├── 02-cpp_reference_sheet-1p.pdf
+│   │   ├── 03-STL-Quick-Reference-a4-1.33-8p.pdf
+│   │   ├── 04-git_cheat_sheet.pdf
+│   │   ├── 04-UNIX-commands-reference-card.pdf
+│   │   ├── 07-CGnuplot-Referencia.h
+│   │   └── 07-CGnuplot-Referencia.h.pdf
+│   └── leiame.txt
+├── README.md
+├── src
+│   ├── CAplicacao.cpp
+│   ├── CAplicacao.h
+│   ├── Doxyfile
+│   ├── instrucoes
+│   ├── leiame.txt
+│   ├── Programa.cpp
+│   └── Programa.out
+├── test
+│   ├── instrucoes
+│   ├── test1
+│   ├── test2
+│   └── test3
+└── tree
+
+16 directories, 92 files

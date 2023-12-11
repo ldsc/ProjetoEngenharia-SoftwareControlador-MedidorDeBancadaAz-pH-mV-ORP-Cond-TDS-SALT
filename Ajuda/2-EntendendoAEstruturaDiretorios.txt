@@ -1,0 +1,70 @@
+=================================
+Como esta organizado o diretório?
+=================================
+
+==================================================================
+Veja a seguir a estrutura de diretório do projeto:
+==================================================================
+(obtida com o comando: tree -L 4 -d).
+├── Ajuda
+│   └── GuiasDeReferencia
+├── BibliotecasDeSoftware
+│   └── Gnuplot
+├── MaterialAuxiliarDoProjeto
+└── versao-1
+    ├── doc
+    │   ├── ManualDoDesenvolvedor
+    │   │   └── imagens
+    │   └── ManualDoUsuario
+    │       └── imagens
+    ├── src
+    ├── test
+    └── uml
+
+
+==================================================================
+Veja a seguir a estrutura de diretório do projeto - documentada:
+==================================================================
+.
+├── Ajuda
+    Contém arquivos com instruções e informações básicas. Material de ajuda (txt).
+│   └── GuiasDeReferencia
+        Contém guias de referência para os programas e ferramentas utilizadas (txt e pdf).
+├── BibliotecasDeSoftware
+│   └── Gnuplot
+        Contém arquivos para uso do programa gnuplot, permitindo que você faça gráficos facilmente (txt,pdf).
+├── MaterialAuxiliarDoProjeto
+    Diretório onde você vai colocar material auxiliar relacionado ao projeto, como livros, apostilas, artigos.
+    Lembre de respeitar direitos autorais, só coloque material de acesso livre. Jamais pirateie livros!
+└── versao-1
+    Diretório com a documentação, códigos, testes e diagramas uml da versão 1.
+    ├── doc
+    │   ├── ManualDoDesenvolvedor
+            Arquivo com todas as instruções e explicações de como o software foi desenvolvido, incluindo os capítulos:
+            Especificação/elaboração/análise/projeto/implementação/teste/documentação.
+            A ideia é que estes arquivos do lyx contenham todas as informações e instruções de como o software foi desenvolvido, permitindo aos interessados modificar/melhorar o software.
+    │   │   └── imagens
+                Neste diretório você deve colocar todas as imagens a serem utilizadas e referenciadas no manual do desenvolvedor.
+    │   └── ManualDoUsuario
+            Diretório onde ficarão os arquivos do lyx usados para gerar o ManualDoUsuario.
+            Note que neste manual não entram informações de como o software pode ser modificado.
+            São apenas instruções de como instalar e usar o programa, o foco é o usuário final.
+    │   │   └── imagens
+                Neste diretório você deve colocar todas as imagens a serem utilizadas e referenciadas no manual do Usuário.
+    ├── src
+        Neste diretório você deve colocar todas as listagens de código, arquivos .h .cpp.
+    ├── test
+        Neste diretório estão programas e arquivos usados para testar o software desenvolvido.
+    └── uml
+└── versao-2
+    Diretório com a documentação, códigos, testes e diagramas uml da versão 2.
+    ├── doc
+    │   ├── ManualDoDesenvolvedor
+    │   └── ManualDoUsuario
+    ├── src
+    ├── test
+    └── uml
+
+.git:
+    Diretório oculto gerenciado pelo programa git.
+

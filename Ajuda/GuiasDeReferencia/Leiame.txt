@@ -1,0 +1,23 @@
+Neste diretório estão disponibilizados alguns guias de referência.
+
+Ajudas rápidas para lembrar determinado comando.
+
+00-Como_estudar.pdf
+01-UML-GuiaReferencia2.pdf
+01-UML-GuiaReferencia.pdf
+02-C++-GuiaReferencia-C++03-Bart.pdf
+02-C++-GuiaReferencia-C++06.pdf
+02-C++-GuiaReferencia-C++11-14-17-20-23.cpp
+02-C++-GuiaReferencia-C++11-14-17-20-23.pdf
+02-C++-GuiaReferencia-C++17-Bart.pdf
+02-C++-GuiaReferencia-C++20-Bart.pdf
+03-STL-GuiaReferencia1.pdf
+03-STL-GuiaReferencia2.pdf
+04-git-GuiaReferencia1.pdf
+04-git-GuiaReferencia2.pdf
+04-git-GuiaReferencia3.pdf
+05-Linux-GuiaReferencia.pdf
+05-UNIX-GuiaReferencia.pdf
+07-CGnuplot-Referencia.h
+07-CGnuplot-Referencia.h.pdf
+07-Gnuplot-GuiaReferencia.pdf

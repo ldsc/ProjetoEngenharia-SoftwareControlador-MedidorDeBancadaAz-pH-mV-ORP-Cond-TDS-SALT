@@ -1,0 +1,193 @@
+=============================================
+# Etapas para criar seu projeto de engenharia
+=============================================
+
+=============================================
+Resumo:
+=============================================
+Utilizamos na disciplina um projeto modelo que esta localizado aqui:
+https://github.com/ldsc/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica
+
+Este modelo tem a sequinte estrutura de diretórios básica:
+├── Ajuda
+│   └── GuiasDeReferencia
+├── BibliotecasDeSoftware
+│   └── Gnuplot
+├── MaterialAuxiliarDoProjeto
+└── versao-1
+    ├── doc
+    │   ├── ManualDoDesenvolvedor
+    │   └── ManualDoUsuario
+    ├── src
+    ├── test
+    └── uml
+
+
+O que o Prof Bueno fará é clonar este projeto modelo criando uma cópia que terá o nome do projeto da sua equipe
+(ex: ProjetoEngenharia-TituloXX).
+
+A seguir iremos adicionar no ProjetoEngenharia-TituloXX os membros da equipe, para que possam acessar e alterar os arquivos.
+Note que para poder usar o servidor Github vocês terão de criar uma conta neste site/servidor.
+
+Depois de criado o repositório e adicionados os membros da equipe os mesmos poderão fazer o download dos arquivos para suas máquinas locais.
+Depois de baixar o projeto poderão alterar os arquivos existentes ou adicionar novos arquivos de acordo com as necessidades do projeto específico.
+
+Entre os arquivos a serem modificados estão:
+- Arquivos do git (git).
+- Arquivos de modelagem(umbrello).
+- Arquivos de documentação(lyx).
+- Arquivos de código(C++).
+
+=============================================
+Etapas:
+=============================================
+Veja a seguir as etapas e instruções para criar seu projeto de engenharia que será armazenado em um repositório dentro do github do LDSC - Laboratório de Desenvolvimento de Software Científico do LENEP/CCT/UENF.
+
+Etapa 1)
+========
+Um SCV - Sistema de Controle de Versões, permite gerenciar projetos desenvolvidos individualmente ou em equipe.
+A base de funcionamento do SCV é a gestão das versões dos arquivos de forma profissional, isto é, com controle e documentação.
+
+O SCV mais utilizado hoje em dia é o programa git (https://git-scm.com/).
+
+Se ainda não instalou, instale o programa git no seu computador.
+Site: https://git-scm.com/
+
+Após instalar sugiro ler um tutorial básico de uso do git.
+Depois de ler um tutorial vale assistir alguns vídeos na internet.
+
+
+Etapa 2)
+========
+Para que possamos trabalhar em equipe manipulando os mesmos arquivos precisamos ter um repositório (um diretório), que será compartilhado entre os membros da equipe.
+Para isso precisamos ter um servidor de arquivos que fica na internet (na rede mundial de computadores).
+
+O servidor mais utilizado hoje em dia é o GitHub (https://github.com).
+
+Você precisa acessar o site https://github.com e criar uma conta (se ainda não tem).
+
+Exemplo:
+Logue no navegador chrome usando seu gmail institucional do LENEP.
+Entre no site https://github.com e crie sua conta, login e senha (usando gmail institucional).
+Anote seus dados para não esquecer!
+
+Etapa 3)
+========
+Temos duas situações possíveis:
+- A equipe vai desenvolver um projeto totalmente novo.
+- A equipe vai dar continuidade a um projeto existente.
+
+3.1) Projeto novo
+=================
+Passe os seguintes dados para o Prof Bueno (bueno@lenep.uenf.br)
+Título do projeto de engenharia: "ProjetoEngenharia-TituloXX" (sem espaços e sem acentos!)
+Nome completo dos membros da equipe:
+- nome completo <email usado no github> (nome de login no github)
+- nome completo <email usado no github> (nome de login no github)
+- nome completo <email usado no github> (nome de login no github)
+
+O professor  Bueno vai criar um repositório novo para o projeto de vocês e compartilhar o link e instruções para que tenham acesso.
+O projeto será armazenado em:
+"https://github.com/ldsc/ProjetoEngenharia-TituloXX"
+
+3.1) Projeto existente, criação de nova versão
+==============================================
+Passe os seguintes dados para o Prof Bueno (bueno@lenep.uenf.br)
+Título do projeto de engenharia existente: "ProjetoEngenharia-TituloXX"
+Link para o projeto existente: https://github.com/ldsc/ProjetoEngenharia-TituloXX
+Nome completo dos membros da equipe:
+- nome completo <email usado no github> (nome de login no github)
+- nome completo <email usado no github> (nome de login no github)
+- nome completo <email usado no github> (nome de login no github)
+
+Como o projeto já existe, o professor Bueno vai criar um subdiretório versao-x, que será a versão desenvolvida por vocês.
+Por exemplo se já existe a versao-1 vocês irão trabalhar na versao-2.
+Irá adicionar vocês no projeto, de forma que vocês terão acesso aos arquivos para leitura e escrita.
+
+Nota: o servidor github envia para o email de vocês um pedido para que confirmem a entrada no repositório.
+Aceitem este pedido se o mesmo corresponde ao projeto de vocês.
+
+Etapa 4)
+========
+Criar cópia local do projeto
+Após receber o link para o projeto, algo como
+"https://github.com/ldsc/ProjetoEngenharia-TituloXX"
+você deve usar o programa git para baixar o projeto para sua máquina.
+Abra um terminal e faça o download do modelo de projeto, abaixo os comandos para um terminal em máquina GNU/Linux ou Windows:
+cd
+mkdir workdir
+cd workdir
+git clone https://github.com/ldsc/ProjetoEngenharia-TituloXX
+
+O comando "git clone endereço" copia para sua máquina o projeto localizado no "endereço".
+
+Pronto o modelo já esta no servidor github (Endereço: https://github.com/ldsc/ProjetoEngenharia-TituloXX)
+e já esta no seu computador (caminho ~/workdir/ProjetoEngenharia-TituloXX).
+
+Dica:
+Você vai encontrar dentro do diretório do projeto um diretório Ajuda.
+Neste diretório tem diversos arquivos de texto com dicas e sugestões de uso dos principais programas que iremos utilizar, como:
+    1-ComoCriarSeuProjeto.txt
+    2-EntendendoAEstruturaDiretorios.txt
+    3-Usando-SistemaControleVersoes-git.txt
+    4-Usando-Editor-LyX.txt
+    5-Usando-Modelador-Umbrello.txt
+    6-Usando-Compilador-Debugger-Profiler.txt
+    7-Usando-DocumentacaoCodigo-javadoc-doxygen.txt
+    8-Usando-ComandosTerminal.txt
+
+Etapa 5)
+========
+Modifique os arquivos no seu computador e envie para o servidor.
+Depois registre as alterações feitas:
+git commit -a -m "o que você alterou"
+
+E então sincronize seus arquivos locais com os arquivos do servidor usando o comando:
+git push
+
+Para maiores detalhes de uso do git/github leia o arquivo "3-Usando-SistemaControleVersoes-git.txt"
+e consulte livros na biblioteca do LENEP/CCT/UENF, livros sobre git e github, sites e tutoriais.
+Alguns sites como:
+    https://github.com/
+    https://git-school.github.io/visualizing-git/#free
+    https://learngitbranching.js.org/?locale=pt_BR
+Ensinam você a usar os comandos básicos do git e mostram o que esta acontecendo.
+
+Nota: Note que o modelo já tem os diretórios e arquivos necessários.
+Isto significa que você não deve criar novos diretórios (somente em casos muito especiais).
+
+Etapa 6)
+========
+Depois que estiver tudo funcionando atualize o arquivo, README.MD colocando informações específicas do projeto;
+Lembrando que sempre adicione informações sobre:
+- UENF
+- CCT
+- LENEP
+- Disciplina
+- Professor
+- Ano/semestre
+- Nome membros da equipe
+isto facilita achar informações sobre o projeto.
+
+O arquivo README.MD pode ser editado no site do github (inclui opções de formatação) ou usando um editor de texto que saiba manipular este formato de arquivo.
+
+
+
+Nota: eu uso o editor de texto emacs, trabalho com arquivos no formato README.org e depois converto para o formato README.md.
+Trabalhe com o editor de sua preferência. Para quem usa windows uma boa opção é o editor vscode.
+
+Etapa 7)
+========
+Após estudar o básico do git, aprenda a trabalhar com o conceito de ramos/branchs.
+
+Este modelo de projeto esta localizado no endereço
+https://github.com/ldsc/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica
+
+O mesmo tem algumas tags:
+Versao-1.0-ModelagemTradicional : Usada até final de 2021.
+Versao-1.0-ModelagemAgil : Usada a partir de 2022.
+Versao-2.0-ModelagemAgil : Usada a partir de 2024.
+
+E tem os seguintes branchs/ramos:
+ModelagemTradicional
+ModelagemAgil

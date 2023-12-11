@@ -1,0 +1,15 @@
+Os arquivos deste diretório contém um passo a passo do que você precisa fazer e instruções de uso simplificadas dos diferentes programas utilizados nas disciplinas de Introdução ao Projeto de Engenharia, Programação Orientada a Objeto com C++ e Projeto de Engenharia Aplicado, Fundamentos de Programação em C++.
+
+A sugestão é que leia cada documento na ordem, isto é:
+1-ComoCriarSeuProjeto.txt
+2-Usando-EstruturaDiretorios
+3-Usando-git.txt
+4-Usando-ModeladorUmbrello.txt
+5-Usando-Compilador.txt
+5-Usando-Editor-LyX
+6-Usando-Debuger.txt
+8-Usando-Profiller.txt
+9-Usando-javadoc-doxygen.txt
+
+O arquivo tree-listaCompletaArquivosProjeto contém uma lista dos arquivos deste diretório na sua forma original (a que você recebe em projetos novos).
+Se você estiver trabalhando em um projeto existente, por exemplo, já existe o projeto na versão 1 e você vai trabalhar numa nova versão, a versão 2, então vai receber uma estrutura de difetórios diferente. Com os subdiretórios versao-1 e versao-2.

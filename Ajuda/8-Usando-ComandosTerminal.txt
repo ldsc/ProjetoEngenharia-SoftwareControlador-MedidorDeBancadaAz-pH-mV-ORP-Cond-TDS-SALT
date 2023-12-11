@@ -1,0 +1,234 @@
+Comandos de terminal são formas eficientes de fazer as coisas.
+São muito utilizados pelos melhores engenheiros.
+
+Mas o uso dos mesmos requer entendimento e treinamento, então, crie um diretório temporário e aprenda a usar os comandos dentro deste diretório.
+Depois que tiver segurança use no seu dia a dia.
+
+
+Ajuda:
+------------------------------------------------------------
+man nomePrograma
+tldr nomePrograma
+
+Informações sistema:
+------------------------------------------------------------
+lshw  Mostra informações detalhadas do hardware.
+gnome-control-center
+
+Instalação/desinstalação de pacotes:
+------------------------------------------------------------
+sudo dnf install nomePacote
+sudo rpm install nomePacote.rpm
+
+sudo rpm -e nome.i386.rpm
+
+Consulta a pacotes:
+------------------------------------------------------------
+rpm -qa | grep nomePacote
+
+Gerenciando processos:
+------------------------------------------------------------
+jobs Mostra processos do shell corrente.
+ps Lista processos
+    ps -aux
+top Mostra processos
+btop Mostra processos (visualmente bacana)
+gnome-system-monitor
+kill Mata um processos
+    kill -9 idProcesso
+
+Memória e disco
+------------------------------------------------------------
+free Retorna informações sobre a memória ram do sistema.
+df Mostra informações sobre os discos e sistemas de arquivos.
+du Utilitário de disco que mostra consumo estimado de memória usada (disc use).
+ncdu idem  (visualmente bacana)
+duf idem  (visualmente bacana)
+
+Navegação por diretórios
+------------------------------------------------------------
+cd Muda diretório corrente
+    cd /home/philippi  # Caminho completo.
+    cd ../../usr       # Caminho relativo
+pwd Mostra path do diretório corrente (path = caminho).
+mkdir Cria diretório.
+rmdir Remove o diretório.
+ls Lista o conteúdo do diretório.
+    ls -F               # Mostra \ dos diretórios.
+    ls -d */            # Mostra apenas diretórios.
+    ls -lah             # Lista detalhada.
+    ls -ltr             # Ordena por data de criação
+exa Lista o conteúdo do diretório.  (visualmente bacana)
+    exa --tree --level=2
+    exa --tree --level=2 --long
+    exa --reverse --sort=size
+tree Lista em árvore.
+    tree -L 3           # Profundidade de 3 diretórios.
+    tree -d             # Lista somente os diretórios.
+
+Copiar/remover arquivos
+------------------------------------------------------------
+cp Cópia arquivos e diretórios. Se não informar o nome no destino mantem o nome.
+rm Remove arquivos (retira links).
+mv Move arquivos (renomeia arquivos).
+ln Linka diretórios e arquivos (um arquivo com link só é deletado se for o último link).
+    ln origem link        # Cria link permanente.
+    ln -s origem link     # Cria link simbólico.
+
+Pesquisar por arquivos
+------------------------------------------------------------
+find O find é usado para pesquisar arquivos em seu HD (disco rígido).
+find path opções
+    find / -USER nomeUsuário # Para localizar arquivos do usuário:
+    find -name *.o -o -name *.a
+    find ~/ -size -100k # Para localizar arquivos menores que 100k
+
+locate O locate é usado para pesquisar por arquivos.
+file Informa o tipo de arquivo.
+convmv Usado para converter nomes de arquivos de uma codificação para outra.
+
+Configurando permissões de acesso do diretório/arquivo
+------------------------------------------------------------
+
+chmod Muda permissões de acesso ao arquivo ou diretório.
+    chmod u+x arquivo # Usuário poderá executar
+    chmod -R u+x,g+w,o+r diretorio
+
+Comandos para compactar/descompactar diretórios e arquivos
+------------------------------------------------------------
+
+zip  Compacta arquivos zip (compatível com pkzip/pkunzip do DOS/Windows).
+unzip Descompacta arquivos zip.
+gzip Compacta arquivos com a extensão: gz,.Z,-gz,.z,-z
+gunzip Descompacta arquivos com a extensão: gz,.Z,-gz,.z,-z
+tar O [https://www.gnu.org/software/tar/||tar] permite a você agrupar um conjunto de arquivos em um único, facilitando o backup (ou o envio pela Internet). Pode-se agrupar e compactar os arquivos dentro de um diretório com um único comando.
+    tar -cf origem > destino.tar  # Empacotando origem em destino.
+    tar -cvzf destino.tar.gz origem # Empacotando e já compactando.
+    tar -uvzf destino.tar.gz origem # Atualizando o arquivo .tar.gz.
+    tar -rvzf destino.tar.gz origem # Acrescentando novos arquivos.
+    tar -xzvf nome.tar.gz # Exemplos de desempacotamento.
+split Usado para dividir um arquivo grande em diversos arquivos menores.
+    split -b 1440kb nomeArquivoGrande.doc
+
+Arquivos: Criar, alterar nome, verificar arquivos duplicados
+------------------------------------------------------------
+touch Cria um arquivo vazio ou atualiza data do arquivo.
+rename rename stringAntiga stringNova listaDeArquivos
+fdupes Usado para localizar arquivos repetidos.
+
+Arquivos: Informações do arquivo, visualizar, verificar
+------------------------------------------------------------
+nl Númera as linhas não vazias do arquivo.
+wc Número de linhas, de palavras e de bytes do arquivo.
+less Mostra o conteúdo do arquivo (permite navegação pelo arquivo).
+head Mostrar as primeiras linhas de um arquivo.
+tail Mostrar as últimas linhas de um arquivo.
+echo Mostra na tela uma mensagem ou o conteúdo de uma variável. Note que podemos adicionar caracteres de espace como '\n' '\t'.
+    echo $'Oi tudo bem!\nUm texto com quebra\nde linha'
+    echo $PATH
+cat Mostra o conteúdo do arquivo na tela.
+bat Mostra o conteúdo do arquivo na tela. (visualmente bacana)
+sort Ordena linhas de arquivos (ou de uma saída de comando).
+    ls | sort -r          # Ordem invertida.
+
+Arquivos: Como alterar o conteúdo do arquivo
+------------------------------------------------------------
+tr Converte cadeias de caracteres em arquivos.
+recode converter arquivos entre vários conjuntos de caracteres (character sets).
+grep O grep é usado para pesquisar o conteúdo de um arquivo ou a saída de um comando (similares egrep, fgrep).
+    ls -la | grep  "Sofia"  # Pesquisa pelo arquivo Sofia.
+    grep "msg" guia.txt     # Procura a msg dentro de guia.txt.
+rg Rep grep é uma versao mais atual do grep/egrep.
+sed Substitui texto em arquivos (permite "programar").
+sed s/regexp/replacement/g
+    sed 's/PalavraASerPesquisada/PalavraASerSubstituida/g' nomeArquivo.txt
+awk Formata a saída de um comando ou texto.
+    # Imprime a linha toda ($0)
+    awk '{print $0}' cadastroProfessores.txt
+    # Imprime coluna 1 ($1)
+    awk '{print $1}' cadastroProfessores.txt
+    awk '{ printf("\nNome: %s %s %s \nSetor: %s \nFormacao: %s\n", $1, $2, $3, $4, $5); }' cadastroProfessores.txt > cadastroProfessores-formatada.txt
+
+Downloads:
+------------------------------------------------------------
+wget Usado para fazer o download de arquivos.
+wget [option]... [URL]...
+    wget https://exemplo.com/foo
+    wget --user=nomeusuario --password=senha https://enderecoServidor.com
+
+pdfs:
+------------------------------------------------------------
+#Quero colocar vários jpg num pdf?
+for i in *.jpeg do convert "$i" -adjoin arquivo.pdf done
+# Quero extrair as imagens de um pdf
+pdfimages arquivo.pdf figuras
+
+Imagens:
+------------------------------------------------------------
+# Para converter uma imagem
+convert img.jpg img.png
+# Para converter várias imagens
+for i in *.eps; do convert $i $i.png; done
+# Para reduzir imagens
+convert -resize 500x709 -quality 93 nome.jpg
+# Para recortar uma imagem
+onvert Multithreading.png -crop 1443x1078+240+0 Multithreading.png
+
+# Pausa de 5 segundos e captura da janela
+sleep 5; import -window root menu.png
+# Pausa de 3 segundos e captura da região selecionada
+sleep 5; import -screen root menu.png
+
+Terminais:
+------------------------------------------------------------
+Ctrl-Alt-F1 entra na tela de login gráfica.
+Ctrl-Alt-F2 entra na tela do primeiro usuário que logou.
+Ctrl-Alt-F3 entra na tela do segundo usuário que logou.
+
+Administração do Sistema:
+------------------------------------------------------------
+shutdown permite desligar o computador.
+# programando o desligamento para 3 horas
+shutdown -P 3:00
+
+Usuários e grupos:
+------------------------------------------------------------
+users Lista o login dos usuários logados no sistema.
+groups Lista os grupos que o usuário faz parte.
+adduser Adiciona um novo usuário.
+    adduser molly
+    adduser --no-create-home koto
+    adduser --home /home/nina nina
+groupadd Permite adicionar um grupo, viabilizando por exemplo criar grupos de trabalho.
+groupadd --gid 1100 projetoSimuladorReservatorio
+usermod Permite alterar configurações do usuário.
+    # Muda o login
+    usermod --login new_username old_username
+    # Muda o id do usuário
+    usermod --uid id username
+    # Adiciona o usuário a outros grupos
+    usermod --append --groups group1,group2,... username
+
+Configurando proprietário do diretório/arquivo [root]
+------------------------------------------------------------
+chown Muda proprietário do arquivo ou diretório.
+sha1sum Verificação de soma de segurança.
+    sha1sum [opções]... [arquivo]...
+    sha1sum Fedora-40-X86_64.iso > Fedora-40-X86_64.sha1
+
+Conexão e copia arquivos entre computadores
+------------------------------------------------------------
+ssh   Conexão segura entre computadores.
+    ssh [user@]host[:port]] [-l login_name] destination [command [argument ...]]
+      ssh aluno_1@192.168.1.13
+scp   O scp permite a cópia de arquivos entre computadores de forma segura usando o protocolo SSH.
+    scp path/arquivoLocalOrigem remote_host:path/arquivoRemotoDestino
+    scp path/arquivoLocalOrigem usuario@remote_host:path/arquivoRemotoDestino
+
+Bash:
+------------------------------------------------------------
+    echo $PATH
+    export PATH=/path/para/executáveis:${PATH}
+    cat /etc/profile
+    alias cp='cp -p'#Apelidos:
+

@@ -1,0 +1,267 @@
+Usando o editor profissional LyX/TeX/LaTeX
+==========================================
+    O lyx esta disponibilizado em http://www.lyx.org.
+    Baixe a versão mais recente.
+    Instale.
+    Leia o tutorial. Veja vídeos na internet.
+    Se tiver dúvidas procure seus colegas, vários já sabem usar o lyx.
+    Se continuar com dúvidas procure o monitor.
+    Se continuar com dúvidas me procure.
+
+    Dica para usuários Windows:
+    ==============================
+    - Se for usar o Windows instale a versão completa do LyX, disponível no site:
+    http://wiki.lyx.org/Windows/Windows
+
+    - Veja o que diz o site em  31/10/2023:
+    Current stable version: 2.3.0
+    Standard installer: LyX-230-Installer-005.exe (58 MB).
+    https://ftp.lip6.fr/pub/lyx/bin/2.3.0/LyX-230-Installer-005.exe
+    This installer requires that LaTeX (MikTeX or TeXLive) are already installed.
+    Previous stable version: 2.2.3
+    Standard installer: LyX-230-Installer-005.exe (53 MB). This installer requires that LaTeX (MikTeX or TeXLive)
+    are already installed.
+    Versions for Cygwin:
+    If you use Cygwin on Windows, it may be more convenient to use the cygwin binary, since latex, python, etc.
+    are all available from cygwin. You should download lyx-2.3.0-cygwin.tar.gz, un-tar it using Cygwin (not native)
+    tools, and follow the instructions . See LyXOnCygwin for more information.
+
+    Dica abntex:
+    =============
+    Se após a instalação do LyX o abntex não funcionar tente instalar o pacote abntex-lyx-0.8-2.noarch.
+    Se o projeto usa abntex você tem de instalar o abntex.
+
+    Comandos:
+    # instala o abntex2
+    dnf install texlive-abntex2
+    # informações sobre o pacote
+    rpm -qi texlive-abntex2
+    # lista de arquivos do pacote
+    rpm -ql texlive-abntex2
+
+    Exemplo, o Comando rpm -ql texlive-abntex2 me mostra os arquivos instaldos.
+    /usr/share/licenses/texlive-abntex2
+    /usr/share/licenses/texlive-abntex2/lppl1.3.txt
+    /usr/share/texlive/texmf-dist/bibtex/bib/abntex2
+    /usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib
+    /usr/share/texlive/texmf-dist/bibtex/bst/abntex2
+    /usr/share/texlive/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst
+    /usr/share/texlive/texmf-dist/bibtex/bst/abntex2/abntex2-num.bst
+    /usr/share/texlive/texmf-dist/tex/latex/abntex2
+    /usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2.cls
+    /usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty
+    /usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+
+    Dica usuário GNU/Linux
+    =======================
+    Na minha máquina antiga tenho instalado os seguintes pacotes:
+    abntex-lyx-0.8-2.noarch
+    lyx-common-2.1.3-1.fc21.noarch
+    lyx-2.1.3-1.fc21.x86_64
+    lyx-fonts-2.1.3-1.fc21.noarch
+
+    Na máquina atual tenho
+    texlive-abntex2-svn49248-65.fc38.noarch
+    texlive-abnt-svn55471-65.fc38.noarch
+    lyx-fonts-2.3.7-1.fc38.noarch
+    lyx-common-2.3.7-1.fc38.noarch
+
+    Para saber a lista de dependências do LyX
+    =========================================
+    ldd /usr/bin/LyX
+    lddtree /usr/bin/LyX
+
+    $ ldd /usr/bin/lyx
+	linux-vdso.so.1 (0x00007fffe79e4000)
+	libmythes-1.2.so.0 => /lib64/libmythes-1.2.so.0 (0x00007fddd29af000)
+	libenchant.so.1 => /lib64/libenchant.so.1 (0x00007fddd29a1000)
+	libhunspell-1.7.so.0 => /lib64/libhunspell-1.7.so.0 (0x00007fddd28de000)
+	libmagic.so.1 => /lib64/libmagic.so.1 (0x00007fddd28b3000)
+	libz.so.1 => /lib64/libz.so.1 (0x00007fddd2899000)
+	libQt5Svg.so.5 => /lib64/libQt5Svg.so.5 (0x00007fddd19a3000)
+	libQt5Widgets.so.5 => /lib64/libQt5Widgets.so.5 (0x00007fddd1200000)
+	libQt5X11Extras.so.5 => /lib64/libQt5X11Extras.so.5 (0x00007fddd2890000)
+	libQt5Gui.so.5 => /lib64/libQt5Gui.so.5 (0x00007fddd0a00000)
+	libQt5Core.so.5 => /lib64/libQt5Core.so.5 (0x00007fddd0400000)
+	libxcb.so.1 => /lib64/libxcb.so.1 (0x00007fddd1978000)
+	libstdc++.so.6 => /lib64/libstdc++.so.6 (0x00007fddd0000000)
+	libm.so.6 => /lib64/libm.so.6 (0x00007fddd111f000)
+	libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x00007fddd1954000)
+	libc.so.6 => /lib64/libc.so.6 (0x00007fddcfe22000)
+	libgmodule-2.0.so.0 => /lib64/libgmodule-2.0.so.0 (0x00007fddd194d000)
+	libglib-2.0.so.0 => /lib64/libglib-2.0.so.0 (0x00007fddd02b7000)
+	libtinfo.so.6 => /lib64/libtinfo.so.6 (0x00007fddd191a000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fddd29cf000)
+	libGL.so.1 => /lib64/libGL.so.1 (0x00007fddd1098000)
+	libpng16.so.16 => /lib64/libpng16.so.16 (0x00007fddd105f000)
+	libharfbuzz.so.0 => /lib64/libharfbuzz.so.0 (0x00007fddcfd26000)
+	libsystemd.so.0 => /lib64/libsystemd.so.0 (0x00007fddcfc3f000)
+	libdouble-conversion.so.3 => /lib64/libdouble-conversion.so.3 (0x00007fddd1049000)
+	libicui18n.so.72 => /lib64/libicui18n.so.72 (0x00007fddcf800000)
+	libicuuc.so.72 => /lib64/libicuuc.so.72 (0x00007fddcf400000)
+	libpcre2-16.so.0 => /lib64/libpcre2-16.so.0 (0x00007fddcfbb1000)
+	libzstd.so.1 => /lib64/libzstd.so.1 (0x00007fddcf744000)
+	libXau.so.6 => /lib64/libXau.so.6 (0x00007fddd1912000)
+	libpcre2-8.so.0 => /lib64/libpcre2-8.so.0 (0x00007fddcf6aa000)
+	libGLX.so.0 => /lib64/libGLX.so.0 (0x00007fddd09cd000)
+	libX11.so.6 => /lib64/libX11.so.6 (0x00007fddcf2b9000)
+	libXext.so.6 => /lib64/libXext.so.6 (0x00007fddd09b9000)
+	libGLdispatch.so.0 => /lib64/libGLdispatch.so.0 (0x00007fddcf201000)
+	libfreetype.so.6 => /lib64/libfreetype.so.6 (0x00007fddcf131000)
+	libgraphite2.so.3 => /lib64/libgraphite2.so.3 (0x00007fddd0998000)
+	libcap.so.2 => /lib64/libcap.so.2 (0x00007fddd103f000)
+	liblzma.so.5 => /lib64/liblzma.so.5 (0x00007fddd0284000)
+	liblz4.so.1 => /lib64/liblz4.so.1 (0x00007fddd0976000)
+	libicudata.so.72 => /lib64/libicudata.so.72 (0x00007fddcd200000)
+	libbz2.so.1 => /lib64/libbz2.so.1 (0x00007fddd0270000)
+	libbrotlidec.so.1 => /lib64/libbrotlidec.so.1 (0x00007fddd0263000)
+	libbrotlicommon.so.1 => /lib64/libbrotlicommon.so.1 (0x00007fddcfb8e000)
+
+###########################################################################
+#
+#       INSTRUÇÕES CONFIGURACAO ATALHOS LYX
+#
+#
+###########################################################################
+# André Duarte Bueno - bueno@lenep.uenf.br
+###########################################################################
+# Coloque aqui seu conjunto de teclas de atalho.
+# Para funcionar devem ser carregadas pelo LyX.
+# Duas opções de carregamento:
+# - O arquivo cua.bind carrega este arquivo no final -> Não é a ideal!
+# - Este arquivo carrega logo no início o arquivo padrão "cua.bind".
+# A seguir abra o lyx e vá em
+# Lyx->Ferramentas->Preferencias->Edição->Atalhos-> Arquivo de combinação de teclas
+# e selecione este arquivo: ex: lyx-andrebueno.bind
+# Desta forma informamos o lyx que temos um novo arquivo com as configurações de
+# atalho de teclado.
+
+###########################################################################
+# Teclas que podem ser usadas para atalhos
+###########################################################################
+# Teclas que podem ser usadas para atalhos
+# Modifier Meaning
+# C	 Control
+# M	 Meta, i.e. typically Alt on PC-keyboards
+# S	 Shift
+# ~S	"the state of the shift key is not relevant"
+# (this is useful because "2", for example, will need shift on a french keyboard, but not on an US one).
+# Equivalent keys
+# Testing revealed that the keys <a> and <A> are equivalent in some combinations, i.e.:
+# "C-a" is equivalent to "C-A"
+# "C-S-a" is equivalent to "C-S-A"
+
+###########################################################################
+# Exemplos:
+###########################################################################
+# Duas teclas (bind -> vincular)
+#\bind "C-n"			"buffer-new"
+# Três teclas
+#\bind "M-s t"			"font-size tiny"
+# Quatro teclas
+#\bind "M-s S-S"		"font-size footnotesize"
+
+###########################################################################
+# Como saber quais os comandos?
+###########################################################################
+# Note que além da combinação de teclas precisamos saber o nome da função a ser executada.
+# Para isso precisamos ver alguns exemplos. Abra os arquivos:
+# /usr/share/lyx/bind/cua.bind      -> padrão do lyx
+# /usr/share/lyx/bind/menus.bind    -> atalhos de menu.
+# /usr/share/lyx/ui/stdtoolbars.inc -> comandos da barra de tarefas.
+# /usr/share/lyx/ui/stdmenus.inc    -> comandos de menus.
+# /usr/share/lyx/ui/stdcontext.inc  -> comandos de menus contextuais.
+
+# Identifique o nome do comando e copie o mesmo para o clipboard
+# Cole aqui e associe a uma sequência de teclas.
+# Antes de salvar, abra o lyx e verifique se esta sequência de teclas já não tem alguma funcionalidade.
+# Caso não tenho só salvar e usar.
+# Caso tenha mude o atalho.
+
+# Dica: Alguns atalhos podem não funcionar; isto ocorre por exemplo se o atalho estiver sendo usado pelo menu.
+# Por exemplo, não podemos usar o atalho Alt+E pois esta associado ao menu edit:
+# Dentro do arquivo ~/.lyx/ui/default.ui'' vai encontrar:
+# Submenu "Edit|E" "edit" to just
+# Neste caso precisamos modificar o arquivo, veja como fazer:
+# cp /usr/share/lyx/ui/default.ui' ~/.lyx/ui/default.ui''
+# Submenu "Edit" "edit" .
+
+
+# Nota importante:
+# no arquivo cua.bind tem a informação de que temos duas teclas livres:
+#\bind "C-h"
+#\bind "C-j"
+# Então, vamos usar estas!
+
+
+###########################################################################
+# 1) Carregando o arquivo padrão
+###########################################################################
+# include one of the basic flavours (cua or emacs)
+\bind_file	"cua"
+#\bind_file	"emacs" se quiser usar o padrão do emacs
+
+# Repetir aplicação da última formação Alt+r
+#stdtoolbars.inc -> Item "Apply last" "textstyle-apply"
+\bind "M-r" "textstyle-apply"
+
+# Inserir figura float
+#stdtoolbars.inc -> Item "Insert figure float" "float-insert figure"
+\bind "C-j f" "float-insert figure"
+
+#stdtoolbars.inc -> Item "Insert table float" "float-insert table"
+\bind "C-j t"  "float-insert table"
+
+#stdtoolbars.inc -> Item "Insert label" "label-insert"
+\bind "C-j l"  "label-insert"
+
+#stdtoolbars.inc -> Item "Insert cross-reference" "dialog-show-new-inset ref"
+\bind "C-j r"  "dialog-show-new-inset ref"
+
+#stdtoolbars.inc -> Item "Insert citation" "dialog-show-new-inset citation"
+\bind "C-j c" "dialog-show-new-inset citation"
+
+#stdtoolbars.inc -> Item "Insert index entry" "index-insert"
+\bind "C-j i"  "index-insert"
+
+#stdtoolbars.inc -> Item "Insert nomenclature entry" "nomencl-insert"
+\bind "C-h n"  "nomencl-insert"
+
+#stdtoolbars.inc -> Item "Insert footnote" "footnote-insert"
+\bind "C-h f" "footnote-insert"
+
+#stdtoolbars.inc -> Item "Insert margin note" "marginalnote-insert"
+\bind "C-j m"  "marginalnote-insert"
+
+#stdtoolbars.inc -> Item "Insert LyX note" "note-insert"
+\bind "C-j n"  "note-insert"
+
+#stdtoolbars.inc -> Item "Insert box" "box-insert Frameless"
+\bind "C-j b"  "box-insert Frameless"
+
+#stdtoolbars.inc -> Item "Insert hyperlink" "href-insert"
+\bind "C-j h" "href-insert"
+
+#stdtoolbars.inc -> Item "Insert TeX code" "ert-insert"
+# \bind "C-l" Já existe!
+
+#stdtoolbars.inc -> Item "Insert math macro" "math-macro newmacroname newcommand"
+#\bind "C-j X"  "math-macro newmacroname newcommand"
+
+#stdtoolbars.inc -> Item "Include file" "dialog-show-new-inset include"
+#\bind "C-j Y"  "dialog-show-new-inset include"
+
+#stdtoolbars.inc -> Item "Text style" "dialog-show character"
+\bind "C-j d"  "dialog-show character"
+
+#stdtoolbars.inc -> Item "Paragraph settings" "layout-paragraph"
+\bind "C-j p"  "layout-paragraph"
+
+#stdtoolbars.inc -> Item "Thesaurus" "thesaurus-entry"
+\bind "C-h t" "thesaurus-entry"
+
+## Lista de atalhos definidos abaixo:
+#C-bcdfhilmnrt
+#H-bfnt
+#Dica: para ir e vir use o bookmark do lyx; Shift-f1 cria bookmark 1 e Ctrl-1 vai para o local.
+
