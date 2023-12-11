@@ -1,0 +1,11 @@
+Coloque aqui o arquivo do modelador umbrello (arquivo único).
+Adicione o mesmo no repositório do projeto.
+
+Faça os diagramas no umbrello.
+
+Exporte aqui os diagramas no formato de imagens png.
+Copie as imagens para doc/ManualDoDesenvodor.
+
+
+O nome dos arquivos não deve ter espaços e nem acentos.
+Os arquivos no formato de imagens png, jpg, devem ter boa resolução.
