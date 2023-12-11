@@ -1,0 +1,443 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+
+% Comentar linhas abaixo se não estiver usando pacote abntex
+% ou se o pacote ainda não foi instalado.
+% neste caso sugere-se usar citações no padrão apalike (lembra o da anbt).
+\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0]{abntcite}
+\usepackage {helvet}
+\renewcommand {\familydefault}{\sfdefault}
+\end_preamble
+\options normaltoc, sumarioincompleto
+\use_default_options false
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding latin1
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Título da Monografia - Dissertação - Tese"
+\pdf_author "Nome do Autor"
+\pdf_subject "Descrever assunto"
+\pdf_keywords "Copiar do resumo"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref page
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\emph on
+Titulo do Trabalho...Titulo do Trabalho...Titulo do Trabalho...
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape italic
+\size huge
+\begin_inset VSpace 8mm*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape italic
+\size huge
+Resumo
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Resumo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape italic
+\size huge
+\begin_inset VSpace 6mm*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{Resumo}
+\backslash
+thispagestyle{plain}
+\backslash
+addcontentsline{toc}{chapter}{Resumo}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Este trabalho objetiva, através da análise de imagens de rochas reservatório
+ de petróleo, estudar, simular e determinar as propriedades petrofísicas
+ que descrevem o escoamento multifásico no meio poroso.
+ Tais informações descrevem a interação dinâmica entre os fluidos e o meio
+ poroso, sendo então imprescindíveis para a compreensão do comportamento
+ de produção dos reservatórios.
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...
+\end_layout
+
+\begin_layout Itemize
+O resumo deve ser feito no início do trabalho, na etapa de especificação
+ do trabalho (ajuda a esclarecer as ideias).
+ 
+\end_layout
+
+\begin_layout Itemize
+Deve ter aproximadamente 200-500 palavras.
+ 
+\end_layout
+
+\begin_layout Itemize
+A versão final deve ser feita depois das correções sugeridas pela banca.
+\end_layout
+
+\begin_layout Itemize
+O resumo deve ser completo, simples e direto, pois é um elemento externo
+ a Tese/Dissertação/Monografia, disponibilizado em bibliotecas eletrônicas.
+ Um bom resumo irá convencer o leitor a baixar o arquivo, se for ruim, com
+ certeza seu trabalho não será lido - por melhor que seja a parte técnica!
+\end_layout
+
+\begin_layout Itemize
+Um bom resumo é completo e tem a mesma ordem do documento final:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Colocação do problema, 
+\series bold
+objetivos e metodologia
+\series default
+, seguido de desenvolvimento, simulações/experimentos, 
+\series bold
+resultados
+\series default
+, análises e 
+\series bold
+conclusões
+\series default
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Evite colocar citações no resumo; se o fizer, incluir a referência completa.
+ Veja o exemplo a seguir:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\paragraph_spacing double
+Embora obtendo resultados muito expressivos, métodos de predição da permeabilida
+de intrínseca baseados no campo local de velocidades, como em Santos 
+\emph on
+et al.
+\emph default
+(2001) (Santos, L.O.E; Philippi, P.C; Damiani, M.C; Fernandes, C.P; 2001, 
+\emph on
+Using three-dimensional reconstructed microstructures for predicting intrinsic
+ permeability of reservoir- rocks based on a boolean lattice gas method
+\emph default
+, Submitted to Journal of Petroleum Science and Engineering), são computacionalm
+ente caros e não se espera que sejam usados na rotina diária da engenharia
+ de petróleo.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Segundo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "metcient-LaudemiraSilvaRabelo"
+
+\end_inset
+
+, "A NBR 6028 (1990) esclarece que um resumo deve passar informações suficientes
+ sobre todo o conteúdo do texto, possibilitando ao leitor a decisão de lê
+ em sua totalidade.
+ É solicitado que o resumo contenha objetivo, método, resultados e as conclusões
+ do trabalho.
+ ...
+ O resumo deve ser escrito em parágrafo único, numa seqüência corrente de
+ frases lógicas sem nenhuma enumeração de tópicos.
+ A norma 6028 (1990) explicita também que a primeira frase deve explicar
+ o tema do artigo, dando-se preferência ao uso da terceira pessoa do singular
+ e do verbo na voz ativa.
+ Embora o artigo possa ter sido escrito por vários autores, a primeira pessoa
+ do plural (nós) não deve ser utilizado.
+ Deve-se, ainda, evitar o uso de frases negativas, símbolos, equações, tabelas,
+ quadros etc no resumo ".
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Palavras chave: 
+\series default
+\size default
+[até 5 palavras chaves].
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Titulo do Trabalho em ingles...Titulo do Trabalho em ingles...Titulo do Trabalho
+ em ingles...
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape italic
+\size huge
+\begin_inset VSpace 8mm*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape italic
+\size huge
+Abstract
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Abstract
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape italic
+\size huge
+\begin_inset VSpace 6mm*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{Abstract}
+\backslash
+thispagestyle{plain}
+\backslash
+addcontentsline{toc}{chapter}{Abstract}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+This work aims, through image analysis of oil reservoir rocks, study, simulate
+ and determine the petrophysical properties that describe the multiphase
+ flow in porous medium.
+ Such information describes the dynamic interaction between the fluid and
+ the porous media, is essential to understanding the behavior of reservoirs
+ producing.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+[coloque aqui o resumo em inglês].
+\lang english
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+Note que o documento tem uma língua, que pode ser setada utilizando-se Document-
+Settings->Language.
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+Note que partes do texto podem ser definidos como tendo outra linguagem.
+ Selecione o texto, vá em Edit->TextStyle->Customized, ou Edit->Language.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
+ aqui...Resumo aqui...Resumo aqui...Resumo aqui...
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\size large
+Keywords: 
+\series default
+\size default
+[até 5 palavras chaves em inglês].
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,20 @@
+VERSÃO V1 
+
+- design inicial 
+- estrutura de classes 
+
+VERSÃO V2
+
+- migração do compilador de Cmake para Qmake (foi uma melhor opção)
+- refinamento da estrutura de classe
+- design melhorado 
+- criação da classe que simula o sensor (cria o adaptador que simula o sensor)
+- função Hold()
+- projeto de painel de análise estatística
+- adição da temperatura fixa como opção
+
+VERSAO V3
+
+- adição de gráficos ao monitor avançado
+- funcionalidade de gravação usando arquivos .csv
+- funcionalidade do painel de análise estatística (Analyzer)

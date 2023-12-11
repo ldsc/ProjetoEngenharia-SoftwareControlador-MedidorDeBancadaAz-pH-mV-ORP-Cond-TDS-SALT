@@ -1,0 +1,371 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+
+% Comentar linhas abaixo se não estiver usando pacote abntex
+% ou se o pacote ainda não foi instalado.
+% neste caso sugere-se usar citações no padrão apalike (lembra o da anbt).
+%\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0]{abntcite}
+%\usepackage {helvet}
+%\renewcommand {\familydefault}{\sfdefault}
+
+% Para uso de listagens de código
+\usepackage{color}
+\definecolor{azulclaro}{rgb}{0.6,1,1}%   rgb color model
+% Informa que vai usar o pacote listings, 
+% disponibilizado em /usr/share/texmf/doc/latex/styles/listings.dvi
+\usepackage{listings}
+\end_preamble
+\use_default_options false
+\master DocumentoMestre-Trabalho-ProgramacaoPratica.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package auto
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style apalike
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Elaboração}  
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Elaboração
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Elaboração
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Elaboração"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Depois da definição dos objetivos, da especificação do software e da montagem
+ dos primeiros diagramas de caso de uso, a equipe de desenvolvimento do
+ projeto de engenharia passa por um processo de elaboração que envolve o
+ estudo de conceitos relacionados ao sistema a ser desenvolvido, a análise
+ de domínio e a identificação de pacotes.
+ 
+\end_layout
+
+\begin_layout Standard
+Na elaboração fazemos uma análise dos requisitos, ajustando os requisitos
+ iniciais de forma a desenvolver um sistema útil, que atenda às necessidades
+ do usuário e, na medida do possível, permita seu reuso e futura extensão.
+\end_layout
+
+\begin_layout Standard
+Eliminam-se os requisitos "impossíveis" e ajusta-se a idéia do sistema de
+ forma que este seja flexível, considerando-se aspectos como custos e prazos.
+\end_layout
+
+\begin_layout Section
+Análise de domínio
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Análise-de-domínio"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Após estudo dos requisitos/especificações do sistema, algumas entrevistas,
+ estudos na biblioteca e disciplinas do curso foi possível identificar nosso
+ domínio de trabalho:
+\end_layout
+
+\begin_layout Itemize
+Definição e caracterização do domínio a ser investigado 
+\end_layout
+
+\begin_layout Itemize
+Descrição das áreas/disciplinas relacionadas.
+\end_layout
+
+\begin_layout Itemize
+Descrição de questões associadas a espaço/tempo (espaço físico, local, instalaçã
+o).
+\end_layout
+
+\begin_layout Itemize
+Fotografias de sistemas equivalentes/parecidos.
+\end_layout
+
+\begin_layout Itemize
+...
+\end_layout
+
+\begin_layout Section
+Formulação teórica
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Formulação-teórica"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+...coloque aqui texto explicando a formulação física-matemática, a descrição
+ das equações que serão utilizadas...
+\end_layout
+
+\begin_layout Standard
+...aqui entram figuras, tabelas explicativas, equações a serem utilizadas no
+ software...
+\end_layout
+
+\begin_layout Standard
+...logo depois, com os dados levantados na análise de domínio, e esta formulação
+ teórica, iremos identificar os pacotes, os assuntos com os quais iremos
+ trabalhar...
+\end_layout
+
+\begin_layout Standard
+...
+ no final da formulação teórica, indicar livros e artigos que tem mais informaçã
+o sobre o assunto...
+\end_layout
+
+\begin_layout Standard
+...se vai usar modelos numéricos, colocar seção 3.3.x falando deles; no final
+ citar/referenciar fontes...
+\end_layout
+
+\begin_layout Section
+Identificação de pacotes – assuntos
+\end_layout
+
+\begin_layout Itemize
+Propriedades da água: propriedades medidas pelo aparelho.
+ São medidas propriedades empíricas das amostras de águas, as quais fazem
+ parte da matéria de físico-química.
+\end_layout
+
+\begin_layout Itemize
+Físico-química:é a disciplina que estuda os fenômenos químicos sob a ótica
+ dos princípios, conceitos e práticas da física, sendo assim a combinação
+ dessas duas ciências: a física e a química.
+ Dessa forma, busca-se explicar os fenômenos químicos através dos conceitos
+ de movimento, energia, força, tempo, temperatura, pressão, volume, calor,
+ e trabalho, química quântica e equilíbrio químico, mecânica estatística
+ e eletroquímica.
+\end_layout
+
+\begin_layout Itemize
+Propriedades Químicas: uma propriedade química é uma propriedade qualificada
+ das substâncias, ou seja, varia de substância para substância, seja ela
+ simples (elemento) ou não (composto).
+ Seria por assim dizer uma propriedade acidental e não essencial.
+\end_layout
+
+\begin_layout Itemize
+Literatura Qualidade da Água: a qualidade da água é um conjunto de característic
+as físicas, químicas e biológicas que ela apresenta, de acordo com a sua
+ utilização.
+ Os padrões de classificação mais usados pretendem classificar a água de
+ acordo com a sua potabilidade, a segurança que apresenta para o ser humano
+ e para o bem estar dos ecossistemas.
+ Usa das propriedades da água para definir parâmetros de qualidade.
+\end_layout
+
+\begin_layout Itemize
+Gráficos: é a tentativa de se expressar visualmente dados ou valores numéricos,
+ de maneiras diferentes, assim facilitando a sua compreensão.
+ Faz parte da matemática como um todo e utiliza elementos da matéria estatística.
+\end_layout
+
+\begin_layout Itemize
+Estatística: é uma ciência que se dedica à coleta, análise e interpretação
+ de dados.
+ Preocupa-se com os métodos de coleta, organização, resumo, apresentação
+ e interpretação dos dados, assim como tirar conclusões sobre as características
+ das fontes donde estes foram retirados, para melhor compreender as situações.
+ Faz parte da matemática como um todo.
+\end_layout
+
+\begin_layout Itemize
+Matemática: o trabalho matemático consiste em procurar e relacionar padrões,
+ de modo a formular conjecturas cuja veracidade ou falsidade é provada por
+ meio de deduções rigorosas a partir de axiomas e definições.
+\end_layout
+
+\begin_layout Section
+Diagrama de pacotes – assuntos
+\begin_inset CommandInset label
+LatexCommand label
+name "sec: Diagrama de pacotes – assuntos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Diagrama de assuntos e pacotes para elaboração do software controlador Az®
+ pH/mV/ORP/Cond./TDS/SALT.
+ Veja a Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagrama-de-Pacotes"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/Diagrama de Assuntos e Pacotes.jpg
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama de Pacotes
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagrama-de-Pacotes"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

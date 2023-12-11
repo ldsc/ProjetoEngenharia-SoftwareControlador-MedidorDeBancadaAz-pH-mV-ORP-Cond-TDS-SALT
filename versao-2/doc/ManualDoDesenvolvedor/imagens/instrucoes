@@ -1,0 +1,8 @@
+Instruções:
+
+- As imagens que estão aqui são apenas modelos de referencia, adicionadas para permitir a geração de uma versão do projeto usando o lyx; Na medida em que for desenvolvendo o projeto, adicione aqui suas imagens e vá apagando estas imagens pré-existentes; Ou seja, estas imagens que estão aqui devem ser apagadas da versão final, use git rm nomeImagem;
+
+- Na hora de criar suas imagens JAMAIS coloque no nome espaços e acentos!
+
+- O nome das imagens deve ser descritivo;
+
