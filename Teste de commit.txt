@@ -1,0 +1,1 @@
+Este arquivo foi usado para configurar o git hub no computador
