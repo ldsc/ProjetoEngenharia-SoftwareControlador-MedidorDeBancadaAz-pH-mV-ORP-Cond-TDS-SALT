@@ -14,6 +14,8 @@
 #include <limits.h>
 #include "utils.h"
 
+// Setando a funcionalidade de cada botão, caixa de texto, janela...
+
 using namespace std;
 
 /* -------------------------------------------------------------------------- */

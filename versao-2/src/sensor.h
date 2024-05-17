@@ -2,7 +2,7 @@
 #define SENSOR_H
 
 #include "measure.h"
-
+// Declara as funcoes GetMeasure e GetSensorType
 class ISensor
 {
 public:

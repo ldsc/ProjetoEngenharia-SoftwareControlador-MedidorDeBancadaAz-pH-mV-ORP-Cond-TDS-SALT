@@ -4,6 +4,9 @@
 /// <summary>
 /// Measure mode of Sensor
 /// </summary>
+
+// listas de opções da interface grafica
+
 enum EMeasureMode {
     EMeasureMode_Unknown = 0,
     EMeasureMode_pH = 1,
@@ -44,7 +47,7 @@ enum EMeasureUnit {
     EMeasureUnit_pH = 8,
     EMeasureUnit_mV = 9,
 };
-
+// transformar o Enum para string para arquivo de de disco visível para usuário
 inline const char* ToString(EMeasureUnit v)
 {
     switch (v)

@@ -6,6 +6,8 @@
 #include "about.h"
 #include <QMainWindow>
 
+// declara métodos para as funcionalidades da interfaço gráfica
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE

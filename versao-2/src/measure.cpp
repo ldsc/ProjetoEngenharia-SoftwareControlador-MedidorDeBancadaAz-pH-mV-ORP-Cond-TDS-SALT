@@ -2,6 +2,8 @@
 #include "enums.h"
 #include <ctime>
 
+//Inplementação das funcoes get da interface IMeasure
+
 /// <summary>
 /// Represents a measurement.
 /// </summary>

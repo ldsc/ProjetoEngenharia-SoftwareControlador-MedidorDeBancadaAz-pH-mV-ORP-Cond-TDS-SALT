@@ -3,6 +3,8 @@
 
 #include <stdexcept>
 
+// classe responsavel por funcionalidade de selecao de sensores na interface grafica e dizer o que ele faz
+
 class Sensor_86501_551 : public ISensor {
 private:
     ESensorType m_sensor_type = ESensorType_86501_551;

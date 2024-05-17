@@ -2,6 +2,8 @@
 
 #include <QList>
 
+// inplementacao dos calculos de estatistica
+
 double Utils::GetMediana(QList<double>* values)
 {
     std::sort(values->begin(), values->end());

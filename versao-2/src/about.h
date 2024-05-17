@@ -3,6 +3,8 @@
 
 #include <QDialog>
 
+// classe responsável pelos textos e botões escritos na janela about
+
 namespace Ui {
 class About;
 }
