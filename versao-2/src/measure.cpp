@@ -2,14 +2,13 @@
 #include "enums.h"
 #include <ctime>
 
-//Inplementação das funcoes get da interface IMeasure
-
 /// <summary>
 /// Represents a measurement.
 /// </summary>
 class Measure : public IMeasure {
 public:
     Measure(EMeasureMode mode, EMeasureUnit unit, double value, double temperature) {
+        STUDY_PROFILE_FUNCTION();
         m_measureMode = mode;
         m_measureUnit = unit;
         m_temperature = temperature;
@@ -25,6 +24,7 @@ public:
     /// <returns></returns>
     virtual EMeasureMode GetMode() override
     {
+        STUDY_PROFILE_FUNCTION();
         return m_measureMode;
     }
 
@@ -34,6 +34,7 @@ public:
     /// <returns></returns>
     virtual EMeasureUnit GetUnit() override
     {
+        STUDY_PROFILE_FUNCTION();
         return m_measureUnit;
     };
 
@@ -43,6 +44,7 @@ public:
     /// <returns></returns>
     virtual double GetValue() override
     {
+        STUDY_PROFILE_FUNCTION();
         return m_value;
     };
 
@@ -52,11 +54,13 @@ public:
     /// <returns></returns>
     virtual time_t GetTime() override
     {
+        STUDY_PROFILE_FUNCTION();
         return m_timestamp;
     };
 
     virtual double GetTemperature() override
     {
+        STUDY_PROFILE_FUNCTION();
         return m_temperature;
     }
 

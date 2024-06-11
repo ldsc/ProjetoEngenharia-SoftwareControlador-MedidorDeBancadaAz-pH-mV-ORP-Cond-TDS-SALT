@@ -27,7 +27,7 @@
 #define QCUSTOMPLOT_H
 
 #include <QtCore/qglobal.h>
-//código base para geração de graficos no QT
+
 // some Qt version/configuration dependent macros to include or exclude certain code paths:
 #ifdef QCUSTOMPLOT_USE_OPENGL
 #  if QT_VERSION < QT_VERSION_CHECK(5, 0, 0)

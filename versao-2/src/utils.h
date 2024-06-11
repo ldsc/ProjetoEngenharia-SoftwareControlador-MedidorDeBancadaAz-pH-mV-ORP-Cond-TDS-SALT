@@ -4,7 +4,8 @@
 #include <list>
 #include <qlist.h>
 
-// declaracoes das funcoes estatisticas
+#include "Instrumentor.h"
+
 class Utils
 {
 private:

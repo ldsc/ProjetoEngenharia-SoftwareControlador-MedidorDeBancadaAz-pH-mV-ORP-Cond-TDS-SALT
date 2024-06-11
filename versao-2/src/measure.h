@@ -4,10 +4,10 @@
 #include <ctime>
 #include "enums.h"
 
-// Classe responsavel por criar as funcoes get
+#include "Instrumentor.h"
+
 class IMeasure {
 public:
-
     /// <summary>
     /// Get the measure mode.
     /// </summary>

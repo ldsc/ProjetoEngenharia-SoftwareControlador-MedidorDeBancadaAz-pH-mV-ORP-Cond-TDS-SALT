@@ -14,8 +14,6 @@
 #include <limits.h>
 #include "utils.h"
 
-// Setando a funcionalidade de cada botão, caixa de texto, janela...
-
 using namespace std;
 
 /* -------------------------------------------------------------------------- */
@@ -26,6 +24,7 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+    STUDY_PROFILE_FUNCTION();
     ui->setupUi(this);
 
     // Setup refresh loop
@@ -70,6 +69,7 @@ MainWindow::MainWindow(QWidget *parent)
 MainWindow::~MainWindow()
 {
     // Kill refresh loop
+    STUDY_PROFILE_FUNCTION();
     killTimer(timerEventId);
     delete ui;
 }
@@ -79,6 +79,7 @@ MainWindow::~MainWindow()
 /* -------------------------------------------------------------------------- */
 void MainWindow::timerEvent(QTimerEvent *event)
 {
+    STUDY_PROFILE_FUNCTION();
     if( sensor == nullptr ||
         measure_mode == EMeasureMode::EMeasureMode_Unknown ||
         measure_unit == EMeasureUnit::EMeasureUnit_Unknown
@@ -150,6 +151,7 @@ void MainWindow::timerEvent(QTimerEvent *event)
 
 void MainWindow::on_cb_mode_currentTextChanged(const QString &arg1)
 {
+    STUDY_PROFILE_FUNCTION();
     ui->cb_unit->clear();
     ui->cb_unit->setEnabled(true);
     ui->chb_fixed_temp->setEnabled(true);
@@ -204,6 +206,7 @@ void MainWindow::on_cb_mode_currentTextChanged(const QString &arg1)
 
 void MainWindow::on_cb_sensor_currentTextChanged(const QString &arg1)
 {
+    STUDY_PROFILE_FUNCTION();
     ui->cb_mode->clear();
     ui->cb_mode->setEnabled(true);
     ui->cb_unit->clear();
@@ -259,12 +262,14 @@ void MainWindow::on_cb_sensor_currentTextChanged(const QString &arg1)
 
 void MainWindow::on_sb_refresh_rate_valueChanged(int arg1)
 {
+    STUDY_PROFILE_FUNCTION();
     killTimer(timerEventId);
     timerEventId = startTimer(arg1);
 }
 
 void MainWindow::on_btn_hold_clicked()
 {
+    STUDY_PROFILE_FUNCTION();
     hold = !hold;
 
     if(hold) {
@@ -282,6 +287,7 @@ void MainWindow::on_btn_hold_clicked()
 
 void MainWindow::on_chb_fixed_temp_stateChanged(int arg1)
 {
+    STUDY_PROFILE_FUNCTION();
     if(arg1 == 0)
     {
         ui->ds_temp->setEnabled(false);
@@ -300,6 +306,7 @@ void MainWindow::on_chb_fixed_temp_stateChanged(int arg1)
 
 void MainWindow::on_btn_about_clicked()
 {
+    STUDY_PROFILE_FUNCTION();
     About* dialog = new About();
     dialog->show();
 }
@@ -307,6 +314,7 @@ void MainWindow::on_btn_about_clicked()
 
 void MainWindow::on_btn_rec_clicked()
 {
+    STUDY_PROFILE_FUNCTION();
     rec = !rec;
 
     // Setup recording
@@ -419,12 +427,14 @@ void MainWindow::on_btn_rec_clicked()
 
 void MainWindow::on_cb_unit_currentTextChanged(const QString &arg1)
 {
+    STUDY_PROFILE_FUNCTION();
     measure_unit = EMeasureUnit_mmHg;
 }
 
 
 void MainWindow::on_btn_inspect_clicked()
 {
+    STUDY_PROFILE_FUNCTION();
     auto recordPath = filesystem::current_path() / "records";
     QString filePath = QFileDialog::getOpenFileName(this, "Open a record file", QString::fromStdString(recordPath.string()));
     QFile csvFile(filePath);

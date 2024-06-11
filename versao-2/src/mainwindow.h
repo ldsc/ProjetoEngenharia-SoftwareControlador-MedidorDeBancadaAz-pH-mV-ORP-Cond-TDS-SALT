@@ -6,19 +6,25 @@
 #include "about.h"
 #include <QMainWindow>
 
-// declara métodos para as funcionalidades da interfaço gráfica
+#include "Instrumentor.h"
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
+    friend class Instrumentor;
 
 public:
+
     MainWindow(QWidget *parent = nullptr);
+
     ~MainWindow();
+
 
 private slots:
     void on_cb_mode_currentTextChanged(const QString &arg1);

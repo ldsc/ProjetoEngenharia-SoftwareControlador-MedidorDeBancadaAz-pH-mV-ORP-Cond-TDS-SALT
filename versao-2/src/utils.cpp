@@ -2,10 +2,9 @@
 
 #include <QList>
 
-// inplementacao dos calculos de estatistica
-
 double Utils::GetMediana(QList<double>* values)
 {
+    STUDY_PROFILE_FUNCTION();
     std::sort(values->begin(), values->end());
 
     double m1, m2;
@@ -26,6 +25,7 @@ double Utils::GetMediana(QList<double>* values)
 
 double Utils::GetMax(QList<double>* values)
 {
+    STUDY_PROFILE_FUNCTION();
     double max = std::numeric_limits<double>::min();
 
     for (int i = 0; i < values->count(); ++i) {
@@ -42,6 +42,7 @@ double Utils::GetMax(QList<double>* values)
 
 double Utils::GetMin(QList<double>* values)
 {
+    STUDY_PROFILE_FUNCTION();
     double min = std::numeric_limits<double>::max();
 
     for (int i = 0; i < values->count(); ++i) {
@@ -58,6 +59,7 @@ double Utils::GetMin(QList<double>* values)
 
 double Utils::GetDesvioPadrao(QList<double>* values)
 {
+    STUDY_PROFILE_FUNCTION();
     double media = Utils::GetMedia(values);
 
     float variacoes = 0;
@@ -71,6 +73,7 @@ double Utils::GetDesvioPadrao(QList<double>* values)
 
 double Utils::GetMedia(QList<double>* values)
 {
+    STUDY_PROFILE_FUNCTION();
     double soma = 0;
 
     for (int i = 0; i < values->count(); ++i) {

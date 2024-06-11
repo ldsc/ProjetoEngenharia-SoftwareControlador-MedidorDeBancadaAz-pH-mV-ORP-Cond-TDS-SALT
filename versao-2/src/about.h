@@ -3,7 +3,7 @@
 
 #include <QDialog>
 
-// classe responsável pelos textos e botões escritos na janela about
+#include "Instrumentor.h"
 
 namespace Ui {
 class About;

@@ -3,8 +3,6 @@
 
 #include <stdexcept>
 
-// classe responsavel por funcionalidade de selecao de sensores na interface grafica e dizer o que ele faz
-
 class Sensor_86501_551 : public ISensor {
 private:
     ESensorType m_sensor_type = ESensorType_86501_551;
@@ -23,6 +21,7 @@ public:
 
     virtual IMeasure* GetMeasure(EMeasureMode mode, EMeasureUnit unit) override
     {
+        STUDY_PROFILE_FUNCTION();
         double value;
 
         if(flag) {
@@ -70,6 +69,7 @@ public:
 
     virtual ESensorType GetSensorType() override
     {
+        STUDY_PROFILE_FUNCTION();
         return ESensorType::ESensorType_86501_551;
     }
 };
