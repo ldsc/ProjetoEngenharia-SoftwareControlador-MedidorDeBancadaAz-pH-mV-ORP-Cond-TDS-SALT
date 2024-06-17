@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação Projeto Software: Referência do Arquivo C:/Users/pedro/Documents/Programa Bueno/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/versao-2/src/Instrumentor.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Documentação Projeto Software<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_f396504afdc959660871b003fa10164d.html">Documents</a></li><li class="navelem"><a class="el" href="dir_3c9ab875e6c9c4146f4f9177047a19ad.html">Programa Bueno</a></li><li class="navelem"><a class="el" href="dir_2df3c4e16d502c5a59c01b473455c6d9.html">ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT</a></li><li class="navelem"><a class="el" href="dir_9c6b7031ef0bb6baaae5b311614827b2.html">versao-2</a></li><li class="navelem"><a class="el" href="dir_587eca7745d6bc300932c3493f482c4b.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Componentes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Definições e Macros</a> &#124;
+<a href="#typedef-members">Definições de Tipos</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo Instrumentor.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;iomanip&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;thread&gt;</code><br />
+<code>#include &lt;mutex&gt;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
+</div>
+<p><a href="_instrumentor_8h_source.html">Ir para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Componentes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_profile_result.html">ProfileResult</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_instrumentation_session.html">InstrumentationSession</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_instrumentor.html">Instrumentor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_instrumentation_timer.html">InstrumentationTimer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_instrumentor_utils_1_1_change_result.html">InstrumentorUtils::ChangeResult&lt; N &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_instrumentor_utils.html">InstrumentorUtils</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Definições e Macros</h2></td></tr>
+<tr class="memitem:a68b5f48fbfd3b676b829d136050b27c3" id="r_a68b5f48fbfd3b676b829d136050b27c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68b5f48fbfd3b676b829d136050b27c3">STUDY_PROFILE</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a68b5f48fbfd3b676b829d136050b27c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad708241c72417b3cf9c850c47af1dd83" id="r_ad708241c72417b3cf9c850c47af1dd83"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad708241c72417b3cf9c850c47af1dd83">STUDY_FUNC_SIG</a>&#160;&#160;&#160;&quot;STUDY_FUNC_SIG unknown!&quot;</td></tr>
+<tr class="separator:ad708241c72417b3cf9c850c47af1dd83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1f37f9baa5eeb5f40e75da86278995c" id="r_aa1f37f9baa5eeb5f40e75da86278995c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1f37f9baa5eeb5f40e75da86278995c">STUDY_PROFILE_BEGIN_SESSION</a>(name,  filepath)&#160;&#160;&#160;<a class="el" href="class_instrumentor.html#a29d0291146e866e1b71436197bf6db1a">::Instrumentor::Get</a>().BeginSession(name, filepath)</td></tr>
+<tr class="separator:aa1f37f9baa5eeb5f40e75da86278995c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b063e332f19b9a97fba6d6bc94e1282" id="r_a4b063e332f19b9a97fba6d6bc94e1282"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b063e332f19b9a97fba6d6bc94e1282">STUDY_PROFILE_END_SESSION</a>()&#160;&#160;&#160;<a class="el" href="class_instrumentor.html#a29d0291146e866e1b71436197bf6db1a">::Instrumentor::Get</a>().EndSession()</td></tr>
+<tr class="separator:a4b063e332f19b9a97fba6d6bc94e1282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9aa1f4c3c1a3535435117a0571c7d6b" id="r_ad9aa1f4c3c1a3535435117a0571c7d6b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9aa1f4c3c1a3535435117a0571c7d6b">STUDY_PROFILE_SCOPE_LINE2</a>(name,  line)</td></tr>
+<tr class="separator:ad9aa1f4c3c1a3535435117a0571c7d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1caa7255f887b1a511f162ce6b831c89" id="r_a1caa7255f887b1a511f162ce6b831c89"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1caa7255f887b1a511f162ce6b831c89">STUDY_PROFILE_SCOPE_LINE</a>(name,  line)&#160;&#160;&#160;<a class="el" href="#ad9aa1f4c3c1a3535435117a0571c7d6b">STUDY_PROFILE_SCOPE_LINE2</a>(name, line)</td></tr>
+<tr class="separator:a1caa7255f887b1a511f162ce6b831c89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab98f3628764d313499daa0c95090463b" id="r_ab98f3628764d313499daa0c95090463b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab98f3628764d313499daa0c95090463b">STUDY_PROFILE_SCOPE</a>(name)&#160;&#160;&#160;<a class="el" href="#a1caa7255f887b1a511f162ce6b831c89">STUDY_PROFILE_SCOPE_LINE</a>(name, __LINE__)</td></tr>
+<tr class="separator:ab98f3628764d313499daa0c95090463b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2102383f9653c131dd5cc0f631490be" id="r_ad2102383f9653c131dd5cc0f631490be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2102383f9653c131dd5cc0f631490be">STUDY_PROFILE_FUNCTION</a>()&#160;&#160;&#160;<a class="el" href="#ab98f3628764d313499daa0c95090463b">STUDY_PROFILE_SCOPE</a>(<a class="el" href="#ad708241c72417b3cf9c850c47af1dd83">STUDY_FUNC_SIG</a>)</td></tr>
+<tr class="separator:ad2102383f9653c131dd5cc0f631490be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Definições de Tipos</h2></td></tr>
+<tr class="memitem:a347039e7aa7829a78d992a52f34ee0f3" id="r_a347039e7aa7829a78d992a52f34ee0f3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a347039e7aa7829a78d992a52f34ee0f3">FloatingPointMicroseconds</a> = std::chrono::duration&lt;double, std::micro&gt;</td></tr>
+<tr class="separator:a347039e7aa7829a78d992a52f34ee0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ae15d8cc9cf5564f45a9731202fd5c2ff" id="r_ae15d8cc9cf5564f45a9731202fd5c2ff"><td class="memTemplParams" colspan="2">template&lt;size_t N, size_t K&gt; </td></tr>
+<tr class="memitem:ae15d8cc9cf5564f45a9731202fd5c2ff"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_instrumentor_utils.html#ae15d8cc9cf5564f45a9731202fd5c2ff">InstrumentorUtils::CleanupOutputString</a> (const char(&amp;expr)[N], const char(&amp;remove)[K])</td></tr>
+<tr class="separator:ae15d8cc9cf5564f45a9731202fd5c2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Definições e macros</h2>
+<a id="ad708241c72417b3cf9c850c47af1dd83" name="ad708241c72417b3cf9c850c47af1dd83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad708241c72417b3cf9c850c47af1dd83">&#9670;&#160;</a></span>STUDY_FUNC_SIG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STUDY_FUNC_SIG&#160;&#160;&#160;&quot;STUDY_FUNC_SIG unknown!&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68b5f48fbfd3b676b829d136050b27c3" name="a68b5f48fbfd3b676b829d136050b27c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68b5f48fbfd3b676b829d136050b27c3">&#9670;&#160;</a></span>STUDY_PROFILE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STUDY_PROFILE&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1f37f9baa5eeb5f40e75da86278995c" name="aa1f37f9baa5eeb5f40e75da86278995c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1f37f9baa5eeb5f40e75da86278995c">&#9670;&#160;</a></span>STUDY_PROFILE_BEGIN_SESSION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STUDY_PROFILE_BEGIN_SESSION</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>filepath</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="class_instrumentor.html#a29d0291146e866e1b71436197bf6db1a">::Instrumentor::Get</a>().BeginSession(name, filepath)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b063e332f19b9a97fba6d6bc94e1282" name="a4b063e332f19b9a97fba6d6bc94e1282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b063e332f19b9a97fba6d6bc94e1282">&#9670;&#160;</a></span>STUDY_PROFILE_END_SESSION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STUDY_PROFILE_END_SESSION</td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="class_instrumentor.html#a29d0291146e866e1b71436197bf6db1a">::Instrumentor::Get</a>().EndSession()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad2102383f9653c131dd5cc0f631490be" name="ad2102383f9653c131dd5cc0f631490be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2102383f9653c131dd5cc0f631490be">&#9670;&#160;</a></span>STUDY_PROFILE_FUNCTION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STUDY_PROFILE_FUNCTION</td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="#ab98f3628764d313499daa0c95090463b">STUDY_PROFILE_SCOPE</a>(<a class="el" href="#ad708241c72417b3cf9c850c47af1dd83">STUDY_FUNC_SIG</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab98f3628764d313499daa0c95090463b" name="ab98f3628764d313499daa0c95090463b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab98f3628764d313499daa0c95090463b">&#9670;&#160;</a></span>STUDY_PROFILE_SCOPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STUDY_PROFILE_SCOPE</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="#a1caa7255f887b1a511f162ce6b831c89">STUDY_PROFILE_SCOPE_LINE</a>(name, __LINE__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1caa7255f887b1a511f162ce6b831c89" name="a1caa7255f887b1a511f162ce6b831c89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1caa7255f887b1a511f162ce6b831c89">&#9670;&#160;</a></span>STUDY_PROFILE_SCOPE_LINE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STUDY_PROFILE_SCOPE_LINE</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>line</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="#ad9aa1f4c3c1a3535435117a0571c7d6b">STUDY_PROFILE_SCOPE_LINE2</a>(name, line)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9aa1f4c3c1a3535435117a0571c7d6b" name="ad9aa1f4c3c1a3535435117a0571c7d6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9aa1f4c3c1a3535435117a0571c7d6b">&#9670;&#160;</a></span>STUDY_PROFILE_SCOPE_LINE2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STUDY_PROFILE_SCOPE_LINE2</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>line</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Valor:</b><div class="fragment"><div class="line">                                               <span class="keyword">constexpr</span> <span class="keyword">auto</span> fixedName##line = <a class="code hl_function" href="namespace_instrumentor_utils.html#ae15d8cc9cf5564f45a9731202fd5c2ff">::InstrumentorUtils::CleanupOutputString</a>(name, <span class="stringliteral">&quot;__cdecl &quot;</span>);\</div>
+<div class="line">                                               <a class="code hl_class" href="class_instrumentation_timer.html">::InstrumentationTimer</a> timer##line(fixedName##line.Data)</div>
+<div class="ttc" id="aclass_instrumentation_timer_html"><div class="ttname"><a href="class_instrumentation_timer.html">InstrumentationTimer</a></div><div class="ttdef"><b>Definição</b> Instrumentor.h:64</div></div>
+<div class="ttc" id="anamespace_instrumentor_utils_html_ae15d8cc9cf5564f45a9731202fd5c2ff"><div class="ttname"><a href="namespace_instrumentor_utils.html#ae15d8cc9cf5564f45a9731202fd5c2ff">InstrumentorUtils::CleanupOutputString</a></div><div class="ttdeci">constexpr auto CleanupOutputString(const char(&amp;expr)[N], const char(&amp;remove)[K])</div><div class="ttdef"><b>Definição</b> Instrumentor.h:87</div></div>
+</div><!-- fragment --><div class="fragment"><div class="line"><span class="lineno">  130</span><span class="preprocessor">    #define STUDY_PROFILE_SCOPE_LINE2(name, line) constexpr auto fixedName##line = ::InstrumentorUtils::CleanupOutputString(name, &quot;__cdecl &quot;);\</span></div>
+<div class="line"><span class="lineno">  131</span><span class="preprocessor">                                               ::InstrumentationTimer timer##line(fixedName##line.Data)</span></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Definições dos tipos</h2>
+<a id="a347039e7aa7829a78d992a52f34ee0f3" name="a347039e7aa7829a78d992a52f34ee0f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a347039e7aa7829a78d992a52f34ee0f3">&#9670;&#160;</a></span>FloatingPointMicroseconds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a347039e7aa7829a78d992a52f34ee0f3">FloatingPointMicroseconds</a> = std::chrono::duration&lt;double, std::micro&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

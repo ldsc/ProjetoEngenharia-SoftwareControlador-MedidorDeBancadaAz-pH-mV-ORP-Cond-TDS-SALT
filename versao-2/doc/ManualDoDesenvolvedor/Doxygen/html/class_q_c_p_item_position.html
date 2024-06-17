@@ -1,0 +1,1586 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação Projeto Software: Referência da Classe QCPItemPosition</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Documentação Projeto Software<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Tipos Públicos</a> &#124;
+<a href="#pub-methods">Membros Públicos</a> &#124;
+<a href="#pro-methods">Membros protegidos</a> &#124;
+<a href="#pro-attribs">Atributos Protegidos</a> &#124;
+<a href="class_q_c_p_item_position-members.html">Lista de todos os Membros</a>  </div>
+  <div class="headertitle"><div class="title">Referência da Classe QCPItemPosition</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Manages the position of an item.  
+ <a href="#details">Mais...</a></p>
+
+<p><code>#include &lt;<a class="el" href="qcustomplot_8h_source.html">qcustomplot.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagrama de hierarquia da classe QCPItemPosition:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_q_c_p_item_position.png" usemap="#QCPItemPosition_map" alt=""/>
+  <map id="QCPItemPosition_map" name="QCPItemPosition_map">
+<area href="class_q_c_p_item_anchor.html" title="An anchor of an item to which positions can be attached to." alt="QCPItemAnchor" shape="rect" coords="0,0,105,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Tipos Públicos</h2></td></tr>
+<tr class="memitem:aad9936c22bf43e3d358552f6e86dbdc8" id="r_aad9936c22bf43e3d358552f6e86dbdc8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a> { <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">ptAbsolute</a>
+, <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8ac7d6aa89ceacb39658b0d6da061c789a">ptViewportRatio</a>
+, <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75">ptAxisRectRatio</a>
+, <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a>
+ }</td></tr>
+<tr class="separator:aad9936c22bf43e3d358552f6e86dbdc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Membros Públicos</h2></td></tr>
+<tr class="memitem:a6519a552bd9766354644ec24d1f26622" id="r_a6519a552bd9766354644ec24d1f26622"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6519a552bd9766354644ec24d1f26622">QCPItemPosition</a> (<a class="el" href="class_q_custom_plot.html">QCustomPlot</a> *parentPlot, <a class="el" href="class_q_c_p_abstract_item.html">QCPAbstractItem</a> *parentItem, const QString &amp;<a class="el" href="class_q_c_p_item_anchor.html#aad37cdf5a3f63428f61be739014e212e">name</a>)</td></tr>
+<tr class="separator:a6519a552bd9766354644ec24d1f26622"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21f585ffa8d8e3a6ba0cc450701bca5a" id="r_a21f585ffa8d8e3a6ba0cc450701bca5a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21f585ffa8d8e3a6ba0cc450701bca5a">~QCPItemPosition</a> () <a class="el" href="qcustomplot_8h.html#a42cc5eaeb25b85f8b52d2a4b94c56f55">Q_DECL_OVERRIDE</a></td></tr>
+<tr class="separator:a21f585ffa8d8e3a6ba0cc450701bca5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc1276e2ef603e459a9e48e75966bf8f" id="r_abc1276e2ef603e459a9e48e75966bf8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc1276e2ef603e459a9e48e75966bf8f">type</a> () const</td></tr>
+<tr class="separator:abc1276e2ef603e459a9e48e75966bf8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1415911868835701c04250566bfc681d" id="r_a1415911868835701c04250566bfc681d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1415911868835701c04250566bfc681d">typeX</a> () const</td></tr>
+<tr class="separator:a1415911868835701c04250566bfc681d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae47bac6f679c58f9e1c78dc63d56f331" id="r_ae47bac6f679c58f9e1c78dc63d56f331"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae47bac6f679c58f9e1c78dc63d56f331">typeY</a> () const</td></tr>
+<tr class="separator:ae47bac6f679c58f9e1c78dc63d56f331"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a87f9dce1af6cc9b510785991bcf1c6" id="r_a0a87f9dce1af6cc9b510785991bcf1c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a> () const</td></tr>
+<tr class="separator:a0a87f9dce1af6cc9b510785991bcf1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd6993258e88255a6b5e82e98df40d6a" id="r_afd6993258e88255a6b5e82e98df40d6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd6993258e88255a6b5e82e98df40d6a">parentAnchorX</a> () const</td></tr>
+<tr class="separator:afd6993258e88255a6b5e82e98df40d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5151572d157fd475c9b2bc9b9df6595b" id="r_a5151572d157fd475c9b2bc9b9df6595b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5151572d157fd475c9b2bc9b9df6595b">parentAnchorY</a> () const</td></tr>
+<tr class="separator:a5151572d157fd475c9b2bc9b9df6595b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc519f1b73722a8d0cff7d4d647407e" id="r_a6fc519f1b73722a8d0cff7d4d647407e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fc519f1b73722a8d0cff7d4d647407e">key</a> () const</td></tr>
+<tr class="separator:a6fc519f1b73722a8d0cff7d4d647407e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfcf86f840a7366a4299bff593d5d636" id="r_acfcf86f840a7366a4299bff593d5d636"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfcf86f840a7366a4299bff593d5d636">value</a> () const</td></tr>
+<tr class="separator:acfcf86f840a7366a4299bff593d5d636"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4ecf5b04c67049c05d37619e090820b" id="r_aa4ecf5b04c67049c05d37619e090820b"><td class="memItemLeft" align="right" valign="top">QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4ecf5b04c67049c05d37619e090820b">coords</a> () const</td></tr>
+<tr class="separator:aa4ecf5b04c67049c05d37619e090820b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6c3afb95511842eee29745480cc8a53" id="r_ab6c3afb95511842eee29745480cc8a53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_axis.html">QCPAxis</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6c3afb95511842eee29745480cc8a53">keyAxis</a> () const</td></tr>
+<tr class="separator:ab6c3afb95511842eee29745480cc8a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa4dc49c9f142ff00b491272febc1de6" id="r_aaa4dc49c9f142ff00b491272febc1de6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_axis.html">QCPAxis</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa4dc49c9f142ff00b491272febc1de6">valueAxis</a> () const</td></tr>
+<tr class="separator:aaa4dc49c9f142ff00b491272febc1de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4081cfe7575f922f403c6e3a2ce7891" id="r_ae4081cfe7575f922f403c6e3a2ce7891"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_axis_rect.html">QCPAxisRect</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4081cfe7575f922f403c6e3a2ce7891">axisRect</a> () const</td></tr>
+<tr class="separator:ae4081cfe7575f922f403c6e3a2ce7891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be9a4787635433edecc75164beb748d" id="r_a8be9a4787635433edecc75164beb748d"><td class="memItemLeft" align="right" valign="top">virtual QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8be9a4787635433edecc75164beb748d">pixelPosition</a> () const <a class="el" href="qcustomplot_8h.html#a42cc5eaeb25b85f8b52d2a4b94c56f55">Q_DECL_OVERRIDE</a></td></tr>
+<tr class="separator:a8be9a4787635433edecc75164beb748d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa476abf71ed8fa4c537457ebb1a754ad" id="r_aa476abf71ed8fa4c537457ebb1a754ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa476abf71ed8fa4c537457ebb1a754ad">setType</a> (<a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a> <a class="el" href="#abc1276e2ef603e459a9e48e75966bf8f">type</a>)</td></tr>
+<tr class="separator:aa476abf71ed8fa4c537457ebb1a754ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2113b2351d6d00457fb3559a4e20c3ea" id="r_a2113b2351d6d00457fb3559a4e20c3ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2113b2351d6d00457fb3559a4e20c3ea">setTypeX</a> (<a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a> <a class="el" href="#abc1276e2ef603e459a9e48e75966bf8f">type</a>)</td></tr>
+<tr class="separator:a2113b2351d6d00457fb3559a4e20c3ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2a454aa5a54c1615c50686601ec4510" id="r_ac2a454aa5a54c1615c50686601ec4510"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2a454aa5a54c1615c50686601ec4510">setTypeY</a> (<a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a> <a class="el" href="#abc1276e2ef603e459a9e48e75966bf8f">type</a>)</td></tr>
+<tr class="separator:ac2a454aa5a54c1615c50686601ec4510"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac094d67a95d2dceafa0d50b9db3a7e51" id="r_ac094d67a95d2dceafa0d50b9db3a7e51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac094d67a95d2dceafa0d50b9db3a7e51">setParentAnchor</a> (<a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> *<a class="el" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>, bool keepPixelPosition=false)</td></tr>
+<tr class="separator:ac094d67a95d2dceafa0d50b9db3a7e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add71461a973927c74e42179480916d9c" id="r_add71461a973927c74e42179480916d9c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add71461a973927c74e42179480916d9c">setParentAnchorX</a> (<a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> *<a class="el" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>, bool keepPixelPosition=false)</td></tr>
+<tr class="separator:add71461a973927c74e42179480916d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add5ec1db9d19cec58a3b5c9e0a0c3f9d" id="r_add5ec1db9d19cec58a3b5c9e0a0c3f9d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add5ec1db9d19cec58a3b5c9e0a0c3f9d">setParentAnchorY</a> (<a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> *<a class="el" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>, bool keepPixelPosition=false)</td></tr>
+<tr class="separator:add5ec1db9d19cec58a3b5c9e0a0c3f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa988ba4e87ab684c9021017dcaba945f" id="r_aa988ba4e87ab684c9021017dcaba945f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa988ba4e87ab684c9021017dcaba945f">setCoords</a> (double <a class="el" href="#a6fc519f1b73722a8d0cff7d4d647407e">key</a>, double <a class="el" href="#acfcf86f840a7366a4299bff593d5d636">value</a>)</td></tr>
+<tr class="separator:aa988ba4e87ab684c9021017dcaba945f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2756567f063cd4be41697e105babc49" id="r_ae2756567f063cd4be41697e105babc49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2756567f063cd4be41697e105babc49">setCoords</a> (const QPointF &amp;pos)</td></tr>
+<tr class="separator:ae2756567f063cd4be41697e105babc49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2185f45c75ac8cb9be89daeaaad50e37" id="r_a2185f45c75ac8cb9be89daeaaad50e37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2185f45c75ac8cb9be89daeaaad50e37">setAxes</a> (<a class="el" href="class_q_c_p_axis.html">QCPAxis</a> *<a class="el" href="#ab6c3afb95511842eee29745480cc8a53">keyAxis</a>, <a class="el" href="class_q_c_p_axis.html">QCPAxis</a> *<a class="el" href="#aaa4dc49c9f142ff00b491272febc1de6">valueAxis</a>)</td></tr>
+<tr class="separator:a2185f45c75ac8cb9be89daeaaad50e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cd9b326fb324710169e92e8ca0041c2" id="r_a0cd9b326fb324710169e92e8ca0041c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cd9b326fb324710169e92e8ca0041c2">setAxisRect</a> (<a class="el" href="class_q_c_p_axis_rect.html">QCPAxisRect</a> *<a class="el" href="#ae4081cfe7575f922f403c6e3a2ce7891">axisRect</a>)</td></tr>
+<tr class="separator:a0cd9b326fb324710169e92e8ca0041c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d4f858f2089973967cf9cb81970ef0a" id="r_a8d4f858f2089973967cf9cb81970ef0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d4f858f2089973967cf9cb81970ef0a">setPixelPosition</a> (const QPointF &amp;<a class="el" href="#a8be9a4787635433edecc75164beb748d">pixelPosition</a>)</td></tr>
+<tr class="separator:a8d4f858f2089973967cf9cb81970ef0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_q_c_p_item_anchor"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_q_c_p_item_anchor')"><img src="closed.png" alt="-"/>&#160;Membros Públicos herdados de <a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a></td></tr>
+<tr class="memitem:a32573023c6fa65b4496f1f995e5bfa5f inherit pub_methods_class_q_c_p_item_anchor" id="r_a32573023c6fa65b4496f1f995e5bfa5f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_item_anchor.html#a32573023c6fa65b4496f1f995e5bfa5f">QCPItemAnchor</a> (<a class="el" href="class_q_custom_plot.html">QCustomPlot</a> *parentPlot, <a class="el" href="class_q_c_p_abstract_item.html">QCPAbstractItem</a> *parentItem, const QString &amp;<a class="el" href="class_q_c_p_item_anchor.html#aad37cdf5a3f63428f61be739014e212e">name</a>, int anchorId=-1)</td></tr>
+<tr class="separator:a32573023c6fa65b4496f1f995e5bfa5f inherit pub_methods_class_q_c_p_item_anchor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1868559407600688ee4d1a4621e81ceb inherit pub_methods_class_q_c_p_item_anchor" id="r_a1868559407600688ee4d1a4621e81ceb"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_item_anchor.html#a1868559407600688ee4d1a4621e81ceb">~QCPItemAnchor</a> ()</td></tr>
+<tr class="separator:a1868559407600688ee4d1a4621e81ceb inherit pub_methods_class_q_c_p_item_anchor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad37cdf5a3f63428f61be739014e212e inherit pub_methods_class_q_c_p_item_anchor" id="r_aad37cdf5a3f63428f61be739014e212e"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_item_anchor.html#aad37cdf5a3f63428f61be739014e212e">name</a> () const</td></tr>
+<tr class="separator:aad37cdf5a3f63428f61be739014e212e inherit pub_methods_class_q_c_p_item_anchor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Membros protegidos</h2></td></tr>
+<tr class="memitem:a0d2c5b823c99207eda710a37a4bb1dbf" id="r_a0d2c5b823c99207eda710a37a4bb1dbf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_q_c_p_item_position.html">QCPItemPosition</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d2c5b823c99207eda710a37a4bb1dbf">toQCPItemPosition</a> () <a class="el" href="qcustomplot_8h.html#a42cc5eaeb25b85f8b52d2a4b94c56f55">Q_DECL_OVERRIDE</a></td></tr>
+<tr class="separator:a0d2c5b823c99207eda710a37a4bb1dbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_q_c_p_item_anchor"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_q_c_p_item_anchor')"><img src="closed.png" alt="-"/>&#160;Membros protegidos herdados de <a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a></td></tr>
+<tr class="memitem:aef15daa640debfb11b0aeaa2116c6fbc inherit pro_methods_class_q_c_p_item_anchor" id="r_aef15daa640debfb11b0aeaa2116c6fbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_item_anchor.html#aef15daa640debfb11b0aeaa2116c6fbc">addChildX</a> (<a class="el" href="class_q_c_p_item_position.html">QCPItemPosition</a> *pos)</td></tr>
+<tr class="separator:aef15daa640debfb11b0aeaa2116c6fbc inherit pro_methods_class_q_c_p_item_anchor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a230b1d494cda63458e289bbe1b642599 inherit pro_methods_class_q_c_p_item_anchor" id="r_a230b1d494cda63458e289bbe1b642599"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_item_anchor.html#a230b1d494cda63458e289bbe1b642599">removeChildX</a> (<a class="el" href="class_q_c_p_item_position.html">QCPItemPosition</a> *pos)</td></tr>
+<tr class="separator:a230b1d494cda63458e289bbe1b642599 inherit pro_methods_class_q_c_p_item_anchor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af05dc56f24536f0c7a9a0f57b58cea67 inherit pro_methods_class_q_c_p_item_anchor" id="r_af05dc56f24536f0c7a9a0f57b58cea67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_item_anchor.html#af05dc56f24536f0c7a9a0f57b58cea67">addChildY</a> (<a class="el" href="class_q_c_p_item_position.html">QCPItemPosition</a> *pos)</td></tr>
+<tr class="separator:af05dc56f24536f0c7a9a0f57b58cea67 inherit pro_methods_class_q_c_p_item_anchor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2394911d8fff3bd958b9f4f1994b64d inherit pro_methods_class_q_c_p_item_anchor" id="r_aa2394911d8fff3bd958b9f4f1994b64d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_item_anchor.html#aa2394911d8fff3bd958b9f4f1994b64d">removeChildY</a> (<a class="el" href="class_q_c_p_item_position.html">QCPItemPosition</a> *pos)</td></tr>
+<tr class="separator:aa2394911d8fff3bd958b9f4f1994b64d inherit pro_methods_class_q_c_p_item_anchor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Atributos Protegidos</h2></td></tr>
+<tr class="memitem:ae2a617dce057c5f3ec6878c1823aa291" id="r_ae2a617dce057c5f3ec6878c1823aa291"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2a617dce057c5f3ec6878c1823aa291">mPositionTypeX</a></td></tr>
+<tr class="separator:ae2a617dce057c5f3ec6878c1823aa291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47c96c0ef4380e1af4aaa7c2265c260b" id="r_a47c96c0ef4380e1af4aaa7c2265c260b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47c96c0ef4380e1af4aaa7c2265c260b">mPositionTypeY</a></td></tr>
+<tr class="separator:a47c96c0ef4380e1af4aaa7c2265c260b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63967a33933231e92f68c8ce06bfc37e" id="r_a63967a33933231e92f68c8ce06bfc37e"><td class="memItemLeft" align="right" valign="top">QPointer&lt; <a class="el" href="class_q_c_p_axis.html">QCPAxis</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a></td></tr>
+<tr class="separator:a63967a33933231e92f68c8ce06bfc37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a505dc2da24ba274452c1c817fcaba011" id="r_a505dc2da24ba274452c1c817fcaba011"><td class="memItemLeft" align="right" valign="top">QPointer&lt; <a class="el" href="class_q_c_p_axis.html">QCPAxis</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a></td></tr>
+<tr class="separator:a505dc2da24ba274452c1c817fcaba011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add40fcb8994c247d85f42a126286b740" id="r_add40fcb8994c247d85f42a126286b740"><td class="memItemLeft" align="right" valign="top">QPointer&lt; <a class="el" href="class_q_c_p_axis_rect.html">QCPAxisRect</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a></td></tr>
+<tr class="separator:add40fcb8994c247d85f42a126286b740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ff3931ad115603dfb4c7000b24bb415" id="r_a4ff3931ad115603dfb4c7000b24bb415"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ff3931ad115603dfb4c7000b24bb415">mKey</a></td></tr>
+<tr class="separator:a4ff3931ad115603dfb4c7000b24bb415"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67bf5df69f587d53731724a7d61c6c3f" id="r_a67bf5df69f587d53731724a7d61c6c3f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67bf5df69f587d53731724a7d61c6c3f">mValue</a></td></tr>
+<tr class="separator:a67bf5df69f587d53731724a7d61c6c3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41b4641d18c90997b9c01bf304181bf0" id="r_a41b4641d18c90997b9c01bf304181bf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a></td></tr>
+<tr class="separator:a41b4641d18c90997b9c01bf304181bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc6142a6a09c8fa41c44d3d54fadd737" id="r_afc6142a6a09c8fa41c44d3d54fadd737"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a></td></tr>
+<tr class="separator:afc6142a6a09c8fa41c44d3d54fadd737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_q_c_p_item_anchor"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_q_c_p_item_anchor')"><img src="closed.png" alt="-"/>&#160;Atributos Protegidos herdados de <a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a></td></tr>
+<tr class="memitem:a23ad4d0ab0d2cbb41a7baf05bcf996ec inherit pro_attribs_class_q_c_p_item_anchor" id="r_a23ad4d0ab0d2cbb41a7baf05bcf996ec"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_item_anchor.html#a23ad4d0ab0d2cbb41a7baf05bcf996ec">mName</a></td></tr>
+<tr class="separator:a23ad4d0ab0d2cbb41a7baf05bcf996ec inherit pro_attribs_class_q_c_p_item_anchor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59b968410831ba91a25cc75a77dde6f5 inherit pro_attribs_class_q_c_p_item_anchor" id="r_a59b968410831ba91a25cc75a77dde6f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_custom_plot.html">QCustomPlot</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_item_anchor.html#a59b968410831ba91a25cc75a77dde6f5">mParentPlot</a></td></tr>
+<tr class="separator:a59b968410831ba91a25cc75a77dde6f5 inherit pro_attribs_class_q_c_p_item_anchor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80fad480ad3bb980446ed6ebc00818ae inherit pro_attribs_class_q_c_p_item_anchor" id="r_a80fad480ad3bb980446ed6ebc00818ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_abstract_item.html">QCPAbstractItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_item_anchor.html#a80fad480ad3bb980446ed6ebc00818ae">mParentItem</a></td></tr>
+<tr class="separator:a80fad480ad3bb980446ed6ebc00818ae inherit pro_attribs_class_q_c_p_item_anchor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00c62070333e8345976b579676ad3997 inherit pro_attribs_class_q_c_p_item_anchor" id="r_a00c62070333e8345976b579676ad3997"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_item_anchor.html#a00c62070333e8345976b579676ad3997">mAnchorId</a></td></tr>
+<tr class="separator:a00c62070333e8345976b579676ad3997 inherit pro_attribs_class_q_c_p_item_anchor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c0bfd6e50f3b48e2a9b3824695b20f7 inherit pro_attribs_class_q_c_p_item_anchor" id="r_a3c0bfd6e50f3b48e2a9b3824695b20f7"><td class="memItemLeft" align="right" valign="top">QSet&lt; <a class="el" href="class_q_c_p_item_position.html">QCPItemPosition</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_item_anchor.html#a3c0bfd6e50f3b48e2a9b3824695b20f7">mChildrenX</a></td></tr>
+<tr class="separator:a3c0bfd6e50f3b48e2a9b3824695b20f7 inherit pro_attribs_class_q_c_p_item_anchor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3abe4eebd0683454d81c8341df6f7115 inherit pro_attribs_class_q_c_p_item_anchor" id="r_a3abe4eebd0683454d81c8341df6f7115"><td class="memItemLeft" align="right" valign="top">QSet&lt; <a class="el" href="class_q_c_p_item_position.html">QCPItemPosition</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_item_anchor.html#a3abe4eebd0683454d81c8341df6f7115">mChildrenY</a></td></tr>
+<tr class="separator:a3abe4eebd0683454d81c8341df6f7115 inherit pro_attribs_class_q_c_p_item_anchor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Manages the position of an item. </p>
+<p>Every item has at least one public <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a> member pointer which provides ways to position the item on the <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a> surface. Some items have multiple positions, for example <a class="el" href="class_q_c_p_item_rect.html" title="A rectangle.">QCPItemRect</a> has two: <em>topLeft</em> and <em>bottomRight</em>.</p>
+<p><a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a> has a type (<a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a>) that can be set with <a class="el" href="#aa476abf71ed8fa4c537457ebb1a754ad">setType</a>. This type defines how coordinates passed to <a class="el" href="#aa988ba4e87ab684c9021017dcaba945f">setCoords</a> are to be interpreted, e.g. as absolute pixel coordinates, as plot coordinates of certain axes (<a class="el" href="#a2185f45c75ac8cb9be89daeaaad50e37">QCPItemPosition::setAxes</a>), as fractions of the axis rect (<a class="el" href="#a0cd9b326fb324710169e92e8ca0041c2">QCPItemPosition::setAxisRect</a>), etc. For more advanced plots it is also possible to assign different types per X/Y coordinate of the position (see <a class="el" href="#a2113b2351d6d00457fb3559a4e20c3ea">setTypeX</a>, <a class="el" href="#ac2a454aa5a54c1615c50686601ec4510">setTypeY</a>). This way an item could be positioned for example at a fixed pixel distance from the top in the Y direction, while following a plot coordinate in the X direction.</p>
+<p>A <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a> may have a parent <a class="el" href="class_q_c_p_item_anchor.html" title="An anchor of an item to which positions can be attached to.">QCPItemAnchor</a>, see <a class="el" href="#ac094d67a95d2dceafa0d50b9db3a7e51">setParentAnchor</a>. This way you can tie multiple items together. If the <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a> has a parent, its coordinates (<a class="el" href="#aa988ba4e87ab684c9021017dcaba945f">setCoords</a>) are considered to be absolute pixels in the reference frame of the parent anchor, where (0, 0) means directly ontop of the parent anchor. For example, You could attach the <em>start</em> position of a <a class="el" href="class_q_c_p_item_line.html" title="A line from one point to another.">QCPItemLine</a> to the <em>bottom</em> anchor of a <a class="el" href="class_q_c_p_item_text.html" title="A text label.">QCPItemText</a> to make the starting point of the line always be centered under the text label, no matter where the text is moved to. For more advanced plots, it is possible to assign different parent anchors per X/Y coordinate of the position, see <a class="el" href="#add71461a973927c74e42179480916d9c">setParentAnchorX</a>, <a class="el" href="#add5ec1db9d19cec58a3b5c9e0a0c3f9d">setParentAnchorY</a>. This way an item could follow another item in the X direction but stay at a fixed position in the Y direction. Or even follow item A in X, and item B in Y.</p>
+<p>Note that every <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a> inherits from <a class="el" href="class_q_c_p_item_anchor.html" title="An anchor of an item to which positions can be attached to.">QCPItemAnchor</a> and thus can itself be used as parent anchor for other positions.</p>
+<p>To set the apparent pixel position on the <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a> surface directly, use <a class="el" href="#a8d4f858f2089973967cf9cb81970ef0a">setPixelPosition</a>. This works no matter what type this <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a> is or what parent-child situation it is in, as <a class="el" href="#a8d4f858f2089973967cf9cb81970ef0a">setPixelPosition</a> transforms the coordinates appropriately, to make the position appear at the specified pixel values. </p>
+</div><h2 class="groupheader">Documentação das enumerações</h2>
+<a id="aad9936c22bf43e3d358552f6e86dbdc8" name="aad9936c22bf43e3d358552f6e86dbdc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad9936c22bf43e3d358552f6e86dbdc8">&#9670;&#160;</a></span>PositionType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">QCPItemPosition::PositionType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Defines the ways an item position can be specified. Thus it defines what the numbers passed to <a class="el" href="#aa988ba4e87ab684c9021017dcaba945f">setCoords</a> actually mean.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#aa476abf71ed8fa4c537457ebb1a754ad">setType</a> </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumeradores</th></tr><tr><td class="fieldname"><a id="aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0" name="aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0"></a>ptAbsolute&#160;</td><td class="fielddoc"><p>Static positioning in pixels, starting from the top left corner of the viewport/widget. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aad9936c22bf43e3d358552f6e86dbdc8ac7d6aa89ceacb39658b0d6da061c789a" name="aad9936c22bf43e3d358552f6e86dbdc8ac7d6aa89ceacb39658b0d6da061c789a"></a>ptViewportRatio&#160;</td><td class="fielddoc"><p>Static positioning given by a fraction of the viewport size. For example, if you call setCoords(0, 0), the position will be at the top left corner of the viewport/widget. setCoords(1, 1) will be at the bottom right corner, setCoords(0.5, 0) will be horizontally centered and vertically at the top of the viewport/widget, etc. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75" name="aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75"></a>ptAxisRectRatio&#160;</td><td class="fielddoc"><p>Static positioning given by a fraction of the axis rect size (see <a class="el" href="#a0cd9b326fb324710169e92e8ca0041c2">setAxisRect</a>). For example, if you call setCoords(0, 0), the position will be at the top left corner of the axis rect. setCoords(1, 1) will be at the bottom right corner, setCoords(0.5, 0) will be horizontally centered and vertically at the top of the axis rect, etc. You can also go beyond the axis rect by providing negative coordinates or coordinates larger than 1. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c" name="aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c"></a>ptPlotCoords&#160;</td><td class="fielddoc"><p>Dynamic positioning at a plot coordinate defined by two axes (see <a class="el" href="#a2185f45c75ac8cb9be89daeaaad50e37">setAxes</a>). </p>
+</td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno"> 3653</span>                    { <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">ptAbsolute</a>        </div>
+<div class="line"><span class="lineno"> 3654</span>                      ,<a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ac7d6aa89ceacb39658b0d6da061c789a">ptViewportRatio</a>  </div>
+<div class="line"><span class="lineno"> 3657</span>                      ,<a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75">ptAxisRectRatio</a>  </div>
+<div class="line"><span class="lineno"> 3660</span>                      ,<a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a>     </div>
+<div class="line"><span class="lineno"> 3661</span>                    };</div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75"><div class="ttname"><a href="#aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75">QCPItemPosition::ptAxisRectRatio</a></div><div class="ttdeci">@ ptAxisRectRatio</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3657</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0"><div class="ttname"><a href="#aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">QCPItemPosition::ptAbsolute</a></div><div class="ttdeci">@ ptAbsolute</div><div class="ttdoc">Static positioning in pixels, starting from the top left corner of the viewport/widget.</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3653</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_aad9936c22bf43e3d358552f6e86dbdc8ac7d6aa89ceacb39658b0d6da061c789a"><div class="ttname"><a href="#aad9936c22bf43e3d358552f6e86dbdc8ac7d6aa89ceacb39658b0d6da061c789a">QCPItemPosition::ptViewportRatio</a></div><div class="ttdeci">@ ptViewportRatio</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3654</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c"><div class="ttname"><a href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">QCPItemPosition::ptPlotCoords</a></div><div class="ttdeci">@ ptPlotCoords</div><div class="ttdoc">Dynamic positioning at a plot coordinate defined by two axes (see setAxes).</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3660</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Construtores e Destrutores</h2>
+<a id="a6519a552bd9766354644ec24d1f26622" name="a6519a552bd9766354644ec24d1f26622"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6519a552bd9766354644ec24d1f26622">&#9670;&#160;</a></span>QCPItemPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QCPItemPosition::QCPItemPosition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_custom_plot.html">QCustomPlot</a> *</td>          <td class="paramname"><span class="paramname"><em>parentPlot</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_abstract_item.html">QCPAbstractItem</a> *</td>          <td class="paramname"><span class="paramname"><em>parentItem</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a new <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a>. You shouldn't create <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a> instances directly, even if you want to make a new item subclass. Use <a class="el" href="class_q_c_p_abstract_item.html#a75036d39c4d4e2e1a7dd145fff915d32">QCPAbstractItem::createPosition</a> instead, as explained in the subclassing section of the <a class="el" href="class_q_c_p_abstract_item.html" title="The abstract base class for all items in a plot.">QCPAbstractItem</a> documentation. </p>
+<div class="fragment"><div class="line"><span class="lineno">12216</span>                                                                                                          :</div>
+<div class="line"><span class="lineno">12217</span>  <a class="code hl_function" href="class_q_c_p_item_anchor.html#a32573023c6fa65b4496f1f995e5bfa5f">QCPItemAnchor</a>(parentPlot, parentItem, <a class="code hl_function" href="class_q_c_p_item_anchor.html#aad37cdf5a3f63428f61be739014e212e">name</a>),</div>
+<div class="line"><span class="lineno">12218</span>  <a class="code hl_variable" href="#ae2a617dce057c5f3ec6878c1823aa291">mPositionTypeX</a>(<a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">ptAbsolute</a>),</div>
+<div class="line"><span class="lineno">12219</span>  <a class="code hl_variable" href="#a47c96c0ef4380e1af4aaa7c2265c260b">mPositionTypeY</a>(<a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">ptAbsolute</a>),</div>
+<div class="line"><span class="lineno">12220</span>  <a class="code hl_variable" href="#a4ff3931ad115603dfb4c7000b24bb415">mKey</a>(0),</div>
+<div class="line"><span class="lineno">12221</span>  <a class="code hl_variable" href="#a67bf5df69f587d53731724a7d61c6c3f">mValue</a>(0),</div>
+<div class="line"><span class="lineno">12222</span>  <a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>(<span class="keyword">nullptr</span>),</div>
+<div class="line"><span class="lineno">12223</span>  <a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>(<span class="keyword">nullptr</span>)</div>
+<div class="line"><span class="lineno">12224</span>{</div>
+<div class="line"><span class="lineno">12225</span>}</div>
+<div class="ttc" id="aclass_q_c_p_item_anchor_html_a32573023c6fa65b4496f1f995e5bfa5f"><div class="ttname"><a href="class_q_c_p_item_anchor.html#a32573023c6fa65b4496f1f995e5bfa5f">QCPItemAnchor::QCPItemAnchor</a></div><div class="ttdeci">QCPItemAnchor(QCustomPlot *parentPlot, QCPAbstractItem *parentItem, const QString &amp;name, int anchorId=-1)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:12042</div></div>
+<div class="ttc" id="aclass_q_c_p_item_anchor_html_aad37cdf5a3f63428f61be739014e212e"><div class="ttname"><a href="class_q_c_p_item_anchor.html#aad37cdf5a3f63428f61be739014e212e">QCPItemAnchor::name</a></div><div class="ttdeci">QString name() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3613</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_a41b4641d18c90997b9c01bf304181bf0"><div class="ttname"><a href="#a41b4641d18c90997b9c01bf304181bf0">QCPItemPosition::mParentAnchorX</a></div><div class="ttdeci">QCPItemAnchor * mParentAnchorX</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3701</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_a47c96c0ef4380e1af4aaa7c2265c260b"><div class="ttname"><a href="#a47c96c0ef4380e1af4aaa7c2265c260b">QCPItemPosition::mPositionTypeY</a></div><div class="ttdeci">PositionType mPositionTypeY</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3697</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_a4ff3931ad115603dfb4c7000b24bb415"><div class="ttname"><a href="#a4ff3931ad115603dfb4c7000b24bb415">QCPItemPosition::mKey</a></div><div class="ttdeci">double mKey</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3700</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_a67bf5df69f587d53731724a7d61c6c3f"><div class="ttname"><a href="#a67bf5df69f587d53731724a7d61c6c3f">QCPItemPosition::mValue</a></div><div class="ttdeci">double mValue</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3700</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_ae2a617dce057c5f3ec6878c1823aa291"><div class="ttname"><a href="#ae2a617dce057c5f3ec6878c1823aa291">QCPItemPosition::mPositionTypeX</a></div><div class="ttdeci">PositionType mPositionTypeX</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3697</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_afc6142a6a09c8fa41c44d3d54fadd737"><div class="ttname"><a href="#afc6142a6a09c8fa41c44d3d54fadd737">QCPItemPosition::mParentAnchorY</a></div><div class="ttdeci">QCPItemAnchor * mParentAnchorY</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3701</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a21f585ffa8d8e3a6ba0cc450701bca5a" name="a21f585ffa8d8e3a6ba0cc450701bca5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21f585ffa8d8e3a6ba0cc450701bca5a">&#9670;&#160;</a></span>~QCPItemPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QCPItemPosition::~QCPItemPosition </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">12228</span>{</div>
+<div class="line"><span class="lineno">12229</span>  <span class="comment">// unregister as parent at children:</span></div>
+<div class="line"><span class="lineno">12230</span>  <span class="comment">// Note: this is done in ~QCPItemAnchor again, but it&#39;s important QCPItemPosition does it itself, because only then</span></div>
+<div class="line"><span class="lineno">12231</span>  <span class="comment">//       the setParentAnchor(0) call the correct QCPItemPosition::pixelPosition function instead of QCPItemAnchor::pixelPosition</span></div>
+<div class="line"><span class="lineno">12232</span>  <span class="keywordflow">foreach</span> (<a class="code hl_class" href="class_q_c_p_item_position.html">QCPItemPosition</a> *child, <a class="code hl_variable" href="class_q_c_p_item_anchor.html#a3c0bfd6e50f3b48e2a9b3824695b20f7">mChildrenX</a>.values())</div>
+<div class="line"><span class="lineno">12233</span>  {</div>
+<div class="line"><span class="lineno">12234</span>    <span class="keywordflow">if</span> (child-&gt;<a class="code hl_function" href="#afd6993258e88255a6b5e82e98df40d6a">parentAnchorX</a>() == <span class="keyword">this</span>)</div>
+<div class="line"><span class="lineno">12235</span>      child-&gt;<a class="code hl_function" href="#add71461a973927c74e42179480916d9c">setParentAnchorX</a>(<span class="keyword">nullptr</span>); <span class="comment">// this acts back on this anchor and child removes itself from mChildrenX</span></div>
+<div class="line"><span class="lineno">12236</span>  }</div>
+<div class="line"><span class="lineno">12237</span>  <span class="keywordflow">foreach</span> (<a class="code hl_class" href="class_q_c_p_item_position.html">QCPItemPosition</a> *child, <a class="code hl_variable" href="class_q_c_p_item_anchor.html#a3abe4eebd0683454d81c8341df6f7115">mChildrenY</a>.values())</div>
+<div class="line"><span class="lineno">12238</span>  {</div>
+<div class="line"><span class="lineno">12239</span>    <span class="keywordflow">if</span> (child-&gt;<a class="code hl_function" href="#a5151572d157fd475c9b2bc9b9df6595b">parentAnchorY</a>() == <span class="keyword">this</span>)</div>
+<div class="line"><span class="lineno">12240</span>      child-&gt;<a class="code hl_function" href="#add5ec1db9d19cec58a3b5c9e0a0c3f9d">setParentAnchorY</a>(<span class="keyword">nullptr</span>); <span class="comment">// this acts back on this anchor and child removes itself from mChildrenY</span></div>
+<div class="line"><span class="lineno">12241</span>  }</div>
+<div class="line"><span class="lineno">12242</span>  <span class="comment">// unregister as child in parent:</span></div>
+<div class="line"><span class="lineno">12243</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>)</div>
+<div class="line"><span class="lineno">12244</span>    <a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#a230b1d494cda63458e289bbe1b642599">removeChildX</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">12245</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>)</div>
+<div class="line"><span class="lineno">12246</span>    <a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#aa2394911d8fff3bd958b9f4f1994b64d">removeChildY</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">12247</span>}</div>
+<div class="ttc" id="aclass_q_c_p_item_anchor_html_a230b1d494cda63458e289bbe1b642599"><div class="ttname"><a href="class_q_c_p_item_anchor.html#a230b1d494cda63458e289bbe1b642599">QCPItemAnchor::removeChildX</a></div><div class="ttdeci">void removeChildX(QCPItemPosition *pos)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:12112</div></div>
+<div class="ttc" id="aclass_q_c_p_item_anchor_html_a3abe4eebd0683454d81c8341df6f7115"><div class="ttname"><a href="class_q_c_p_item_anchor.html#a3abe4eebd0683454d81c8341df6f7115">QCPItemAnchor::mChildrenY</a></div><div class="ttdeci">QSet&lt; QCPItemPosition * &gt; mChildrenY</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3624</div></div>
+<div class="ttc" id="aclass_q_c_p_item_anchor_html_a3c0bfd6e50f3b48e2a9b3824695b20f7"><div class="ttname"><a href="class_q_c_p_item_anchor.html#a3c0bfd6e50f3b48e2a9b3824695b20f7">QCPItemAnchor::mChildrenX</a></div><div class="ttdeci">QSet&lt; QCPItemPosition * &gt; mChildrenX</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3624</div></div>
+<div class="ttc" id="aclass_q_c_p_item_anchor_html_aa2394911d8fff3bd958b9f4f1994b64d"><div class="ttname"><a href="class_q_c_p_item_anchor.html#aa2394911d8fff3bd958b9f4f1994b64d">QCPItemAnchor::removeChildY</a></div><div class="ttdeci">void removeChildY(QCPItemPosition *pos)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:12140</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html"><div class="ttname"><a href="class_q_c_p_item_position.html">QCPItemPosition</a></div><div class="ttdoc">Manages the position of an item.</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3644</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_a5151572d157fd475c9b2bc9b9df6595b"><div class="ttname"><a href="#a5151572d157fd475c9b2bc9b9df6595b">QCPItemPosition::parentAnchorY</a></div><div class="ttdeci">QCPItemAnchor * parentAnchorY() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3673</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_add5ec1db9d19cec58a3b5c9e0a0c3f9d"><div class="ttname"><a href="#add5ec1db9d19cec58a3b5c9e0a0c3f9d">QCPItemPosition::setParentAnchorY</a></div><div class="ttdeci">bool setParentAnchorY(QCPItemAnchor *parentAnchor, bool keepPixelPosition=false)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:12443</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_add71461a973927c74e42179480916d9c"><div class="ttname"><a href="#add71461a973927c74e42179480916d9c">QCPItemPosition::setParentAnchorX</a></div><div class="ttdeci">bool setParentAnchorX(QCPItemAnchor *parentAnchor, bool keepPixelPosition=false)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:12378</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_afd6993258e88255a6b5e82e98df40d6a"><div class="ttname"><a href="#afd6993258e88255a6b5e82e98df40d6a">QCPItemPosition::parentAnchorX</a></div><div class="ttdeci">QCPItemAnchor * parentAnchorX() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3672</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentação das funções</h2>
+<a id="ae4081cfe7575f922f403c6e3a2ce7891" name="ae4081cfe7575f922f403c6e3a2ce7891"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4081cfe7575f922f403c6e3a2ce7891">&#9670;&#160;</a></span>axisRect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_q_c_p_axis_rect.html">QCPAxisRect</a> * QCPItemPosition::axisRect </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">12251</span>{</div>
+<div class="line"><span class="lineno">12252</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a>.data();</div>
+<div class="line"><span class="lineno">12253</span>}</div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_add40fcb8994c247d85f42a126286b740"><div class="ttname"><a href="#add40fcb8994c247d85f42a126286b740">QCPItemPosition::mAxisRect</a></div><div class="ttdeci">QPointer&lt; QCPAxisRect &gt; mAxisRect</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3699</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa4ecf5b04c67049c05d37619e090820b" name="aa4ecf5b04c67049c05d37619e090820b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4ecf5b04c67049c05d37619e090820b">&#9670;&#160;</a></span>coords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointF QCPItemPosition::coords </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 3676</span>{ <span class="keywordflow">return</span> QPointF(<a class="code hl_variable" href="#a4ff3931ad115603dfb4c7000b24bb415">mKey</a>, <a class="code hl_variable" href="#a67bf5df69f587d53731724a7d61c6c3f">mValue</a>); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a6fc519f1b73722a8d0cff7d4d647407e" name="a6fc519f1b73722a8d0cff7d4d647407e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fc519f1b73722a8d0cff7d4d647407e">&#9670;&#160;</a></span>key()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPItemPosition::key </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 3674</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a4ff3931ad115603dfb4c7000b24bb415">mKey</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab6c3afb95511842eee29745480cc8a53" name="ab6c3afb95511842eee29745480cc8a53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6c3afb95511842eee29745480cc8a53">&#9670;&#160;</a></span>keyAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_q_c_p_axis.html">QCPAxis</a> * QCPItemPosition::keyAxis </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 3677</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a>.data(); }</div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_a63967a33933231e92f68c8ce06bfc37e"><div class="ttname"><a href="#a63967a33933231e92f68c8ce06bfc37e">QCPItemPosition::mKeyAxis</a></div><div class="ttdeci">QPointer&lt; QCPAxis &gt; mKeyAxis</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3698</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0a87f9dce1af6cc9b510785991bcf1c6" name="a0a87f9dce1af6cc9b510785991bcf1c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a87f9dce1af6cc9b510785991bcf1c6">&#9670;&#160;</a></span>parentAnchor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> * QCPItemPosition::parentAnchor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the current parent anchor.</p>
+<p>If different parent anchors were set for X and Y (<a class="el" href="#add71461a973927c74e42179480916d9c">setParentAnchorX</a>, <a class="el" href="#add5ec1db9d19cec58a3b5c9e0a0c3f9d">setParentAnchorY</a>), this method returns the parent anchor of the Y coordinate. In that case rather use <em><a class="el" href="#afd6993258e88255a6b5e82e98df40d6a">parentAnchorX()</a></em> and <em><a class="el" href="#a5151572d157fd475c9b2bc9b9df6595b">parentAnchorY()</a></em>.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#ac094d67a95d2dceafa0d50b9db3a7e51">setParentAnchor</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno"> 3671</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="#afd6993258e88255a6b5e82e98df40d6a">parentAnchorX</a>(); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="afd6993258e88255a6b5e82e98df40d6a" name="afd6993258e88255a6b5e82e98df40d6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd6993258e88255a6b5e82e98df40d6a">&#9670;&#160;</a></span>parentAnchorX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> * QCPItemPosition::parentAnchorX </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 3672</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5151572d157fd475c9b2bc9b9df6595b" name="a5151572d157fd475c9b2bc9b9df6595b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5151572d157fd475c9b2bc9b9df6595b">&#9670;&#160;</a></span>parentAnchorY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> * QCPItemPosition::parentAnchorY </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 3673</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8be9a4787635433edecc75164beb748d" name="a8be9a4787635433edecc75164beb748d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8be9a4787635433edecc75164beb748d">&#9670;&#160;</a></span>pixelPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointF QCPItemPosition::pixelPosition </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the final absolute pixel position of the <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a> on the <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a> surface. It includes all effects of type (<a class="el" href="#aa476abf71ed8fa4c537457ebb1a754ad">setType</a>) and possible parent anchors (<a class="el" href="#ac094d67a95d2dceafa0d50b9db3a7e51">setParentAnchor</a>).</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#a8d4f858f2089973967cf9cb81970ef0a">setPixelPosition</a> </dd></dl>
+
+<p>Reimplementa <a class="el" href="class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb">QCPItemAnchor</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">12541</span>{</div>
+<div class="line"><span class="lineno">12542</span>  QPointF result;</div>
+<div class="line"><span class="lineno">12543</span>  </div>
+<div class="line"><span class="lineno">12544</span>  <span class="comment">// determine X:</span></div>
+<div class="line"><span class="lineno">12545</span>  <span class="keywordflow">switch</span> (<a class="code hl_variable" href="#ae2a617dce057c5f3ec6878c1823aa291">mPositionTypeX</a>)</div>
+<div class="line"><span class="lineno">12546</span>  {</div>
+<div class="line"><span class="lineno">12547</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">ptAbsolute</a>:</div>
+<div class="line"><span class="lineno">12548</span>    {</div>
+<div class="line"><span class="lineno">12549</span>      result.rx() = <a class="code hl_variable" href="#a4ff3931ad115603dfb4c7000b24bb415">mKey</a>;</div>
+<div class="line"><span class="lineno">12550</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>)</div>
+<div class="line"><span class="lineno">12551</span>        result.rx() += <a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb">pixelPosition</a>().x();</div>
+<div class="line"><span class="lineno">12552</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12553</span>    }</div>
+<div class="line"><span class="lineno">12554</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ac7d6aa89ceacb39658b0d6da061c789a">ptViewportRatio</a>:</div>
+<div class="line"><span class="lineno">12555</span>    {</div>
+<div class="line"><span class="lineno">12556</span>      result.rx() = <a class="code hl_variable" href="#a4ff3931ad115603dfb4c7000b24bb415">mKey</a>*<a class="code hl_variable" href="class_q_c_p_item_anchor.html#a59b968410831ba91a25cc75a77dde6f5">mParentPlot</a>-&gt;<a class="code hl_function" href="class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670">viewport</a>().width();</div>
+<div class="line"><span class="lineno">12557</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>)</div>
+<div class="line"><span class="lineno">12558</span>        result.rx() += <a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb">pixelPosition</a>().x();</div>
+<div class="line"><span class="lineno">12559</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12560</span>        result.rx() += <a class="code hl_variable" href="class_q_c_p_item_anchor.html#a59b968410831ba91a25cc75a77dde6f5">mParentPlot</a>-&gt;<a class="code hl_function" href="class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670">viewport</a>().left();</div>
+<div class="line"><span class="lineno">12561</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12562</span>    }</div>
+<div class="line"><span class="lineno">12563</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75">ptAxisRectRatio</a>:</div>
+<div class="line"><span class="lineno">12564</span>    {</div>
+<div class="line"><span class="lineno">12565</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a>)</div>
+<div class="line"><span class="lineno">12566</span>      {</div>
+<div class="line"><span class="lineno">12567</span>        result.rx() = <a class="code hl_variable" href="#a4ff3931ad115603dfb4c7000b24bb415">mKey</a>*<a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a>.data()-&gt;width();</div>
+<div class="line"><span class="lineno">12568</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>)</div>
+<div class="line"><span class="lineno">12569</span>          result.rx() += <a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb">pixelPosition</a>().x();</div>
+<div class="line"><span class="lineno">12570</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12571</span>          result.rx() += <a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a>.data()-&gt;left();</div>
+<div class="line"><span class="lineno">12572</span>      } <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12573</span>        qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;Item position type x is ptAxisRectRatio, but no axis rect was defined&quot;</span>;</div>
+<div class="line"><span class="lineno">12574</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12575</span>    }</div>
+<div class="line"><span class="lineno">12576</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a>:</div>
+<div class="line"><span class="lineno">12577</span>    {</div>
+<div class="line"><span class="lineno">12578</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a> &amp;&amp; <a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a>.data()-&gt;orientation() == Qt::Horizontal)</div>
+<div class="line"><span class="lineno">12579</span>        result.rx() = <a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a>.data()-&gt;coordToPixel(<a class="code hl_variable" href="#a4ff3931ad115603dfb4c7000b24bb415">mKey</a>);</div>
+<div class="line"><span class="lineno">12580</span>      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a> &amp;&amp; <a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a>.data()-&gt;orientation() == Qt::Horizontal)</div>
+<div class="line"><span class="lineno">12581</span>        result.rx() = <a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a>.data()-&gt;coordToPixel(<a class="code hl_variable" href="#a67bf5df69f587d53731724a7d61c6c3f">mValue</a>);</div>
+<div class="line"><span class="lineno">12582</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12583</span>        qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;Item position type x is ptPlotCoords, but no axes were defined&quot;</span>;</div>
+<div class="line"><span class="lineno">12584</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12585</span>    }</div>
+<div class="line"><span class="lineno">12586</span>  }</div>
+<div class="line"><span class="lineno">12587</span>  </div>
+<div class="line"><span class="lineno">12588</span>  <span class="comment">// determine Y:</span></div>
+<div class="line"><span class="lineno">12589</span>  <span class="keywordflow">switch</span> (<a class="code hl_variable" href="#a47c96c0ef4380e1af4aaa7c2265c260b">mPositionTypeY</a>)</div>
+<div class="line"><span class="lineno">12590</span>  {</div>
+<div class="line"><span class="lineno">12591</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">ptAbsolute</a>:</div>
+<div class="line"><span class="lineno">12592</span>    {</div>
+<div class="line"><span class="lineno">12593</span>      result.ry() = <a class="code hl_variable" href="#a67bf5df69f587d53731724a7d61c6c3f">mValue</a>;</div>
+<div class="line"><span class="lineno">12594</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>)</div>
+<div class="line"><span class="lineno">12595</span>        result.ry() += <a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb">pixelPosition</a>().y();</div>
+<div class="line"><span class="lineno">12596</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12597</span>    }</div>
+<div class="line"><span class="lineno">12598</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ac7d6aa89ceacb39658b0d6da061c789a">ptViewportRatio</a>:</div>
+<div class="line"><span class="lineno">12599</span>    {</div>
+<div class="line"><span class="lineno">12600</span>      result.ry() = <a class="code hl_variable" href="#a67bf5df69f587d53731724a7d61c6c3f">mValue</a>*<a class="code hl_variable" href="class_q_c_p_item_anchor.html#a59b968410831ba91a25cc75a77dde6f5">mParentPlot</a>-&gt;<a class="code hl_function" href="class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670">viewport</a>().height();</div>
+<div class="line"><span class="lineno">12601</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>)</div>
+<div class="line"><span class="lineno">12602</span>        result.ry() += <a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb">pixelPosition</a>().y();</div>
+<div class="line"><span class="lineno">12603</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12604</span>        result.ry() += <a class="code hl_variable" href="class_q_c_p_item_anchor.html#a59b968410831ba91a25cc75a77dde6f5">mParentPlot</a>-&gt;<a class="code hl_function" href="class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670">viewport</a>().top();</div>
+<div class="line"><span class="lineno">12605</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12606</span>    }</div>
+<div class="line"><span class="lineno">12607</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75">ptAxisRectRatio</a>:</div>
+<div class="line"><span class="lineno">12608</span>    {</div>
+<div class="line"><span class="lineno">12609</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a>)</div>
+<div class="line"><span class="lineno">12610</span>      {</div>
+<div class="line"><span class="lineno">12611</span>        result.ry() = <a class="code hl_variable" href="#a67bf5df69f587d53731724a7d61c6c3f">mValue</a>*<a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a>.data()-&gt;height();</div>
+<div class="line"><span class="lineno">12612</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>)</div>
+<div class="line"><span class="lineno">12613</span>          result.ry() += <a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb">pixelPosition</a>().y();</div>
+<div class="line"><span class="lineno">12614</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12615</span>          result.ry() += <a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a>.data()-&gt;top();</div>
+<div class="line"><span class="lineno">12616</span>      } <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12617</span>        qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;Item position type y is ptAxisRectRatio, but no axis rect was defined&quot;</span>;</div>
+<div class="line"><span class="lineno">12618</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12619</span>    }</div>
+<div class="line"><span class="lineno">12620</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a>:</div>
+<div class="line"><span class="lineno">12621</span>    {</div>
+<div class="line"><span class="lineno">12622</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a> &amp;&amp; <a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a>.data()-&gt;orientation() == Qt::Vertical)</div>
+<div class="line"><span class="lineno">12623</span>        result.ry() = <a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a>.data()-&gt;coordToPixel(<a class="code hl_variable" href="#a4ff3931ad115603dfb4c7000b24bb415">mKey</a>);</div>
+<div class="line"><span class="lineno">12624</span>      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a> &amp;&amp; <a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a>.data()-&gt;orientation() == Qt::Vertical)</div>
+<div class="line"><span class="lineno">12625</span>        result.ry() = <a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a>.data()-&gt;coordToPixel(<a class="code hl_variable" href="#a67bf5df69f587d53731724a7d61c6c3f">mValue</a>);</div>
+<div class="line"><span class="lineno">12626</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12627</span>        qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;Item position type y is ptPlotCoords, but no axes were defined&quot;</span>;</div>
+<div class="line"><span class="lineno">12628</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12629</span>    }</div>
+<div class="line"><span class="lineno">12630</span>  }</div>
+<div class="line"><span class="lineno">12631</span>  </div>
+<div class="line"><span class="lineno">12632</span>  <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">12633</span>}</div>
+<div class="ttc" id="aclass_q_c_p_item_anchor_html_a06dcfb7220d26eee93eef56ae66582cb"><div class="ttname"><a href="class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb">QCPItemAnchor::pixelPosition</a></div><div class="ttdeci">virtual QPointF pixelPosition() const</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:12071</div></div>
+<div class="ttc" id="aclass_q_c_p_item_anchor_html_a59b968410831ba91a25cc75a77dde6f5"><div class="ttname"><a href="class_q_c_p_item_anchor.html#a59b968410831ba91a25cc75a77dde6f5">QCPItemAnchor::mParentPlot</a></div><div class="ttdeci">QCustomPlot * mParentPlot</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3621</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_a505dc2da24ba274452c1c817fcaba011"><div class="ttname"><a href="#a505dc2da24ba274452c1c817fcaba011">QCPItemPosition::mValueAxis</a></div><div class="ttdeci">QPointer&lt; QCPAxis &gt; mValueAxis</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3698</div></div>
+<div class="ttc" id="aclass_q_custom_plot_html_a19842409b18f556b256d05e97fffc670"><div class="ttname"><a href="class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670">QCustomPlot::viewport</a></div><div class="ttdeci">QRect viewport() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3832</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2185f45c75ac8cb9be89daeaaad50e37" name="a2185f45c75ac8cb9be89daeaaad50e37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2185f45c75ac8cb9be89daeaaad50e37">&#9670;&#160;</a></span>setAxes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPItemPosition::setAxes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_axis.html">QCPAxis</a> *</td>          <td class="paramname"><span class="paramname"><em>keyAxis</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_axis.html">QCPAxis</a> *</td>          <td class="paramname"><span class="paramname"><em>valueAxis</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>When <a class="el" href="#aa476abf71ed8fa4c537457ebb1a754ad">setType</a> is <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a>, this function may be used to specify the axes the coordinates set with <a class="el" href="#aa988ba4e87ab684c9021017dcaba945f">setCoords</a> relate to. By default they are set to the initial xAxis and yAxis of the <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a>. </p>
+<div class="fragment"><div class="line"><span class="lineno">12641</span>{</div>
+<div class="line"><span class="lineno">12642</span>  <a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a> = <a class="code hl_function" href="#ab6c3afb95511842eee29745480cc8a53">keyAxis</a>;</div>
+<div class="line"><span class="lineno">12643</span>  <a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a> = <a class="code hl_function" href="#aaa4dc49c9f142ff00b491272febc1de6">valueAxis</a>;</div>
+<div class="line"><span class="lineno">12644</span>}</div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_aaa4dc49c9f142ff00b491272febc1de6"><div class="ttname"><a href="#aaa4dc49c9f142ff00b491272febc1de6">QCPItemPosition::valueAxis</a></div><div class="ttdeci">QCPAxis * valueAxis() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3678</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_ab6c3afb95511842eee29745480cc8a53"><div class="ttname"><a href="#ab6c3afb95511842eee29745480cc8a53">QCPItemPosition::keyAxis</a></div><div class="ttdeci">QCPAxis * keyAxis() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3677</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0cd9b326fb324710169e92e8ca0041c2" name="a0cd9b326fb324710169e92e8ca0041c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cd9b326fb324710169e92e8ca0041c2">&#9670;&#160;</a></span>setAxisRect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPItemPosition::setAxisRect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_axis_rect.html">QCPAxisRect</a> *</td>          <td class="paramname"><span class="paramname"><em>axisRect</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>When <a class="el" href="#aa476abf71ed8fa4c537457ebb1a754ad">setType</a> is <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75">ptAxisRectRatio</a>, this function may be used to specify the axis rect the coordinates set with <a class="el" href="#aa988ba4e87ab684c9021017dcaba945f">setCoords</a> relate to. By default this is set to the main axis rect of the <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a>. </p>
+<div class="fragment"><div class="line"><span class="lineno">12652</span>{</div>
+<div class="line"><span class="lineno">12653</span>  <a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a> = <a class="code hl_function" href="#ae4081cfe7575f922f403c6e3a2ce7891">axisRect</a>;</div>
+<div class="line"><span class="lineno">12654</span>}</div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_ae4081cfe7575f922f403c6e3a2ce7891"><div class="ttname"><a href="#ae4081cfe7575f922f403c6e3a2ce7891">QCPItemPosition::axisRect</a></div><div class="ttdeci">QCPAxisRect * axisRect() const</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:12250</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae2756567f063cd4be41697e105babc49" name="ae2756567f063cd4be41697e105babc49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2756567f063cd4be41697e105babc49">&#9670;&#160;</a></span>setCoords() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPItemPosition::setCoords </td>
+          <td>(</td>
+          <td class="paramtype">const QPointF &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</p>
+<p>Sets the coordinates as a QPointF <em>pos</em> where pos.x has the meaning of <em>key</em> and pos.y the meaning of <em>value</em> of the <a class="el" href="#aa988ba4e87ab684c9021017dcaba945f">setCoords(double key, double value)</a> method. </p>
+<div class="fragment"><div class="line"><span class="lineno">12530</span>{</div>
+<div class="line"><span class="lineno">12531</span>  <a class="code hl_function" href="#aa988ba4e87ab684c9021017dcaba945f">setCoords</a>(pos.x(), pos.y());</div>
+<div class="line"><span class="lineno">12532</span>}</div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_aa988ba4e87ab684c9021017dcaba945f"><div class="ttname"><a href="#aa988ba4e87ab684c9021017dcaba945f">QCPItemPosition::setCoords</a></div><div class="ttdeci">void setCoords(double key, double value)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:12518</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa988ba4e87ab684c9021017dcaba945f" name="aa988ba4e87ab684c9021017dcaba945f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa988ba4e87ab684c9021017dcaba945f">&#9670;&#160;</a></span>setCoords() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPItemPosition::setCoords </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the coordinates of this <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a>. What the coordinates mean, is defined by the type (<a class="el" href="#aa476abf71ed8fa4c537457ebb1a754ad">setType</a>, <a class="el" href="#a2113b2351d6d00457fb3559a4e20c3ea">setTypeX</a>, <a class="el" href="#ac2a454aa5a54c1615c50686601ec4510">setTypeY</a>).</p>
+<p>For example, if the type is <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">ptAbsolute</a>, <em>key</em> and <em>value</em> mean the x and y pixel position on the <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a> surface. In that case the origin (0, 0) is in the top left corner of the <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a> viewport. If the type is <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a>, <em>key</em> and <em>value</em> mean a point in the plot coordinate system defined by the axes set by <a class="el" href="#a2185f45c75ac8cb9be89daeaaad50e37">setAxes</a>. By default those are the <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a>'s xAxis and yAxis. See the documentation of <a class="el" href="#aa476abf71ed8fa4c537457ebb1a754ad">setType</a> for other available coordinate types and their meaning.</p>
+<p>If different types were configured for X and Y (<a class="el" href="#a2113b2351d6d00457fb3559a4e20c3ea">setTypeX</a>, <a class="el" href="#ac2a454aa5a54c1615c50686601ec4510">setTypeY</a>), <em>key</em> and <em>value</em> must also be provided in the different coordinate systems. Here, the X type refers to <em>key</em>, and the Y type refers to <em>value</em>.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#a8d4f858f2089973967cf9cb81970ef0a">setPixelPosition</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">12519</span>{</div>
+<div class="line"><span class="lineno">12520</span>  <a class="code hl_variable" href="#a4ff3931ad115603dfb4c7000b24bb415">mKey</a> = <a class="code hl_function" href="#a6fc519f1b73722a8d0cff7d4d647407e">key</a>;</div>
+<div class="line"><span class="lineno">12521</span>  <a class="code hl_variable" href="#a67bf5df69f587d53731724a7d61c6c3f">mValue</a> = <a class="code hl_function" href="#acfcf86f840a7366a4299bff593d5d636">value</a>;</div>
+<div class="line"><span class="lineno">12522</span>}</div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_a6fc519f1b73722a8d0cff7d4d647407e"><div class="ttname"><a href="#a6fc519f1b73722a8d0cff7d4d647407e">QCPItemPosition::key</a></div><div class="ttdeci">double key() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3674</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_acfcf86f840a7366a4299bff593d5d636"><div class="ttname"><a href="#acfcf86f840a7366a4299bff593d5d636">QCPItemPosition::value</a></div><div class="ttdeci">double value() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3675</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac094d67a95d2dceafa0d50b9db3a7e51" name="ac094d67a95d2dceafa0d50b9db3a7e51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac094d67a95d2dceafa0d50b9db3a7e51">&#9670;&#160;</a></span>setParentAnchor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool QCPItemPosition::setParentAnchor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> *</td>          <td class="paramname"><span class="paramname"><em>parentAnchor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>keepPixelPosition</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the parent of this <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a> to <em>parentAnchor</em>. This means the position will now follow any position changes of the anchor. The local coordinate system of positions with a parent anchor always is absolute pixels, with (0, 0) being exactly on top of the parent anchor. (Hence the type shouldn't be set to <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a> for positions with parent anchors.)</p>
+<p>if <em>keepPixelPosition</em> is true, the current pixel position of the <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a> is preserved during reparenting. If it's set to false, the coordinates are set to (0, 0), i.e. the position will be exactly on top of the parent anchor.</p>
+<p>To remove this <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a> from any parent anchor, set <em>parentAnchor</em> to <code>nullptr</code>.</p>
+<p>If the <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a> previously had no parent and the type is <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a>, the type is set to <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">ptAbsolute</a>, to keep the position in a valid state.</p>
+<p>This method sets the parent anchor for both X and Y directions. It is also possible to set different parents for X and Y, see <a class="el" href="#add71461a973927c74e42179480916d9c">setParentAnchorX</a>, <a class="el" href="#add5ec1db9d19cec58a3b5c9e0a0c3f9d">setParentAnchorY</a>. </p>
+<div class="fragment"><div class="line"><span class="lineno">12365</span>{</div>
+<div class="line"><span class="lineno">12366</span>  <span class="keywordtype">bool</span> successX = <a class="code hl_function" href="#add71461a973927c74e42179480916d9c">setParentAnchorX</a>(<a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>, keepPixelPosition);</div>
+<div class="line"><span class="lineno">12367</span>  <span class="keywordtype">bool</span> successY = <a class="code hl_function" href="#add5ec1db9d19cec58a3b5c9e0a0c3f9d">setParentAnchorY</a>(<a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>, keepPixelPosition);</div>
+<div class="line"><span class="lineno">12368</span>  <span class="keywordflow">return</span> successX &amp;&amp; successY;</div>
+<div class="line"><span class="lineno">12369</span>}</div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_a0a87f9dce1af6cc9b510785991bcf1c6"><div class="ttname"><a href="#a0a87f9dce1af6cc9b510785991bcf1c6">QCPItemPosition::parentAnchor</a></div><div class="ttdeci">QCPItemAnchor * parentAnchor() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3671</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="add71461a973927c74e42179480916d9c" name="add71461a973927c74e42179480916d9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add71461a973927c74e42179480916d9c">&#9670;&#160;</a></span>setParentAnchorX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool QCPItemPosition::setParentAnchorX </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> *</td>          <td class="paramname"><span class="paramname"><em>parentAnchor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>keepPixelPosition</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method sets the parent anchor of the X coordinate to <em>parentAnchor</em>.</p>
+<p>For a detailed description of what a parent anchor is, see the documentation of <a class="el" href="#ac094d67a95d2dceafa0d50b9db3a7e51">setParentAnchor</a>.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#ac094d67a95d2dceafa0d50b9db3a7e51">setParentAnchor</a>, <a class="el" href="#add5ec1db9d19cec58a3b5c9e0a0c3f9d">setParentAnchorY</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">12379</span>{</div>
+<div class="line"><span class="lineno">12380</span>  <span class="comment">// make sure self is not assigned as parent:</span></div>
+<div class="line"><span class="lineno">12381</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a> == <span class="keyword">this</span>)</div>
+<div class="line"><span class="lineno">12382</span>  {</div>
+<div class="line"><span class="lineno">12383</span>    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;can&#39;t set self as parent anchor&quot;</span> &lt;&lt; <span class="keyword">reinterpret_cast&lt;</span>quintptr<span class="keyword">&gt;</span>(<a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>);</div>
+<div class="line"><span class="lineno">12384</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">12385</span>  }</div>
+<div class="line"><span class="lineno">12386</span>  <span class="comment">// make sure no recursive parent-child-relationships are created:</span></div>
+<div class="line"><span class="lineno">12387</span>  <a class="code hl_class" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> *currentParent = <a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>;</div>
+<div class="line"><span class="lineno">12388</span>  <span class="keywordflow">while</span> (currentParent)</div>
+<div class="line"><span class="lineno">12389</span>  {</div>
+<div class="line"><span class="lineno">12390</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="class_q_c_p_item_position.html">QCPItemPosition</a> *currentParentPos = currentParent-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#ab04819cd5bc6dc607a68413828313675">toQCPItemPosition</a>())</div>
+<div class="line"><span class="lineno">12391</span>    {</div>
+<div class="line"><span class="lineno">12392</span>      <span class="comment">// is a QCPItemPosition, might have further parent, so keep iterating</span></div>
+<div class="line"><span class="lineno">12393</span>      <span class="keywordflow">if</span> (currentParentPos == <span class="keyword">this</span>)</div>
+<div class="line"><span class="lineno">12394</span>      {</div>
+<div class="line"><span class="lineno">12395</span>        qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;can&#39;t create recursive parent-child-relationship&quot;</span> &lt;&lt; <span class="keyword">reinterpret_cast&lt;</span>quintptr<span class="keyword">&gt;</span>(<a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>);</div>
+<div class="line"><span class="lineno">12396</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">12397</span>      }</div>
+<div class="line"><span class="lineno">12398</span>      currentParent = currentParentPos-&gt;parentAnchorX();</div>
+<div class="line"><span class="lineno">12399</span>    } <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12400</span>    {</div>
+<div class="line"><span class="lineno">12401</span>      <span class="comment">// is a QCPItemAnchor, can&#39;t have further parent. Now make sure the parent items aren&#39;t the</span></div>
+<div class="line"><span class="lineno">12402</span>      <span class="comment">// same, to prevent a position being child of an anchor which itself depends on the position,</span></div>
+<div class="line"><span class="lineno">12403</span>      <span class="comment">// because they&#39;re both on the same item:</span></div>
+<div class="line"><span class="lineno">12404</span>      <span class="keywordflow">if</span> (currentParent-&gt;<a class="code hl_variable" href="class_q_c_p_item_anchor.html#a80fad480ad3bb980446ed6ebc00818ae">mParentItem</a> == <a class="code hl_variable" href="class_q_c_p_item_anchor.html#a80fad480ad3bb980446ed6ebc00818ae">mParentItem</a>)</div>
+<div class="line"><span class="lineno">12405</span>      {</div>
+<div class="line"><span class="lineno">12406</span>        qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;can&#39;t set parent to be an anchor which itself depends on this position&quot;</span> &lt;&lt; <span class="keyword">reinterpret_cast&lt;</span>quintptr<span class="keyword">&gt;</span>(<a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>);</div>
+<div class="line"><span class="lineno">12407</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">12408</span>      }</div>
+<div class="line"><span class="lineno">12409</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12410</span>    }</div>
+<div class="line"><span class="lineno">12411</span>  }</div>
+<div class="line"><span class="lineno">12412</span>  </div>
+<div class="line"><span class="lineno">12413</span>  <span class="comment">// if previously no parent set and PosType is still ptPlotCoords, set to ptAbsolute:</span></div>
+<div class="line"><span class="lineno">12414</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a> &amp;&amp; <a class="code hl_variable" href="#ae2a617dce057c5f3ec6878c1823aa291">mPositionTypeX</a> == <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a>)</div>
+<div class="line"><span class="lineno">12415</span>    <a class="code hl_function" href="#a2113b2351d6d00457fb3559a4e20c3ea">setTypeX</a>(<a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">ptAbsolute</a>);</div>
+<div class="line"><span class="lineno">12416</span>  </div>
+<div class="line"><span class="lineno">12417</span>  <span class="comment">// save pixel position:</span></div>
+<div class="line"><span class="lineno">12418</span>  QPointF pixelP;</div>
+<div class="line"><span class="lineno">12419</span>  <span class="keywordflow">if</span> (keepPixelPosition)</div>
+<div class="line"><span class="lineno">12420</span>    pixelP = <a class="code hl_function" href="#a8be9a4787635433edecc75164beb748d">pixelPosition</a>();</div>
+<div class="line"><span class="lineno">12421</span>  <span class="comment">// unregister at current parent anchor:</span></div>
+<div class="line"><span class="lineno">12422</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>)</div>
+<div class="line"><span class="lineno">12423</span>    <a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#a230b1d494cda63458e289bbe1b642599">removeChildX</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">12424</span>  <span class="comment">// register at new parent anchor:</span></div>
+<div class="line"><span class="lineno">12425</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>)</div>
+<div class="line"><span class="lineno">12426</span>    <a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#aef15daa640debfb11b0aeaa2116c6fbc">addChildX</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">12427</span>  <a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a> = <a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>;</div>
+<div class="line"><span class="lineno">12428</span>  <span class="comment">// restore pixel position under new parent:</span></div>
+<div class="line"><span class="lineno">12429</span>  <span class="keywordflow">if</span> (keepPixelPosition)</div>
+<div class="line"><span class="lineno">12430</span>    <a class="code hl_function" href="#a8d4f858f2089973967cf9cb81970ef0a">setPixelPosition</a>(pixelP);</div>
+<div class="line"><span class="lineno">12431</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12432</span>    <a class="code hl_function" href="#aa988ba4e87ab684c9021017dcaba945f">setCoords</a>(0, <a class="code hl_function" href="#aa4ecf5b04c67049c05d37619e090820b">coords</a>().y());</div>
+<div class="line"><span class="lineno">12433</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">12434</span>}</div>
+<div class="ttc" id="aclass_q_c_p_item_anchor_html"><div class="ttname"><a href="class_q_c_p_item_anchor.html">QCPItemAnchor</a></div><div class="ttdoc">An anchor of an item to which positions can be attached to.</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3606</div></div>
+<div class="ttc" id="aclass_q_c_p_item_anchor_html_a80fad480ad3bb980446ed6ebc00818ae"><div class="ttname"><a href="class_q_c_p_item_anchor.html#a80fad480ad3bb980446ed6ebc00818ae">QCPItemAnchor::mParentItem</a></div><div class="ttdeci">QCPAbstractItem * mParentItem</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3622</div></div>
+<div class="ttc" id="aclass_q_c_p_item_anchor_html_ab04819cd5bc6dc607a68413828313675"><div class="ttname"><a href="class_q_c_p_item_anchor.html#ab04819cd5bc6dc607a68413828313675">QCPItemAnchor::toQCPItemPosition</a></div><div class="ttdeci">virtual QCPItemPosition * toQCPItemPosition()</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3627</div></div>
+<div class="ttc" id="aclass_q_c_p_item_anchor_html_aef15daa640debfb11b0aeaa2116c6fbc"><div class="ttname"><a href="class_q_c_p_item_anchor.html#aef15daa640debfb11b0aeaa2116c6fbc">QCPItemAnchor::addChildX</a></div><div class="ttdeci">void addChildX(QCPItemPosition *pos)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:12098</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_a2113b2351d6d00457fb3559a4e20c3ea"><div class="ttname"><a href="#a2113b2351d6d00457fb3559a4e20c3ea">QCPItemPosition::setTypeX</a></div><div class="ttdeci">void setTypeX(PositionType type)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:12293</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_a8be9a4787635433edecc75164beb748d"><div class="ttname"><a href="#a8be9a4787635433edecc75164beb748d">QCPItemPosition::pixelPosition</a></div><div class="ttdeci">virtual QPointF pixelPosition() const Q_DECL_OVERRIDE</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:12540</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_a8d4f858f2089973967cf9cb81970ef0a"><div class="ttname"><a href="#a8d4f858f2089973967cf9cb81970ef0a">QCPItemPosition::setPixelPosition</a></div><div class="ttdeci">void setPixelPosition(const QPointF &amp;pixelPosition)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:12666</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_aa4ecf5b04c67049c05d37619e090820b"><div class="ttname"><a href="#aa4ecf5b04c67049c05d37619e090820b">QCPItemPosition::coords</a></div><div class="ttdeci">QPointF coords() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3676</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="add5ec1db9d19cec58a3b5c9e0a0c3f9d" name="add5ec1db9d19cec58a3b5c9e0a0c3f9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add5ec1db9d19cec58a3b5c9e0a0c3f9d">&#9670;&#160;</a></span>setParentAnchorY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool QCPItemPosition::setParentAnchorY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> *</td>          <td class="paramname"><span class="paramname"><em>parentAnchor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>keepPixelPosition</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method sets the parent anchor of the Y coordinate to <em>parentAnchor</em>.</p>
+<p>For a detailed description of what a parent anchor is, see the documentation of <a class="el" href="#ac094d67a95d2dceafa0d50b9db3a7e51">setParentAnchor</a>.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#ac094d67a95d2dceafa0d50b9db3a7e51">setParentAnchor</a>, <a class="el" href="#add71461a973927c74e42179480916d9c">setParentAnchorX</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">12444</span>{</div>
+<div class="line"><span class="lineno">12445</span>  <span class="comment">// make sure self is not assigned as parent:</span></div>
+<div class="line"><span class="lineno">12446</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a> == <span class="keyword">this</span>)</div>
+<div class="line"><span class="lineno">12447</span>  {</div>
+<div class="line"><span class="lineno">12448</span>    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;can&#39;t set self as parent anchor&quot;</span> &lt;&lt; <span class="keyword">reinterpret_cast&lt;</span>quintptr<span class="keyword">&gt;</span>(<a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>);</div>
+<div class="line"><span class="lineno">12449</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">12450</span>  }</div>
+<div class="line"><span class="lineno">12451</span>  <span class="comment">// make sure no recursive parent-child-relationships are created:</span></div>
+<div class="line"><span class="lineno">12452</span>  <a class="code hl_class" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> *currentParent = <a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>;</div>
+<div class="line"><span class="lineno">12453</span>  <span class="keywordflow">while</span> (currentParent)</div>
+<div class="line"><span class="lineno">12454</span>  {</div>
+<div class="line"><span class="lineno">12455</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="class_q_c_p_item_position.html">QCPItemPosition</a> *currentParentPos = currentParent-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#ab04819cd5bc6dc607a68413828313675">toQCPItemPosition</a>())</div>
+<div class="line"><span class="lineno">12456</span>    {</div>
+<div class="line"><span class="lineno">12457</span>      <span class="comment">// is a QCPItemPosition, might have further parent, so keep iterating</span></div>
+<div class="line"><span class="lineno">12458</span>      <span class="keywordflow">if</span> (currentParentPos == <span class="keyword">this</span>)</div>
+<div class="line"><span class="lineno">12459</span>      {</div>
+<div class="line"><span class="lineno">12460</span>        qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;can&#39;t create recursive parent-child-relationship&quot;</span> &lt;&lt; <span class="keyword">reinterpret_cast&lt;</span>quintptr<span class="keyword">&gt;</span>(<a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>);</div>
+<div class="line"><span class="lineno">12461</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">12462</span>      }</div>
+<div class="line"><span class="lineno">12463</span>      currentParent = currentParentPos-&gt;parentAnchorY();</div>
+<div class="line"><span class="lineno">12464</span>    } <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12465</span>    {</div>
+<div class="line"><span class="lineno">12466</span>      <span class="comment">// is a QCPItemAnchor, can&#39;t have further parent. Now make sure the parent items aren&#39;t the</span></div>
+<div class="line"><span class="lineno">12467</span>      <span class="comment">// same, to prevent a position being child of an anchor which itself depends on the position,</span></div>
+<div class="line"><span class="lineno">12468</span>      <span class="comment">// because they&#39;re both on the same item:</span></div>
+<div class="line"><span class="lineno">12469</span>      <span class="keywordflow">if</span> (currentParent-&gt;<a class="code hl_variable" href="class_q_c_p_item_anchor.html#a80fad480ad3bb980446ed6ebc00818ae">mParentItem</a> == <a class="code hl_variable" href="class_q_c_p_item_anchor.html#a80fad480ad3bb980446ed6ebc00818ae">mParentItem</a>)</div>
+<div class="line"><span class="lineno">12470</span>      {</div>
+<div class="line"><span class="lineno">12471</span>        qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;can&#39;t set parent to be an anchor which itself depends on this position&quot;</span> &lt;&lt; <span class="keyword">reinterpret_cast&lt;</span>quintptr<span class="keyword">&gt;</span>(<a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>);</div>
+<div class="line"><span class="lineno">12472</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">12473</span>      }</div>
+<div class="line"><span class="lineno">12474</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12475</span>    }</div>
+<div class="line"><span class="lineno">12476</span>  }</div>
+<div class="line"><span class="lineno">12477</span>  </div>
+<div class="line"><span class="lineno">12478</span>  <span class="comment">// if previously no parent set and PosType is still ptPlotCoords, set to ptAbsolute:</span></div>
+<div class="line"><span class="lineno">12479</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a> &amp;&amp; <a class="code hl_variable" href="#a47c96c0ef4380e1af4aaa7c2265c260b">mPositionTypeY</a> == <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a>)</div>
+<div class="line"><span class="lineno">12480</span>    <a class="code hl_function" href="#ac2a454aa5a54c1615c50686601ec4510">setTypeY</a>(<a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">ptAbsolute</a>);</div>
+<div class="line"><span class="lineno">12481</span>  </div>
+<div class="line"><span class="lineno">12482</span>  <span class="comment">// save pixel position:</span></div>
+<div class="line"><span class="lineno">12483</span>  QPointF pixelP;</div>
+<div class="line"><span class="lineno">12484</span>  <span class="keywordflow">if</span> (keepPixelPosition)</div>
+<div class="line"><span class="lineno">12485</span>    pixelP = <a class="code hl_function" href="#a8be9a4787635433edecc75164beb748d">pixelPosition</a>();</div>
+<div class="line"><span class="lineno">12486</span>  <span class="comment">// unregister at current parent anchor:</span></div>
+<div class="line"><span class="lineno">12487</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>)</div>
+<div class="line"><span class="lineno">12488</span>    <a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#aa2394911d8fff3bd958b9f4f1994b64d">removeChildY</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">12489</span>  <span class="comment">// register at new parent anchor:</span></div>
+<div class="line"><span class="lineno">12490</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>)</div>
+<div class="line"><span class="lineno">12491</span>    <a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#af05dc56f24536f0c7a9a0f57b58cea67">addChildY</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">12492</span>  <a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a> = <a class="code hl_function" href="#a0a87f9dce1af6cc9b510785991bcf1c6">parentAnchor</a>;</div>
+<div class="line"><span class="lineno">12493</span>  <span class="comment">// restore pixel position under new parent:</span></div>
+<div class="line"><span class="lineno">12494</span>  <span class="keywordflow">if</span> (keepPixelPosition)</div>
+<div class="line"><span class="lineno">12495</span>    <a class="code hl_function" href="#a8d4f858f2089973967cf9cb81970ef0a">setPixelPosition</a>(pixelP);</div>
+<div class="line"><span class="lineno">12496</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12497</span>    <a class="code hl_function" href="#aa988ba4e87ab684c9021017dcaba945f">setCoords</a>(<a class="code hl_function" href="#aa4ecf5b04c67049c05d37619e090820b">coords</a>().x(), 0);</div>
+<div class="line"><span class="lineno">12498</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">12499</span>}</div>
+<div class="ttc" id="aclass_q_c_p_item_anchor_html_af05dc56f24536f0c7a9a0f57b58cea67"><div class="ttname"><a href="class_q_c_p_item_anchor.html#af05dc56f24536f0c7a9a0f57b58cea67">QCPItemAnchor::addChildY</a></div><div class="ttdeci">void addChildY(QCPItemPosition *pos)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:12126</div></div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_ac2a454aa5a54c1615c50686601ec4510"><div class="ttname"><a href="#ac2a454aa5a54c1615c50686601ec4510">QCPItemPosition::setTypeY</a></div><div class="ttdeci">void setTypeY(PositionType type)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:12323</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8d4f858f2089973967cf9cb81970ef0a" name="a8d4f858f2089973967cf9cb81970ef0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d4f858f2089973967cf9cb81970ef0a">&#9670;&#160;</a></span>setPixelPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPItemPosition::setPixelPosition </td>
+          <td>(</td>
+          <td class="paramtype">const QPointF &amp;</td>          <td class="paramname"><span class="paramname"><em>pixelPosition</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the apparent pixel position. This works no matter what type (<a class="el" href="#aa476abf71ed8fa4c537457ebb1a754ad">setType</a>) this <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a> is or what parent-child situation it is in, as coordinates are transformed appropriately, to make the position finally appear at the specified pixel values.</p>
+<p>Only if the type is <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">ptAbsolute</a> and no parent anchor is set, this function's effect is identical to that of <a class="el" href="#aa988ba4e87ab684c9021017dcaba945f">setCoords</a>.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#a8be9a4787635433edecc75164beb748d">pixelPosition</a>, <a class="el" href="#aa988ba4e87ab684c9021017dcaba945f">setCoords</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">12667</span>{</div>
+<div class="line"><span class="lineno">12668</span>  <span class="keywordtype">double</span> x = <a class="code hl_function" href="#a8be9a4787635433edecc75164beb748d">pixelPosition</a>.x();</div>
+<div class="line"><span class="lineno">12669</span>  <span class="keywordtype">double</span> y = <a class="code hl_function" href="#a8be9a4787635433edecc75164beb748d">pixelPosition</a>.y();</div>
+<div class="line"><span class="lineno">12670</span>  </div>
+<div class="line"><span class="lineno">12671</span>  <span class="keywordflow">switch</span> (<a class="code hl_variable" href="#ae2a617dce057c5f3ec6878c1823aa291">mPositionTypeX</a>)</div>
+<div class="line"><span class="lineno">12672</span>  {</div>
+<div class="line"><span class="lineno">12673</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">ptAbsolute</a>:</div>
+<div class="line"><span class="lineno">12674</span>    {</div>
+<div class="line"><span class="lineno">12675</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>)</div>
+<div class="line"><span class="lineno">12676</span>        x -= <a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb">pixelPosition</a>().x();</div>
+<div class="line"><span class="lineno">12677</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12678</span>    }</div>
+<div class="line"><span class="lineno">12679</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ac7d6aa89ceacb39658b0d6da061c789a">ptViewportRatio</a>:</div>
+<div class="line"><span class="lineno">12680</span>    {</div>
+<div class="line"><span class="lineno">12681</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>)</div>
+<div class="line"><span class="lineno">12682</span>        x -= <a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb">pixelPosition</a>().x();</div>
+<div class="line"><span class="lineno">12683</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12684</span>        x -= <a class="code hl_variable" href="class_q_c_p_item_anchor.html#a59b968410831ba91a25cc75a77dde6f5">mParentPlot</a>-&gt;<a class="code hl_function" href="class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670">viewport</a>().left();</div>
+<div class="line"><span class="lineno">12685</span>      x /= double(<a class="code hl_variable" href="class_q_c_p_item_anchor.html#a59b968410831ba91a25cc75a77dde6f5">mParentPlot</a>-&gt;<a class="code hl_function" href="class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670">viewport</a>().width());</div>
+<div class="line"><span class="lineno">12686</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12687</span>    }</div>
+<div class="line"><span class="lineno">12688</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75">ptAxisRectRatio</a>:</div>
+<div class="line"><span class="lineno">12689</span>    {</div>
+<div class="line"><span class="lineno">12690</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a>)</div>
+<div class="line"><span class="lineno">12691</span>      {</div>
+<div class="line"><span class="lineno">12692</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>)</div>
+<div class="line"><span class="lineno">12693</span>          x -= <a class="code hl_variable" href="#a41b4641d18c90997b9c01bf304181bf0">mParentAnchorX</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb">pixelPosition</a>().x();</div>
+<div class="line"><span class="lineno">12694</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12695</span>          x -= <a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a>.data()-&gt;left();</div>
+<div class="line"><span class="lineno">12696</span>        x /= double(<a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a>.data()-&gt;width());</div>
+<div class="line"><span class="lineno">12697</span>      } <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12698</span>        qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;Item position type x is ptAxisRectRatio, but no axis rect was defined&quot;</span>;</div>
+<div class="line"><span class="lineno">12699</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12700</span>    }</div>
+<div class="line"><span class="lineno">12701</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a>:</div>
+<div class="line"><span class="lineno">12702</span>    {</div>
+<div class="line"><span class="lineno">12703</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a> &amp;&amp; <a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a>.data()-&gt;orientation() == Qt::Horizontal)</div>
+<div class="line"><span class="lineno">12704</span>        x = <a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a>.data()-&gt;pixelToCoord(x);</div>
+<div class="line"><span class="lineno">12705</span>      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a> &amp;&amp; <a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a>.data()-&gt;orientation() == Qt::Horizontal)</div>
+<div class="line"><span class="lineno">12706</span>        y = <a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a>.data()-&gt;pixelToCoord(x);</div>
+<div class="line"><span class="lineno">12707</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12708</span>        qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;Item position type x is ptPlotCoords, but no axes were defined&quot;</span>;</div>
+<div class="line"><span class="lineno">12709</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12710</span>    }</div>
+<div class="line"><span class="lineno">12711</span>  }</div>
+<div class="line"><span class="lineno">12712</span>  </div>
+<div class="line"><span class="lineno">12713</span>  <span class="keywordflow">switch</span> (<a class="code hl_variable" href="#a47c96c0ef4380e1af4aaa7c2265c260b">mPositionTypeY</a>)</div>
+<div class="line"><span class="lineno">12714</span>  {</div>
+<div class="line"><span class="lineno">12715</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">ptAbsolute</a>:</div>
+<div class="line"><span class="lineno">12716</span>    {</div>
+<div class="line"><span class="lineno">12717</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>)</div>
+<div class="line"><span class="lineno">12718</span>        y -= <a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb">pixelPosition</a>().y();</div>
+<div class="line"><span class="lineno">12719</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12720</span>    }</div>
+<div class="line"><span class="lineno">12721</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ac7d6aa89ceacb39658b0d6da061c789a">ptViewportRatio</a>:</div>
+<div class="line"><span class="lineno">12722</span>    {</div>
+<div class="line"><span class="lineno">12723</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>)</div>
+<div class="line"><span class="lineno">12724</span>        y -= <a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb">pixelPosition</a>().y();</div>
+<div class="line"><span class="lineno">12725</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12726</span>        y -= <a class="code hl_variable" href="class_q_c_p_item_anchor.html#a59b968410831ba91a25cc75a77dde6f5">mParentPlot</a>-&gt;<a class="code hl_function" href="class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670">viewport</a>().top();</div>
+<div class="line"><span class="lineno">12727</span>      y /= double(<a class="code hl_variable" href="class_q_c_p_item_anchor.html#a59b968410831ba91a25cc75a77dde6f5">mParentPlot</a>-&gt;<a class="code hl_function" href="class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670">viewport</a>().height());</div>
+<div class="line"><span class="lineno">12728</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12729</span>    }</div>
+<div class="line"><span class="lineno">12730</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75">ptAxisRectRatio</a>:</div>
+<div class="line"><span class="lineno">12731</span>    {</div>
+<div class="line"><span class="lineno">12732</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a>)</div>
+<div class="line"><span class="lineno">12733</span>      {</div>
+<div class="line"><span class="lineno">12734</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>)</div>
+<div class="line"><span class="lineno">12735</span>          y -= <a class="code hl_variable" href="#afc6142a6a09c8fa41c44d3d54fadd737">mParentAnchorY</a>-&gt;<a class="code hl_function" href="class_q_c_p_item_anchor.html#a06dcfb7220d26eee93eef56ae66582cb">pixelPosition</a>().y();</div>
+<div class="line"><span class="lineno">12736</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12737</span>          y -= <a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a>.data()-&gt;top();</div>
+<div class="line"><span class="lineno">12738</span>        y /= double(<a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a>.data()-&gt;height());</div>
+<div class="line"><span class="lineno">12739</span>      } <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12740</span>        qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;Item position type y is ptAxisRectRatio, but no axis rect was defined&quot;</span>;</div>
+<div class="line"><span class="lineno">12741</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12742</span>    }</div>
+<div class="line"><span class="lineno">12743</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a>:</div>
+<div class="line"><span class="lineno">12744</span>    {</div>
+<div class="line"><span class="lineno">12745</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a> &amp;&amp; <a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a>.data()-&gt;orientation() == Qt::Vertical)</div>
+<div class="line"><span class="lineno">12746</span>        x = <a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a>.data()-&gt;pixelToCoord(y);</div>
+<div class="line"><span class="lineno">12747</span>      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a> &amp;&amp; <a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a>.data()-&gt;orientation() == Qt::Vertical)</div>
+<div class="line"><span class="lineno">12748</span>        y = <a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a>.data()-&gt;pixelToCoord(y);</div>
+<div class="line"><span class="lineno">12749</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12750</span>        qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;Item position type y is ptPlotCoords, but no axes were defined&quot;</span>;</div>
+<div class="line"><span class="lineno">12751</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">12752</span>    }</div>
+<div class="line"><span class="lineno">12753</span>  }</div>
+<div class="line"><span class="lineno">12754</span>  </div>
+<div class="line"><span class="lineno">12755</span>  <a class="code hl_function" href="#aa988ba4e87ab684c9021017dcaba945f">setCoords</a>(x, y);</div>
+<div class="line"><span class="lineno">12756</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa476abf71ed8fa4c537457ebb1a754ad" name="aa476abf71ed8fa4c537457ebb1a754ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa476abf71ed8fa4c537457ebb1a754ad">&#9670;&#160;</a></span>setType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPItemPosition::setType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">QCPItemPosition::PositionType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the type of the position. The type defines how the coordinates passed to <a class="el" href="#aa988ba4e87ab684c9021017dcaba945f">setCoords</a> should be handled and how the <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a> should behave in the plot.</p>
+<p>The possible values for <em>type</em> can be separated in two main categories:</p>
+<ul>
+<li>The position is regarded as a point in plot coordinates. This corresponds to <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a> and requires two axes that define the plot coordinate system. They can be specified with <a class="el" href="#a2185f45c75ac8cb9be89daeaaad50e37">setAxes</a>. By default, the <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a>'s x- and yAxis are used.</li>
+</ul>
+<ul>
+<li>The position is fixed on the <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a> surface, i.e. independent of axis ranges. This corresponds to all other types, i.e. <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">ptAbsolute</a>, <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8ac7d6aa89ceacb39658b0d6da061c789a">ptViewportRatio</a> and <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75">ptAxisRectRatio</a>. They differ only in the way the absolute position is described, see the documentation of <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a> for details. For <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75">ptAxisRectRatio</a>, note that you can specify the axis rect with <a class="el" href="#a0cd9b326fb324710169e92e8ca0041c2">setAxisRect</a>. By default this is set to the main axis rect.</li>
+</ul>
+<p>Note that the position type <a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a> is only available (and sensible) when the position has no parent anchor (<a class="el" href="#ac094d67a95d2dceafa0d50b9db3a7e51">setParentAnchor</a>).</p>
+<p>If the type is changed, the apparent pixel position on the plot is preserved. This means the coordinates as retrieved with <a class="el" href="#aa4ecf5b04c67049c05d37619e090820b">coords()</a> and set with <a class="el" href="#aa988ba4e87ab684c9021017dcaba945f">setCoords</a> may change in the process.</p>
+<p>This method sets the type for both X and Y directions. It is also possible to set different types for X and Y, see <a class="el" href="#a2113b2351d6d00457fb3559a4e20c3ea">setTypeX</a>, <a class="el" href="#ac2a454aa5a54c1615c50686601ec4510">setTypeY</a>. </p>
+<div class="fragment"><div class="line"><span class="lineno">12281</span>{</div>
+<div class="line"><span class="lineno">12282</span>  <a class="code hl_function" href="#a2113b2351d6d00457fb3559a4e20c3ea">setTypeX</a>(<a class="code hl_function" href="#abc1276e2ef603e459a9e48e75966bf8f">type</a>);</div>
+<div class="line"><span class="lineno">12283</span>  <a class="code hl_function" href="#ac2a454aa5a54c1615c50686601ec4510">setTypeY</a>(<a class="code hl_function" href="#abc1276e2ef603e459a9e48e75966bf8f">type</a>);</div>
+<div class="line"><span class="lineno">12284</span>}</div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_abc1276e2ef603e459a9e48e75966bf8f"><div class="ttname"><a href="#abc1276e2ef603e459a9e48e75966bf8f">QCPItemPosition::type</a></div><div class="ttdeci">PositionType type() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3668</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2113b2351d6d00457fb3559a4e20c3ea" name="a2113b2351d6d00457fb3559a4e20c3ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2113b2351d6d00457fb3559a4e20c3ea">&#9670;&#160;</a></span>setTypeX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPItemPosition::setTypeX </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">QCPItemPosition::PositionType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method sets the position type of the X coordinate to <em>type</em>.</p>
+<p>For a detailed description of what a position type is, see the documentation of <a class="el" href="#aa476abf71ed8fa4c537457ebb1a754ad">setType</a>.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#aa476abf71ed8fa4c537457ebb1a754ad">setType</a>, <a class="el" href="#ac2a454aa5a54c1615c50686601ec4510">setTypeY</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">12294</span>{</div>
+<div class="line"><span class="lineno">12295</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#ae2a617dce057c5f3ec6878c1823aa291">mPositionTypeX</a> != <a class="code hl_function" href="#abc1276e2ef603e459a9e48e75966bf8f">type</a>)</div>
+<div class="line"><span class="lineno">12296</span>  {</div>
+<div class="line"><span class="lineno">12297</span>    <span class="comment">// if switching from or to coordinate type that isn&#39;t valid (e.g. because axes or axis rect</span></div>
+<div class="line"><span class="lineno">12298</span>    <span class="comment">// were deleted), don&#39;t try to recover the pixelPosition() because it would output a qDebug warning.</span></div>
+<div class="line"><span class="lineno">12299</span>    <span class="keywordtype">bool</span> retainPixelPosition = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">12300</span>    <span class="keywordflow">if</span> ((<a class="code hl_variable" href="#ae2a617dce057c5f3ec6878c1823aa291">mPositionTypeX</a> == <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a> || <a class="code hl_function" href="#abc1276e2ef603e459a9e48e75966bf8f">type</a> == <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a>) &amp;&amp; (!<a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a> || !<a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a>))</div>
+<div class="line"><span class="lineno">12301</span>      retainPixelPosition = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">12302</span>    <span class="keywordflow">if</span> ((<a class="code hl_variable" href="#ae2a617dce057c5f3ec6878c1823aa291">mPositionTypeX</a> == <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75">ptAxisRectRatio</a> || <a class="code hl_function" href="#abc1276e2ef603e459a9e48e75966bf8f">type</a> == <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75">ptAxisRectRatio</a>) &amp;&amp; (!<a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a>))</div>
+<div class="line"><span class="lineno">12303</span>      retainPixelPosition = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">12304</span>    </div>
+<div class="line"><span class="lineno">12305</span>    QPointF pixel;</div>
+<div class="line"><span class="lineno">12306</span>    <span class="keywordflow">if</span> (retainPixelPosition)</div>
+<div class="line"><span class="lineno">12307</span>      pixel = <a class="code hl_function" href="#a8be9a4787635433edecc75164beb748d">pixelPosition</a>();</div>
+<div class="line"><span class="lineno">12308</span>    </div>
+<div class="line"><span class="lineno">12309</span>    <a class="code hl_variable" href="#ae2a617dce057c5f3ec6878c1823aa291">mPositionTypeX</a> = <a class="code hl_function" href="#abc1276e2ef603e459a9e48e75966bf8f">type</a>;</div>
+<div class="line"><span class="lineno">12310</span>    </div>
+<div class="line"><span class="lineno">12311</span>    <span class="keywordflow">if</span> (retainPixelPosition)</div>
+<div class="line"><span class="lineno">12312</span>      <a class="code hl_function" href="#a8d4f858f2089973967cf9cb81970ef0a">setPixelPosition</a>(pixel);</div>
+<div class="line"><span class="lineno">12313</span>  }</div>
+<div class="line"><span class="lineno">12314</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac2a454aa5a54c1615c50686601ec4510" name="ac2a454aa5a54c1615c50686601ec4510"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2a454aa5a54c1615c50686601ec4510">&#9670;&#160;</a></span>setTypeY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPItemPosition::setTypeY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">QCPItemPosition::PositionType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method sets the position type of the Y coordinate to <em>type</em>.</p>
+<p>For a detailed description of what a position type is, see the documentation of <a class="el" href="#aa476abf71ed8fa4c537457ebb1a754ad">setType</a>.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#aa476abf71ed8fa4c537457ebb1a754ad">setType</a>, <a class="el" href="#a2113b2351d6d00457fb3559a4e20c3ea">setTypeX</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">12324</span>{</div>
+<div class="line"><span class="lineno">12325</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a47c96c0ef4380e1af4aaa7c2265c260b">mPositionTypeY</a> != <a class="code hl_function" href="#abc1276e2ef603e459a9e48e75966bf8f">type</a>)</div>
+<div class="line"><span class="lineno">12326</span>  {</div>
+<div class="line"><span class="lineno">12327</span>    <span class="comment">// if switching from or to coordinate type that isn&#39;t valid (e.g. because axes or axis rect</span></div>
+<div class="line"><span class="lineno">12328</span>    <span class="comment">// were deleted), don&#39;t try to recover the pixelPosition() because it would output a qDebug warning.</span></div>
+<div class="line"><span class="lineno">12329</span>    <span class="keywordtype">bool</span> retainPixelPosition = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">12330</span>    <span class="keywordflow">if</span> ((<a class="code hl_variable" href="#a47c96c0ef4380e1af4aaa7c2265c260b">mPositionTypeY</a> == <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a> || <a class="code hl_function" href="#abc1276e2ef603e459a9e48e75966bf8f">type</a> == <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">ptPlotCoords</a>) &amp;&amp; (!<a class="code hl_variable" href="#a63967a33933231e92f68c8ce06bfc37e">mKeyAxis</a> || !<a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a>))</div>
+<div class="line"><span class="lineno">12331</span>      retainPixelPosition = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">12332</span>    <span class="keywordflow">if</span> ((<a class="code hl_variable" href="#a47c96c0ef4380e1af4aaa7c2265c260b">mPositionTypeY</a> == <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75">ptAxisRectRatio</a> || <a class="code hl_function" href="#abc1276e2ef603e459a9e48e75966bf8f">type</a> == <a class="code hl_enumvalue" href="#aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75">ptAxisRectRatio</a>) &amp;&amp; (!<a class="code hl_variable" href="#add40fcb8994c247d85f42a126286b740">mAxisRect</a>))</div>
+<div class="line"><span class="lineno">12333</span>      retainPixelPosition = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">12334</span>    </div>
+<div class="line"><span class="lineno">12335</span>    QPointF pixel;</div>
+<div class="line"><span class="lineno">12336</span>    <span class="keywordflow">if</span> (retainPixelPosition)</div>
+<div class="line"><span class="lineno">12337</span>      pixel = <a class="code hl_function" href="#a8be9a4787635433edecc75164beb748d">pixelPosition</a>();</div>
+<div class="line"><span class="lineno">12338</span>    </div>
+<div class="line"><span class="lineno">12339</span>    <a class="code hl_variable" href="#a47c96c0ef4380e1af4aaa7c2265c260b">mPositionTypeY</a> = <a class="code hl_function" href="#abc1276e2ef603e459a9e48e75966bf8f">type</a>;</div>
+<div class="line"><span class="lineno">12340</span>    </div>
+<div class="line"><span class="lineno">12341</span>    <span class="keywordflow">if</span> (retainPixelPosition)</div>
+<div class="line"><span class="lineno">12342</span>      <a class="code hl_function" href="#a8d4f858f2089973967cf9cb81970ef0a">setPixelPosition</a>(pixel);</div>
+<div class="line"><span class="lineno">12343</span>  }</div>
+<div class="line"><span class="lineno">12344</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0d2c5b823c99207eda710a37a4bb1dbf" name="a0d2c5b823c99207eda710a37a4bb1dbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d2c5b823c99207eda710a37a4bb1dbf">&#9670;&#160;</a></span>toQCPItemPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_q_c_p_item_position.html">QCPItemPosition</a> * QCPItemPosition::toQCPItemPosition </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns <code>nullptr</code> if this instance is merely a <a class="el" href="class_q_c_p_item_anchor.html" title="An anchor of an item to which positions can be attached to.">QCPItemAnchor</a>, and a valid pointer of type QCPItemPosition* if it actually is a <a class="el" href="class_q_c_p_item_position.html" title="Manages the position of an item.">QCPItemPosition</a> (which is a subclass of <a class="el" href="class_q_c_p_item_anchor.html" title="An anchor of an item to which positions can be attached to.">QCPItemAnchor</a>).</p>
+<p>This safe downcast functionality could also be achieved with a dynamic_cast. However, <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a> avoids dynamic_cast to work with projects that don't have RTTI support enabled (e.g. -fno-rtti flag with gcc compiler). </p>
+
+<p>Reimplementa <a class="el" href="class_q_c_p_item_anchor.html#ab04819cd5bc6dc607a68413828313675">QCPItemAnchor</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3704</span>{ <span class="keywordflow">return</span> <span class="keyword">this</span>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="abc1276e2ef603e459a9e48e75966bf8f" name="abc1276e2ef603e459a9e48e75966bf8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc1276e2ef603e459a9e48e75966bf8f">&#9670;&#160;</a></span>type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a> QCPItemPosition::type </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the current position type.</p>
+<p>If different types were set for X and Y (<a class="el" href="#a2113b2351d6d00457fb3559a4e20c3ea">setTypeX</a>, <a class="el" href="#ac2a454aa5a54c1615c50686601ec4510">setTypeY</a>), this method returns the type of the X coordinate. In that case rather use <em><a class="el" href="#a1415911868835701c04250566bfc681d">typeX()</a></em> and <em><a class="el" href="#ae47bac6f679c58f9e1c78dc63d56f331">typeY()</a></em>.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#aa476abf71ed8fa4c537457ebb1a754ad">setType</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno"> 3668</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="#a1415911868835701c04250566bfc681d">typeX</a>(); }</div>
+<div class="ttc" id="aclass_q_c_p_item_position_html_a1415911868835701c04250566bfc681d"><div class="ttname"><a href="#a1415911868835701c04250566bfc681d">QCPItemPosition::typeX</a></div><div class="ttdeci">PositionType typeX() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3669</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1415911868835701c04250566bfc681d" name="a1415911868835701c04250566bfc681d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1415911868835701c04250566bfc681d">&#9670;&#160;</a></span>typeX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a> QCPItemPosition::typeX </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 3669</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#ae2a617dce057c5f3ec6878c1823aa291">mPositionTypeX</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae47bac6f679c58f9e1c78dc63d56f331" name="ae47bac6f679c58f9e1c78dc63d56f331"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae47bac6f679c58f9e1c78dc63d56f331">&#9670;&#160;</a></span>typeY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a> QCPItemPosition::typeY </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 3670</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a47c96c0ef4380e1af4aaa7c2265c260b">mPositionTypeY</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acfcf86f840a7366a4299bff593d5d636" name="acfcf86f840a7366a4299bff593d5d636"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfcf86f840a7366a4299bff593d5d636">&#9670;&#160;</a></span>value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPItemPosition::value </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 3675</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a67bf5df69f587d53731724a7d61c6c3f">mValue</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aaa4dc49c9f142ff00b491272febc1de6" name="aaa4dc49c9f142ff00b491272febc1de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa4dc49c9f142ff00b491272febc1de6">&#9670;&#160;</a></span>valueAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_q_c_p_axis.html">QCPAxis</a> * QCPItemPosition::valueAxis </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 3678</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a505dc2da24ba274452c1c817fcaba011">mValueAxis</a>.data(); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Atributos</h2>
+<a id="add40fcb8994c247d85f42a126286b740" name="add40fcb8994c247d85f42a126286b740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add40fcb8994c247d85f42a126286b740">&#9670;&#160;</a></span>mAxisRect</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointer&lt;<a class="el" href="class_q_c_p_axis_rect.html">QCPAxisRect</a>&gt; QCPItemPosition::mAxisRect</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ff3931ad115603dfb4c7000b24bb415" name="a4ff3931ad115603dfb4c7000b24bb415"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ff3931ad115603dfb4c7000b24bb415">&#9670;&#160;</a></span>mKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPItemPosition::mKey</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a63967a33933231e92f68c8ce06bfc37e" name="a63967a33933231e92f68c8ce06bfc37e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63967a33933231e92f68c8ce06bfc37e">&#9670;&#160;</a></span>mKeyAxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointer&lt;<a class="el" href="class_q_c_p_axis.html">QCPAxis</a>&gt; QCPItemPosition::mKeyAxis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41b4641d18c90997b9c01bf304181bf0" name="a41b4641d18c90997b9c01bf304181bf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41b4641d18c90997b9c01bf304181bf0">&#9670;&#160;</a></span>mParentAnchorX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a>* QCPItemPosition::mParentAnchorX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc6142a6a09c8fa41c44d3d54fadd737" name="afc6142a6a09c8fa41c44d3d54fadd737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc6142a6a09c8fa41c44d3d54fadd737">&#9670;&#160;</a></span>mParentAnchorY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_q_c_p_item_anchor.html">QCPItemAnchor</a> * QCPItemPosition::mParentAnchorY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae2a617dce057c5f3ec6878c1823aa291" name="ae2a617dce057c5f3ec6878c1823aa291"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2a617dce057c5f3ec6878c1823aa291">&#9670;&#160;</a></span>mPositionTypeX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a> QCPItemPosition::mPositionTypeX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47c96c0ef4380e1af4aaa7c2265c260b" name="a47c96c0ef4380e1af4aaa7c2265c260b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47c96c0ef4380e1af4aaa7c2265c260b">&#9670;&#160;</a></span>mPositionTypeY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aad9936c22bf43e3d358552f6e86dbdc8">PositionType</a> QCPItemPosition::mPositionTypeY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67bf5df69f587d53731724a7d61c6c3f" name="a67bf5df69f587d53731724a7d61c6c3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67bf5df69f587d53731724a7d61c6c3f">&#9670;&#160;</a></span>mValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPItemPosition::mValue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a505dc2da24ba274452c1c817fcaba011" name="a505dc2da24ba274452c1c817fcaba011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a505dc2da24ba274452c1c817fcaba011">&#9670;&#160;</a></span>mValueAxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointer&lt;<a class="el" href="class_q_c_p_axis.html">QCPAxis</a>&gt; QCPItemPosition::mValueAxis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>A documentação para essa classe foi gerada a partir dos seguintes arquivos:<ul>
+<li>C:/Users/pedro/Documents/Programa Bueno/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/versao-2/src/<a class="el" href="qcustomplot_8h_source.html">qcustomplot.h</a></li>
+<li>C:/Users/pedro/Documents/Programa Bueno/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/versao-2/src/<a class="el" href="qcustomplot_8cpp.html">qcustomplot.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

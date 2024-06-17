@@ -1,0 +1,658 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+
+% Comentar linhas abaixo se não estiver usando pacote abntex
+% ou se o pacote ainda não foi instalado.
+% neste caso sugere-se usar citações no padrão apalike (lembra o da anbt).
+%\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0]{abntcite}
+%\usepackage {helvet}
+%\renewcommand {\familydefault}{\sfdefault}
+
+% Para uso de listagens de código
+\usepackage{color}
+\definecolor{azulclaro}{rgb}{0.6,1,1}%   rgb color model
+% Informa que vai usar o pacote listings, 
+% disponibilizado em /usr/share/texmf/doc/latex/styles/listings.dvi
+\usepackage{listings}
+\end_preamble
+\use_default_options false
+\master DocumentoMestre-Trabalho-ProgramacaoPratica.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package auto
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement p
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Teste
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Teste"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter - Teste} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Todo projeto de engenharia passa por uma etapa de testes.
+ Neste capítulo apresentamos alguns testes do software desenvolvido.
+ Estes testes devem dar resposta aos diagramas de caso de uso inicialmente
+ apresentados (diagramas de caso de uso geral e específicos).
+\end_layout
+
+\begin_layout Section
+Teste 1
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Teste-1"
+
+\end_inset
+
+: Descrição
+\end_layout
+
+\begin_layout Standard
+O Teste 1 será realizado para verificar o perfeito funcionamento da interface
+ e dos gráficos em tempo real das medidas.
+ Para realizarmos este teste, primeiramente abriremos o programa no QT,
+ rodando em modo release o executável Pedro.pro que está localizado na pasta
+ versão-2/src, após isso abrirá a tela inicial do programa.
+ Selecionaremos a aba 
+\begin_inset Quotes eld
+\end_inset
+
+Monitor Avançado
+\begin_inset Quotes erd
+\end_inset
+
+ que mostra as medidas sendo realizadas em tempo real, em seguida selecionaremos
+ a aba 
+\begin_inset Quotes eld
+\end_inset
+
+Tipo de Sensor
+\begin_inset Quotes erd
+\end_inset
+
+ o sensor desejado, para nível de teste usaremos o sensor '86501/551' e
+ em seguida apertar em calibrar.
+ Após calibração, continuaremos a configuração do modo de medição, manteremos
+ fixa a taxa de atualização e temperatura (sabendo que podem ser alteradas)
+ e na aba 
+\begin_inset Quotes eld
+\end_inset
+
+Modo de Funcionamento
+\begin_inset Quotes erd
+\end_inset
+
+ aparecerá as medições possíveis de serem feitas pelo sensor escolhido,
+ neste caso 'pH' e 'mV', selecionaremos pH para nível de teste, após isso
+ a unidade de medida já será automaticamente selecionada na aba 
+\begin_inset Quotes eld
+\end_inset
+
+Unidade de Medida
+\begin_inset Quotes erd
+\end_inset
+
+ e o gráfico começará a realizar as medições, porém até então não estão
+ sendo gravadas.
+ Na parte superior do programa podemos selecionar o botão 
+\begin_inset Quotes eld
+\end_inset
+
+Hold
+\begin_inset Quotes erd
+\end_inset
+
+ para travar as medições e 
+\begin_inset Quotes eld
+\end_inset
+
+Resume
+\begin_inset Quotes erd
+\end_inset
+
+ para voltar com as medições.
+ Após todos esses procedimentos, verificamos que as medidas estão sendo
+ feitas e acompanhadas nos gráficos de Medição e Temperatura em tempo real
+ e conseguimos validar o perfeito funcionamento da interface.
+ 
+\end_layout
+
+\begin_layout Standard
+Veja Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Teste-TelaPrograma-Captura1"
+
+\end_inset
+
+ a tela inicial com a descrição dos botões a serem utilizados no teste e
+ na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Tela-do-Programa-Captura2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ como aparecerá o gráfico após realização do teste.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/Teste1.1.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tela do programa mostrando a interface quando aberta
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Teste-TelaPrograma-Captura1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/Teste1.2.png
+	width 100text%
+	BoundingBox 0bp 0bp 1916bp 1001bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tela do Programa mostrando as medidas após feito Teste 1
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tela-do-Programa-Captura2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Teste 2
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Teste-2"
+
+\end_inset
+
+: Descrição
+\end_layout
+
+\begin_layout Standard
+No teste 2 testaremos a gravação das medidas em arquivo de disco, é um teste
+ subsequente ao teste 1, portanto todas as tarefas feitas no mesmo, devem
+ ser feitas antes do teste 2.
+ Neste teste, após os passos do teste 1, apertaremos o botão 
+\begin_inset Quotes eld
+\end_inset
+
+Gravar
+\begin_inset Quotes erd
+\end_inset
+
+ e após alguns instantes de gravação no mesmo local, apertaremos o botão
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Parar gravação
+\begin_inset Quotes erd
+\end_inset
+
+ e automaticamente será gerado um arquivo .csv com as medidas que estará
+ na pasta versão-2/src/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/records.
+ Com este teste podemos verificar o funcionamento do sistema de gravações
+ e atestas seu perfeito funcionamento através dos arquivos gerados.
+\end_layout
+
+\begin_layout Standard
+Veja Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Teste-TelaPrograma-1"
+
+\end_inset
+
+ como é iniciada a gravação, Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Tela-do-programa-teste2.2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ como param as gravações e Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Tela-do-Exel"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+como são armazenadas as gravações.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Na Figura simulador desenvolvido pelo aluno Tiago Schauwer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/Teste2.1.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tela do programa mostrando como iniciar a gravação
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Teste-TelaPrograma-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename imagens/Teste2.2.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tela do programa mostrando como parar as gravações e o arquivo sendo gerado
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tela-do-programa-teste2.2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename imagens/Teste2.3.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tela do Exel mostrando os dados gravados a partir do Software 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tela-do-Exel"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Teste 3
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Teste-3"
+
+\end_inset
+
+: Descrição
+\end_layout
+
+\begin_layout Standard
+No Teste 3, testaremos o instrumentador, este teste é subsequente ao teste
+ 1 e 2, após realizar todas as medidas e tudo o que se quer extrair do programa,
+ fecharemos o mesmo no 
+\begin_inset Quotes eld
+\end_inset
+
+X
+\begin_inset Quotes erd
+\end_inset
+
+ no canto superior direito e automaticamente será atualizado um arquivo
+ chamado RumTime-Profile.json que está localizado em versão-2/src/build/Desktop_Q
+t_6_7_0_MinGW_64_bit-Release e este arquivo poderá ser aberto no site chrome://t
+racy para verificação da performance das funções executadas pelo programa.
+ Cada vez que o programa for aberto e realizado qualquer tipo de função
+ dentro dele, será atualizado esse arquivo.
+ Com a abertura do arquivo no chrome://tracy podemos verificar o tempo de
+ execução das funções do programa e o perfeito funcionamento do isntrumentador.
+\end_layout
+
+\begin_layout Standard
+coloque aqui texto falando do diagrama de pacotes, referencie a figura.
+ Veja Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Teste-TelaPrograma-Captura1-1"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/Interface-SimuladorTranscal-Nicholas.png
+	lyxscale 25
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tela do programa mostrando xxx
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Teste-TelaPrograma-Captura1-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Nota: 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Não perca de vista a visão do todo; do projeto de engenharia como um todo.
+ Cada capítulo, cada seção, cada parágrafo deve se encaixar.
+ Este é um diferencial fundamental do engenheiro em relação ao técnico,
+ a capacidade de desenvolver projetos, de ver o todo e suas diferentes partes,
+ de modelar processos/sistemas/produtos de engenharia.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+apague!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

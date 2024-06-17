@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação Projeto Software: Código-Fonte de C:/Users/pedro/Documents/Programa Bueno/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/versao-2/src/Instrumentor.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Documentação Projeto Software<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_f396504afdc959660871b003fa10164d.html">Documents</a></li><li class="navelem"><a class="el" href="dir_3c9ab875e6c9c4146f4f9177047a19ad.html">Programa Bueno</a></li><li class="navelem"><a class="el" href="dir_2df3c4e16d502c5a59c01b473455c6d9.html">ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT</a></li><li class="navelem"><a class="el" href="dir_9c6b7031ef0bb6baaae5b311614827b2.html">versao-2</a></li><li class="navelem"><a class="el" href="dir_587eca7745d6bc300932c3493f482c4b.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle"><div class="title">Instrumentor.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_instrumentor_8h.html">Ir para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef INSTRUMENTOR_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define INSTRUMENTOR_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;algorithm&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;chrono&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;iomanip&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;thread&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;mutex&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;sstream&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="_instrumentor_8h.html#a347039e7aa7829a78d992a52f34ee0f3">   15</a></span><span class="keyword">using </span><a class="code hl_typedef" href="_instrumentor_8h.html#a347039e7aa7829a78d992a52f34ee0f3">FloatingPointMicroseconds</a> = std::chrono::duration&lt;double, std::micro&gt;;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="struct_profile_result.html">   17</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_profile_result.html">ProfileResult</a></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="struct_profile_result.html#a9556a713c3ea482b8010b310051425e5">   19</a></span>    std::string <a class="code hl_variable" href="struct_profile_result.html#a9556a713c3ea482b8010b310051425e5">Name</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="struct_profile_result.html#a6296174396dcc78af39810efaab4c57c">   21</a></span>    <a class="code hl_typedef" href="_instrumentor_8h.html#a347039e7aa7829a78d992a52f34ee0f3">FloatingPointMicroseconds</a> <a class="code hl_variable" href="struct_profile_result.html#a6296174396dcc78af39810efaab4c57c">Start</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="struct_profile_result.html#ae8a0ed643592105595be1f250d412bab">   22</a></span>    std::chrono::microseconds <a class="code hl_variable" href="struct_profile_result.html#ae8a0ed643592105595be1f250d412bab">ElapsedTime</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="struct_profile_result.html#a14713fc54750984a9aa596f6753f3752">   23</a></span>    std::thread::id <a class="code hl_variable" href="struct_profile_result.html#a14713fc54750984a9aa596f6753f3752">ThreadID</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>};</div>
+</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="};">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="struct_instrumentation_session.html">   26</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_instrumentation_session.html">InstrumentationSession</a></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>{</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="struct_instrumentation_session.html#a55f8e703e659450f8c94a4a016e5c336">   28</a></span>    std::string <a class="code hl_variable" href="struct_instrumentation_session.html#a55f8e703e659450f8c94a4a016e5c336">Name</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>};</div>
+</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="foldopen" id="foldopen00031" data-start="{" data-end="};">
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="class_instrumentor.html">   31</a></span><span class="keyword">class </span><a class="code hl_class" href="class_instrumentor.html">Instrumentor</a></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>{</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_instrumentor.html#ae225a31400d4e9c5da71215571f53baa">   34</a></span>    <a class="code hl_function" href="class_instrumentor.html#ae225a31400d4e9c5da71215571f53baa">Instrumentor</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_instrumentor.html">Instrumentor</a>&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_instrumentor.html#a236a97d03a0c468c1dd5c83117d73fc3">   35</a></span>    <a class="code hl_function" href="class_instrumentor.html#a236a97d03a0c468c1dd5c83117d73fc3">Instrumentor</a>(<a class="code hl_class" href="class_instrumentor.html">Instrumentor</a>&amp;&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_instrumentor.html#aff4df11ebb7b138e180ae00ded687f2d">BeginSession</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> std::string&amp; filepath = <span class="stringliteral">&quot;results.json&quot;</span>);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_instrumentor.html#a20ad3bb77d874cffe037f4d53486d286">EndSession</a>();</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_instrumentor.html#a2b81aaa1e75f7707826cfba5d1319ae9">WriteProfile</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_profile_result.html">ProfileResult</a>&amp; result);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">static</span> <a class="code hl_class" href="class_instrumentor.html">Instrumentor</a>&amp; <a class="code hl_function" href="class_instrumentor.html#a29d0291146e866e1b71436197bf6db1a">Get</a>();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_class" href="class_instrumentor.html">Instrumentor</a>();</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_class" href="class_instrumentor.html">~Instrumentor</a>();</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">void</span> WriteHeader();</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">void</span> WriteFooter();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">void</span> InternalEndSession();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    std::mutex m_Mutex;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <a class="code hl_struct" href="struct_instrumentation_session.html">InstrumentationSession</a>* m_CurrentSession;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    std::ofstream m_OutputStream;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>};</div>
+</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="foldopen" id="foldopen00063" data-start="{" data-end="};">
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="class_instrumentation_timer.html">   63</a></span><span class="keyword">class </span><a class="code hl_class" href="class_instrumentation_timer.html">InstrumentationTimer</a></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>{</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <a class="code hl_function" href="class_instrumentation_timer.html#afbe6d6632ac2b01e347408e692db4f49">InstrumentationTimer</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* name);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <a class="code hl_function" href="class_instrumentation_timer.html#a16d4d0333bd9bdbdfe0341ff07f26a3b">~InstrumentationTimer</a>();</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_instrumentation_timer.html#aa7cdc30b37599ecf2c83f64a837e8cd0">Stop</a>();</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* m_Name;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    std::chrono::time_point&lt;std::chrono::steady_clock&gt; m_StartTimepoint;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">bool</span> m_Stopped;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    };</div>
+</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="foldopen" id="foldopen00078" data-start="{" data-end="}">
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="namespace_instrumentor_utils.html">   78</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_instrumentor_utils.html">InstrumentorUtils</a> {</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> N&gt;</div>
+<div class="foldopen" id="foldopen00081" data-start="{" data-end="};">
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="struct_instrumentor_utils_1_1_change_result.html">   81</a></span>        <span class="keyword">struct </span><a class="code hl_struct" href="struct_instrumentor_utils_1_1_change_result.html">ChangeResult</a></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        {</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="struct_instrumentor_utils_1_1_change_result.html#ac01edcf5dfb9a10440bf406a9fde573c">   83</a></span>            <span class="keywordtype">char</span> <a class="code hl_variable" href="struct_instrumentor_utils_1_1_change_result.html#ac01edcf5dfb9a10440bf406a9fde573c">Data</a>[N];</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        };</div>
+</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        <span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> N, <span class="keywordtype">size_t</span> K&gt;</div>
+<div class="foldopen" id="foldopen00087" data-start="{" data-end="}">
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="namespace_instrumentor_utils.html#ae15d8cc9cf5564f45a9731202fd5c2ff">   87</a></span>        <span class="keyword">constexpr</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespace_instrumentor_utils.html#ae15d8cc9cf5564f45a9731202fd5c2ff">CleanupOutputString</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>(&amp;expr)[N], <span class="keyword">const</span> <span class="keywordtype">char</span>(&amp;remove)[K])</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        {</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            <a class="code hl_struct" href="struct_instrumentor_utils_1_1_change_result.html">ChangeResult&lt;N&gt;</a> result = {};</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>            <span class="keywordtype">size_t</span> srcIndex = 0;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>            <span class="keywordtype">size_t</span> dstIndex = 0;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>            <span class="keywordflow">while</span> (srcIndex &lt; N)</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>            {</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                <span class="keywordtype">size_t</span> matchIndex = 0;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>                <span class="keywordflow">while</span> (matchIndex &lt; K - 1 &amp;&amp; srcIndex + matchIndex &lt; N - 1 &amp;&amp; expr[srcIndex + matchIndex] == remove[matchIndex])</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>                    matchIndex++;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>                <span class="keywordflow">if</span> (matchIndex == K - 1)</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>                    srcIndex += matchIndex;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>                result.<a class="code hl_variable" href="struct_instrumentor_utils_1_1_change_result.html#ac01edcf5dfb9a10440bf406a9fde573c">Data</a>[dstIndex++] = expr[srcIndex] == <span class="charliteral">&#39;&quot;&#39;</span> ? <span class="charliteral">&#39;\&#39;&#39;</span> : expr[srcIndex];</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>                srcIndex++;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>            }</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>            <span class="keywordflow">return</span> result;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>        }</div>
+</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    }</div>
+</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="_instrumentor_8h.html#a68b5f48fbfd3b676b829d136050b27c3">  107</a></span><span class="preprocessor">#define STUDY_PROFILE 1</span></div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="preprocessor">#if STUDY_PROFILE</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><span class="preprocessor">    #if defined(__GNUC__) || (defined(__MWERKS__) &amp;&amp; (__MWERKS__ &gt;= 0x3000)) || (defined(__ICC) &amp;&amp; (__ICC &gt;= 600)) || defined(__ghs__)</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="preprocessor">        #define STUDY_FUNC_SIG __PRETTY_FUNCTION__</span></div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="preprocessor">    #elif defined(__DMC__) &amp;&amp; (__DMC__ &gt;= 0x810)</span></div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="preprocessor">        #define STUDY_FUNC_SIG __PRETTY_FUNCTION__</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><span class="preprocessor">    #elif (defined(__FUNCSIG__) || (_MSC_VER))</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="preprocessor">        #define STUDY_FUNC_SIG __FUNCSIG__</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="preprocessor">    #elif (defined(__INTEL_COMPILER) &amp;&amp; (__INTEL_COMPILER &gt;= 600)) || (defined(__IBMCPP__) &amp;&amp; (__IBMCPP__ &gt;= 500))</span></div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span><span class="preprocessor">        #define STUDY_FUNC_SIG __FUNCTION__</span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="preprocessor">    #elif defined(__BORLANDC__) &amp;&amp; (__BORLANDC__ &gt;= 0x550)</span></div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="preprocessor">        #define STUDY_FUNC_SIG __FUNC__</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="preprocessor">    #elif defined(__STDC_VERSION__) &amp;&amp; (__STDC_VERSION__ &gt;= 199901)</span></div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="preprocessor">        #define STUDY_FUNC_SIG __func__</span></div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span><span class="preprocessor">    #elif defined(__cplusplus) &amp;&amp; (__cplusplus &gt;= 201103)</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="preprocessor">        #define STUDY_FUNC_SIG __func__</span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="preprocessor">    #else</span></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="_instrumentor_8h.html#ad708241c72417b3cf9c850c47af1dd83">  125</a></span><span class="preprocessor">        #define STUDY_FUNC_SIG &quot;STUDY_FUNC_SIG unknown!&quot;</span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="preprocessor">    #endif</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="_instrumentor_8h.html#aa1f37f9baa5eeb5f40e75da86278995c">  128</a></span><span class="preprocessor">    #define STUDY_PROFILE_BEGIN_SESSION(name, filepath) ::Instrumentor::Get().BeginSession(name, filepath)</span></div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="_instrumentor_8h.html#a4b063e332f19b9a97fba6d6bc94e1282">  129</a></span><span class="preprocessor">    #define STUDY_PROFILE_END_SESSION() ::Instrumentor::Get().EndSession()</span></div>
+<div class="foldopen" id="foldopen00130" data-start="" data-end="">
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno"><a class="line" href="_instrumentor_8h.html#ad9aa1f4c3c1a3535435117a0571c7d6b">  130</a></span><span class="preprocessor">    #define STUDY_PROFILE_SCOPE_LINE2(name, line) constexpr auto fixedName##line = ::InstrumentorUtils::CleanupOutputString(name, &quot;__cdecl &quot;);\</span></div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="preprocessor">                                               ::InstrumentationTimer timer##line(fixedName##line.Data)</span></div>
+</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="_instrumentor_8h.html#a1caa7255f887b1a511f162ce6b831c89">  132</a></span><span class="preprocessor">    #define STUDY_PROFILE_SCOPE_LINE(name, line) STUDY_PROFILE_SCOPE_LINE2(name, line)</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="_instrumentor_8h.html#ab98f3628764d313499daa0c95090463b">  133</a></span><span class="preprocessor">    #define STUDY_PROFILE_SCOPE(name) STUDY_PROFILE_SCOPE_LINE(name, __LINE__)</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="_instrumentor_8h.html#ad2102383f9653c131dd5cc0f631490be">  134</a></span><span class="preprocessor">    #define STUDY_PROFILE_FUNCTION() STUDY_PROFILE_SCOPE(STUDY_FUNC_SIG)</span></div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span><span class="preprocessor">    #define STUDY_PROFILE_BEGIN_SESSION(name, filepath)</span></div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><span class="preprocessor">    #define STUDY_PROFILE_END_SESSION()</span></div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span><span class="preprocessor">    #define STUDY_PROFILE_SCOPE(name)</span></div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span><span class="preprocessor">    #define STUDY_PROFILE_FUNCTION()</span></div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_instrumentor_8h_html_a347039e7aa7829a78d992a52f34ee0f3"><div class="ttname"><a href="_instrumentor_8h.html#a347039e7aa7829a78d992a52f34ee0f3">FloatingPointMicroseconds</a></div><div class="ttdeci">std::chrono::duration&lt; double, std::micro &gt; FloatingPointMicroseconds</div><div class="ttdef"><b>Definição</b> Instrumentor.h:15</div></div>
+<div class="ttc" id="aclass_instrumentation_timer_html"><div class="ttname"><a href="class_instrumentation_timer.html">InstrumentationTimer</a></div><div class="ttdef"><b>Definição</b> Instrumentor.h:64</div></div>
+<div class="ttc" id="aclass_instrumentation_timer_html_a16d4d0333bd9bdbdfe0341ff07f26a3b"><div class="ttname"><a href="class_instrumentation_timer.html#a16d4d0333bd9bdbdfe0341ff07f26a3b">InstrumentationTimer::~InstrumentationTimer</a></div><div class="ttdeci">~InstrumentationTimer()</div><div class="ttdef"><b>Definição</b> Instrumentor.cpp:103</div></div>
+<div class="ttc" id="aclass_instrumentation_timer_html_aa7cdc30b37599ecf2c83f64a837e8cd0"><div class="ttname"><a href="class_instrumentation_timer.html#aa7cdc30b37599ecf2c83f64a837e8cd0">InstrumentationTimer::Stop</a></div><div class="ttdeci">void Stop()</div><div class="ttdef"><b>Definição</b> Instrumentor.cpp:109</div></div>
+<div class="ttc" id="aclass_instrumentation_timer_html_afbe6d6632ac2b01e347408e692db4f49"><div class="ttname"><a href="class_instrumentation_timer.html#afbe6d6632ac2b01e347408e692db4f49">InstrumentationTimer::InstrumentationTimer</a></div><div class="ttdeci">InstrumentationTimer(const char *name)</div><div class="ttdef"><b>Definição</b> Instrumentor.cpp:98</div></div>
+<div class="ttc" id="aclass_instrumentor_html"><div class="ttname"><a href="class_instrumentor.html">Instrumentor</a></div><div class="ttdef"><b>Definição</b> Instrumentor.h:32</div></div>
+<div class="ttc" id="aclass_instrumentor_html_a20ad3bb77d874cffe037f4d53486d286"><div class="ttname"><a href="class_instrumentor.html#a20ad3bb77d874cffe037f4d53486d286">Instrumentor::EndSession</a></div><div class="ttdeci">void EndSession()</div><div class="ttdef"><b>Definição</b> Instrumentor.cpp:31</div></div>
+<div class="ttc" id="aclass_instrumentor_html_a236a97d03a0c468c1dd5c83117d73fc3"><div class="ttname"><a href="class_instrumentor.html#a236a97d03a0c468c1dd5c83117d73fc3">Instrumentor::Instrumentor</a></div><div class="ttdeci">Instrumentor(Instrumentor &amp;&amp;)=delete</div></div>
+<div class="ttc" id="aclass_instrumentor_html_a29d0291146e866e1b71436197bf6db1a"><div class="ttname"><a href="class_instrumentor.html#a29d0291146e866e1b71436197bf6db1a">Instrumentor::Get</a></div><div class="ttdeci">static Instrumentor &amp; Get()</div><div class="ttdef"><b>Definição</b> Instrumentor.cpp:60</div></div>
+<div class="ttc" id="aclass_instrumentor_html_a2b81aaa1e75f7707826cfba5d1319ae9"><div class="ttname"><a href="class_instrumentor.html#a2b81aaa1e75f7707826cfba5d1319ae9">Instrumentor::WriteProfile</a></div><div class="ttdeci">void WriteProfile(const ProfileResult &amp;result)</div><div class="ttdef"><b>Definição</b> Instrumentor.cpp:37</div></div>
+<div class="ttc" id="aclass_instrumentor_html_ae225a31400d4e9c5da71215571f53baa"><div class="ttname"><a href="class_instrumentor.html#ae225a31400d4e9c5da71215571f53baa">Instrumentor::Instrumentor</a></div><div class="ttdeci">Instrumentor(const Instrumentor &amp;)=delete</div></div>
+<div class="ttc" id="aclass_instrumentor_html_aff4df11ebb7b138e180ae00ded687f2d"><div class="ttname"><a href="class_instrumentor.html#aff4df11ebb7b138e180ae00ded687f2d">Instrumentor::BeginSession</a></div><div class="ttdeci">void BeginSession(const std::string &amp;name, const std::string &amp;filepath=&quot;results.json&quot;)</div><div class="ttdef"><b>Definição</b> Instrumentor.cpp:6</div></div>
+<div class="ttc" id="anamespace_instrumentor_utils_html"><div class="ttname"><a href="namespace_instrumentor_utils.html">InstrumentorUtils</a></div><div class="ttdef"><b>Definição</b> Instrumentor.h:78</div></div>
+<div class="ttc" id="anamespace_instrumentor_utils_html_ae15d8cc9cf5564f45a9731202fd5c2ff"><div class="ttname"><a href="namespace_instrumentor_utils.html#ae15d8cc9cf5564f45a9731202fd5c2ff">InstrumentorUtils::CleanupOutputString</a></div><div class="ttdeci">constexpr auto CleanupOutputString(const char(&amp;expr)[N], const char(&amp;remove)[K])</div><div class="ttdef"><b>Definição</b> Instrumentor.h:87</div></div>
+<div class="ttc" id="astruct_instrumentation_session_html"><div class="ttname"><a href="struct_instrumentation_session.html">InstrumentationSession</a></div><div class="ttdef"><b>Definição</b> Instrumentor.h:27</div></div>
+<div class="ttc" id="astruct_instrumentation_session_html_a55f8e703e659450f8c94a4a016e5c336"><div class="ttname"><a href="struct_instrumentation_session.html#a55f8e703e659450f8c94a4a016e5c336">InstrumentationSession::Name</a></div><div class="ttdeci">std::string Name</div><div class="ttdef"><b>Definição</b> Instrumentor.h:28</div></div>
+<div class="ttc" id="astruct_instrumentor_utils_1_1_change_result_html"><div class="ttname"><a href="struct_instrumentor_utils_1_1_change_result.html">InstrumentorUtils::ChangeResult</a></div><div class="ttdef"><b>Definição</b> Instrumentor.h:82</div></div>
+<div class="ttc" id="astruct_instrumentor_utils_1_1_change_result_html_ac01edcf5dfb9a10440bf406a9fde573c"><div class="ttname"><a href="struct_instrumentor_utils_1_1_change_result.html#ac01edcf5dfb9a10440bf406a9fde573c">InstrumentorUtils::ChangeResult::Data</a></div><div class="ttdeci">char Data[N]</div><div class="ttdef"><b>Definição</b> Instrumentor.h:83</div></div>
+<div class="ttc" id="astruct_profile_result_html"><div class="ttname"><a href="struct_profile_result.html">ProfileResult</a></div><div class="ttdef"><b>Definição</b> Instrumentor.h:18</div></div>
+<div class="ttc" id="astruct_profile_result_html_a14713fc54750984a9aa596f6753f3752"><div class="ttname"><a href="struct_profile_result.html#a14713fc54750984a9aa596f6753f3752">ProfileResult::ThreadID</a></div><div class="ttdeci">std::thread::id ThreadID</div><div class="ttdef"><b>Definição</b> Instrumentor.h:23</div></div>
+<div class="ttc" id="astruct_profile_result_html_a6296174396dcc78af39810efaab4c57c"><div class="ttname"><a href="struct_profile_result.html#a6296174396dcc78af39810efaab4c57c">ProfileResult::Start</a></div><div class="ttdeci">FloatingPointMicroseconds Start</div><div class="ttdef"><b>Definição</b> Instrumentor.h:21</div></div>
+<div class="ttc" id="astruct_profile_result_html_a9556a713c3ea482b8010b310051425e5"><div class="ttname"><a href="struct_profile_result.html#a9556a713c3ea482b8010b310051425e5">ProfileResult::Name</a></div><div class="ttdeci">std::string Name</div><div class="ttdef"><b>Definição</b> Instrumentor.h:19</div></div>
+<div class="ttc" id="astruct_profile_result_html_ae8a0ed643592105595be1f250d412bab"><div class="ttname"><a href="struct_profile_result.html#ae8a0ed643592105595be1f250d412bab">ProfileResult::ElapsedTime</a></div><div class="ttdeci">std::chrono::microseconds ElapsedTime</div><div class="ttdef"><b>Definição</b> Instrumentor.h:22</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

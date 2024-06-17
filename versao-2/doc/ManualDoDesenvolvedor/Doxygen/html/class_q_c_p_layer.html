@@ -1,0 +1,928 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação Projeto Software: Referência da Classe QCPLayer</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Documentação Projeto Software<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Tipos Públicos</a> &#124;
+<a href="#pub-methods">Membros Públicos</a> &#124;
+<a href="#pro-methods">Membros protegidos</a> &#124;
+<a href="#pro-attribs">Atributos Protegidos</a> &#124;
+<a href="#friends">Amigos</a> &#124;
+<a href="class_q_c_p_layer-members.html">Lista de todos os Membros</a>  </div>
+  <div class="headertitle"><div class="title">Referência da Classe QCPLayer</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>A layer that may contain objects, to control the rendering order.  
+ <a href="#details">Mais...</a></p>
+
+<p><code>#include &lt;<a class="el" href="qcustomplot_8h_source.html">qcustomplot.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagrama de hierarquia da classe QCPLayer:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_q_c_p_layer.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Tipos Públicos</h2></td></tr>
+<tr class="memitem:a67dcfc1590be2a1f2227c5a39bb59c7c" id="r_a67dcfc1590be2a1f2227c5a39bb59c7c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7c">LayerMode</a> { <a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7ca02eb5e9a4cb7f1baf1e2b6b99e3b87ce">lmLogical</a>
+, <a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538">lmBuffered</a>
+ }</td></tr>
+<tr class="separator:a67dcfc1590be2a1f2227c5a39bb59c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Membros Públicos</h2></td></tr>
+<tr class="memitem:a5d0657fc86d624e5efbe930ef21af718" id="r_a5d0657fc86d624e5efbe930ef21af718"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d0657fc86d624e5efbe930ef21af718">QCPLayer</a> (<a class="el" href="class_q_custom_plot.html">QCustomPlot</a> *<a class="el" href="#a923cb87bb467eeb17d649ba2b2fe4f5f">parentPlot</a>, const QString &amp;layerName)</td></tr>
+<tr class="separator:a5d0657fc86d624e5efbe930ef21af718"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc1a8940f8e34c9f25ead9dfd4828cae" id="r_afc1a8940f8e34c9f25ead9dfd4828cae"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc1a8940f8e34c9f25ead9dfd4828cae">~QCPLayer</a> ()</td></tr>
+<tr class="separator:afc1a8940f8e34c9f25ead9dfd4828cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a923cb87bb467eeb17d649ba2b2fe4f5f" id="r_a923cb87bb467eeb17d649ba2b2fe4f5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_custom_plot.html">QCustomPlot</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a923cb87bb467eeb17d649ba2b2fe4f5f">parentPlot</a> () const</td></tr>
+<tr class="separator:a923cb87bb467eeb17d649ba2b2fe4f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37806f662b50b588fb1029a14fc5ef50" id="r_a37806f662b50b588fb1029a14fc5ef50"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37806f662b50b588fb1029a14fc5ef50">name</a> () const</td></tr>
+<tr class="separator:a37806f662b50b588fb1029a14fc5ef50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad322905c4700dcc7ceba63e011c730d2" id="r_ad322905c4700dcc7ceba63e011c730d2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad322905c4700dcc7ceba63e011c730d2">index</a> () const</td></tr>
+<tr class="separator:ad322905c4700dcc7ceba63e011c730d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a183b90941fc78f0b136edd77c5fb6966" id="r_a183b90941fc78f0b136edd77c5fb6966"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_q_c_p_layerable.html">QCPLayerable</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a183b90941fc78f0b136edd77c5fb6966">children</a> () const</td></tr>
+<tr class="separator:a183b90941fc78f0b136edd77c5fb6966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1cc2d6b32d2abb33c7f449b964e068c" id="r_ad1cc2d6b32d2abb33c7f449b964e068c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1cc2d6b32d2abb33c7f449b964e068c">visible</a> () const</td></tr>
+<tr class="separator:ad1cc2d6b32d2abb33c7f449b964e068c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44ae50b011b19f3dd46a38d8e2e2c1b6" id="r_a44ae50b011b19f3dd46a38d8e2e2c1b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7c">LayerMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44ae50b011b19f3dd46a38d8e2e2c1b6">mode</a> () const</td></tr>
+<tr class="separator:a44ae50b011b19f3dd46a38d8e2e2c1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac07671f74edf6884b51a82afb2c19516" id="r_ac07671f74edf6884b51a82afb2c19516"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac07671f74edf6884b51a82afb2c19516">setVisible</a> (bool <a class="el" href="#ad1cc2d6b32d2abb33c7f449b964e068c">visible</a>)</td></tr>
+<tr class="separator:ac07671f74edf6884b51a82afb2c19516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a938d57b04f4e4c23cedf1711f983919b" id="r_a938d57b04f4e4c23cedf1711f983919b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a938d57b04f4e4c23cedf1711f983919b">setMode</a> (<a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7c">LayerMode</a> <a class="el" href="#a44ae50b011b19f3dd46a38d8e2e2c1b6">mode</a>)</td></tr>
+<tr class="separator:a938d57b04f4e4c23cedf1711f983919b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adefd53b6db02f470151c416f42e37180" id="r_adefd53b6db02f470151c416f42e37180"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adefd53b6db02f470151c416f42e37180">replot</a> ()</td></tr>
+<tr class="separator:adefd53b6db02f470151c416f42e37180"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Membros protegidos</h2></td></tr>
+<tr class="memitem:ab831a99c8d30b15ec4533ca341e8813b" id="r_ab831a99c8d30b15ec4533ca341e8813b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab831a99c8d30b15ec4533ca341e8813b">draw</a> (<a class="el" href="class_q_c_p_painter.html">QCPPainter</a> *painter)</td></tr>
+<tr class="separator:ab831a99c8d30b15ec4533ca341e8813b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a8e0a86f31462299e7fc8e8158dd2c6" id="r_a4a8e0a86f31462299e7fc8e8158dd2c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a8e0a86f31462299e7fc8e8158dd2c6">drawToPaintBuffer</a> ()</td></tr>
+<tr class="separator:a4a8e0a86f31462299e7fc8e8158dd2c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57ce5e49364aa9122276d5df3b4a0ddc" id="r_a57ce5e49364aa9122276d5df3b4a0ddc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57ce5e49364aa9122276d5df3b4a0ddc">addChild</a> (<a class="el" href="class_q_c_p_layerable.html">QCPLayerable</a> *layerable, bool prepend)</td></tr>
+<tr class="separator:a57ce5e49364aa9122276d5df3b4a0ddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2f64ac7761650582d968d86670ef362" id="r_ac2f64ac7761650582d968d86670ef362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2f64ac7761650582d968d86670ef362">removeChild</a> (<a class="el" href="class_q_c_p_layerable.html">QCPLayerable</a> *layerable)</td></tr>
+<tr class="separator:ac2f64ac7761650582d968d86670ef362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Atributos Protegidos</h2></td></tr>
+<tr class="memitem:a2f3374a7884bf403720cd1cf6f7ad1bb" id="r_a2f3374a7884bf403720cd1cf6f7ad1bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_custom_plot.html">QCustomPlot</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f3374a7884bf403720cd1cf6f7ad1bb">mParentPlot</a></td></tr>
+<tr class="separator:a2f3374a7884bf403720cd1cf6f7ad1bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91e6298183cb4b9dfd4efdfaf1ecc220" id="r_a91e6298183cb4b9dfd4efdfaf1ecc220"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91e6298183cb4b9dfd4efdfaf1ecc220">mName</a></td></tr>
+<tr class="separator:a91e6298183cb4b9dfd4efdfaf1ecc220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a122088bcab6cec76a52b75ce8606605b" id="r_a122088bcab6cec76a52b75ce8606605b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a122088bcab6cec76a52b75ce8606605b">mIndex</a></td></tr>
+<tr class="separator:a122088bcab6cec76a52b75ce8606605b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a704aa71bba469383c3a3c598c1ec0d28" id="r_a704aa71bba469383c3a3c598c1ec0d28"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_q_c_p_layerable.html">QCPLayerable</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a704aa71bba469383c3a3c598c1ec0d28">mChildren</a></td></tr>
+<tr class="separator:a704aa71bba469383c3a3c598c1ec0d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a264950deb08e589460c126c895a1e2b5" id="r_a264950deb08e589460c126c895a1e2b5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a264950deb08e589460c126c895a1e2b5">mVisible</a></td></tr>
+<tr class="separator:a264950deb08e589460c126c895a1e2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11bd0aa190d8fa21c8c7673d070737c8" id="r_a11bd0aa190d8fa21c8c7673d070737c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7c">LayerMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11bd0aa190d8fa21c8c7673d070737c8">mMode</a></td></tr>
+<tr class="separator:a11bd0aa190d8fa21c8c7673d070737c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0bdbc75e4350a0669ff515b3476a3d3" id="r_aa0bdbc75e4350a0669ff515b3476a3d3"><td class="memItemLeft" align="right" valign="top">QWeakPointer&lt; <a class="el" href="class_q_c_p_abstract_paint_buffer.html">QCPAbstractPaintBuffer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0bdbc75e4350a0669ff515b3476a3d3">mPaintBuffer</a></td></tr>
+<tr class="separator:aa0bdbc75e4350a0669ff515b3476a3d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Amigos</h2></td></tr>
+<tr class="memitem:a1cdf9df76adcfae45261690aa0ca2198" id="r_a1cdf9df76adcfae45261690aa0ca2198"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cdf9df76adcfae45261690aa0ca2198">QCustomPlot</a></td></tr>
+<tr class="separator:a1cdf9df76adcfae45261690aa0ca2198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad655f55cccf49ba14d5172ec517e07ae" id="r_ad655f55cccf49ba14d5172ec517e07ae"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad655f55cccf49ba14d5172ec517e07ae">QCPLayerable</a></td></tr>
+<tr class="separator:ad655f55cccf49ba14d5172ec517e07ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>A layer that may contain objects, to control the rendering order. </p>
+<p>The Layering system of <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a> is the mechanism to control the rendering order of the elements inside the plot.</p>
+<p>It is based on the two classes <a class="el" href="class_q_c_p_layer.html" title="A layer that may contain objects, to control the rendering order.">QCPLayer</a> and <a class="el" href="class_q_c_p_layerable.html" title="Base class for all drawable objects.">QCPLayerable</a>. <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a> holds an ordered list of one or more instances of <a class="el" href="class_q_c_p_layer.html" title="A layer that may contain objects, to control the rendering order.">QCPLayer</a> (see <a class="el" href="class_q_custom_plot.html#a8f33108881c2e3c2fec50aa321e169af">QCustomPlot::addLayer</a>, <a class="el" href="class_q_custom_plot.html#a0a96244e7773b242ef23c32b7bdfb159">QCustomPlot::layer</a>, <a class="el" href="class_q_custom_plot.html#ae896140beff19424e9e9e02d6e331104">QCustomPlot::moveLayer</a>, etc.). When replotting, <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a> goes through the list of layers bottom to top and successively draws the layerables of the layers into the paint buffer(s).</p>
+<p>A <a class="el" href="class_q_c_p_layer.html" title="A layer that may contain objects, to control the rendering order.">QCPLayer</a> contains an ordered list of <a class="el" href="class_q_c_p_layerable.html" title="Base class for all drawable objects.">QCPLayerable</a> instances. <a class="el" href="class_q_c_p_layerable.html" title="Base class for all drawable objects.">QCPLayerable</a> is an abstract base class from which almost all visible objects derive, like axes, grids, graphs, items, etc.</p>
+<h1><a class="anchor" id="qcplayer-defaultlayers"></a>
+Default layers</h1>
+<p>Initially, <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a> has six layers: "background", "grid", "main", "axes", "legend" and "overlay" (in that order). On top is the "overlay" layer, which only contains the <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a>'s selection rect (<a class="el" href="class_q_custom_plot.html#ad7df2bcbba307e644db383b449e31efd">QCustomPlot::selectionRect</a>). The next two layers "axes" and "legend" contain the default axes and legend, so they will be drawn above plottables. In the middle, there is the "main" layer. It is initially empty and set as the current layer (see <a class="el" href="class_q_custom_plot.html#a73a6dc47c653bb6f8f030abca5a11852">QCustomPlot::setCurrentLayer</a>). This means, all new plottables, items etc. are created on this layer by default. Then comes the "grid" layer which contains the <a class="el" href="class_q_c_p_grid.html" title="Responsible for drawing the grid of a QCPAxis.">QCPGrid</a> instances (which belong tightly to <a class="el" href="class_q_c_p_axis.html" title="Manages a single axis inside a QCustomPlot.">QCPAxis</a>, see <a class="el" href="class_q_c_p_axis.html#a63f1dd2df663680d2a8d06c19592dd63">QCPAxis::grid</a>). The Axis rect background shall be drawn behind everything else, thus the default <a class="el" href="class_q_c_p_axis_rect.html" title="Holds multiple axes and arranges them in a rectangular shape.">QCPAxisRect</a> instance is placed on the "background" layer. Of course, the layer affiliation of the individual objects can be changed as required (<a class="el" href="class_q_c_p_layerable.html#ab0d0da6d2de45a118886d2c8e16d5a54">QCPLayerable::setLayer</a>).</p>
+<h1><a class="anchor" id="qcplayer-ordering"></a>
+Controlling the rendering order via layers</h1>
+<p>Controlling the ordering of layerables in the plot is easy: Create a new layer in the position you want the layerable to be in, e.g. above "main", with <a class="el" href="class_q_custom_plot.html#a8f33108881c2e3c2fec50aa321e169af">QCustomPlot::addLayer</a>. Then set the current layer with <a class="el" href="class_q_custom_plot.html#a73a6dc47c653bb6f8f030abca5a11852">QCustomPlot::setCurrentLayer</a> to that new layer and finally create the objects normally. They will be placed on the new layer automatically, due to the current layer setting. Alternatively you could have also ignored the current layer setting and just moved the objects with <a class="el" href="class_q_c_p_layerable.html#ab0d0da6d2de45a118886d2c8e16d5a54">QCPLayerable::setLayer</a> to the desired layer after creating them.</p>
+<p>It is also possible to move whole layers. For example, If you want the grid to be shown in front of all plottables/items on the "main" layer, just move it above "main" with <a class="el" href="class_q_custom_plot.html#ae896140beff19424e9e9e02d6e331104">QCustomPlot::moveLayer</a>.</p>
+<p>The rendering order within one layer is simply by order of creation or insertion. The item created last (or added last to the layer), is drawn on top of all other objects on that layer.</p>
+<p>When a layer is deleted, the objects on it are not deleted with it, but fall on the layer below the deleted layer, see <a class="el" href="class_q_custom_plot.html#a40f75e342c5eaab6a86066a42a0e2a94">QCustomPlot::removeLayer</a>.</p>
+<h1><a class="anchor" id="qcplayer-buffering"></a>
+Replotting only a specific layer</h1>
+<p>If the layer mode (<a class="el" href="#a938d57b04f4e4c23cedf1711f983919b">setMode</a>) is set to <a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538">lmBuffered</a>, you can replot only this specific layer by calling <a class="el" href="#adefd53b6db02f470151c416f42e37180">replot</a>. In certain situations this can provide better replot performance, compared with a full replot of all layers. Upon creation of a new layer, the layer mode is initialized to <a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7ca02eb5e9a4cb7f1baf1e2b6b99e3b87ce">lmLogical</a>. The only layer that is set to <a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538">lmBuffered</a> in a new <a class="el" href="class_q_custom_plot.html">QCustomPlot</a> instance is the "overlay" layer, containing the selection rect. </p>
+</div><h2 class="groupheader">Documentação das enumerações</h2>
+<a id="a67dcfc1590be2a1f2227c5a39bb59c7c" name="a67dcfc1590be2a1f2227c5a39bb59c7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67dcfc1590be2a1f2227c5a39bb59c7c">&#9670;&#160;</a></span>LayerMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7c">QCPLayer::LayerMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Defines the different rendering modes of a layer. Depending on the mode, certain layers can be replotted individually, without the need to replot (possibly complex) layerables on other layers.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#a938d57b04f4e4c23cedf1711f983919b">setMode</a> </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumeradores</th></tr><tr><td class="fieldname"><a id="a67dcfc1590be2a1f2227c5a39bb59c7ca02eb5e9a4cb7f1baf1e2b6b99e3b87ce" name="a67dcfc1590be2a1f2227c5a39bb59c7ca02eb5e9a4cb7f1baf1e2b6b99e3b87ce"></a>lmLogical&#160;</td><td class="fielddoc"><p>Layer is used only for rendering order, and shares paint buffer with all other adjacent logical layers. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538" name="a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538"></a>lmBuffered&#160;</td><td class="fielddoc"><p>Layer has its own paint buffer and may be replotted individually (see <a class="el" href="#adefd53b6db02f470151c416f42e37180">replot</a>). </p>
+</td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  702</span>                 { <a class="code hl_enumvalue" href="#a67dcfc1590be2a1f2227c5a39bb59c7ca02eb5e9a4cb7f1baf1e2b6b99e3b87ce">lmLogical</a>   </div>
+<div class="line"><span class="lineno">  703</span>                   ,<a class="code hl_enumvalue" href="#a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538">lmBuffered</a> </div>
+<div class="line"><span class="lineno">  704</span>                 };</div>
+<div class="ttc" id="aclass_q_c_p_layer_html_a67dcfc1590be2a1f2227c5a39bb59c7ca02eb5e9a4cb7f1baf1e2b6b99e3b87ce"><div class="ttname"><a href="#a67dcfc1590be2a1f2227c5a39bb59c7ca02eb5e9a4cb7f1baf1e2b6b99e3b87ce">QCPLayer::lmLogical</a></div><div class="ttdeci">@ lmLogical</div><div class="ttdoc">Layer is used only for rendering order, and shares paint buffer with all other adjacent logical layer...</div><div class="ttdef"><b>Definição</b> qcustomplot.h:702</div></div>
+<div class="ttc" id="aclass_q_c_p_layer_html_a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538"><div class="ttname"><a href="#a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538">QCPLayer::lmBuffered</a></div><div class="ttdeci">@ lmBuffered</div><div class="ttdoc">Layer has its own paint buffer and may be replotted individually (see replot).</div><div class="ttdef"><b>Definição</b> qcustomplot.h:703</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Construtores e Destrutores</h2>
+<a id="a5d0657fc86d624e5efbe930ef21af718" name="a5d0657fc86d624e5efbe930ef21af718"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d0657fc86d624e5efbe930ef21af718">&#9670;&#160;</a></span>QCPLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QCPLayer::QCPLayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_custom_plot.html">QCustomPlot</a> *</td>          <td class="paramname"><span class="paramname"><em>parentPlot</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>layerName</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a new <a class="el" href="class_q_c_p_layer.html" title="A layer that may contain objects, to control the rendering order.">QCPLayer</a> instance.</p>
+<p>Normally you shouldn't directly instantiate layers, use <a class="el" href="class_q_custom_plot.html#a8f33108881c2e3c2fec50aa321e169af">QCustomPlot::addLayer</a> instead.</p>
+<dl class="section warning"><dt>Aviso</dt><dd>It is not checked that <em>layerName</em> is actually a unique layer name in <em>parentPlot</em>. This check is only performed by <a class="el" href="class_q_custom_plot.html#a8f33108881c2e3c2fec50aa321e169af">QCustomPlot::addLayer</a>. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno"> 1067</span>                                                                    :</div>
+<div class="line"><span class="lineno"> 1068</span>  QObject(<a class="code hl_function" href="#a923cb87bb467eeb17d649ba2b2fe4f5f">parentPlot</a>),</div>
+<div class="line"><span class="lineno"> 1069</span>  <a class="code hl_variable" href="#a2f3374a7884bf403720cd1cf6f7ad1bb">mParentPlot</a>(<a class="code hl_function" href="#a923cb87bb467eeb17d649ba2b2fe4f5f">parentPlot</a>),</div>
+<div class="line"><span class="lineno"> 1070</span>  <a class="code hl_variable" href="#a91e6298183cb4b9dfd4efdfaf1ecc220">mName</a>(layerName),</div>
+<div class="line"><span class="lineno"> 1071</span>  <a class="code hl_variable" href="#a122088bcab6cec76a52b75ce8606605b">mIndex</a>(-1), <span class="comment">// will be set to a proper value by the QCustomPlot layer creation function</span></div>
+<div class="line"><span class="lineno"> 1072</span>  <a class="code hl_variable" href="#a264950deb08e589460c126c895a1e2b5">mVisible</a>(<span class="keyword">true</span>),</div>
+<div class="line"><span class="lineno"> 1073</span>  <a class="code hl_variable" href="#a11bd0aa190d8fa21c8c7673d070737c8">mMode</a>(<a class="code hl_enumvalue" href="#a67dcfc1590be2a1f2227c5a39bb59c7ca02eb5e9a4cb7f1baf1e2b6b99e3b87ce">lmLogical</a>)</div>
+<div class="line"><span class="lineno"> 1074</span>{</div>
+<div class="line"><span class="lineno"> 1075</span>  <span class="comment">// Note: no need to make sure layerName is unique, because layer</span></div>
+<div class="line"><span class="lineno"> 1076</span>  <span class="comment">// management is done with QCustomPlot functions.</span></div>
+<div class="line"><span class="lineno"> 1077</span>}</div>
+<div class="ttc" id="aclass_q_c_p_layer_html_a11bd0aa190d8fa21c8c7673d070737c8"><div class="ttname"><a href="#a11bd0aa190d8fa21c8c7673d070737c8">QCPLayer::mMode</a></div><div class="ttdeci">LayerMode mMode</div><div class="ttdef"><b>Definição</b> qcustomplot.h:732</div></div>
+<div class="ttc" id="aclass_q_c_p_layer_html_a122088bcab6cec76a52b75ce8606605b"><div class="ttname"><a href="#a122088bcab6cec76a52b75ce8606605b">QCPLayer::mIndex</a></div><div class="ttdeci">int mIndex</div><div class="ttdef"><b>Definição</b> qcustomplot.h:729</div></div>
+<div class="ttc" id="aclass_q_c_p_layer_html_a264950deb08e589460c126c895a1e2b5"><div class="ttname"><a href="#a264950deb08e589460c126c895a1e2b5">QCPLayer::mVisible</a></div><div class="ttdeci">bool mVisible</div><div class="ttdef"><b>Definição</b> qcustomplot.h:731</div></div>
+<div class="ttc" id="aclass_q_c_p_layer_html_a2f3374a7884bf403720cd1cf6f7ad1bb"><div class="ttname"><a href="#a2f3374a7884bf403720cd1cf6f7ad1bb">QCPLayer::mParentPlot</a></div><div class="ttdeci">QCustomPlot * mParentPlot</div><div class="ttdef"><b>Definição</b> qcustomplot.h:727</div></div>
+<div class="ttc" id="aclass_q_c_p_layer_html_a91e6298183cb4b9dfd4efdfaf1ecc220"><div class="ttname"><a href="#a91e6298183cb4b9dfd4efdfaf1ecc220">QCPLayer::mName</a></div><div class="ttdeci">QString mName</div><div class="ttdef"><b>Definição</b> qcustomplot.h:728</div></div>
+<div class="ttc" id="aclass_q_c_p_layer_html_a923cb87bb467eeb17d649ba2b2fe4f5f"><div class="ttname"><a href="#a923cb87bb467eeb17d649ba2b2fe4f5f">QCPLayer::parentPlot</a></div><div class="ttdeci">QCustomPlot * parentPlot() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:711</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="afc1a8940f8e34c9f25ead9dfd4828cae" name="afc1a8940f8e34c9f25ead9dfd4828cae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc1a8940f8e34c9f25ead9dfd4828cae">&#9670;&#160;</a></span>~QCPLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QCPLayer::~QCPLayer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1080</span>{</div>
+<div class="line"><span class="lineno"> 1081</span>  <span class="comment">// If child layerables are still on this layer, detach them, so they don&#39;t try to reach back to this</span></div>
+<div class="line"><span class="lineno"> 1082</span>  <span class="comment">// then invalid layer once they get deleted/moved themselves. This only happens when layers are deleted</span></div>
+<div class="line"><span class="lineno"> 1083</span>  <span class="comment">// directly, like in the QCustomPlot destructor. (The regular layer removal procedure for the user is to</span></div>
+<div class="line"><span class="lineno"> 1084</span>  <span class="comment">// call QCustomPlot::removeLayer, which moves all layerables off this layer before deleting it.)</span></div>
+<div class="line"><span class="lineno"> 1085</span>  </div>
+<div class="line"><span class="lineno"> 1086</span>  <span class="keywordflow">while</span> (!<a class="code hl_variable" href="#a704aa71bba469383c3a3c598c1ec0d28">mChildren</a>.isEmpty())</div>
+<div class="line"><span class="lineno"> 1087</span>    <a class="code hl_variable" href="#a704aa71bba469383c3a3c598c1ec0d28">mChildren</a>.last()-&gt;setLayer(<span class="keyword">nullptr</span>); <span class="comment">// removes itself from mChildren via removeChild()</span></div>
+<div class="line"><span class="lineno"> 1088</span>  </div>
+<div class="line"><span class="lineno"> 1089</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a2f3374a7884bf403720cd1cf6f7ad1bb">mParentPlot</a>-&gt;<a class="code hl_function" href="class_q_custom_plot.html#a0421d647f420b0b4c57aec1708857af5">currentLayer</a>() == <span class="keyword">this</span>)</div>
+<div class="line"><span class="lineno"> 1090</span>    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;The parent plot&#39;s mCurrentLayer will be a dangling pointer. Should have been set to a valid layer or nullptr beforehand.&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1091</span>}</div>
+<div class="ttc" id="aclass_q_c_p_layer_html_a704aa71bba469383c3a3c598c1ec0d28"><div class="ttname"><a href="#a704aa71bba469383c3a3c598c1ec0d28">QCPLayer::mChildren</a></div><div class="ttdeci">QList&lt; QCPLayerable * &gt; mChildren</div><div class="ttdef"><b>Definição</b> qcustomplot.h:730</div></div>
+<div class="ttc" id="aclass_q_custom_plot_html_a0421d647f420b0b4c57aec1708857af5"><div class="ttname"><a href="class_q_custom_plot.html#a0421d647f420b0b4c57aec1708857af5">QCustomPlot::currentLayer</a></div><div class="ttdeci">QCPLayer * currentLayer() const</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:14694</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentação das funções</h2>
+<a id="a57ce5e49364aa9122276d5df3b4a0ddc" name="a57ce5e49364aa9122276d5df3b4a0ddc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57ce5e49364aa9122276d5df3b4a0ddc">&#9670;&#160;</a></span>addChild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPLayer::addChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_layerable.html">QCPLayerable</a> *</td>          <td class="paramname"><span class="paramname"><em>layerable</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>prepend</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1225</span>{</div>
+<div class="line"><span class="lineno"> 1226</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="#a704aa71bba469383c3a3c598c1ec0d28">mChildren</a>.contains(layerable))</div>
+<div class="line"><span class="lineno"> 1227</span>  {</div>
+<div class="line"><span class="lineno"> 1228</span>    <span class="keywordflow">if</span> (prepend)</div>
+<div class="line"><span class="lineno"> 1229</span>      <a class="code hl_variable" href="#a704aa71bba469383c3a3c598c1ec0d28">mChildren</a>.prepend(layerable);</div>
+<div class="line"><span class="lineno"> 1230</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1231</span>      <a class="code hl_variable" href="#a704aa71bba469383c3a3c598c1ec0d28">mChildren</a>.append(layerable);</div>
+<div class="line"><span class="lineno"> 1232</span>    <span class="keywordflow">if</span> (QSharedPointer&lt;QCPAbstractPaintBuffer&gt; pb = <a class="code hl_variable" href="#aa0bdbc75e4350a0669ff515b3476a3d3">mPaintBuffer</a>.toStrongRef())</div>
+<div class="line"><span class="lineno"> 1233</span>      pb-&gt;setInvalidated();</div>
+<div class="line"><span class="lineno"> 1234</span>  } <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1235</span>    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;layerable is already child of this layer&quot;</span> &lt;&lt; <span class="keyword">reinterpret_cast&lt;</span>quintptr<span class="keyword">&gt;</span>(layerable);</div>
+<div class="line"><span class="lineno"> 1236</span>}</div>
+<div class="ttc" id="aclass_q_c_p_layer_html_aa0bdbc75e4350a0669ff515b3476a3d3"><div class="ttname"><a href="#aa0bdbc75e4350a0669ff515b3476a3d3">QCPLayer::mPaintBuffer</a></div><div class="ttdeci">QWeakPointer&lt; QCPAbstractPaintBuffer &gt; mPaintBuffer</div><div class="ttdef"><b>Definição</b> qcustomplot.h:735</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a183b90941fc78f0b136edd77c5fb6966" name="a183b90941fc78f0b136edd77c5fb6966"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a183b90941fc78f0b136edd77c5fb6966">&#9670;&#160;</a></span>children()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; <a class="el" href="class_q_c_p_layerable.html">QCPLayerable</a> * &gt; QCPLayer::children </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns a list of all layerables on this layer. The order corresponds to the rendering order: layerables with higher indices are drawn above layerables with lower indices. </p>
+<div class="fragment"><div class="line"><span class="lineno">  714</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a704aa71bba469383c3a3c598c1ec0d28">mChildren</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab831a99c8d30b15ec4533ca341e8813b" name="ab831a99c8d30b15ec4533ca341e8813b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab831a99c8d30b15ec4533ca341e8813b">&#9670;&#160;</a></span>draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPLayer::draw </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_painter.html">QCPPainter</a> *</td>          <td class="paramname"><span class="paramname"><em>painter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1144</span>{</div>
+<div class="line"><span class="lineno"> 1145</span>  <span class="keywordflow">foreach</span> (<a class="code hl_class" href="class_q_c_p_layerable.html">QCPLayerable</a> *child, <a class="code hl_variable" href="#a704aa71bba469383c3a3c598c1ec0d28">mChildren</a>)</div>
+<div class="line"><span class="lineno"> 1146</span>  {</div>
+<div class="line"><span class="lineno"> 1147</span>    <span class="keywordflow">if</span> (child-&gt;<a class="code hl_function" href="class_q_c_p_layerable.html#ab054e88f15d485defcb95e7376f119e7">realVisibility</a>())</div>
+<div class="line"><span class="lineno"> 1148</span>    {</div>
+<div class="line"><span class="lineno"> 1149</span>      painter-&gt;<a class="code hl_function" href="class_q_c_p_painter.html#a8fd6821ee6fecbfa04444c9062912abd">save</a>();</div>
+<div class="line"><span class="lineno"> 1150</span>      painter-&gt;setClipRect(child-&gt;<a class="code hl_function" href="class_q_c_p_layerable.html#acbcfc9ecc75433747b1978a77b1864b3">clipRect</a>().translated(0, -1));</div>
+<div class="line"><span class="lineno"> 1151</span>      child-&gt;<a class="code hl_function" href="class_q_c_p_layerable.html#a1168944abbf9fa6731b0f4a2d0d67e8b">applyDefaultAntialiasingHint</a>(painter);</div>
+<div class="line"><span class="lineno"> 1152</span>      child-&gt;<a class="code hl_function" href="class_q_c_p_layerable.html#adf62b4bac3ca934db80290792fc897e1">draw</a>(painter);</div>
+<div class="line"><span class="lineno"> 1153</span>      painter-&gt;<a class="code hl_function" href="class_q_c_p_painter.html#a64908e6298d5bbd83457dc987cc3a022">restore</a>();</div>
+<div class="line"><span class="lineno"> 1154</span>    }</div>
+<div class="line"><span class="lineno"> 1155</span>  }</div>
+<div class="line"><span class="lineno"> 1156</span>}</div>
+<div class="ttc" id="aclass_q_c_p_layerable_html"><div class="ttname"><a href="class_q_c_p_layerable.html">QCPLayerable</a></div><div class="ttdoc">Base class for all drawable objects.</div><div class="ttdef"><b>Definição</b> qcustomplot.h:752</div></div>
+<div class="ttc" id="aclass_q_c_p_layerable_html_a1168944abbf9fa6731b0f4a2d0d67e8b"><div class="ttname"><a href="class_q_c_p_layerable.html#a1168944abbf9fa6731b0f4a2d0d67e8b">QCPLayerable::applyDefaultAntialiasingHint</a></div><div class="ttdeci">virtual void applyDefaultAntialiasingHint(QCPPainter *painter) const =0</div></div>
+<div class="ttc" id="aclass_q_c_p_layerable_html_ab054e88f15d485defcb95e7376f119e7"><div class="ttname"><a href="class_q_c_p_layerable.html#ab054e88f15d485defcb95e7376f119e7">QCPLayerable::realVisibility</a></div><div class="ttdeci">bool realVisibility() const</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:1459</div></div>
+<div class="ttc" id="aclass_q_c_p_layerable_html_acbcfc9ecc75433747b1978a77b1864b3"><div class="ttname"><a href="class_q_c_p_layerable.html#acbcfc9ecc75433747b1978a77b1864b3">QCPLayerable::clipRect</a></div><div class="ttdeci">virtual QRect clipRect() const</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:1654</div></div>
+<div class="ttc" id="aclass_q_c_p_layerable_html_adf62b4bac3ca934db80290792fc897e1"><div class="ttname"><a href="class_q_c_p_layerable.html#adf62b4bac3ca934db80290792fc897e1">QCPLayerable::draw</a></div><div class="ttdeci">virtual void draw(QCPPainter *painter)=0</div></div>
+<div class="ttc" id="aclass_q_c_p_painter_html_a64908e6298d5bbd83457dc987cc3a022"><div class="ttname"><a href="class_q_c_p_painter.html#a64908e6298d5bbd83457dc987cc3a022">QCPPainter::restore</a></div><div class="ttdeci">void restore()</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:466</div></div>
+<div class="ttc" id="aclass_q_c_p_painter_html_a8fd6821ee6fecbfa04444c9062912abd"><div class="ttname"><a href="class_q_c_p_painter.html#a8fd6821ee6fecbfa04444c9062912abd">QCPPainter::save</a></div><div class="ttdeci">void save()</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:452</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4a8e0a86f31462299e7fc8e8158dd2c6" name="a4a8e0a86f31462299e7fc8e8158dd2c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a8e0a86f31462299e7fc8e8158dd2c6">&#9670;&#160;</a></span>drawToPaintBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPLayer::drawToPaintBuffer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1167</span>{</div>
+<div class="line"><span class="lineno"> 1168</span>  <span class="keywordflow">if</span> (QSharedPointer&lt;QCPAbstractPaintBuffer&gt; pb = <a class="code hl_variable" href="#aa0bdbc75e4350a0669ff515b3476a3d3">mPaintBuffer</a>.toStrongRef())</div>
+<div class="line"><span class="lineno"> 1169</span>  {</div>
+<div class="line"><span class="lineno"> 1170</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="class_q_c_p_painter.html">QCPPainter</a> *painter = pb-&gt;startPainting())</div>
+<div class="line"><span class="lineno"> 1171</span>    {</div>
+<div class="line"><span class="lineno"> 1172</span>      <span class="keywordflow">if</span> (painter-&gt;isActive())</div>
+<div class="line"><span class="lineno"> 1173</span>        <a class="code hl_function" href="#ab831a99c8d30b15ec4533ca341e8813b">draw</a>(painter);</div>
+<div class="line"><span class="lineno"> 1174</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1175</span>        qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;paint buffer returned inactive painter&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1176</span>      <span class="keyword">delete</span> painter;</div>
+<div class="line"><span class="lineno"> 1177</span>      pb-&gt;donePainting();</div>
+<div class="line"><span class="lineno"> 1178</span>    } <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1179</span>      qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;paint buffer returned nullptr painter&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1180</span>  } <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1181</span>    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;no valid paint buffer associated with this layer&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1182</span>}</div>
+<div class="ttc" id="aclass_q_c_p_layer_html_ab831a99c8d30b15ec4533ca341e8813b"><div class="ttname"><a href="#ab831a99c8d30b15ec4533ca341e8813b">QCPLayer::draw</a></div><div class="ttdeci">void draw(QCPPainter *painter)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:1143</div></div>
+<div class="ttc" id="aclass_q_c_p_painter_html"><div class="ttname"><a href="class_q_c_p_painter.html">QCPPainter</a></div><div class="ttdoc">QPainter subclass used internally.</div><div class="ttdef"><b>Definição</b> qcustomplot.h:516</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad322905c4700dcc7ceba63e011c730d2" name="ad322905c4700dcc7ceba63e011c730d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad322905c4700dcc7ceba63e011c730d2">&#9670;&#160;</a></span>index()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int QCPLayer::index </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the index this layer has in the <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a>. The index is the integer number by which this layer can be accessed via <a class="el" href="class_q_custom_plot.html#a0a96244e7773b242ef23c32b7bdfb159">QCustomPlot::layer</a>.</p>
+<p>Layers with higher indices will be drawn above layers with lower indices. </p>
+<div class="fragment"><div class="line"><span class="lineno">  713</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a122088bcab6cec76a52b75ce8606605b">mIndex</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a44ae50b011b19f3dd46a38d8e2e2c1b6" name="a44ae50b011b19f3dd46a38d8e2e2c1b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44ae50b011b19f3dd46a38d8e2e2c1b6">&#9670;&#160;</a></span>mode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7c">LayerMode</a> QCPLayer::mode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  716</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a11bd0aa190d8fa21c8c7673d070737c8">mMode</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a37806f662b50b588fb1029a14fc5ef50" name="a37806f662b50b588fb1029a14fc5ef50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37806f662b50b588fb1029a14fc5ef50">&#9670;&#160;</a></span>name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString QCPLayer::name </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  712</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a91e6298183cb4b9dfd4efdfaf1ecc220">mName</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a923cb87bb467eeb17d649ba2b2fe4f5f" name="a923cb87bb467eeb17d649ba2b2fe4f5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a923cb87bb467eeb17d649ba2b2fe4f5f">&#9670;&#160;</a></span>parentPlot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_q_custom_plot.html">QCustomPlot</a> * QCPLayer::parentPlot </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  711</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a2f3374a7884bf403720cd1cf6f7ad1bb">mParentPlot</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac2f64ac7761650582d968d86670ef362" name="ac2f64ac7761650582d968d86670ef362"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2f64ac7761650582d968d86670ef362">&#9670;&#160;</a></span>removeChild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPLayer::removeChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_layerable.html">QCPLayerable</a> *</td>          <td class="paramname"><span class="paramname"><em>layerable</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1248</span>{</div>
+<div class="line"><span class="lineno"> 1249</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a704aa71bba469383c3a3c598c1ec0d28">mChildren</a>.removeOne(layerable))</div>
+<div class="line"><span class="lineno"> 1250</span>  {</div>
+<div class="line"><span class="lineno"> 1251</span>    <span class="keywordflow">if</span> (QSharedPointer&lt;QCPAbstractPaintBuffer&gt; pb = <a class="code hl_variable" href="#aa0bdbc75e4350a0669ff515b3476a3d3">mPaintBuffer</a>.toStrongRef())</div>
+<div class="line"><span class="lineno"> 1252</span>      pb-&gt;setInvalidated();</div>
+<div class="line"><span class="lineno"> 1253</span>  } <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1254</span>    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;layerable is not child of this layer&quot;</span> &lt;&lt; <span class="keyword">reinterpret_cast&lt;</span>quintptr<span class="keyword">&gt;</span>(layerable);</div>
+<div class="line"><span class="lineno"> 1255</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adefd53b6db02f470151c416f42e37180" name="adefd53b6db02f470151c416f42e37180"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adefd53b6db02f470151c416f42e37180">&#9670;&#160;</a></span>replot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPLayer::replot </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If the layer mode (<a class="el" href="#a938d57b04f4e4c23cedf1711f983919b">setMode</a>) is set to <a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538">lmBuffered</a>, this method allows replotting only the layerables on this specific layer, without the need to replot all other layers (as a call to <a class="el" href="class_q_custom_plot.html#aa4bfe7d70dbe67e81d877819b75ab9af">QCustomPlot::replot</a> would do).</p>
+<p><a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a> also makes sure to replot all layers instead of only this one, if the layer ordering or any layerable-layer-association has changed since the last full replot and any other paint buffers were thus invalidated.</p>
+<p>If the layer mode is <a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7ca02eb5e9a4cb7f1baf1e2b6b99e3b87ce">lmLogical</a> however, this method simply calls <a class="el" href="class_q_custom_plot.html#aa4bfe7d70dbe67e81d877819b75ab9af">QCustomPlot::replot</a> on the parent <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a> instance.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#ab831a99c8d30b15ec4533ca341e8813b">draw</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno"> 1199</span>{</div>
+<div class="line"><span class="lineno"> 1200</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a11bd0aa190d8fa21c8c7673d070737c8">mMode</a> == <a class="code hl_enumvalue" href="#a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538">lmBuffered</a> &amp;&amp; !<a class="code hl_variable" href="#a2f3374a7884bf403720cd1cf6f7ad1bb">mParentPlot</a>-&gt;<a class="code hl_function" href="class_q_custom_plot.html#ad452b582348c8e99462d83fe1cd0279b">hasInvalidatedPaintBuffers</a>())</div>
+<div class="line"><span class="lineno"> 1201</span>  {</div>
+<div class="line"><span class="lineno"> 1202</span>    <span class="keywordflow">if</span> (QSharedPointer&lt;QCPAbstractPaintBuffer&gt; pb = <a class="code hl_variable" href="#aa0bdbc75e4350a0669ff515b3476a3d3">mPaintBuffer</a>.toStrongRef())</div>
+<div class="line"><span class="lineno"> 1203</span>    {</div>
+<div class="line"><span class="lineno"> 1204</span>      pb-&gt;clear(Qt::transparent);</div>
+<div class="line"><span class="lineno"> 1205</span>      <a class="code hl_function" href="#a4a8e0a86f31462299e7fc8e8158dd2c6">drawToPaintBuffer</a>();</div>
+<div class="line"><span class="lineno"> 1206</span>      pb-&gt;setInvalidated(<span class="keyword">false</span>); <span class="comment">// since layer is lmBuffered, we know only this layer is on buffer and we can reset invalidated flag</span></div>
+<div class="line"><span class="lineno"> 1207</span>      <a class="code hl_variable" href="#a2f3374a7884bf403720cd1cf6f7ad1bb">mParentPlot</a>-&gt;update();</div>
+<div class="line"><span class="lineno"> 1208</span>    } <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1209</span>      qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;no valid paint buffer associated with this layer&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1210</span>  } <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1211</span>    <a class="code hl_variable" href="#a2f3374a7884bf403720cd1cf6f7ad1bb">mParentPlot</a>-&gt;<a class="code hl_function" href="class_q_custom_plot.html#aa4bfe7d70dbe67e81d877819b75ab9af">replot</a>();</div>
+<div class="line"><span class="lineno"> 1212</span>}</div>
+<div class="ttc" id="aclass_q_c_p_layer_html_a4a8e0a86f31462299e7fc8e8158dd2c6"><div class="ttname"><a href="#a4a8e0a86f31462299e7fc8e8158dd2c6">QCPLayer::drawToPaintBuffer</a></div><div class="ttdeci">void drawToPaintBuffer()</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:1166</div></div>
+<div class="ttc" id="aclass_q_custom_plot_html_aa4bfe7d70dbe67e81d877819b75ab9af"><div class="ttname"><a href="class_q_custom_plot.html#aa4bfe7d70dbe67e81d877819b75ab9af">QCustomPlot::replot</a></div><div class="ttdeci">Q_SLOT void replot(QCustomPlot::RefreshPriority refreshPriority=QCustomPlot::rpRefreshHint)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:15118</div></div>
+<div class="ttc" id="aclass_q_custom_plot_html_ad452b582348c8e99462d83fe1cd0279b"><div class="ttname"><a href="class_q_custom_plot.html#ad452b582348c8e99462d83fe1cd0279b">QCustomPlot::hasInvalidatedPaintBuffers</a></div><div class="ttdeci">bool hasInvalidatedPaintBuffers()</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:15912</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a938d57b04f4e4c23cedf1711f983919b" name="a938d57b04f4e4c23cedf1711f983919b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a938d57b04f4e4c23cedf1711f983919b">&#9670;&#160;</a></span>setMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPLayer::setMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7c">QCPLayer::LayerMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the rendering mode of this layer.</p>
+<p>If <em>mode</em> is set to <a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538">lmBuffered</a> for a layer, it will be given a dedicated paint buffer by the parent <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a> instance. This means it may be replotted individually by calling <a class="el" href="#adefd53b6db02f470151c416f42e37180">QCPLayer::replot</a>, without needing to replot all other layers.</p>
+<p>Layers which are set to <a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7ca02eb5e9a4cb7f1baf1e2b6b99e3b87ce">lmLogical</a> (the default) are used only to define the rendering order and can't be replotted individually.</p>
+<p>Note that each layer which is set to <a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538">lmBuffered</a> requires additional paint buffers for the layers below, above and for the layer itself. This increases the memory consumption and (slightly) decreases the repainting speed because multiple paint buffers need to be joined. So you should carefully choose which layers benefit from having their own paint buffer. A typical example would be a layer which contains certain layerables (e.g. items) that need to be changed and thus replotted regularly, while all other layerables on other layers stay static. By default, only the topmost layer called "overlay" is in mode <a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538">lmBuffered</a>, and contains the selection rect.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#adefd53b6db02f470151c416f42e37180">replot</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno"> 1128</span>{</div>
+<div class="line"><span class="lineno"> 1129</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a11bd0aa190d8fa21c8c7673d070737c8">mMode</a> != <a class="code hl_function" href="#a44ae50b011b19f3dd46a38d8e2e2c1b6">mode</a>)</div>
+<div class="line"><span class="lineno"> 1130</span>  {</div>
+<div class="line"><span class="lineno"> 1131</span>    <a class="code hl_variable" href="#a11bd0aa190d8fa21c8c7673d070737c8">mMode</a> = <a class="code hl_function" href="#a44ae50b011b19f3dd46a38d8e2e2c1b6">mode</a>;</div>
+<div class="line"><span class="lineno"> 1132</span>    <span class="keywordflow">if</span> (QSharedPointer&lt;QCPAbstractPaintBuffer&gt; pb = <a class="code hl_variable" href="#aa0bdbc75e4350a0669ff515b3476a3d3">mPaintBuffer</a>.toStrongRef())</div>
+<div class="line"><span class="lineno"> 1133</span>      pb-&gt;setInvalidated();</div>
+<div class="line"><span class="lineno"> 1134</span>  }</div>
+<div class="line"><span class="lineno"> 1135</span>}</div>
+<div class="ttc" id="aclass_q_c_p_layer_html_a44ae50b011b19f3dd46a38d8e2e2c1b6"><div class="ttname"><a href="#a44ae50b011b19f3dd46a38d8e2e2c1b6">QCPLayer::mode</a></div><div class="ttdeci">LayerMode mode() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:716</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac07671f74edf6884b51a82afb2c19516" name="ac07671f74edf6884b51a82afb2c19516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac07671f74edf6884b51a82afb2c19516">&#9670;&#160;</a></span>setVisible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPLayer::setVisible </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>visible</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets whether this layer is visible or not. If <em>visible</em> is set to false, all layerables on this layer will be invisible.</p>
+<p>This function doesn't change the visibility property of the layerables (<a class="el" href="class_q_c_p_layerable.html#a3bed99ddc396b48ce3ebfdc0418744f8">QCPLayerable::setVisible</a>), but the <a class="el" href="class_q_c_p_layerable.html#ab054e88f15d485defcb95e7376f119e7">QCPLayerable::realVisibility</a> of each layerable takes the visibility of the parent layer into account. </p>
+<div class="fragment"><div class="line"><span class="lineno"> 1102</span>{</div>
+<div class="line"><span class="lineno"> 1103</span>  <a class="code hl_variable" href="#a264950deb08e589460c126c895a1e2b5">mVisible</a> = <a class="code hl_function" href="#ad1cc2d6b32d2abb33c7f449b964e068c">visible</a>;</div>
+<div class="line"><span class="lineno"> 1104</span>}</div>
+<div class="ttc" id="aclass_q_c_p_layer_html_ad1cc2d6b32d2abb33c7f449b964e068c"><div class="ttname"><a href="#ad1cc2d6b32d2abb33c7f449b964e068c">QCPLayer::visible</a></div><div class="ttdeci">bool visible() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:715</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad1cc2d6b32d2abb33c7f449b964e068c" name="ad1cc2d6b32d2abb33c7f449b964e068c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1cc2d6b32d2abb33c7f449b964e068c">&#9670;&#160;</a></span>visible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool QCPLayer::visible </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  715</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a264950deb08e589460c126c895a1e2b5">mVisible</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentação dos símbolos amigos e relacionados</h2>
+<a id="ad655f55cccf49ba14d5172ec517e07ae" name="ad655f55cccf49ba14d5172ec517e07ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad655f55cccf49ba14d5172ec517e07ae">&#9670;&#160;</a></span>QCPLayerable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_q_c_p_layerable.html">QCPLayerable</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1cdf9df76adcfae45261690aa0ca2198" name="a1cdf9df76adcfae45261690aa0ca2198"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cdf9df76adcfae45261690aa0ca2198">&#9670;&#160;</a></span>QCustomPlot</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_q_custom_plot.html">QCustomPlot</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Atributos</h2>
+<a id="a704aa71bba469383c3a3c598c1ec0d28" name="a704aa71bba469383c3a3c598c1ec0d28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a704aa71bba469383c3a3c598c1ec0d28">&#9670;&#160;</a></span>mChildren</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_q_c_p_layerable.html">QCPLayerable</a>*&gt; QCPLayer::mChildren</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a122088bcab6cec76a52b75ce8606605b" name="a122088bcab6cec76a52b75ce8606605b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a122088bcab6cec76a52b75ce8606605b">&#9670;&#160;</a></span>mIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int QCPLayer::mIndex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a11bd0aa190d8fa21c8c7673d070737c8" name="a11bd0aa190d8fa21c8c7673d070737c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11bd0aa190d8fa21c8c7673d070737c8">&#9670;&#160;</a></span>mMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a67dcfc1590be2a1f2227c5a39bb59c7c">LayerMode</a> QCPLayer::mMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91e6298183cb4b9dfd4efdfaf1ecc220" name="a91e6298183cb4b9dfd4efdfaf1ecc220"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91e6298183cb4b9dfd4efdfaf1ecc220">&#9670;&#160;</a></span>mName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString QCPLayer::mName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0bdbc75e4350a0669ff515b3476a3d3" name="aa0bdbc75e4350a0669ff515b3476a3d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0bdbc75e4350a0669ff515b3476a3d3">&#9670;&#160;</a></span>mPaintBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWeakPointer&lt;<a class="el" href="class_q_c_p_abstract_paint_buffer.html">QCPAbstractPaintBuffer</a>&gt; QCPLayer::mPaintBuffer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f3374a7884bf403720cd1cf6f7ad1bb" name="a2f3374a7884bf403720cd1cf6f7ad1bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f3374a7884bf403720cd1cf6f7ad1bb">&#9670;&#160;</a></span>mParentPlot</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_q_custom_plot.html">QCustomPlot</a>* QCPLayer::mParentPlot</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a264950deb08e589460c126c895a1e2b5" name="a264950deb08e589460c126c895a1e2b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a264950deb08e589460c126c895a1e2b5">&#9670;&#160;</a></span>mVisible</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool QCPLayer::mVisible</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>A documentação para essa classe foi gerada a partir dos seguintes arquivos:<ul>
+<li>C:/Users/pedro/Documents/Programa Bueno/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/versao-2/src/<a class="el" href="qcustomplot_8h_source.html">qcustomplot.h</a></li>
+<li>C:/Users/pedro/Documents/Programa Bueno/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/versao-2/src/<a class="el" href="qcustomplot_8cpp.html">qcustomplot.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

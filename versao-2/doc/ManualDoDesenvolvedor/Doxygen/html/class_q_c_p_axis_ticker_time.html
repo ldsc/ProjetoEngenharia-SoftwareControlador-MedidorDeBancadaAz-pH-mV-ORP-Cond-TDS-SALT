@@ -1,0 +1,782 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação Projeto Software: Referência da Classe QCPAxisTickerTime</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Documentação Projeto Software<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Tipos Públicos</a> &#124;
+<a href="#pub-methods">Membros Públicos</a> &#124;
+<a href="#pro-methods">Membros protegidos</a> &#124;
+<a href="#pro-attribs">Atributos Protegidos</a> &#124;
+<a href="class_q_c_p_axis_ticker_time-members.html">Lista de todos os Membros</a>  </div>
+  <div class="headertitle"><div class="title">Referência da Classe QCPAxisTickerTime</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Specialized axis ticker for time spans in units of milliseconds to days.  
+ <a href="#details">Mais...</a></p>
+
+<p><code>#include &lt;<a class="el" href="qcustomplot_8h_source.html">qcustomplot.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagrama de hierarquia da classe QCPAxisTickerTime:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_q_c_p_axis_ticker_time.png" usemap="#QCPAxisTickerTime_map" alt=""/>
+  <map id="QCPAxisTickerTime_map" name="QCPAxisTickerTime_map">
+<area href="class_q_c_p_axis_ticker.html" title="The base class tick generator used by QCPAxis to create tick positions and tick labels." alt="QCPAxisTicker" shape="rect" coords="0,0,124,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Tipos Públicos</h2></td></tr>
+<tr class="memitem:a5c48ded8c6d3a1aca9b68219469fea3e" id="r_a5c48ded8c6d3a1aca9b68219469fea3e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a> { <br />
+&#160;&#160;<a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf">tuMilliseconds</a>
+, <a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d">tuSeconds</a>
+, <a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00">tuMinutes</a>
+, <a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935">tuHours</a>
+, <br />
+&#160;&#160;<a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556">tuDays</a>
+<br />
+ }</td></tr>
+<tr class="separator:a5c48ded8c6d3a1aca9b68219469fea3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_class_q_c_p_axis_ticker"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_class_q_c_p_axis_ticker')"><img src="closed.png" alt="-"/>&#160;Tipos Públicos herdados de <a class="el" href="class_q_c_p_axis_ticker.html">QCPAxisTicker</a></td></tr>
+<tr class="memitem:ab6d2f9d9477821623ac9bc4b21ddf49a inherit pub_types_class_q_c_p_axis_ticker" id="r_ab6d2f9d9477821623ac9bc4b21ddf49a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</a> { <a class="el" href="class_q_c_p_axis_ticker.html#ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8">tssReadability</a>
+, <a class="el" href="class_q_c_p_axis_ticker.html#ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2">tssMeetTickCount</a>
+ }</td></tr>
+<tr class="separator:ab6d2f9d9477821623ac9bc4b21ddf49a inherit pub_types_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Membros Públicos</h2></td></tr>
+<tr class="memitem:a5145aac1d2117fdac411d9e8552cc41b" id="r_a5145aac1d2117fdac411d9e8552cc41b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5145aac1d2117fdac411d9e8552cc41b">QCPAxisTickerTime</a> ()</td></tr>
+<tr class="separator:a5145aac1d2117fdac411d9e8552cc41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99ad61dc7434a7fed1850e96bf748834" id="r_a99ad61dc7434a7fed1850e96bf748834"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99ad61dc7434a7fed1850e96bf748834">timeFormat</a> () const</td></tr>
+<tr class="separator:a99ad61dc7434a7fed1850e96bf748834"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b58a98e4d64c6764aa61a707e4a344d" id="r_a6b58a98e4d64c6764aa61a707e4a344d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b58a98e4d64c6764aa61a707e4a344d">fieldWidth</a> (<a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a> unit) const</td></tr>
+<tr class="separator:a6b58a98e4d64c6764aa61a707e4a344d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f30b6e5125bce4256be9ce3177088ea" id="r_a2f30b6e5125bce4256be9ce3177088ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f30b6e5125bce4256be9ce3177088ea">setTimeFormat</a> (const QString &amp;format)</td></tr>
+<tr class="separator:a2f30b6e5125bce4256be9ce3177088ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc13e54fc969be98a5c0e3fa0dbaa293" id="r_adc13e54fc969be98a5c0e3fa0dbaa293"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc13e54fc969be98a5c0e3fa0dbaa293">setFieldWidth</a> (<a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a> unit, int width)</td></tr>
+<tr class="separator:adc13e54fc969be98a5c0e3fa0dbaa293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_q_c_p_axis_ticker"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_q_c_p_axis_ticker')"><img src="closed.png" alt="-"/>&#160;Membros Públicos herdados de <a class="el" href="class_q_c_p_axis_ticker.html">QCPAxisTicker</a></td></tr>
+<tr class="memitem:a8fcf23c79ebd72202fe79253f9f01ea8 inherit pub_methods_class_q_c_p_axis_ticker" id="r_a8fcf23c79ebd72202fe79253f9f01ea8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#a8fcf23c79ebd72202fe79253f9f01ea8">QCPAxisTicker</a> ()</td></tr>
+<tr class="separator:a8fcf23c79ebd72202fe79253f9f01ea8 inherit pub_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1119d6f09ad720f9c5dfdd2559047161 inherit pub_methods_class_q_c_p_axis_ticker" id="r_a1119d6f09ad720f9c5dfdd2559047161"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#a1119d6f09ad720f9c5dfdd2559047161">~QCPAxisTicker</a> ()</td></tr>
+<tr class="separator:a1119d6f09ad720f9c5dfdd2559047161 inherit pub_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58df76f2ec3eb48401bdd314b0e14ba1 inherit pub_methods_class_q_c_p_axis_ticker" id="r_a58df76f2ec3eb48401bdd314b0e14ba1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_axis_ticker.html#ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#a58df76f2ec3eb48401bdd314b0e14ba1">tickStepStrategy</a> () const</td></tr>
+<tr class="separator:a58df76f2ec3eb48401bdd314b0e14ba1 inherit pub_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf9edbe4169ce55e216fd067cc139452 inherit pub_methods_class_q_c_p_axis_ticker" id="r_aaf9edbe4169ce55e216fd067cc139452"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#aaf9edbe4169ce55e216fd067cc139452">tickCount</a> () const</td></tr>
+<tr class="separator:aaf9edbe4169ce55e216fd067cc139452 inherit pub_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0c6e9587c36fdeefb5518c00fe7ab15 inherit pub_methods_class_q_c_p_axis_ticker" id="r_ac0c6e9587c36fdeefb5518c00fe7ab15"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#ac0c6e9587c36fdeefb5518c00fe7ab15">tickOrigin</a> () const</td></tr>
+<tr class="separator:ac0c6e9587c36fdeefb5518c00fe7ab15 inherit pub_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73b1d847c1a12159af6bfda4ebebe7d5 inherit pub_methods_class_q_c_p_axis_ticker" id="r_a73b1d847c1a12159af6bfda4ebebe7d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#a73b1d847c1a12159af6bfda4ebebe7d5">setTickStepStrategy</a> (<a class="el" href="class_q_c_p_axis_ticker.html#ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</a> strategy)</td></tr>
+<tr class="separator:a73b1d847c1a12159af6bfda4ebebe7d5 inherit pub_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47752abba8293e6dc18491501ae34008 inherit pub_methods_class_q_c_p_axis_ticker" id="r_a47752abba8293e6dc18491501ae34008"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#a47752abba8293e6dc18491501ae34008">setTickCount</a> (int count)</td></tr>
+<tr class="separator:a47752abba8293e6dc18491501ae34008 inherit pub_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab509c7e500293bf66a8409f0d7c23943 inherit pub_methods_class_q_c_p_axis_ticker" id="r_ab509c7e500293bf66a8409f0d7c23943"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#ab509c7e500293bf66a8409f0d7c23943">setTickOrigin</a> (double origin)</td></tr>
+<tr class="separator:ab509c7e500293bf66a8409f0d7c23943 inherit pub_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefbd11725678ca824add8cf926cbc856 inherit pub_methods_class_q_c_p_axis_ticker" id="r_aefbd11725678ca824add8cf926cbc856"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#aefbd11725678ca824add8cf926cbc856">generate</a> (const <a class="el" href="class_q_c_p_range.html">QCPRange</a> &amp;range, const QLocale &amp;locale, QChar formatChar, int precision, QVector&lt; double &gt; &amp;ticks, QVector&lt; double &gt; *subTicks, QVector&lt; QString &gt; *tickLabels)</td></tr>
+<tr class="separator:aefbd11725678ca824add8cf926cbc856 inherit pub_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Membros protegidos</h2></td></tr>
+<tr class="memitem:a5615064642090fe193797caea8b98cb4" id="r_a5615064642090fe193797caea8b98cb4"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5615064642090fe193797caea8b98cb4">getTickStep</a> (const <a class="el" href="class_q_c_p_range.html">QCPRange</a> &amp;range) <a class="el" href="qcustomplot_8h.html#a42cc5eaeb25b85f8b52d2a4b94c56f55">Q_DECL_OVERRIDE</a></td></tr>
+<tr class="separator:a5615064642090fe193797caea8b98cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acace84c46598176aa53837e147595471" id="r_acace84c46598176aa53837e147595471"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acace84c46598176aa53837e147595471">getSubTickCount</a> (double tickStep) <a class="el" href="qcustomplot_8h.html#a42cc5eaeb25b85f8b52d2a4b94c56f55">Q_DECL_OVERRIDE</a></td></tr>
+<tr class="separator:acace84c46598176aa53837e147595471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a046eb771bdf2a959f570db542b3a0be6" id="r_a046eb771bdf2a959f570db542b3a0be6"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a046eb771bdf2a959f570db542b3a0be6">getTickLabel</a> (double tick, const QLocale &amp;locale, QChar formatChar, int precision) <a class="el" href="qcustomplot_8h.html#a42cc5eaeb25b85f8b52d2a4b94c56f55">Q_DECL_OVERRIDE</a></td></tr>
+<tr class="separator:a046eb771bdf2a959f570db542b3a0be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03b6c980be36f2672e3fc31d109a28a0" id="r_a03b6c980be36f2672e3fc31d109a28a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03b6c980be36f2672e3fc31d109a28a0">replaceUnit</a> (QString &amp;text, <a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a> unit, int value) const</td></tr>
+<tr class="separator:a03b6c980be36f2672e3fc31d109a28a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_q_c_p_axis_ticker"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_q_c_p_axis_ticker')"><img src="closed.png" alt="-"/>&#160;Membros protegidos herdados de <a class="el" href="class_q_c_p_axis_ticker.html">QCPAxisTicker</a></td></tr>
+<tr class="memitem:af4645a824c7bd2ca8fc7e86ebf9055bd inherit pro_methods_class_q_c_p_axis_ticker" id="r_af4645a824c7bd2ca8fc7e86ebf9055bd"><td class="memItemLeft" align="right" valign="top">virtual QVector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#af4645a824c7bd2ca8fc7e86ebf9055bd">createTickVector</a> (double tickStep, const <a class="el" href="class_q_c_p_range.html">QCPRange</a> &amp;range)</td></tr>
+<tr class="separator:af4645a824c7bd2ca8fc7e86ebf9055bd inherit pro_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a6435723fa0bd366d1ea4c2cff7c33f inherit pro_methods_class_q_c_p_axis_ticker" id="r_a9a6435723fa0bd366d1ea4c2cff7c33f"><td class="memItemLeft" align="right" valign="top">virtual QVector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#a9a6435723fa0bd366d1ea4c2cff7c33f">createSubTickVector</a> (int subTickCount, const QVector&lt; double &gt; &amp;ticks)</td></tr>
+<tr class="separator:a9a6435723fa0bd366d1ea4c2cff7c33f inherit pro_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a804050e408f37a0b9770c6654ebe6aa7 inherit pro_methods_class_q_c_p_axis_ticker" id="r_a804050e408f37a0b9770c6654ebe6aa7"><td class="memItemLeft" align="right" valign="top">virtual QVector&lt; QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#a804050e408f37a0b9770c6654ebe6aa7">createLabelVector</a> (const QVector&lt; double &gt; &amp;ticks, const QLocale &amp;locale, QChar formatChar, int precision)</td></tr>
+<tr class="separator:a804050e408f37a0b9770c6654ebe6aa7 inherit pro_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab28cc1ab549489be7975f5ce7e717916 inherit pro_methods_class_q_c_p_axis_ticker" id="r_ab28cc1ab549489be7975f5ce7e717916"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#ab28cc1ab549489be7975f5ce7e717916">trimTicks</a> (const <a class="el" href="class_q_c_p_range.html">QCPRange</a> &amp;range, QVector&lt; double &gt; &amp;ticks, bool keepOneOutlier) const</td></tr>
+<tr class="separator:ab28cc1ab549489be7975f5ce7e717916 inherit pro_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea0a7c4ca1c610f92b9bd5944ab4260 inherit pro_methods_class_q_c_p_axis_ticker" id="r_a4ea0a7c4ca1c610f92b9bd5944ab4260"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#a4ea0a7c4ca1c610f92b9bd5944ab4260">pickClosest</a> (double target, const QVector&lt; double &gt; &amp;candidates) const</td></tr>
+<tr class="separator:a4ea0a7c4ca1c610f92b9bd5944ab4260 inherit pro_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe99aaaf6c512812869b0a19937c76ff inherit pro_methods_class_q_c_p_axis_ticker" id="r_abe99aaaf6c512812869b0a19937c76ff"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#abe99aaaf6c512812869b0a19937c76ff">getMantissa</a> (double input, double *magnitude=nullptr) const</td></tr>
+<tr class="separator:abe99aaaf6c512812869b0a19937c76ff inherit pro_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7df6c72876b7abd67c932663a0b0f6a inherit pro_methods_class_q_c_p_axis_ticker" id="r_ac7df6c72876b7abd67c932663a0b0f6a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#ac7df6c72876b7abd67c932663a0b0f6a">cleanMantissa</a> (double input) const</td></tr>
+<tr class="separator:ac7df6c72876b7abd67c932663a0b0f6a inherit pro_methods_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Atributos Protegidos</h2></td></tr>
+<tr class="memitem:a800af3fe0a7c1a8110c043b82169bc9d" id="r_a800af3fe0a7c1a8110c043b82169bc9d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a800af3fe0a7c1a8110c043b82169bc9d">mTimeFormat</a></td></tr>
+<tr class="separator:a800af3fe0a7c1a8110c043b82169bc9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58305b56f847bcab8b3c852a21bdb91a" id="r_a58305b56f847bcab8b3c852a21bdb91a"><td class="memItemLeft" align="right" valign="top">QHash&lt; <a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58305b56f847bcab8b3c852a21bdb91a">mFieldWidth</a></td></tr>
+<tr class="separator:a58305b56f847bcab8b3c852a21bdb91a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61033c493cec76a69628d1aaa5b07abf" id="r_a61033c493cec76a69628d1aaa5b07abf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61033c493cec76a69628d1aaa5b07abf">mSmallestUnit</a></td></tr>
+<tr class="separator:a61033c493cec76a69628d1aaa5b07abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a349b2debe07adc591996aa73dec9a757" id="r_a349b2debe07adc591996aa73dec9a757"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a349b2debe07adc591996aa73dec9a757">mBiggestUnit</a></td></tr>
+<tr class="separator:a349b2debe07adc591996aa73dec9a757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfc8221afbccb99343aa61f75419908d" id="r_adfc8221afbccb99343aa61f75419908d"><td class="memItemLeft" align="right" valign="top">QHash&lt; <a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a>, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfc8221afbccb99343aa61f75419908d">mFormatPattern</a></td></tr>
+<tr class="separator:adfc8221afbccb99343aa61f75419908d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_q_c_p_axis_ticker"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_q_c_p_axis_ticker')"><img src="closed.png" alt="-"/>&#160;Atributos Protegidos herdados de <a class="el" href="class_q_c_p_axis_ticker.html">QCPAxisTicker</a></td></tr>
+<tr class="memitem:ac059d6d670b2f6132c593fb4de156701 inherit pro_attribs_class_q_c_p_axis_ticker" id="r_ac059d6d670b2f6132c593fb4de156701"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_axis_ticker.html#ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#ac059d6d670b2f6132c593fb4de156701">mTickStepStrategy</a></td></tr>
+<tr class="separator:ac059d6d670b2f6132c593fb4de156701 inherit pro_attribs_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14a35b47d1aad11b08d18ea0e25937b8 inherit pro_attribs_class_q_c_p_axis_ticker" id="r_a14a35b47d1aad11b08d18ea0e25937b8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#a14a35b47d1aad11b08d18ea0e25937b8">mTickCount</a></td></tr>
+<tr class="separator:a14a35b47d1aad11b08d18ea0e25937b8 inherit pro_attribs_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a560ef9347b1aa599a9bf0e2f29d3ec16 inherit pro_attribs_class_q_c_p_axis_ticker" id="r_a560ef9347b1aa599a9bf0e2f29d3ec16"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_axis_ticker.html#a560ef9347b1aa599a9bf0e2f29d3ec16">mTickOrigin</a></td></tr>
+<tr class="separator:a560ef9347b1aa599a9bf0e2f29d3ec16 inherit pro_attribs_class_q_c_p_axis_ticker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Specialized axis ticker for time spans in units of milliseconds to days. </p>
+<div class="image">
+<img src="axisticker-time.png" alt=""/>
+</div>
+<p>This <a class="el" href="class_q_c_p_axis_ticker.html" title="The base class tick generator used by QCPAxis to create tick positions and tick labels.">QCPAxisTicker</a> subclass generates ticks that corresponds to time intervals.</p>
+<p>The format of the time display in the tick labels is controlled with <a class="el" href="#a2f30b6e5125bce4256be9ce3177088ea">setTimeFormat</a> and <a class="el" href="#adc13e54fc969be98a5c0e3fa0dbaa293">setFieldWidth</a>. The time coordinate is in the unit of seconds with respect to the time coordinate zero. Unlike with <a class="el" href="class_q_c_p_axis_ticker_date_time.html" title="Specialized axis ticker for calendar dates and times as axis ticks.">QCPAxisTickerDateTime</a>, the ticks don't correspond to a specific calendar date and time.</p>
+<p>The time can be displayed in milliseconds, seconds, minutes, hours and days. Depending on the largest available unit in the format specified with <a class="el" href="#a2f30b6e5125bce4256be9ce3177088ea">setTimeFormat</a>, any time spans above will be carried in that largest unit. So for example if the format string is "%m:%s" and a tick at coordinate value 7815 (being 2 hours, 10 minutes and 15 seconds) is created, the resulting tick label will show "130:15" (130 minutes, 15 seconds). If the format string is "%h:%m:%s", the hour unit will be used and the label will thus be "02:10:15". Negative times with respect to the axis zero will carry a leading minus sign.</p>
+<p>The ticker can be created and assigned to an axis like this: </p><div class="fragment"></div><!-- fragment --><p>Here is an example of a time axis providing time information in days, hours and minutes. Due to the axis range spanning a few days and the wanted tick count (<a class="el" href="class_q_c_p_axis_ticker.html#a47752abba8293e6dc18491501ae34008">setTickCount</a>), the ticker decided to use tick steps of 12 hours:</p>
+<div class="image">
+<img src="axisticker-time2.png" alt=""/>
+</div>
+<p>The format string for this example is </p><div class="fragment"></div><!-- fragment --><dl class="section note"><dt>Observação</dt><dd>If you rather wish to display calendar dates and times, have a look at <a class="el" href="class_q_c_p_axis_ticker_date_time.html" title="Specialized axis ticker for calendar dates and times as axis ticks.">QCPAxisTickerDateTime</a> instead. </dd></dl>
+</div><h2 class="groupheader">Documentação das enumerações</h2>
+<a id="a5c48ded8c6d3a1aca9b68219469fea3e" name="a5c48ded8c6d3a1aca9b68219469fea3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c48ded8c6d3a1aca9b68219469fea3e">&#9670;&#160;</a></span>TimeUnit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">QCPAxisTickerTime::TimeUnit</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Defines the logical units in which fractions of time spans can be expressed.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#adc13e54fc969be98a5c0e3fa0dbaa293">setFieldWidth</a>, <a class="el" href="#a2f30b6e5125bce4256be9ce3177088ea">setTimeFormat</a> </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumeradores</th></tr><tr><td class="fieldname"><a id="a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf" name="a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf"></a>tuMilliseconds&#160;</td><td class="fielddoc"><p>Milliseconds, one thousandth of a second (%z in <a class="el" href="#a2f30b6e5125bce4256be9ce3177088ea">setTimeFormat</a>) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d" name="a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d"></a>tuSeconds&#160;</td><td class="fielddoc"><p>Seconds (%s in <a class="el" href="#a2f30b6e5125bce4256be9ce3177088ea">setTimeFormat</a>) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00" name="a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00"></a>tuMinutes&#160;</td><td class="fielddoc"><p>Minutes (%m in <a class="el" href="#a2f30b6e5125bce4256be9ce3177088ea">setTimeFormat</a>) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935" name="a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935"></a>tuHours&#160;</td><td class="fielddoc"><p>Hours (%h in <a class="el" href="#a2f30b6e5125bce4256be9ce3177088ea">setTimeFormat</a>) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556" name="a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556"></a>tuDays&#160;</td><td class="fielddoc"><p>Days (%d in <a class="el" href="#a2f30b6e5125bce4256be9ce3177088ea">setTimeFormat</a>) </p>
+</td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno"> 1855</span>                { <a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf">tuMilliseconds</a> </div>
+<div class="line"><span class="lineno"> 1856</span>                  ,<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d">tuSeconds</a>     </div>
+<div class="line"><span class="lineno"> 1857</span>                  ,<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00">tuMinutes</a>     </div>
+<div class="line"><span class="lineno"> 1858</span>                  ,<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935">tuHours</a>       </div>
+<div class="line"><span class="lineno"> 1859</span>                  ,<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556">tuDays</a>        </div>
+<div class="line"><span class="lineno"> 1860</span>                };</div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_time_html_a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d"><div class="ttname"><a href="#a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d">QCPAxisTickerTime::tuSeconds</a></div><div class="ttdeci">@ tuSeconds</div><div class="ttdoc">Seconds (%s in setTimeFormat)</div><div class="ttdef"><b>Definição</b> qcustomplot.h:1856</div></div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_time_html_a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00"><div class="ttname"><a href="#a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00">QCPAxisTickerTime::tuMinutes</a></div><div class="ttdeci">@ tuMinutes</div><div class="ttdoc">Minutes (%m in setTimeFormat)</div><div class="ttdef"><b>Definição</b> qcustomplot.h:1857</div></div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_time_html_a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf"><div class="ttname"><a href="#a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf">QCPAxisTickerTime::tuMilliseconds</a></div><div class="ttdeci">@ tuMilliseconds</div><div class="ttdoc">Milliseconds, one thousandth of a second (%z in setTimeFormat)</div><div class="ttdef"><b>Definição</b> qcustomplot.h:1855</div></div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_time_html_a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935"><div class="ttname"><a href="#a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935">QCPAxisTickerTime::tuHours</a></div><div class="ttdeci">@ tuHours</div><div class="ttdoc">Hours (%h in setTimeFormat)</div><div class="ttdef"><b>Definição</b> qcustomplot.h:1858</div></div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_time_html_a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556"><div class="ttname"><a href="#a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556">QCPAxisTickerTime::tuDays</a></div><div class="ttdeci">@ tuDays</div><div class="ttdoc">Days (%d in setTimeFormat)</div><div class="ttdef"><b>Definição</b> qcustomplot.h:1859</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Construtores e Destrutores</h2>
+<a id="a5145aac1d2117fdac411d9e8552cc41b" name="a5145aac1d2117fdac411d9e8552cc41b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5145aac1d2117fdac411d9e8552cc41b">&#9670;&#160;</a></span>QCPAxisTickerTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QCPAxisTickerTime::QCPAxisTickerTime </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QSharedPointer, which then can be passed to <a class="el" href="class_q_c_p_axis.html#a4ee03fcd2c74d05cd1a419b9af5cfbdc">QCPAxis::setTicker</a>. </p>
+<div class="fragment"><div class="line"><span class="lineno"> 6883</span>                                     :</div>
+<div class="line"><span class="lineno"> 6884</span>  <a class="code hl_variable" href="#a800af3fe0a7c1a8110c043b82169bc9d">mTimeFormat</a>(QLatin1String(<span class="stringliteral">&quot;%h:%m:%s&quot;</span>)),</div>
+<div class="line"><span class="lineno"> 6885</span>  <a class="code hl_variable" href="#a61033c493cec76a69628d1aaa5b07abf">mSmallestUnit</a>(<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d">tuSeconds</a>),</div>
+<div class="line"><span class="lineno"> 6886</span>  <a class="code hl_variable" href="#a349b2debe07adc591996aa73dec9a757">mBiggestUnit</a>(<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935">tuHours</a>)</div>
+<div class="line"><span class="lineno"> 6887</span>{</div>
+<div class="line"><span class="lineno"> 6888</span>  <a class="code hl_function" href="class_q_c_p_axis_ticker.html#a47752abba8293e6dc18491501ae34008">setTickCount</a>(4);</div>
+<div class="line"><span class="lineno"> 6889</span>  <a class="code hl_variable" href="#a58305b56f847bcab8b3c852a21bdb91a">mFieldWidth</a>[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf">tuMilliseconds</a>] = 3;</div>
+<div class="line"><span class="lineno"> 6890</span>  <a class="code hl_variable" href="#a58305b56f847bcab8b3c852a21bdb91a">mFieldWidth</a>[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d">tuSeconds</a>] = 2;</div>
+<div class="line"><span class="lineno"> 6891</span>  <a class="code hl_variable" href="#a58305b56f847bcab8b3c852a21bdb91a">mFieldWidth</a>[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00">tuMinutes</a>] = 2;</div>
+<div class="line"><span class="lineno"> 6892</span>  <a class="code hl_variable" href="#a58305b56f847bcab8b3c852a21bdb91a">mFieldWidth</a>[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935">tuHours</a>] = 2;</div>
+<div class="line"><span class="lineno"> 6893</span>  <a class="code hl_variable" href="#a58305b56f847bcab8b3c852a21bdb91a">mFieldWidth</a>[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556">tuDays</a>] = 1;</div>
+<div class="line"><span class="lineno"> 6894</span>  </div>
+<div class="line"><span class="lineno"> 6895</span>  <a class="code hl_variable" href="#adfc8221afbccb99343aa61f75419908d">mFormatPattern</a>[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf">tuMilliseconds</a>] = QLatin1String(<span class="stringliteral">&quot;%z&quot;</span>);</div>
+<div class="line"><span class="lineno"> 6896</span>  <a class="code hl_variable" href="#adfc8221afbccb99343aa61f75419908d">mFormatPattern</a>[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d">tuSeconds</a>] = QLatin1String(<span class="stringliteral">&quot;%s&quot;</span>);</div>
+<div class="line"><span class="lineno"> 6897</span>  <a class="code hl_variable" href="#adfc8221afbccb99343aa61f75419908d">mFormatPattern</a>[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00">tuMinutes</a>] = QLatin1String(<span class="stringliteral">&quot;%m&quot;</span>);</div>
+<div class="line"><span class="lineno"> 6898</span>  <a class="code hl_variable" href="#adfc8221afbccb99343aa61f75419908d">mFormatPattern</a>[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935">tuHours</a>] = QLatin1String(<span class="stringliteral">&quot;%h&quot;</span>);</div>
+<div class="line"><span class="lineno"> 6899</span>  <a class="code hl_variable" href="#adfc8221afbccb99343aa61f75419908d">mFormatPattern</a>[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556">tuDays</a>] = QLatin1String(<span class="stringliteral">&quot;%d&quot;</span>);</div>
+<div class="line"><span class="lineno"> 6900</span>}</div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_html_a47752abba8293e6dc18491501ae34008"><div class="ttname"><a href="class_q_c_p_axis_ticker.html#a47752abba8293e6dc18491501ae34008">QCPAxisTicker::setTickCount</a></div><div class="ttdeci">void setTickCount(int count)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:6152</div></div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_time_html_a349b2debe07adc591996aa73dec9a757"><div class="ttname"><a href="#a349b2debe07adc591996aa73dec9a757">QCPAxisTickerTime::mBiggestUnit</a></div><div class="ttdeci">TimeUnit mBiggestUnit</div><div class="ttdef"><b>Definição</b> qcustomplot.h:1879</div></div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_time_html_a58305b56f847bcab8b3c852a21bdb91a"><div class="ttname"><a href="#a58305b56f847bcab8b3c852a21bdb91a">QCPAxisTickerTime::mFieldWidth</a></div><div class="ttdeci">QHash&lt; TimeUnit, int &gt; mFieldWidth</div><div class="ttdef"><b>Definição</b> qcustomplot.h:1876</div></div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_time_html_a61033c493cec76a69628d1aaa5b07abf"><div class="ttname"><a href="#a61033c493cec76a69628d1aaa5b07abf">QCPAxisTickerTime::mSmallestUnit</a></div><div class="ttdeci">TimeUnit mSmallestUnit</div><div class="ttdef"><b>Definição</b> qcustomplot.h:1879</div></div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_time_html_a800af3fe0a7c1a8110c043b82169bc9d"><div class="ttname"><a href="#a800af3fe0a7c1a8110c043b82169bc9d">QCPAxisTickerTime::mTimeFormat</a></div><div class="ttdeci">QString mTimeFormat</div><div class="ttdef"><b>Definição</b> qcustomplot.h:1875</div></div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_time_html_adfc8221afbccb99343aa61f75419908d"><div class="ttname"><a href="#adfc8221afbccb99343aa61f75419908d">QCPAxisTickerTime::mFormatPattern</a></div><div class="ttdeci">QHash&lt; TimeUnit, QString &gt; mFormatPattern</div><div class="ttdef"><b>Definição</b> qcustomplot.h:1880</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentação das funções</h2>
+<a id="a6b58a98e4d64c6764aa61a707e4a344d" name="a6b58a98e4d64c6764aa61a707e4a344d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b58a98e4d64c6764aa61a707e4a344d">&#9670;&#160;</a></span>fieldWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int QCPAxisTickerTime::fieldWidth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a></td>          <td class="paramname"><span class="paramname"><em>unit</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1867</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a58305b56f847bcab8b3c852a21bdb91a">mFieldWidth</a>.value(unit); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acace84c46598176aa53837e147595471" name="acace84c46598176aa53837e147595471"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acace84c46598176aa53837e147595471">&#9670;&#160;</a></span>getSubTickCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int QCPAxisTickerTime::getSubTickCount </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>tickStep</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplementa <a class="el" href="class_q_c_p_axis_ticker.html#a4ccc403ced7a1457ce6ba293509933c8">QCPAxisTicker</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 7017</span>{</div>
+<div class="line"><span class="lineno"> 7018</span>  <span class="keywordtype">int</span> result = <a class="code hl_function" href="class_q_c_p_axis_ticker.html#a4ccc403ced7a1457ce6ba293509933c8">QCPAxisTicker::getSubTickCount</a>(tickStep);</div>
+<div class="line"><span class="lineno"> 7019</span>  <span class="keywordflow">switch</span> (qRound(tickStep)) <span class="comment">// hand chosen subticks for specific minute/hour/day range (as specified in getTickStep)</span></div>
+<div class="line"><span class="lineno"> 7020</span>  {</div>
+<div class="line"><span class="lineno"> 7021</span>    <span class="keywordflow">case</span> 5*60: result = 4; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 7022</span>    <span class="keywordflow">case</span> 10*60: result = 1; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 7023</span>    <span class="keywordflow">case</span> 15*60: result = 2; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 7024</span>    <span class="keywordflow">case</span> 30*60: result = 1; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 7025</span>    <span class="keywordflow">case</span> 60*60: result = 3; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 7026</span>    <span class="keywordflow">case</span> 3600*2: result = 3; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 7027</span>    <span class="keywordflow">case</span> 3600*3: result = 2; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 7028</span>    <span class="keywordflow">case</span> 3600*6: result = 1; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 7029</span>    <span class="keywordflow">case</span> 3600*12: result = 3; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 7030</span>    <span class="keywordflow">case</span> 3600*24: result = 3; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 7031</span>  }</div>
+<div class="line"><span class="lineno"> 7032</span>  <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno"> 7033</span>}</div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_html_a4ccc403ced7a1457ce6ba293509933c8"><div class="ttname"><a href="class_q_c_p_axis_ticker.html#a4ccc403ced7a1457ce6ba293509933c8">QCPAxisTicker::getSubTickCount</a></div><div class="ttdeci">virtual int getSubTickCount(double tickStep)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:6234</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a046eb771bdf2a959f570db542b3a0be6" name="a046eb771bdf2a959f570db542b3a0be6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a046eb771bdf2a959f570db542b3a0be6">&#9670;&#160;</a></span>getTickLabel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString QCPAxisTickerTime::getTickLabel </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>tick</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QLocale &amp;</td>          <td class="paramname"><span class="paramname"><em>locale</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QChar</td>          <td class="paramname"><span class="paramname"><em>formatChar</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>precision</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplementa <a class="el" href="class_q_c_p_axis_ticker.html#a8201eb4aa8be192bf786b126eb5ee089">QCPAxisTicker</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 7043</span>{</div>
+<div class="line"><span class="lineno"> 7044</span>  Q_UNUSED(precision)</div>
+<div class="line"><span class="lineno"> 7045</span>  Q_UNUSED(formatChar)</div>
+<div class="line"><span class="lineno"> 7046</span>  Q_UNUSED(locale)</div>
+<div class="line"><span class="lineno"> 7047</span>  <span class="keywordtype">bool</span> negative = tick &lt; 0;</div>
+<div class="line"><span class="lineno"> 7048</span>  <span class="keywordflow">if</span> (negative) tick *= -1;</div>
+<div class="line"><span class="lineno"> 7049</span>  <span class="keywordtype">double</span> values[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556">tuDays</a>+1]; <span class="comment">// contains the msec/sec/min/... value with its respective modulo (e.g. minute 0..59)</span></div>
+<div class="line"><span class="lineno"> 7050</span>  <span class="keywordtype">double</span> restValues[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556">tuDays</a>+1]; <span class="comment">// contains the msec/sec/min/... value as if it&#39;s the largest available unit and thus consumes the remaining time</span></div>
+<div class="line"><span class="lineno"> 7051</span>  </div>
+<div class="line"><span class="lineno"> 7052</span>  restValues[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf">tuMilliseconds</a>] = tick*1000;</div>
+<div class="line"><span class="lineno"> 7053</span>  values[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf">tuMilliseconds</a>] = modf(restValues[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf">tuMilliseconds</a>]/1000, &amp;restValues[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d">tuSeconds</a>])*1000;</div>
+<div class="line"><span class="lineno"> 7054</span>  values[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d">tuSeconds</a>] = modf(restValues[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d">tuSeconds</a>]/60, &amp;restValues[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00">tuMinutes</a>])*60;</div>
+<div class="line"><span class="lineno"> 7055</span>  values[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00">tuMinutes</a>] = modf(restValues[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00">tuMinutes</a>]/60, &amp;restValues[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935">tuHours</a>])*60;</div>
+<div class="line"><span class="lineno"> 7056</span>  values[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935">tuHours</a>] = modf(restValues[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935">tuHours</a>]/24, &amp;restValues[<a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556">tuDays</a>])*24;</div>
+<div class="line"><span class="lineno"> 7057</span>  <span class="comment">// no need to set values[tuDays] because days are always a rest value (there is no higher unit so it consumes all remaining time)</span></div>
+<div class="line"><span class="lineno"> 7058</span>  </div>
+<div class="line"><span class="lineno"> 7059</span>  QString result = <a class="code hl_variable" href="#a800af3fe0a7c1a8110c043b82169bc9d">mTimeFormat</a>;</div>
+<div class="line"><span class="lineno"> 7060</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = <a class="code hl_variable" href="#a61033c493cec76a69628d1aaa5b07abf">mSmallestUnit</a>; i &lt;= <a class="code hl_variable" href="#a349b2debe07adc591996aa73dec9a757">mBiggestUnit</a>; ++i)</div>
+<div class="line"><span class="lineno"> 7061</span>  {</div>
+<div class="line"><span class="lineno"> 7062</span>    <a class="code hl_enumeration" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a> iUnit = <span class="keyword">static_cast&lt;</span><a class="code hl_enumeration" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a><span class="keyword">&gt;</span>(i);</div>
+<div class="line"><span class="lineno"> 7063</span>    <a class="code hl_function" href="#a03b6c980be36f2672e3fc31d109a28a0">replaceUnit</a>(result, iUnit, qRound(iUnit == <a class="code hl_variable" href="#a349b2debe07adc591996aa73dec9a757">mBiggestUnit</a> ? restValues[iUnit] : values[iUnit]));</div>
+<div class="line"><span class="lineno"> 7064</span>  }</div>
+<div class="line"><span class="lineno"> 7065</span>  <span class="keywordflow">if</span> (negative)</div>
+<div class="line"><span class="lineno"> 7066</span>    result.prepend(QLatin1Char(<span class="charliteral">&#39;-&#39;</span>));</div>
+<div class="line"><span class="lineno"> 7067</span>  <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno"> 7068</span>}</div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_time_html_a03b6c980be36f2672e3fc31d109a28a0"><div class="ttname"><a href="#a03b6c980be36f2672e3fc31d109a28a0">QCPAxisTickerTime::replaceUnit</a></div><div class="ttdeci">void replaceUnit(QString &amp;text, TimeUnit unit, int value) const</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:7075</div></div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_time_html_a5c48ded8c6d3a1aca9b68219469fea3e"><div class="ttname"><a href="#a5c48ded8c6d3a1aca9b68219469fea3e">QCPAxisTickerTime::TimeUnit</a></div><div class="ttdeci">TimeUnit</div><div class="ttdef"><b>Definição</b> qcustomplot.h:1855</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5615064642090fe193797caea8b98cb4" name="a5615064642090fe193797caea8b98cb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5615064642090fe193797caea8b98cb4">&#9670;&#160;</a></span>getTickStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPAxisTickerTime::getTickStep </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_q_c_p_range.html">QCPRange</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>range</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplementa <a class="el" href="class_q_c_p_axis_ticker.html#a910d69bcec2de37e92d8d4e1ecf201e2">QCPAxisTicker</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6966</span>{</div>
+<div class="line"><span class="lineno"> 6967</span>  <span class="keywordtype">double</span> result = range.<a class="code hl_function" href="class_q_c_p_range.html#a62326e7cc4316b96df6a60813230e63f">size</a>()/double(<a class="code hl_variable" href="class_q_c_p_axis_ticker.html#a14a35b47d1aad11b08d18ea0e25937b8">mTickCount</a>+1e-10); <span class="comment">// mTickCount ticks on average, the small addition is to prevent jitter on exact integers</span></div>
+<div class="line"><span class="lineno"> 6968</span>  </div>
+<div class="line"><span class="lineno"> 6969</span>  <span class="keywordflow">if</span> (result &lt; 1) <span class="comment">// ideal tick step is below 1 second -&gt; use normal clean mantissa algorithm in units of seconds</span></div>
+<div class="line"><span class="lineno"> 6970</span>  {</div>
+<div class="line"><span class="lineno"> 6971</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a61033c493cec76a69628d1aaa5b07abf">mSmallestUnit</a> == <a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf">tuMilliseconds</a>)</div>
+<div class="line"><span class="lineno"> 6972</span>      result = qMax(<a class="code hl_function" href="class_q_c_p_axis_ticker.html#ac7df6c72876b7abd67c932663a0b0f6a">cleanMantissa</a>(result), 0.001); <span class="comment">// smallest tick step is 1 millisecond</span></div>
+<div class="line"><span class="lineno"> 6973</span>    <span class="keywordflow">else</span> <span class="comment">// have no milliseconds available in format, so stick with 1 second tickstep</span></div>
+<div class="line"><span class="lineno"> 6974</span>      result = 1.0;</div>
+<div class="line"><span class="lineno"> 6975</span>  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (result &lt; 3600*24) <span class="comment">// below a day</span></div>
+<div class="line"><span class="lineno"> 6976</span>  {</div>
+<div class="line"><span class="lineno"> 6977</span>    <span class="comment">// the filling of availableSteps seems a bit contorted but it fills in a sorted fashion and thus saves a post-fill sorting run</span></div>
+<div class="line"><span class="lineno"> 6978</span>    QVector&lt;double&gt; availableSteps;</div>
+<div class="line"><span class="lineno"> 6979</span>    <span class="comment">// seconds range:</span></div>
+<div class="line"><span class="lineno"> 6980</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a61033c493cec76a69628d1aaa5b07abf">mSmallestUnit</a> &lt;= <a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d">tuSeconds</a>)</div>
+<div class="line"><span class="lineno"> 6981</span>      availableSteps &lt;&lt; 1;</div>
+<div class="line"><span class="lineno"> 6982</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a61033c493cec76a69628d1aaa5b07abf">mSmallestUnit</a> == <a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf">tuMilliseconds</a>)</div>
+<div class="line"><span class="lineno"> 6983</span>      availableSteps &lt;&lt; 2.5; <span class="comment">// only allow half second steps if milliseconds are there to display it</span></div>
+<div class="line"><span class="lineno"> 6984</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a61033c493cec76a69628d1aaa5b07abf">mSmallestUnit</a> == <a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d">tuSeconds</a>)</div>
+<div class="line"><span class="lineno"> 6985</span>      availableSteps &lt;&lt; 2;</div>
+<div class="line"><span class="lineno"> 6986</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a61033c493cec76a69628d1aaa5b07abf">mSmallestUnit</a> &lt;= <a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d">tuSeconds</a>)</div>
+<div class="line"><span class="lineno"> 6987</span>      availableSteps &lt;&lt; 5 &lt;&lt; 10 &lt;&lt; 15 &lt;&lt; 30;</div>
+<div class="line"><span class="lineno"> 6988</span>    <span class="comment">// minutes range:</span></div>
+<div class="line"><span class="lineno"> 6989</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a61033c493cec76a69628d1aaa5b07abf">mSmallestUnit</a> &lt;= <a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00">tuMinutes</a>)</div>
+<div class="line"><span class="lineno"> 6990</span>      availableSteps &lt;&lt; 1*60;</div>
+<div class="line"><span class="lineno"> 6991</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a61033c493cec76a69628d1aaa5b07abf">mSmallestUnit</a> &lt;= <a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d">tuSeconds</a>)</div>
+<div class="line"><span class="lineno"> 6992</span>      availableSteps &lt;&lt; 2.5*60; <span class="comment">// only allow half minute steps if seconds are there to display it</span></div>
+<div class="line"><span class="lineno"> 6993</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a61033c493cec76a69628d1aaa5b07abf">mSmallestUnit</a> == <a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00">tuMinutes</a>)</div>
+<div class="line"><span class="lineno"> 6994</span>      availableSteps &lt;&lt; 2*60;</div>
+<div class="line"><span class="lineno"> 6995</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a61033c493cec76a69628d1aaa5b07abf">mSmallestUnit</a> &lt;= <a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00">tuMinutes</a>)</div>
+<div class="line"><span class="lineno"> 6996</span>      availableSteps &lt;&lt; 5*60 &lt;&lt; 10*60 &lt;&lt; 15*60 &lt;&lt; 30*60;</div>
+<div class="line"><span class="lineno"> 6997</span>    <span class="comment">// hours range:</span></div>
+<div class="line"><span class="lineno"> 6998</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a61033c493cec76a69628d1aaa5b07abf">mSmallestUnit</a> &lt;= <a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935">tuHours</a>)</div>
+<div class="line"><span class="lineno"> 6999</span>      availableSteps &lt;&lt; 1*3600 &lt;&lt; 2*3600 &lt;&lt; 3*3600 &lt;&lt; 6*3600 &lt;&lt; 12*3600 &lt;&lt; 24*3600;</div>
+<div class="line"><span class="lineno"> 7000</span>    <span class="comment">// pick available step that is most appropriate to approximate ideal step:</span></div>
+<div class="line"><span class="lineno"> 7001</span>    result = <a class="code hl_function" href="class_q_c_p_axis_ticker.html#a4ea0a7c4ca1c610f92b9bd5944ab4260">pickClosest</a>(result, availableSteps);</div>
+<div class="line"><span class="lineno"> 7002</span>  } <span class="keywordflow">else</span> <span class="comment">// more than a day, go back to normal clean mantissa algorithm but in units of days</span></div>
+<div class="line"><span class="lineno"> 7003</span>  {</div>
+<div class="line"><span class="lineno"> 7004</span>    <span class="keyword">const</span> <span class="keywordtype">double</span> secondsPerDay = 3600*24;</div>
+<div class="line"><span class="lineno"> 7005</span>    result = <a class="code hl_function" href="class_q_c_p_axis_ticker.html#ac7df6c72876b7abd67c932663a0b0f6a">cleanMantissa</a>(result/secondsPerDay)*secondsPerDay;</div>
+<div class="line"><span class="lineno"> 7006</span>  }</div>
+<div class="line"><span class="lineno"> 7007</span>  <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno"> 7008</span>}</div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_html_a14a35b47d1aad11b08d18ea0e25937b8"><div class="ttname"><a href="class_q_c_p_axis_ticker.html#a14a35b47d1aad11b08d18ea0e25937b8">QCPAxisTicker::mTickCount</a></div><div class="ttdeci">int mTickCount</div><div class="ttdef"><b>Definição</b> qcustomplot.h:1767</div></div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_html_a4ea0a7c4ca1c610f92b9bd5944ab4260"><div class="ttname"><a href="class_q_c_p_axis_ticker.html#a4ea0a7c4ca1c610f92b9bd5944ab4260">QCPAxisTicker::pickClosest</a></div><div class="ttdeci">double pickClosest(double target, const QVector&lt; double &gt; &amp;candidates) const</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:6423</div></div>
+<div class="ttc" id="aclass_q_c_p_axis_ticker_html_ac7df6c72876b7abd67c932663a0b0f6a"><div class="ttname"><a href="class_q_c_p_axis_ticker.html#ac7df6c72876b7abd67c932663a0b0f6a">QCPAxisTicker::cleanMantissa</a></div><div class="ttdeci">double cleanMantissa(double input) const</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:6456</div></div>
+<div class="ttc" id="aclass_q_c_p_range_html_a62326e7cc4316b96df6a60813230e63f"><div class="ttname"><a href="class_q_c_p_range.html#a62326e7cc4316b96df6a60813230e63f">QCPRange::size</a></div><div class="ttdeci">double size() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:853</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a03b6c980be36f2672e3fc31d109a28a0" name="a03b6c980be36f2672e3fc31d109a28a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03b6c980be36f2672e3fc31d109a28a0">&#9670;&#160;</a></span>replaceUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPAxisTickerTime::replaceUnit </td>
+          <td>(</td>
+          <td class="paramtype">QString &amp;</td>          <td class="paramname"><span class="paramname"><em>text</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">QCPAxisTickerTime::TimeUnit</a></td>          <td class="paramname"><span class="paramname"><em>unit</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 7076</span>{</div>
+<div class="line"><span class="lineno"> 7077</span>  QString valueStr = QString::number(value);</div>
+<div class="line"><span class="lineno"> 7078</span>  <span class="keywordflow">while</span> (valueStr.size() &lt; <a class="code hl_variable" href="#a58305b56f847bcab8b3c852a21bdb91a">mFieldWidth</a>.value(unit))</div>
+<div class="line"><span class="lineno"> 7079</span>    valueStr.prepend(QLatin1Char(<span class="charliteral">&#39;0&#39;</span>));</div>
+<div class="line"><span class="lineno"> 7080</span>  </div>
+<div class="line"><span class="lineno"> 7081</span>  text.replace(<a class="code hl_variable" href="#adfc8221afbccb99343aa61f75419908d">mFormatPattern</a>.value(unit), valueStr);</div>
+<div class="line"><span class="lineno"> 7082</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adc13e54fc969be98a5c0e3fa0dbaa293" name="adc13e54fc969be98a5c0e3fa0dbaa293"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc13e54fc969be98a5c0e3fa0dbaa293">&#9670;&#160;</a></span>setFieldWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPAxisTickerTime::setFieldWidth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">QCPAxisTickerTime::TimeUnit</a></td>          <td class="paramname"><span class="paramname"><em>unit</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>width</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the field widh of the specified <em>unit</em> to be <em>width</em> digits, when displayed in the tick label. If the number for the specific unit is shorter than <em>width</em>, it will be padded with an according number of zeros to the left in order to reach the field width.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#a2f30b6e5125bce4256be9ce3177088ea">setTimeFormat</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno"> 6952</span>{</div>
+<div class="line"><span class="lineno"> 6953</span>  <a class="code hl_variable" href="#a58305b56f847bcab8b3c852a21bdb91a">mFieldWidth</a>[unit] = qMax(width, 1);</div>
+<div class="line"><span class="lineno"> 6954</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2f30b6e5125bce4256be9ce3177088ea" name="a2f30b6e5125bce4256be9ce3177088ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f30b6e5125bce4256be9ce3177088ea">&#9670;&#160;</a></span>setTimeFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPAxisTickerTime::setTimeFormat </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>format</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the format that will be used to display time in the tick labels.</p>
+<p>The available patterns are:</p><ul>
+<li>%z for milliseconds</li>
+<li>%s for seconds</li>
+<li>%m for minutes</li>
+<li>%h for hours</li>
+<li>%d for days</li>
+</ul>
+<p>The field width (zero padding) can be controlled for each unit with <a class="el" href="#adc13e54fc969be98a5c0e3fa0dbaa293">setFieldWidth</a>.</p>
+<p>The largest unit that appears in <em>format</em> will carry all the remaining time of a certain tick coordinate, even if it overflows the natural limit of the unit. For example, if %m is the largest unit it might become larger than 59 in order to consume larger time values. If on the other hand %h is available, the minutes will wrap around to zero after 59 and the time will carry to the hour digit. </p>
+<div class="fragment"><div class="line"><span class="lineno"> 6921</span>{</div>
+<div class="line"><span class="lineno"> 6922</span>  <a class="code hl_variable" href="#a800af3fe0a7c1a8110c043b82169bc9d">mTimeFormat</a> = format;</div>
+<div class="line"><span class="lineno"> 6923</span>  </div>
+<div class="line"><span class="lineno"> 6924</span>  <span class="comment">// determine smallest and biggest unit in format, to optimize unit replacement and allow biggest</span></div>
+<div class="line"><span class="lineno"> 6925</span>  <span class="comment">// unit to consume remaining time of a tick value and grow beyond its modulo (e.g. min &gt; 59)</span></div>
+<div class="line"><span class="lineno"> 6926</span>  <a class="code hl_variable" href="#a61033c493cec76a69628d1aaa5b07abf">mSmallestUnit</a> = <a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf">tuMilliseconds</a>;</div>
+<div class="line"><span class="lineno"> 6927</span>  <a class="code hl_variable" href="#a349b2debe07adc591996aa73dec9a757">mBiggestUnit</a> = <a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf">tuMilliseconds</a>;</div>
+<div class="line"><span class="lineno"> 6928</span>  <span class="keywordtype">bool</span> hasSmallest = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 6929</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = <a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf">tuMilliseconds</a>; i &lt;= <a class="code hl_enumvalue" href="#a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556">tuDays</a>; ++i)</div>
+<div class="line"><span class="lineno"> 6930</span>  {</div>
+<div class="line"><span class="lineno"> 6931</span>    <a class="code hl_enumeration" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a> unit = <span class="keyword">static_cast&lt;</span><a class="code hl_enumeration" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a><span class="keyword">&gt;</span>(i);</div>
+<div class="line"><span class="lineno"> 6932</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a800af3fe0a7c1a8110c043b82169bc9d">mTimeFormat</a>.contains(<a class="code hl_variable" href="#adfc8221afbccb99343aa61f75419908d">mFormatPattern</a>.value(unit)))</div>
+<div class="line"><span class="lineno"> 6933</span>    {</div>
+<div class="line"><span class="lineno"> 6934</span>      <span class="keywordflow">if</span> (!hasSmallest)</div>
+<div class="line"><span class="lineno"> 6935</span>      {</div>
+<div class="line"><span class="lineno"> 6936</span>        <a class="code hl_variable" href="#a61033c493cec76a69628d1aaa5b07abf">mSmallestUnit</a> = unit;</div>
+<div class="line"><span class="lineno"> 6937</span>        hasSmallest = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 6938</span>      }</div>
+<div class="line"><span class="lineno"> 6939</span>      <a class="code hl_variable" href="#a349b2debe07adc591996aa73dec9a757">mBiggestUnit</a> = unit;</div>
+<div class="line"><span class="lineno"> 6940</span>    }</div>
+<div class="line"><span class="lineno"> 6941</span>  }</div>
+<div class="line"><span class="lineno"> 6942</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a99ad61dc7434a7fed1850e96bf748834" name="a99ad61dc7434a7fed1850e96bf748834"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99ad61dc7434a7fed1850e96bf748834">&#9670;&#160;</a></span>timeFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString QCPAxisTickerTime::timeFormat </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1866</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a800af3fe0a7c1a8110c043b82169bc9d">mTimeFormat</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Atributos</h2>
+<a id="a349b2debe07adc591996aa73dec9a757" name="a349b2debe07adc591996aa73dec9a757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a349b2debe07adc591996aa73dec9a757">&#9670;&#160;</a></span>mBiggestUnit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a> QCPAxisTickerTime::mBiggestUnit</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58305b56f847bcab8b3c852a21bdb91a" name="a58305b56f847bcab8b3c852a21bdb91a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58305b56f847bcab8b3c852a21bdb91a">&#9670;&#160;</a></span>mFieldWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;<a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a>, int&gt; QCPAxisTickerTime::mFieldWidth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adfc8221afbccb99343aa61f75419908d" name="adfc8221afbccb99343aa61f75419908d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfc8221afbccb99343aa61f75419908d">&#9670;&#160;</a></span>mFormatPattern</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;<a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a>, QString&gt; QCPAxisTickerTime::mFormatPattern</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a61033c493cec76a69628d1aaa5b07abf" name="a61033c493cec76a69628d1aaa5b07abf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61033c493cec76a69628d1aaa5b07abf">&#9670;&#160;</a></span>mSmallestUnit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</a> QCPAxisTickerTime::mSmallestUnit</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a800af3fe0a7c1a8110c043b82169bc9d" name="a800af3fe0a7c1a8110c043b82169bc9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a800af3fe0a7c1a8110c043b82169bc9d">&#9670;&#160;</a></span>mTimeFormat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString QCPAxisTickerTime::mTimeFormat</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>A documentação para essa classe foi gerada a partir dos seguintes arquivos:<ul>
+<li>C:/Users/pedro/Documents/Programa Bueno/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/versao-2/src/<a class="el" href="qcustomplot_8h_source.html">qcustomplot.h</a></li>
+<li>C:/Users/pedro/Documents/Programa Bueno/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/versao-2/src/<a class="el" href="qcustomplot_8cpp.html">qcustomplot.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

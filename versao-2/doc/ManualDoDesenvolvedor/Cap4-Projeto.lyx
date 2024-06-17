@@ -211,16 +211,6 @@ Envolve a otimização da estrutura de dados e dos algoritmos, a minimização
  
 \end_layout
 
-\begin_layout Standard
-Exemplo: na análise você define que existe um método para salvar um arquivo
- em disco, define um atributo nomeDoArquivo, mas não se preocupa com detalhes
- específicos da linguagem.
- Já no projeto, você inclui as bibliotecas necessárias para acesso ao disco,
- cria um objeto específico para acessar o disco, podendo, portanto, acrescentar
- novas classes àquelas desenvolvidas na análise.
- 
-\end_layout
-
 \begin_layout Section
 Diagrama de componentes
 \begin_inset Index idx
@@ -245,11 +235,6 @@ name "sec:Diagrama-de-componentes"
 \begin_layout Standard
 O diagrama de componentes mostra a forma como os componentes do software
  se relacionam, suas dependências.
- Inclui itens como: componentes, subsistemas, executáveis, nós, associações,
- dependências, generalizações, restrições e notas.
- Exemplos de componentes são bibliotecas estáticas, bibliotecas dinâmicas,
- dlls, componentes Java, executáveis, arquivos de disco, código-fonte.
- 
 \end_layout
 
 \begin_layout Standard
@@ -260,50 +245,7 @@ reference "cap:Diagrama-de-componentes"
 
 \end_inset
 
- um exemplo de diagrama de componentes.
- Observe que este inclui muitas dependências, ilustrando as relações entre
- os arquivos.
- Por exemplo: o subsistema biblioteca inclui os arquivos das classes A e
- B, e a geração dos objetos A.obj e B.obj depende dos arquivos A.h, A.cpp, B.h
- e B.cpp.
- A geração da biblioteca depende dos arquivos A.obj e B.obj.
- O subsistema biblioteca Qt, um subsistema exerno, inclui os arquivos de
- código da biblioteca Qt e a biblioteca em si.
- O subsistema banco de dados representa o banco de dados utilizado pelo
- sistema e tem uma interface de acesso que é utilizada pelo software para
- acesso aos dados armazenados no banco de dados.
- O software executável a ser gerado depende da biblioteca gerada, dos arquivos
- da biblioteca Qt, do módulo de arquivos MinhaJanela e do banco de dados.
-\end_layout
-
-\begin_layout Standard
-Algumas observações úteis para o diagrama de componentes:
-\end_layout
-
-\begin_layout Itemize
-De posse do diagrama de componentes, temos a lista de todos os arquivos
- necessários para compilar e rodar o software.
-\end_layout
-
-\begin_layout Itemize
-Observe que um assunto/pacote pode se transformar em uma biblioteca e será
- incluído no diagrama de componentes.
-\end_layout
-
-\begin_layout Itemize
-A ligação entre componentes pode incluir um estereótipo indicando o tipo
- de relacionamento ou algum protocolo utilizado.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Na versão final apagar este texto copiado do livro; e colocado aqui para
- lhe auxiliar; deixar somente o que é pertinente ao trabalho
-\end_layout
-
-\end_inset
-
-
+ o diagrama de componentes do software.
 \end_layout
 
 \begin_layout Standard
@@ -320,7 +262,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename imagens/Diagrama de componentes.jpg
+	filename imagens/DiagramaComponentes.jpeg
 	lyxscale 90
 	width 100text%
 
@@ -466,22 +408,6 @@ name "cap:Diagrama-de-implantação."
 
 \end_layout
 
-\begin_layout Description
-Nota: 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Não perca de vista a visão do todo; do projeto de engenharia como um todo.
- Cada capítulo, cada seção, cada parágrafo deve se encaixar.
- Este é um diferencial fundamental do engenheiro em relação ao técnico,
- a capacidade de desenvolver projetos, de ver o todo e suas diferentes partes,
- de modelar processos/sistemas/produtos de engenharia.
-\end_layout
-
 \begin_layout Subsection
 Lista de características <<features>>
 \begin_inset CommandInset label
@@ -519,13 +445,28 @@ nota importante, o número de versões irá depender do tamanho do ciclo, ou
 \end_layout
 
 \begin_layout Itemize
-v0.1
+v0.2
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-CEntradaDados, CMedida, CEstatistica, CCalibracao, CPhmeter, CAnaliseAmostra,
- EMeasureMode (enum) e EComandosPhmeter (enum).
+Aquisição de Medidas
+\end_layout
+
+\begin_layout Itemize
+Interface gráfica
+\end_layout
+
+\begin_layout Itemize
+Gráficos em tempo real
+\end_layout
+
+\begin_layout Itemize
+Gravação de Medidas em arquivo de disco
+\end_layout
+
+\begin_layout Itemize
+Instrumentador para avaliação de performance
 \end_layout
 
 \begin_layout Itemize
@@ -562,6 +503,7 @@ A tabela esta preenchida com dados de um dos exemplos de projeto; você deve
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="22" columns="2">
 <features islongtable="true" longtabularalignment="center">
@@ -655,7 +597,7 @@ Modelagem UML:
 \begin_layout Plain Layout
 [X] básica 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Diagramas de caso de uso, de componentes(assuntos/pacotes/componentes),
@@ -676,7 +618,7 @@ Diagramas de máquina de estado, de atividades
 
 [ ] avançada
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Uso de recursos avançados de UML
@@ -1322,7 +1264,7 @@ clock
 
 \begin_layout Plain Layout
 interface do usuário: [ ] kernel numérico [ ] linha de comando [ ] modo
- texto [X] híbrida (texto e saídas gráficas) [ ] modo gráfico (ex: Qt) [
+ texto [ ] híbrida (texto e saídas gráficas) [X] modo gráfico (ex: Qt) [
  ] navegador
 \end_layout
 
@@ -1481,7 +1423,7 @@ random
 \emph on
 threads 
 \emph default
-[ ] 
+[X] 
 \emph on
 expressões regulares 
 \emph default
@@ -1509,7 +1451,7 @@ Bibliotecas externas:
 \begin_inset Text
 
 \begin_layout Plain Layout
-[X] 
+[ ] 
 \family typewriter
 CGnuplot 
 \family default
@@ -1517,7 +1459,7 @@ CGnuplot
 \family typewriter
 QCustomPlot 
 \family default
-[ ] 
+[X] 
 \family typewriter
 Qt diálogos
 \family default
@@ -1577,7 +1519,7 @@ IDE:
 \begin_inset Text
 
 \begin_layout Plain Layout
-[X] Editor simples: kate/gedit/emacs
+[ ] Editor simples: kate/gedit/emacs
 \family typewriter
  
 \family default
@@ -1585,7 +1527,7 @@ IDE:
 \family typewriter
  
 \family default
-[ ] QT-Creator
+[X] QT-Creator
 \family typewriter
  
 \family default
@@ -1641,7 +1583,7 @@ Disciplinas correlacionadas
 \begin_inset Text
 
 \begin_layout Plain Layout
-[ ] estatística
+[X] estatística
 \begin_inset Note Note
 status collapsed
 

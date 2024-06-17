@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação Projeto Software: Código-Fonte de C:/Users/pedro/Documents/Programa Bueno/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/versao-2/src/sensor.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Documentação Projeto Software<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_f396504afdc959660871b003fa10164d.html">Documents</a></li><li class="navelem"><a class="el" href="dir_3c9ab875e6c9c4146f4f9177047a19ad.html">Programa Bueno</a></li><li class="navelem"><a class="el" href="dir_2df3c4e16d502c5a59c01b473455c6d9.html">ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT</a></li><li class="navelem"><a class="el" href="dir_9c6b7031ef0bb6baaae5b311614827b2.html">versao-2</a></li><li class="navelem"><a class="el" href="dir_587eca7745d6bc300932c3493f482c4b.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle"><div class="title">sensor.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="sensor_8cpp.html">Ir para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#include &quot;<a class="code" href="measure_8cpp.html">measure.cpp</a>&quot;</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="sensor_8h.html">sensor.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stdexcept&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="foldopen" id="foldopen00007" data-start="{" data-end="};">
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="class_sensor__86501__551.html">    7</a></span><span class="keyword">class </span><a class="code hl_class" href="class_sensor__86501__551.html">Sensor_86501_551</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_i_sensor.html">ISensor</a> {</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    <a class="code hl_enumeration" href="enums_8h.html#a3aa55e11999e44b37f9cd5d1023f7e38">ESensorType</a> m_sensor_type = <a class="code hl_enumvalue" href="enums_8h.html#a3aa55e11999e44b37f9cd5d1023f7e38ad36443d54ae92f7d37c555d0583c108d">ESensorType_86501_551</a>;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keywordtype">double</span> lastValue = 0.01;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keywordtype">double</span> fRand5(<span class="keywordtype">double</span> fMin, <span class="keywordtype">double</span> fMax)</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    {</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        <span class="keywordtype">double</span> f = (double)rand() / RAND_MAX;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <span class="keywordflow">return</span> fMin + f * (fMax - fMin);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    }</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="class_sensor__86501__551.html#aabdf55f96cbad7baf8e0d71207ec9b44">   18</a></span>    <a class="code hl_function" href="class_sensor__86501__551.html#aabdf55f96cbad7baf8e0d71207ec9b44">Sensor_86501_551</a>() {}</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="class_sensor__86501__551.html#a1cd883e2062b61b91087ec83aeca20a2">   19</a></span>    <a class="code hl_function" href="class_sensor__86501__551.html#a1cd883e2062b61b91087ec83aeca20a2">~Sensor_86501_551</a>() {}</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_sensor__86501__551.html#af553a506a08d21117a98f64d1e67cc88">   21</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_sensor__86501__551.html#af553a506a08d21117a98f64d1e67cc88">flag</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="}">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_sensor__86501__551.html#a4df87811aba4c305362cb92714067a3f">   23</a></span>    <span class="keyword">virtual</span> <a class="code hl_class" href="class_i_measure.html">IMeasure</a>* <a class="code hl_function" href="class_sensor__86501__551.html#a4df87811aba4c305362cb92714067a3f">GetMeasure</a>(<a class="code hl_enumeration" href="enums_8h.html#adb316ac28fa556d146a127f4a1e262ad">EMeasureMode</a> mode, <a class="code hl_enumeration" href="enums_8h.html#aa1cb2dfdd76655bb702a75bf4eb1c265">EMeasureUnit</a> unit)<span class="keyword"> override</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <a class="code hl_define" href="_instrumentor_8h.html#ad2102383f9653c131dd5cc0f631490be">STUDY_PROFILE_FUNCTION</a>();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keywordtype">double</span> value;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keywordflow">if</span>(<a class="code hl_variable" href="class_sensor__86501__551.html#af553a506a08d21117a98f64d1e67cc88">flag</a>) {</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            value = fRand5(lastValue, lastValue+0.1);</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            <span class="keywordflow">if</span>(value &gt; 14) {</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                <a class="code hl_variable" href="class_sensor__86501__551.html#af553a506a08d21117a98f64d1e67cc88">flag</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            }</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        }</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            value = fRand5(lastValue-1, lastValue);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            <span class="keywordflow">if</span>(value &lt; 0) {</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                <a class="code hl_variable" href="class_sensor__86501__551.html#af553a506a08d21117a98f64d1e67cc88">flag</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>            }</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        }</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        lastValue = value;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="comment">// TODO: Implementar adaptador do Sensor</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keywordflow">switch</span> (mode) {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#adb316ac28fa556d146a127f4a1e262adab28923b63888c93ded2a5421a2bcf2e9">EMeasureMode_pH</a>:</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_class" href="class_measure.html">Measure</a>(<a class="code hl_enumvalue" href="enums_8h.html#adb316ac28fa556d146a127f4a1e262adab28923b63888c93ded2a5421a2bcf2e9">EMeasureMode::EMeasureMode_pH</a>, <a class="code hl_enumvalue" href="enums_8h.html#aa1cb2dfdd76655bb702a75bf4eb1c265ac196acc22cfb8644aa2105d81c48448c">EMeasureUnit_pH</a> , value, fRand5(24, 25));</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#adb316ac28fa556d146a127f4a1e262ada326a54fd80309a7035418f68cf987d62">EMeasureMode_Unknown</a>:</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_class" href="class_measure.html">Measure</a>(<a class="code hl_enumvalue" href="enums_8h.html#adb316ac28fa556d146a127f4a1e262ada326a54fd80309a7035418f68cf987d62">EMeasureMode::EMeasureMode_Unknown</a>, <a class="code hl_enumvalue" href="enums_8h.html#aa1cb2dfdd76655bb702a75bf4eb1c265ac196acc22cfb8644aa2105d81c48448c">EMeasureUnit_pH</a> , 00, fRand5(24, 25));</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#adb316ac28fa556d146a127f4a1e262adaa46ffe4d56ec20998ecb36f597961fed">EMeasureMode_Conductivity</a>:</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_class" href="class_measure.html">Measure</a>(<a class="code hl_enumvalue" href="enums_8h.html#adb316ac28fa556d146a127f4a1e262adaa46ffe4d56ec20998ecb36f597961fed">EMeasureMode::EMeasureMode_Conductivity</a>, <a class="code hl_enumvalue" href="enums_8h.html#aa1cb2dfdd76655bb702a75bf4eb1c265ac196acc22cfb8644aa2105d81c48448c">EMeasureUnit_pH</a> , fRand5(0, 10), fRand5(24, 25));</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#adb316ac28fa556d146a127f4a1e262ada27cd274597c8b14b6713f8b0db2fe903">EMeasureMode_TDS</a>:</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_class" href="class_measure.html">Measure</a>(<a class="code hl_enumvalue" href="enums_8h.html#adb316ac28fa556d146a127f4a1e262adaa46ffe4d56ec20998ecb36f597961fed">EMeasureMode::EMeasureMode_Conductivity</a>, <a class="code hl_enumvalue" href="enums_8h.html#aa1cb2dfdd76655bb702a75bf4eb1c265ac196acc22cfb8644aa2105d81c48448c">EMeasureUnit_pH</a> , fRand5(0, 10), fRand5(24, 25));</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#adb316ac28fa556d146a127f4a1e262ada41ff427a354b600a1dc5f23974b8f755">EMeasureMode_ORP</a>:</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_class" href="class_measure.html">Measure</a>(<a class="code hl_enumvalue" href="enums_8h.html#adb316ac28fa556d146a127f4a1e262adaa46ffe4d56ec20998ecb36f597961fed">EMeasureMode::EMeasureMode_Conductivity</a>, <a class="code hl_enumvalue" href="enums_8h.html#aa1cb2dfdd76655bb702a75bf4eb1c265ac196acc22cfb8644aa2105d81c48448c">EMeasureUnit_pH</a> , fRand5(0, 10), fRand5(24, 25));</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#adb316ac28fa556d146a127f4a1e262adabe5bb9342d2be56b71cde7b5a0a7a494">EMeasureMode_Salinity</a>:</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_class" href="class_measure.html">Measure</a>(<a class="code hl_enumvalue" href="enums_8h.html#adb316ac28fa556d146a127f4a1e262adaa46ffe4d56ec20998ecb36f597961fed">EMeasureMode::EMeasureMode_Conductivity</a>, <a class="code hl_enumvalue" href="enums_8h.html#aa1cb2dfdd76655bb702a75bf4eb1c265ac196acc22cfb8644aa2105d81c48448c">EMeasureUnit_pH</a> , fRand5(0, 10), fRand5(24, 25));</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#adb316ac28fa556d146a127f4a1e262ada776a5db6dceb8fa9313e2d9a401a7d87">EMeasureMode_mV</a>:</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_class" href="class_measure.html">Measure</a>(<a class="code hl_enumvalue" href="enums_8h.html#adb316ac28fa556d146a127f4a1e262ada776a5db6dceb8fa9313e2d9a401a7d87">EMeasureMode::EMeasureMode_mV</a>, <a class="code hl_enumvalue" href="enums_8h.html#aa1cb2dfdd76655bb702a75bf4eb1c265ac196acc22cfb8644aa2105d81c48448c">EMeasureUnit_pH</a> , fRand5(-100, 100), fRand5(24, 25));</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;Measure mode not implemented&quot;</span>);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        }</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    }</div>
+</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="foldopen" id="foldopen00071" data-start="{" data-end="}">
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="class_sensor__86501__551.html#a3e86691745b322168c09d28d633d007d">   71</a></span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="enums_8h.html#a3aa55e11999e44b37f9cd5d1023f7e38">ESensorType</a> <a class="code hl_function" href="class_sensor__86501__551.html#a3e86691745b322168c09d28d633d007d">GetSensorType</a>()<span class="keyword"> override</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        <a class="code hl_define" href="_instrumentor_8h.html#ad2102383f9653c131dd5cc0f631490be">STUDY_PROFILE_FUNCTION</a>();</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="enums_8h.html#a3aa55e11999e44b37f9cd5d1023f7e38ad36443d54ae92f7d37c555d0583c108d">ESensorType::ESensorType_86501_551</a>;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    }</div>
+</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>};</div>
+</div>
+<div class="ttc" id="a_instrumentor_8h_html_ad2102383f9653c131dd5cc0f631490be"><div class="ttname"><a href="_instrumentor_8h.html#ad2102383f9653c131dd5cc0f631490be">STUDY_PROFILE_FUNCTION</a></div><div class="ttdeci">#define STUDY_PROFILE_FUNCTION()</div><div class="ttdef"><b>Definição</b> Instrumentor.h:134</div></div>
+<div class="ttc" id="aclass_i_measure_html"><div class="ttname"><a href="class_i_measure.html">IMeasure</a></div><div class="ttdef"><b>Definição</b> measure.h:10</div></div>
+<div class="ttc" id="aclass_i_sensor_html"><div class="ttname"><a href="class_i_sensor.html">ISensor</a></div><div class="ttdef"><b>Definição</b> sensor.h:8</div></div>
+<div class="ttc" id="aclass_measure_html"><div class="ttname"><a href="class_measure.html">Measure</a></div><div class="ttdoc">Represents a measurement.</div><div class="ttdef"><b>Definição</b> measure.cpp:9</div></div>
+<div class="ttc" id="aclass_sensor__86501__551_html"><div class="ttname"><a href="class_sensor__86501__551.html">Sensor_86501_551</a></div><div class="ttdef"><b>Definição</b> sensor.cpp:7</div></div>
+<div class="ttc" id="aclass_sensor__86501__551_html_a1cd883e2062b61b91087ec83aeca20a2"><div class="ttname"><a href="class_sensor__86501__551.html#a1cd883e2062b61b91087ec83aeca20a2">Sensor_86501_551::~Sensor_86501_551</a></div><div class="ttdeci">~Sensor_86501_551()</div><div class="ttdef"><b>Definição</b> sensor.cpp:19</div></div>
+<div class="ttc" id="aclass_sensor__86501__551_html_a3e86691745b322168c09d28d633d007d"><div class="ttname"><a href="class_sensor__86501__551.html#a3e86691745b322168c09d28d633d007d">Sensor_86501_551::GetSensorType</a></div><div class="ttdeci">virtual ESensorType GetSensorType() override</div><div class="ttdef"><b>Definição</b> sensor.cpp:71</div></div>
+<div class="ttc" id="aclass_sensor__86501__551_html_a4df87811aba4c305362cb92714067a3f"><div class="ttname"><a href="class_sensor__86501__551.html#a4df87811aba4c305362cb92714067a3f">Sensor_86501_551::GetMeasure</a></div><div class="ttdeci">virtual IMeasure * GetMeasure(EMeasureMode mode, EMeasureUnit unit) override</div><div class="ttdef"><b>Definição</b> sensor.cpp:23</div></div>
+<div class="ttc" id="aclass_sensor__86501__551_html_aabdf55f96cbad7baf8e0d71207ec9b44"><div class="ttname"><a href="class_sensor__86501__551.html#aabdf55f96cbad7baf8e0d71207ec9b44">Sensor_86501_551::Sensor_86501_551</a></div><div class="ttdeci">Sensor_86501_551()</div><div class="ttdef"><b>Definição</b> sensor.cpp:18</div></div>
+<div class="ttc" id="aclass_sensor__86501__551_html_af553a506a08d21117a98f64d1e67cc88"><div class="ttname"><a href="class_sensor__86501__551.html#af553a506a08d21117a98f64d1e67cc88">Sensor_86501_551::flag</a></div><div class="ttdeci">bool flag</div><div class="ttdef"><b>Definição</b> sensor.cpp:21</div></div>
+<div class="ttc" id="aenums_8h_html_a3aa55e11999e44b37f9cd5d1023f7e38"><div class="ttname"><a href="enums_8h.html#a3aa55e11999e44b37f9cd5d1023f7e38">ESensorType</a></div><div class="ttdeci">ESensorType</div><div class="ttdef"><b>Definição</b> enums.h:66</div></div>
+<div class="ttc" id="aenums_8h_html_a3aa55e11999e44b37f9cd5d1023f7e38ad36443d54ae92f7d37c555d0583c108d"><div class="ttname"><a href="enums_8h.html#a3aa55e11999e44b37f9cd5d1023f7e38ad36443d54ae92f7d37c555d0583c108d">ESensorType_86501_551</a></div><div class="ttdeci">@ ESensorType_86501_551</div><div class="ttdef"><b>Definição</b> enums.h:68</div></div>
+<div class="ttc" id="aenums_8h_html_aa1cb2dfdd76655bb702a75bf4eb1c265"><div class="ttname"><a href="enums_8h.html#aa1cb2dfdd76655bb702a75bf4eb1c265">EMeasureUnit</a></div><div class="ttdeci">EMeasureUnit</div><div class="ttdoc">Unit of measure.</div><div class="ttdef"><b>Definição</b> enums.h:36</div></div>
+<div class="ttc" id="aenums_8h_html_aa1cb2dfdd76655bb702a75bf4eb1c265ac196acc22cfb8644aa2105d81c48448c"><div class="ttname"><a href="enums_8h.html#aa1cb2dfdd76655bb702a75bf4eb1c265ac196acc22cfb8644aa2105d81c48448c">EMeasureUnit_pH</a></div><div class="ttdeci">@ EMeasureUnit_pH</div><div class="ttdef"><b>Definição</b> enums.h:45</div></div>
+<div class="ttc" id="aenums_8h_html_adb316ac28fa556d146a127f4a1e262ad"><div class="ttname"><a href="enums_8h.html#adb316ac28fa556d146a127f4a1e262ad">EMeasureMode</a></div><div class="ttdeci">EMeasureMode</div><div class="ttdoc">Measure mode of Sensor.</div><div class="ttdef"><b>Definição</b> enums.h:8</div></div>
+<div class="ttc" id="aenums_8h_html_adb316ac28fa556d146a127f4a1e262ada27cd274597c8b14b6713f8b0db2fe903"><div class="ttname"><a href="enums_8h.html#adb316ac28fa556d146a127f4a1e262ada27cd274597c8b14b6713f8b0db2fe903">EMeasureMode_TDS</a></div><div class="ttdeci">@ EMeasureMode_TDS</div><div class="ttdef"><b>Definição</b> enums.h:12</div></div>
+<div class="ttc" id="aenums_8h_html_adb316ac28fa556d146a127f4a1e262ada326a54fd80309a7035418f68cf987d62"><div class="ttname"><a href="enums_8h.html#adb316ac28fa556d146a127f4a1e262ada326a54fd80309a7035418f68cf987d62">EMeasureMode_Unknown</a></div><div class="ttdeci">@ EMeasureMode_Unknown</div><div class="ttdef"><b>Definição</b> enums.h:9</div></div>
+<div class="ttc" id="aenums_8h_html_adb316ac28fa556d146a127f4a1e262ada41ff427a354b600a1dc5f23974b8f755"><div class="ttname"><a href="enums_8h.html#adb316ac28fa556d146a127f4a1e262ada41ff427a354b600a1dc5f23974b8f755">EMeasureMode_ORP</a></div><div class="ttdeci">@ EMeasureMode_ORP</div><div class="ttdef"><b>Definição</b> enums.h:13</div></div>
+<div class="ttc" id="aenums_8h_html_adb316ac28fa556d146a127f4a1e262ada776a5db6dceb8fa9313e2d9a401a7d87"><div class="ttname"><a href="enums_8h.html#adb316ac28fa556d146a127f4a1e262ada776a5db6dceb8fa9313e2d9a401a7d87">EMeasureMode_mV</a></div><div class="ttdeci">@ EMeasureMode_mV</div><div class="ttdef"><b>Definição</b> enums.h:15</div></div>
+<div class="ttc" id="aenums_8h_html_adb316ac28fa556d146a127f4a1e262adaa46ffe4d56ec20998ecb36f597961fed"><div class="ttname"><a href="enums_8h.html#adb316ac28fa556d146a127f4a1e262adaa46ffe4d56ec20998ecb36f597961fed">EMeasureMode_Conductivity</a></div><div class="ttdeci">@ EMeasureMode_Conductivity</div><div class="ttdef"><b>Definição</b> enums.h:11</div></div>
+<div class="ttc" id="aenums_8h_html_adb316ac28fa556d146a127f4a1e262adab28923b63888c93ded2a5421a2bcf2e9"><div class="ttname"><a href="enums_8h.html#adb316ac28fa556d146a127f4a1e262adab28923b63888c93ded2a5421a2bcf2e9">EMeasureMode_pH</a></div><div class="ttdeci">@ EMeasureMode_pH</div><div class="ttdef"><b>Definição</b> enums.h:10</div></div>
+<div class="ttc" id="aenums_8h_html_adb316ac28fa556d146a127f4a1e262adabe5bb9342d2be56b71cde7b5a0a7a494"><div class="ttname"><a href="enums_8h.html#adb316ac28fa556d146a127f4a1e262adabe5bb9342d2be56b71cde7b5a0a7a494">EMeasureMode_Salinity</a></div><div class="ttdeci">@ EMeasureMode_Salinity</div><div class="ttdef"><b>Definição</b> enums.h:14</div></div>
+<div class="ttc" id="ameasure_8cpp_html"><div class="ttname"><a href="measure_8cpp.html">measure.cpp</a></div></div>
+<div class="ttc" id="asensor_8h_html"><div class="ttname"><a href="sensor_8h.html">sensor.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

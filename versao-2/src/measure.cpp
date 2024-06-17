@@ -2,6 +2,7 @@
 #include "enums.h"
 #include <ctime>
 
+
 /// <summary>
 /// Represents a measurement.
 /// </summary>

@@ -185,24 +185,20 @@ Após estudo dos requisitos/especificações do sistema, algumas entrevistas,
 \end_layout
 
 \begin_layout Itemize
-Definição e caracterização do domínio a ser investigado 
+O Domínio a ser investigado trata-se de propriedades físico-químicas como
+ pH, potencial de oxi-redução, total de sólidos díssolvidos, condutividade
+ e salinidade para entender a composição da água em subsuperfície.
 \end_layout
 
 \begin_layout Itemize
-Descrição das áreas/disciplinas relacionadas.
+Neste trabalho reuniremos as áreas de programação orientada a objeto em
+ C++, Probabilidade e estatística, Química e Petrofísica.
 \end_layout
 
 \begin_layout Itemize
-Descrição de questões associadas a espaço/tempo (espaço físico, local, instalaçã
-o).
-\end_layout
-
-\begin_layout Itemize
-Fotografias de sistemas equivalentes/parecidos.
-\end_layout
-
-\begin_layout Itemize
-...
+O Software será utilizado no laboratório de petrofísica com intuito de facilitar
+ a interface do pesquisador com o equipamento medidor de bancada Az® pH/mV/ORP/C
+ond./TDS/SALT.
 \end_layout
 
 \begin_layout Section
@@ -217,30 +213,48 @@ name "sec:Formulação-teórica"
 \end_layout
 
 \begin_layout Standard
-...coloque aqui texto explicando a formulação física-matemática, a descrição
- das equações que serão utilizadas...
+Nesta sessão serão descritos as formulações teóricas para entendimento das
+ medidas realizadas pelo software.
 \end_layout
 
 \begin_layout Standard
-...aqui entram figuras, tabelas explicativas, equações a serem utilizadas no
- software...
+Em química, pH é uma escala numérica adimensional utilizada para especificar
+ a acidez ou basicidade de uma solução aquosa.
+ A rigor, o pH é definido como o cologaritmo da atividade de íons hidrônio.
+ Podemos aproximar o cálculo do pH usando a concentração molar o íon hidrônio
+ ao invés da atividade hidrogeniônica.
 \end_layout
 
 \begin_layout Standard
-...logo depois, com os dados levantados na análise de domínio, e esta formulação
- teórica, iremos identificar os pacotes, os assuntos com os quais iremos
- trabalhar...
+Potencial eletroquímico, potencial de redução, potencial redox, potencial
+ de oxidação/redução, potencial de eletrodo ou ORP é a espontaneidade, ou
+ a tendência de uma espécie química adquirir elétrons e, desse modo, ser
+ reduzida.
+ Cada espécie tem seu potencial intrínseco de redução.
 \end_layout
 
 \begin_layout Standard
-...
- no final da formulação teórica, indicar livros e artigos que tem mais informaçã
-o sobre o assunto...
+Sólidos dissolvidos totais é o conjunto de todas as substâncias orgânicas
+ e inorgânicas contidas num líquido sob formas moleculares, ionizadas ou
+ micro-granulares.
+ É um parâmetro de determinação da qualidade da água, pois avalia o peso
+ total dos constituintes minerais presentes na água, por unidade de volume.
 \end_layout
 
 \begin_layout Standard
-...se vai usar modelos numéricos, colocar seção 3.3.x falando deles; no final
- citar/referenciar fontes...
+Condutividade elétrica é usada para especificar o caráter elétrico de um
+ material.
+ Ela é simplesmente o recíproco da resistividade, ou seja, inversamente
+ proporcionais e é indicativa da facilidade com a qual um material é capaz
+ de conduzir uma corrente elétrica.
+ A unidade é a recíproca de ohm-metro, isto é, [⁻¹].
+\end_layout
+
+\begin_layout Standard
+Salinidade é uma medida da quantidade de sais existentes em massas de água
+ naturais, como sejam um oceano, um lago, um estuário ou um aquífero.
+ A forma mais simples de descrever a salinidade é como a relação entre o
+ conteúdo de sais dissolvidos em uma dada quantidade de água.
 \end_layout
 
 \begin_layout Section

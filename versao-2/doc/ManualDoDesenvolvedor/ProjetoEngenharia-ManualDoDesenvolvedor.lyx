@@ -237,7 +237,7 @@ status open
 \align block
 \begin_inset CommandInset include
 LatexCommand include
-filename "Cap0-Capa-ProjetoTCC.lyx"
+filename "Cap0-Capa-ProjetoDisciplina.lyx"
 
 \end_inset
 

@@ -1,6 +1,7 @@
 #include "measure.cpp"
 #include "sensor.h"
 
+
 #include <stdexcept>
 
 class Sensor_86501_551 : public ISensor {

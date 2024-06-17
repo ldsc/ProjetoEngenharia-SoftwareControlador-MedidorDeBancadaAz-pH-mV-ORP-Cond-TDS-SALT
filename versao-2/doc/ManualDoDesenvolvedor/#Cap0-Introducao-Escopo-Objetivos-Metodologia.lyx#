@@ -1,0 +1,425 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+
+% Comentar linhas abaixo se não estiver usando pacote abntex
+% ou se o pacote ainda não foi instalado.
+% neste caso sugere-se usar citações no padrão apalike (lembra o da anbt).
+%\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0]{abntcite}
+%\usepackage {helvet}
+%\renewcommand {\familydefault}{\sfdefault}
+
+% Para uso de listagens de código
+\usepackage{color}
+\definecolor{azulclaro}{rgb}{0.6,1,1}%   rgb color model
+% Informa que vai usar o pacote listings, 
+% disponibilizado em /usr/share/texmf/doc/latex/styles/listings.dvi
+\usepackage{listings}
+\end_preamble
+\use_default_options false
+\master DocumentoMestre-Trabalho-ProgramacaoPratica.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package auto
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style apalike
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Introdução
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:Introdução"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Introdução}
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lfoot{Gustavo Escher , Pedro Ribeiro} 
+\backslash
+rfoot{
+\backslash
+today}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Substitua "SeuNomeAqui" por seu nome e sobrenome
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Jamais retire o 
+\backslash
+today ele vai colocar data no material impresso
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O estudo da qualidade da água 
+\end_layout
+
+\begin_layout Standard
+Há muitas razões importantes para estudar a qualidade da água.
+ A qualidade da água nos ajuda a entender o que está acontecendo na subsuperfíci
+e, onde e quão rápido a água está se movendo, quais reações geoquímicas
+ estão ocorrendo, identificando diferentes fontes de água, etc.
+ Isso se relaciona diretamente com os aspectos dos estudos realizados no
+ laboratório de petrofísica do LENEP, através de diversos equipamentos capazes
+ de fazer a leitura de medidas das propriedades das rochas e dos fluidos
+ de saturação das mesmas.
+ A água, por ser o fluido de saturação mais comum do subsolo, atribui-se
+ de grande interesse o estudo de suas propriedades.
+\end_layout
+
+\begin_layout Section
+Escopo do problema
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Escopo-do-Problema"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Medidas realizadas no Medidor de bancada e passíveis de análise: 
+\end_layout
+
+\begin_layout Standard
+• pH ou Potencial Hidrogeniônico; 
+\end_layout
+
+\begin_layout Standard
+• Condutividade; 
+\end_layout
+
+\begin_layout Standard
+• Total de sólidos dissolvidos (TDS); 
+\end_layout
+
+\begin_layout Standard
+• Potencial de Oxi-redução (ORP); e 
+\end_layout
+
+\begin_layout Standard
+• Salinidade.
+ 
+\end_layout
+
+\begin_layout Section
+Objetivos
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Objetivos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Os objetivos deste projeto de engenharia são:
+\end_layout
+
+\begin_layout Itemize
+Objetivo geral:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Analisar a qualidade da água a ser utilizada em experimentos no laboratório
+ de petrofísica.
+\end_layout
+
+\begin_layout Itemize
+Desenvolver um projeto de engenharia de software para realizar cálculos
+ estátisticos e organizar a medidas realizadas em arquivos de disco.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Objetivos específicos:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Modelar física e matematicamente o problema.
+\end_layout
+
+\begin_layout Itemize
+Modelagem estática do software (diagramas de caso de uso, de pacotes, de
+ classes).
+\end_layout
+
+\begin_layout Itemize
+Modelagem dinâmica do software (desenvolver algoritmos e diagramas exemplificand
+o os fluxos de processamento).
+\end_layout
+
+\begin_layout Itemize
+Acompanhar medidas em tempo real a partir de gráficos integrados ao software.
+\end_layout
+
+\begin_layout Itemize
+Simular (realizar simulações para teste do software desenvolvido).
+\end_layout
+
+\begin_layout Itemize
+Desenvolver Instrumentador para acompanhar a performance e desempenho do
+ software
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Metodologia utilizada
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Metodologia-utilizada"
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Metodologia utilizada
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O software a ser desenvolvido utiliza a metodologia de engenharia de software
+ apresentada pelo Prof.
+ André Bueno na disciplina de programação e ilustrado na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Etapas para o desenvolvimento do software"
+
+\end_inset
+
+.
+ Note que o 
+\begin_inset Quotes eld
+\end_inset
+
+Ciclo de Concepção e Análise
+\begin_inset Quotes erd
+\end_inset
+
+ é composto por diversas partes representadas neste trabalho em diferentes
+ capítulos.
+ Os ciclos de planejamento/detalhamento tem seu próprio capítulo, assim
+ como o ciclo de construção - implementação.
+\end_layout
+
+\begin_layout Standard
+Esta metodologia é utilizada nas disciplinas:
+\end_layout
+
+\begin_layout Itemize
+LEP01447 : Programação Orientada a Objeto em C++.
+\end_layout
+
+\begin_layout Itemize
+LEP01446 : Programação Prática.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/EngenhariaSoftware-Geral.png
+	lyxscale 25
+	width 100text%
+	height 85theight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Etapas para o desenvolvimento do software
+\shape italic
+ - projeto de engenharia
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Etapas para o desenvolvimento do software"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Maiores detalhes veja 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "adb-prog-livroCpp"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

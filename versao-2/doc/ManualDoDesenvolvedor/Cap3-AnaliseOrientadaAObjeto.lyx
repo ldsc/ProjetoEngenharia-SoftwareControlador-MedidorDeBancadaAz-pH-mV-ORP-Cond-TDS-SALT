@@ -221,6 +221,7 @@ reference "cap:Diagrama-de-classes"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -228,11 +229,10 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename imagens/class diagram.png
+	filename imagens/class diagram.jpeg
 	lyxscale 30
 	width 100text%
 	height 80theight%
-	keepAspectRatio
 	rotateAngle 90
 
 \end_inset
@@ -264,20 +264,6 @@ name "cap:Diagrama-de-classes"
 
 \end_layout
 
-\begin_layout Standard
-Nota: 
-\begin_inset space ~
-\end_inset
-
- 
-\begin_inset Newline newline
-\end_inset
-
-deve ocupar toda a página impressa! se necessário rotacionar 90 graus; SE
- NECESSÁRIO DIVIDIR EM 2 PÁGINAS; o importante é que toda figura/tabela
- deve ser bem legível (fonte mínima = 10).
-\end_layout
-
 \begin_layout Subsection
 Dicionário de classes
 \begin_inset CommandInset label
@@ -290,47 +276,56 @@ name "subsec:Dicionário-de-classes"
 \end_layout
 
 \begin_layout Itemize
-Classe CEntradaDados: representa a interação do usuário com o sistema.
- Leitura e escrita em disco, além da manipulação e análise dos objetos que
- contém os dados de interesse.
+Classe CMeasure: Classe que realiza as medidas.
+\end_layout
+
+\begin_layout Itemize
+Classe CSensor: Classe que realiza a escolha do sensor e realaciona as medidas
+ que podem ser realizadas por ele.
+\end_layout
+
+\begin_layout Itemize
+Classe CUtils: Classe que realiza os cálculos estatísticos 
+\end_layout
+
+\begin_layout Itemize
+Classse CAbout: Classe que define e escreve na aba 
+\begin_inset Quotes eld
+\end_inset
+
+Sobre
+\begin_inset Quotes erd
+\end_inset
+
+ na interface 
+\end_layout
+
+\begin_layout Itemize
+Classe CMainwindow: Define métodos e seta a funcionalidade de cada botão,
+ caixa de texto, janela,..
+ da interface gráfica
+\end_layout
+
+\begin_layout Itemize
+Classe CQCustomplot: Constrói o gráfico na interface gráfica.
  
 \end_layout
 
 \begin_layout Itemize
-Classe CPhmeter: representa as propriedades da água a serem estudadas e
- manipuladas para melhor entendimento.
+Classe EMeasureUnit: representa a classificação das unidades de medida.
 \end_layout
 
 \begin_layout Itemize
-Classe CMedida: classe que admite os valores das propriedades da classe
- CPhmeter.
+Classe EMeasureMode: representa a classificação do modo de medida.
 \end_layout
 
 \begin_layout Itemize
-Classse CEstatistica: representa as funcionalidades de análise matemática
- dos valores aferidos pelo aparelho.
+Classe ESensortype: representa a classificação dos sensores.
 \end_layout
 
 \begin_layout Itemize
-Classe CAnaliseAmostra: representa as funcionalidades de conferência dos
- valores aferidos pelo aparelho (intervalos de valores na literatura, testes,
- etc).
-\end_layout
-
-\begin_layout Itemize
-Classe CCalibracao: representa as funcionalidades de guia para calibração
- do aparelho.
- 
-\end_layout
-
-\begin_layout Itemize
-Classe EMeasureMode: representa a classificação do modo utilizado pra medida
- pelo aparelho.
-\end_layout
-
-\begin_layout Itemize
-Classe EComandosPhmeter: representa a classificação do comando a ser enviado
- ao aparelho.
+Classe CInstrumentador: Este criador de perfil irá gerar um arquivo .json
+ que pode ser visualizado com o chrome://tracing para avaliação de performance.
 \end_layout
 
 \begin_layout Section
@@ -417,11 +412,6 @@ reference "cap:Diagrama-de-sequencia"
 .
 \end_layout
 
-\begin_layout Itemize
-[Aqui a ênfase é o entendimento da sequência com que as mensagens são trocadas,
- a ordem temporal.]
-\end_layout
-
 \begin_layout Standard
 \begin_inset Float figure
 placement H
@@ -432,7 +422,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename imagens/Diagrama de sequência.jpg
+	filename imagens/DiagramaSequencia.jpeg
 	width 100text%
 	rotateAngle 90
 
@@ -490,16 +480,62 @@ name "subsec: Diagrama de sequência específico"
 \end_layout
 
 \begin_layout Standard
-...
-\end_layout
+Veja o diagrama de sequência específico para a aquisição de medidas de pH
+ na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cap:Diagrama-de-sequencia-especifico"
+plural "false"
+caps "false"
+noprefix "false"
 
-\begin_layout Itemize
-[deve mostrar uma sequência específica; NÃO É PARA REPETIR O GERAL COM 1-2
- coisas diferentes!
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-é um novo diagrama; detalhando algo! ]
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/SequênciaEspecífico.jpeg
+	scale 50
+	scaleBeforeRotation
+	rotateAngle 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama de Sequência Específico para obtenção de medidas de pH
+\begin_inset CommandInset label
+LatexCommand label
+name "cap:Diagrama-de-sequencia-especifico"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -556,12 +592,6 @@ No diagrama de comunicação o foco é a interação e a troca de mensagens e
  
 \end_layout
 
-\begin_layout Itemize
-[Pode ser a repetição de um diagrama de sequência; mas note que o formato
- do gráfico é diferente, aqui a ênfase é o entendimento das mensagens que
- chegam e saem de cada objeto.]
-\end_layout
-
 \begin_layout Standard
 Veja na Figura 
 \begin_inset CommandInset ref
@@ -570,8 +600,7 @@ reference "subsec:Diagrama-de-Comunicação"
 
 \end_inset
 
- o diagrama de comunicação mostrando a sequência de blablabla.
- Observe que ....
+
 \end_layout
 
 \begin_layout Standard
@@ -584,7 +613,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename imagens/Diagrama de comunicação.jpg
+	filename imagens/DiagramaComunicação.jpeg
 	lyxscale 85
 	width 100text%
 
@@ -685,7 +714,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename imagens/Diagrama de estado.jpg
+	filename imagens/MaquinaEstado.jpeg
 	lyxscale 85
 	width 100text%
 
@@ -698,7 +727,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Diagrama de máquina de estado - Adminssão de medida de pH
+Diagrama de máquina de estado - Admissão de medida e gravação
 \begin_inset CommandInset label
 LatexCommand label
 name "cap:Diagrama-de-maquina-de-estado"
@@ -730,10 +759,6 @@ name "sec: Diagrama de atividades"
 \end_layout
 
 \begin_layout Standard
-.....
-\end_layout
-
-\begin_layout Standard
 Veja na Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -755,7 +780,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename imagens/Diagrama de atividade (media).jpg
+	filename imagens/Atividades.jpeg
 	lyxscale 85
 	width 100text%
 
@@ -768,7 +793,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Diagrama de atividades - Cálculo da média dos valores de pH
+Diagrama de atividades - Cálculo da média de valores do Array de medidas
 \begin_inset CommandInset label
 LatexCommand label
 name "cap:Diagrama-de-atividades"

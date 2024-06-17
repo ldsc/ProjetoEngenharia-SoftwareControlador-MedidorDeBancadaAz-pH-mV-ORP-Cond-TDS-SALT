@@ -1,6 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+
 #include "enums.h"
 #include "sensor.h"
 #include "about.h"

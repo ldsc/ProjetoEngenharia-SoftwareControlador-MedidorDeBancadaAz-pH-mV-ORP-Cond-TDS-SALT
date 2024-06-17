@@ -139,22 +139,16 @@ name "sec:Versão-0.1"
 
 \end_inset
 
- - xxx
+ 
 \end_layout
 
 \begin_layout Standard
-Na primeira versão foi 
-\shape italic
-...
+Na primeira versão foi construído todo o corpo do software, sendo as classes
+ principais do software e toda a interface gráfica 
 \end_layout
 
 \begin_layout Standard
-Note que é um 
-\shape italic
-software
-\shape default
- simples, .
- Veja Figura 
+Veja Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Versão-0.1 - simples"
@@ -184,7 +178,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename imagens/Interface-Simulador-Transcal-Guilherme1.png
+	filename imagens/MainWindow.jpeg
 	lyxscale 60
 	width 100text%
 
@@ -200,9 +194,9 @@ status open
 Versão 0.1, 
 \shape italic
 \emph on
-imagem do programa rodando
+imagem 
 \emph default
-
+da interface gráfica
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Versão-0.1 - simples"
@@ -230,11 +224,26 @@ name "sec:Versão-0.2"
 
 \end_inset
 
- - xxx
+ 
 \end_layout
 
 \begin_layout Standard
-Nesta segunda versão ...
+Nesta segunda versão foi adicionado um instrumentador ao software para avaliação
+ de performance, o mesmo gera um arquivo .json para ser lido no chrome://tracy
+\end_layout
+
+\begin_layout Standard
+Veja o instrumentador na figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Versão-0.1 - simples-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -247,7 +256,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename imagens/Interface-Simulador-Transcal-Guilherme2.png
+	filename imagens/Instrumentador.jpeg
 	lyxscale 60
 	width 100text%
 
@@ -263,9 +272,9 @@ status open
 Versão 0.2, 
 \shape italic
 \emph on
-imagem do programa rodando
+imagem do 
 \emph default
-
+instrumentador
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Versão-0.1 - simples-1"

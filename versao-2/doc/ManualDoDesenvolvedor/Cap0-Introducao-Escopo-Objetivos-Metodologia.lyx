@@ -146,7 +146,7 @@ status open
 
 
 \backslash
-lfoot{Gustavo Escher , Pedro Ribeiro} 
+lfoot{Pedro Ribeiro} 
 \backslash
 rfoot{
 \backslash
@@ -263,8 +263,8 @@ Analisar a qualidade da água a ser utilizada em experimentos no laboratório
 \end_layout
 
 \begin_layout Itemize
-Desenvolver um projeto de engenharia de software para organizar a medidas
- realizadas em arquivos de disco.
+Desenvolver um projeto de engenharia de software para realizar cálculos
+ estátisticos e organizar a medidas realizadas em arquivos de disco.
 \end_layout
 
 \end_deeper
@@ -297,6 +297,11 @@ Acompanhar medidas em tempo real a partir de gráficos integrados ao software.
 
 \begin_layout Itemize
 Simular (realizar simulações para teste do software desenvolvido).
+\end_layout
+
+\begin_layout Itemize
+Desenvolver instrumentador para acompanhar a performance e desempenho do
+ software
 \end_layout
 
 \end_deeper

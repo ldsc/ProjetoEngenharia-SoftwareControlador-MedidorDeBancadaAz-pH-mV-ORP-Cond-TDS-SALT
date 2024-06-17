@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass extbook
 \begin_preamble
 \usepackage {graphicx}
@@ -31,16 +33,18 @@
 \language_package auto
 \inputencoding utf8
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -83,6 +87,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_minted 0
 \index Índice
 \shortcut idx
 \color #008000
@@ -97,7 +102,10 @@
 \tocdepth 1
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
@@ -111,7 +119,7 @@
 \begin_body
 
 \begin_layout Chapter
-Título do Apêndice
+Apêndice
 \end_layout
 
 \begin_layout Standard
@@ -133,54 +141,20 @@ thepage}
 
 \end_inset
 
-Descreve-se neste apêndice ...
+
 \end_layout
 
 \begin_layout Itemize
-Os anexos ou apêndices contém material auxiliar.
- Por exemplo, tabelas, gráficos, resultados de experimentos, algoritmos,
- códigos e simulações.
-\end_layout
+Neste link 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://gist.github.com/thiago-rezende/979bd63b3b8d3cd4eb1097367cf9b4bb"
+literal "false"
 
-\begin_layout Itemize
-Um apêndice pode incluir assuntos mais gerais (geral demais para estar no
- núcleo do trabalho) ou mais específicos (detalhado demais para estar no
- núcleo do trabalho).
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-Pode conter um artigo de auxílio fundamental ao trabalho.
- 
-\end_layout
-
-\begin_layout Itemize
-Pode conter artigos publicados.
-\end_layout
-
-\begin_layout Itemize
-[tudo aquilo que for importante para a tese mas não essencial, deve ser
- colocado em apêndices]
-\end_layout
-
-\begin_layout Itemize
-[como exemplo, revisão de metodologias, técnicas, modelos matemáticos, ítens
- desenvolvidos por terceiros]
-\end_layout
-
-\begin_layout Itemize
-[algoritmos e programas devem ser colocados no apêndice]
-\end_layout
-
-\begin_layout Itemize
-[imagens detalhadas de programas desenvolvidos devem ser colocados no apêndice]
-\end_layout
-
-\begin_layout Section
-Sub-Titulo do Apêndice
-\end_layout
-
-\begin_layout Standard
-.....conteúdo..
+ pode-se verificar o código base que usei para construção do instrumentador
+ para este programa.
 \end_layout
 
 \end_body

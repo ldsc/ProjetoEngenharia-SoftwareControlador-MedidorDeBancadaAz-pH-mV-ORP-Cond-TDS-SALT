@@ -1,0 +1,716 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação Projeto Software: Referência da Classe QCPPainter</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Documentação Projeto Software<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Tipos Públicos</a> &#124;
+<a href="#pub-methods">Membros Públicos</a> &#124;
+<a href="#pro-attribs">Atributos Protegidos</a> &#124;
+<a href="class_q_c_p_painter-members.html">Lista de todos os Membros</a>  </div>
+  <div class="headertitle"><div class="title">Referência da Classe QCPPainter</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>QPainter subclass used internally.  
+ <a href="#details">Mais...</a></p>
+
+<p><code>#include &lt;<a class="el" href="qcustomplot_8h_source.html">qcustomplot.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagrama de hierarquia da classe QCPPainter:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_q_c_p_painter.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Tipos Públicos</h2></td></tr>
+<tr class="memitem:a156cf16444ff5e0d81a73c615fdb156d" id="r_a156cf16444ff5e0d81a73c615fdb156d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a156cf16444ff5e0d81a73c615fdb156d">PainterMode</a> { <a class="el" href="#a156cf16444ff5e0d81a73c615fdb156da3bac5e87e3d58553b297befb4eee2a45">pmDefault</a> = 0x00
+, <a class="el" href="#a156cf16444ff5e0d81a73c615fdb156daeda679cd55dcd468341d07d48a30b6ab">pmVectorized</a> = 0x01
+, <a class="el" href="#a156cf16444ff5e0d81a73c615fdb156dae78f9a4eb277a5f9207f50850a51a0b0">pmNoCaching</a> = 0x02
+, <a class="el" href="#a156cf16444ff5e0d81a73c615fdb156dac1e481bfaf408f2bd2eaad3ec341f36b">pmNonCosmetic</a> = 0x04
+ }</td></tr>
+<tr class="separator:a156cf16444ff5e0d81a73c615fdb156d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Membros Públicos</h2></td></tr>
+<tr class="memitem:a3c52cb0f43f34573d29bea487da28fe8" id="r_a3c52cb0f43f34573d29bea487da28fe8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c52cb0f43f34573d29bea487da28fe8">QCPPainter</a> ()</td></tr>
+<tr class="separator:a3c52cb0f43f34573d29bea487da28fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae58dbb1795ddc4351ab324dc9898aa22" id="r_ae58dbb1795ddc4351ab324dc9898aa22"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae58dbb1795ddc4351ab324dc9898aa22">QCPPainter</a> (QPaintDevice *device)</td></tr>
+<tr class="separator:ae58dbb1795ddc4351ab324dc9898aa22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aff96296e995f6f35b2596a482aae37" id="r_a5aff96296e995f6f35b2596a482aae37"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5aff96296e995f6f35b2596a482aae37">antialiasing</a> () const</td></tr>
+<tr class="separator:a5aff96296e995f6f35b2596a482aae37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef102658219b24165f7ee2aad1b9e48f" id="r_aef102658219b24165f7ee2aad1b9e48f"><td class="memItemLeft" align="right" valign="top">PainterModes&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef102658219b24165f7ee2aad1b9e48f">modes</a> () const</td></tr>
+<tr class="separator:aef102658219b24165f7ee2aad1b9e48f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaba1deb9188244d9ea65b035112b4d05" id="r_aaba1deb9188244d9ea65b035112b4d05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaba1deb9188244d9ea65b035112b4d05">setAntialiasing</a> (bool enabled)</td></tr>
+<tr class="separator:aaba1deb9188244d9ea65b035112b4d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6b1f7d2bbc548b10aa55d8b6ad49577" id="r_af6b1f7d2bbc548b10aa55d8b6ad49577"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6b1f7d2bbc548b10aa55d8b6ad49577">setMode</a> (<a class="el" href="#a156cf16444ff5e0d81a73c615fdb156d">PainterMode</a> mode, bool enabled=true)</td></tr>
+<tr class="separator:af6b1f7d2bbc548b10aa55d8b6ad49577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fac93adc29c7c4dea9f3e171e9e635e" id="r_a5fac93adc29c7c4dea9f3e171e9e635e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fac93adc29c7c4dea9f3e171e9e635e">setModes</a> (PainterModes <a class="el" href="#aef102658219b24165f7ee2aad1b9e48f">modes</a>)</td></tr>
+<tr class="separator:a5fac93adc29c7c4dea9f3e171e9e635e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a41146ccd619dceab6e25ec7b46b044" id="r_a0a41146ccd619dceab6e25ec7b46b044"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a41146ccd619dceab6e25ec7b46b044">begin</a> (QPaintDevice *device)</td></tr>
+<tr class="separator:a0a41146ccd619dceab6e25ec7b46b044"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9c7a4cd1791403901f8c5b82a150195" id="r_af9c7a4cd1791403901f8c5b82a150195"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9c7a4cd1791403901f8c5b82a150195">setPen</a> (const QPen &amp;pen)</td></tr>
+<tr class="separator:af9c7a4cd1791403901f8c5b82a150195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c4d88f21564e156e88ef807f7cf0003" id="r_a5c4d88f21564e156e88ef807f7cf0003"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c4d88f21564e156e88ef807f7cf0003">setPen</a> (const QColor &amp;color)</td></tr>
+<tr class="separator:a5c4d88f21564e156e88ef807f7cf0003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25e76095aae41da0d08035060e5f81ca" id="r_a25e76095aae41da0d08035060e5f81ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25e76095aae41da0d08035060e5f81ca">setPen</a> (Qt::PenStyle penStyle)</td></tr>
+<tr class="separator:a25e76095aae41da0d08035060e5f81ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b4b1b9bd495e182c731774dc800e6e0" id="r_a0b4b1b9bd495e182c731774dc800e6e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b4b1b9bd495e182c731774dc800e6e0">drawLine</a> (const QLineF &amp;line)</td></tr>
+<tr class="separator:a0b4b1b9bd495e182c731774dc800e6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1638db27929491b3f1beb74d6cbad5e" id="r_ad1638db27929491b3f1beb74d6cbad5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1638db27929491b3f1beb74d6cbad5e">drawLine</a> (const QPointF &amp;p1, const QPointF &amp;p2)</td></tr>
+<tr class="separator:ad1638db27929491b3f1beb74d6cbad5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fd6821ee6fecbfa04444c9062912abd" id="r_a8fd6821ee6fecbfa04444c9062912abd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fd6821ee6fecbfa04444c9062912abd">save</a> ()</td></tr>
+<tr class="separator:a8fd6821ee6fecbfa04444c9062912abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64908e6298d5bbd83457dc987cc3a022" id="r_a64908e6298d5bbd83457dc987cc3a022"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64908e6298d5bbd83457dc987cc3a022">restore</a> ()</td></tr>
+<tr class="separator:a64908e6298d5bbd83457dc987cc3a022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e63fbcf47e35c6f2ecd11b8fef7c7d8" id="r_a7e63fbcf47e35c6f2ecd11b8fef7c7d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e63fbcf47e35c6f2ecd11b8fef7c7d8">makeNonCosmetic</a> ()</td></tr>
+<tr class="separator:a7e63fbcf47e35c6f2ecd11b8fef7c7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Atributos Protegidos</h2></td></tr>
+<tr class="memitem:af5d1d6e5df0adbc7de5633250fb3396c" id="r_af5d1d6e5df0adbc7de5633250fb3396c"><td class="memItemLeft" align="right" valign="top">PainterModes&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5d1d6e5df0adbc7de5633250fb3396c">mModes</a></td></tr>
+<tr class="separator:af5d1d6e5df0adbc7de5633250fb3396c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7055085da176aee0f6b23298f1003d08" id="r_a7055085da176aee0f6b23298f1003d08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7055085da176aee0f6b23298f1003d08">mIsAntialiasing</a></td></tr>
+<tr class="separator:a7055085da176aee0f6b23298f1003d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0189e641bbf7dc31ac15aef7b36501fa" id="r_a0189e641bbf7dc31ac15aef7b36501fa"><td class="memItemLeft" align="right" valign="top">QStack&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0189e641bbf7dc31ac15aef7b36501fa">mAntialiasingStack</a></td></tr>
+<tr class="separator:a0189e641bbf7dc31ac15aef7b36501fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>QPainter subclass used internally. </p>
+<p>This QPainter subclass is used to provide some extended functionality e.g. for tweaking position consistency between antialiased and non-antialiased painting. Further it provides workarounds for QPainter quirks.</p>
+<dl class="section warning"><dt>Aviso</dt><dd>This class intentionally hides non-virtual functions of QPainter, e.g. setPen, save and restore. So while it is possible to pass a <a class="el" href="class_q_c_p_painter.html" title="QPainter subclass used internally.">QCPPainter</a> instance to a function that expects a QPainter pointer, some of the workarounds and tweaks will be unavailable to the function (because it will call the base class implementations of the functions actually hidden by <a class="el" href="class_q_c_p_painter.html" title="QPainter subclass used internally.">QCPPainter</a>). </dd></dl>
+</div><h2 class="groupheader">Documentação das enumerações</h2>
+<a id="a156cf16444ff5e0d81a73c615fdb156d" name="a156cf16444ff5e0d81a73c615fdb156d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a156cf16444ff5e0d81a73c615fdb156d">&#9670;&#160;</a></span>PainterMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a156cf16444ff5e0d81a73c615fdb156d">QCPPainter::PainterMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Defines special modes the painter can operate in. They disable or enable certain subsets of features/fixes/workarounds, depending on whether they are wanted on the respective output device. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumeradores</th></tr><tr><td class="fieldname"><a id="a156cf16444ff5e0d81a73c615fdb156da3bac5e87e3d58553b297befb4eee2a45" name="a156cf16444ff5e0d81a73c615fdb156da3bac5e87e3d58553b297befb4eee2a45"></a>pmDefault&#160;</td><td class="fielddoc"><p><code>0x00</code> Default mode for painting on screen devices </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a156cf16444ff5e0d81a73c615fdb156daeda679cd55dcd468341d07d48a30b6ab" name="a156cf16444ff5e0d81a73c615fdb156daeda679cd55dcd468341d07d48a30b6ab"></a>pmVectorized&#160;</td><td class="fielddoc"><p><code>0x01</code> Mode for vectorized painting (e.g. PDF export). For example, this prevents some antialiasing fixes. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a156cf16444ff5e0d81a73c615fdb156dae78f9a4eb277a5f9207f50850a51a0b0" name="a156cf16444ff5e0d81a73c615fdb156dae78f9a4eb277a5f9207f50850a51a0b0"></a>pmNoCaching&#160;</td><td class="fielddoc"><p><code>0x02</code> Mode for all sorts of exports (e.g. PNG, PDF,...). For example, this prevents using cached pixmap labels </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a156cf16444ff5e0d81a73c615fdb156dac1e481bfaf408f2bd2eaad3ec341f36b" name="a156cf16444ff5e0d81a73c615fdb156dac1e481bfaf408f2bd2eaad3ec341f36b"></a>pmNonCosmetic&#160;</td><td class="fielddoc"><p><code>0x04</code> Turns pen widths 0 to 1, i.e. disables cosmetic pens. (A cosmetic pen is always drawn with width 1 pixel in the vector image/pdf viewer, independent of zoom.) </p>
+</td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  523</span>                   { <a class="code hl_enumvalue" href="#a156cf16444ff5e0d81a73c615fdb156da3bac5e87e3d58553b297befb4eee2a45">pmDefault</a>       = 0x00   </div>
+<div class="line"><span class="lineno">  524</span>                     ,<a class="code hl_enumvalue" href="#a156cf16444ff5e0d81a73c615fdb156daeda679cd55dcd468341d07d48a30b6ab">pmVectorized</a>   = 0x01   </div>
+<div class="line"><span class="lineno">  525</span>                     ,<a class="code hl_enumvalue" href="#a156cf16444ff5e0d81a73c615fdb156dae78f9a4eb277a5f9207f50850a51a0b0">pmNoCaching</a>    = 0x02   </div>
+<div class="line"><span class="lineno">  526</span>                     ,<a class="code hl_enumvalue" href="#a156cf16444ff5e0d81a73c615fdb156dac1e481bfaf408f2bd2eaad3ec341f36b">pmNonCosmetic</a>  = 0x04   </div>
+<div class="line"><span class="lineno">  527</span>                   };</div>
+<div class="ttc" id="aclass_q_c_p_painter_html_a156cf16444ff5e0d81a73c615fdb156da3bac5e87e3d58553b297befb4eee2a45"><div class="ttname"><a href="#a156cf16444ff5e0d81a73c615fdb156da3bac5e87e3d58553b297befb4eee2a45">QCPPainter::pmDefault</a></div><div class="ttdeci">@ pmDefault</div><div class="ttdoc">0x00 Default mode for painting on screen devices</div><div class="ttdef"><b>Definição</b> qcustomplot.h:523</div></div>
+<div class="ttc" id="aclass_q_c_p_painter_html_a156cf16444ff5e0d81a73c615fdb156dac1e481bfaf408f2bd2eaad3ec341f36b"><div class="ttname"><a href="#a156cf16444ff5e0d81a73c615fdb156dac1e481bfaf408f2bd2eaad3ec341f36b">QCPPainter::pmNonCosmetic</a></div><div class="ttdeci">@ pmNonCosmetic</div><div class="ttdoc">0x04 Turns pen widths 0 to 1, i.e. disables cosmetic pens. (A cosmetic pen is always drawn with width...</div><div class="ttdef"><b>Definição</b> qcustomplot.h:526</div></div>
+<div class="ttc" id="aclass_q_c_p_painter_html_a156cf16444ff5e0d81a73c615fdb156dae78f9a4eb277a5f9207f50850a51a0b0"><div class="ttname"><a href="#a156cf16444ff5e0d81a73c615fdb156dae78f9a4eb277a5f9207f50850a51a0b0">QCPPainter::pmNoCaching</a></div><div class="ttdeci">@ pmNoCaching</div><div class="ttdoc">0x02 Mode for all sorts of exports (e.g. PNG, PDF,...). For example, this prevents using cached pixma...</div><div class="ttdef"><b>Definição</b> qcustomplot.h:525</div></div>
+<div class="ttc" id="aclass_q_c_p_painter_html_a156cf16444ff5e0d81a73c615fdb156daeda679cd55dcd468341d07d48a30b6ab"><div class="ttname"><a href="#a156cf16444ff5e0d81a73c615fdb156daeda679cd55dcd468341d07d48a30b6ab">QCPPainter::pmVectorized</a></div><div class="ttdeci">@ pmVectorized</div><div class="ttdoc">0x01 Mode for vectorized painting (e.g. PDF export). For example, this prevents some antialiasing fix...</div><div class="ttdef"><b>Definição</b> qcustomplot.h:524</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Construtores e Destrutores</h2>
+<a id="a3c52cb0f43f34573d29bea487da28fe8" name="a3c52cb0f43f34573d29bea487da28fe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c52cb0f43f34573d29bea487da28fe8">&#9670;&#160;</a></span>QCPPainter() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QCPPainter::QCPPainter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a new <a class="el" href="class_q_c_p_painter.html" title="QPainter subclass used internally.">QCPPainter</a> instance and sets default values </p>
+<div class="fragment"><div class="line"><span class="lineno">  297</span>                       :</div>
+<div class="line"><span class="lineno">  298</span>  <a class="code hl_variable" href="#af5d1d6e5df0adbc7de5633250fb3396c">mModes</a>(<a class="code hl_enumvalue" href="#a156cf16444ff5e0d81a73c615fdb156da3bac5e87e3d58553b297befb4eee2a45">pmDefault</a>),</div>
+<div class="line"><span class="lineno">  299</span>  <a class="code hl_variable" href="#a7055085da176aee0f6b23298f1003d08">mIsAntialiasing</a>(<span class="keyword">false</span>)</div>
+<div class="line"><span class="lineno">  300</span>{</div>
+<div class="line"><span class="lineno">  301</span>  <span class="comment">// don&#39;t setRenderHint(QPainter::NonCosmeticDefautPen) here, because painter isn&#39;t active yet and</span></div>
+<div class="line"><span class="lineno">  302</span>  <span class="comment">// a call to begin() will follow</span></div>
+<div class="line"><span class="lineno">  303</span>}</div>
+<div class="ttc" id="aclass_q_c_p_painter_html_a7055085da176aee0f6b23298f1003d08"><div class="ttname"><a href="#a7055085da176aee0f6b23298f1003d08">QCPPainter::mIsAntialiasing</a></div><div class="ttdeci">bool mIsAntialiasing</div><div class="ttdef"><b>Definição</b> qcustomplot.h:560</div></div>
+<div class="ttc" id="aclass_q_c_p_painter_html_af5d1d6e5df0adbc7de5633250fb3396c"><div class="ttname"><a href="#af5d1d6e5df0adbc7de5633250fb3396c">QCPPainter::mModes</a></div><div class="ttdeci">PainterModes mModes</div><div class="ttdef"><b>Definição</b> qcustomplot.h:559</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae58dbb1795ddc4351ab324dc9898aa22" name="ae58dbb1795ddc4351ab324dc9898aa22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae58dbb1795ddc4351ab324dc9898aa22">&#9670;&#160;</a></span>QCPPainter() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QCPPainter::QCPPainter </td>
+          <td>(</td>
+          <td class="paramtype">QPaintDevice *</td>          <td class="paramname"><span class="paramname"><em>device</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Creates a new <a class="el" href="class_q_c_p_painter.html" title="QPainter subclass used internally.">QCPPainter</a> instance on the specified paint <em>device</em> and sets default values. Just like the analogous QPainter constructor, begins painting on <em>device</em> immediately.</p>
+<p>Like <a class="el" href="#a0a41146ccd619dceab6e25ec7b46b044">begin</a>, this method sets QPainter::NonCosmeticDefaultPen in Qt versions before Qt5. </p>
+<div class="fragment"><div class="line"><span class="lineno">  311</span>                                           :</div>
+<div class="line"><span class="lineno">  312</span>  QPainter(device),</div>
+<div class="line"><span class="lineno">  313</span>  <a class="code hl_variable" href="#af5d1d6e5df0adbc7de5633250fb3396c">mModes</a>(<a class="code hl_enumvalue" href="#a156cf16444ff5e0d81a73c615fdb156da3bac5e87e3d58553b297befb4eee2a45">pmDefault</a>),</div>
+<div class="line"><span class="lineno">  314</span>  <a class="code hl_variable" href="#a7055085da176aee0f6b23298f1003d08">mIsAntialiasing</a>(<span class="keyword">false</span>)</div>
+<div class="line"><span class="lineno">  315</span>{</div>
+<div class="line"><span class="lineno">  316</span><span class="preprocessor">#if QT_VERSION &lt; QT_VERSION_CHECK(5, 0, 0) </span><span class="comment">// before Qt5, default pens used to be cosmetic if NonCosmeticDefaultPen flag isn&#39;t set. So we set it to get consistency across Qt versions.</span></div>
+<div class="line"><span class="lineno">  317</span>  <span class="keywordflow">if</span> (isActive())</div>
+<div class="line"><span class="lineno">  318</span>    setRenderHint(QPainter::NonCosmeticDefaultPen);</div>
+<div class="line"><span class="lineno">  319</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">  320</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentação das funções</h2>
+<a id="a5aff96296e995f6f35b2596a482aae37" name="a5aff96296e995f6f35b2596a482aae37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aff96296e995f6f35b2596a482aae37">&#9670;&#160;</a></span>antialiasing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool QCPPainter::antialiasing </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  536</span>{ <span class="keywordflow">return</span> testRenderHint(QPainter::Antialiasing); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0a41146ccd619dceab6e25ec7b46b044" name="a0a41146ccd619dceab6e25ec7b46b044"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a41146ccd619dceab6e25ec7b46b044">&#9670;&#160;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool QCPPainter::begin </td>
+          <td>(</td>
+          <td class="paramtype">QPaintDevice *</td>          <td class="paramname"><span class="paramname"><em>device</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the QPainter::NonCosmeticDefaultPen in Qt versions before Qt5 after beginning painting on <em>device</em>. This is necessary to get cosmetic pen consistency across Qt versions, because since Qt5, all pens are non-cosmetic by default, and in Qt4 this render hint must be set to get that behaviour.</p>
+<p>The Constructor <a class="el" href="#ae58dbb1795ddc4351ab324dc9898aa22">QCPPainter(QPaintDevice *device)</a> which directly starts painting also sets the render hint as appropriate.</p>
+<dl class="section note"><dt>Observação</dt><dd>this function hides the non-virtual base class implementation. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  422</span>{</div>
+<div class="line"><span class="lineno">  423</span>  <span class="keywordtype">bool</span> result = QPainter::begin(device);</div>
+<div class="line"><span class="lineno">  424</span><span class="preprocessor">#if QT_VERSION &lt; QT_VERSION_CHECK(5, 0, 0) </span><span class="comment">// before Qt5, default pens used to be cosmetic if NonCosmeticDefaultPen flag isn&#39;t set. So we set it to get consistency across Qt versions.</span></div>
+<div class="line"><span class="lineno">  425</span>  <span class="keywordflow">if</span> (result)</div>
+<div class="line"><span class="lineno">  426</span>    setRenderHint(QPainter::NonCosmeticDefaultPen);</div>
+<div class="line"><span class="lineno">  427</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">  428</span>  <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">  429</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0b4b1b9bd495e182c731774dc800e6e0" name="a0b4b1b9bd495e182c731774dc800e6e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b4b1b9bd495e182c731774dc800e6e0">&#9670;&#160;</a></span>drawLine() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPPainter::drawLine </td>
+          <td>(</td>
+          <td class="paramtype">const QLineF &amp;</td>          <td class="paramname"><span class="paramname"><em>line</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</p>
+<p>Works around a Qt bug introduced with Qt 4.8 which makes drawing QLineF unpredictable when antialiasing is disabled. Thus when antialiasing is disabled, it rounds the <em>line</em> to integer coordinates and then passes it to the original drawLine.</p>
+<dl class="section note"><dt>Observação</dt><dd>this function hides the non-virtual base class implementation. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  372</span>{</div>
+<div class="line"><span class="lineno">  373</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a7055085da176aee0f6b23298f1003d08">mIsAntialiasing</a> || <a class="code hl_variable" href="#af5d1d6e5df0adbc7de5633250fb3396c">mModes</a>.testFlag(<a class="code hl_enumvalue" href="#a156cf16444ff5e0d81a73c615fdb156daeda679cd55dcd468341d07d48a30b6ab">pmVectorized</a>))</div>
+<div class="line"><span class="lineno">  374</span>    QPainter::drawLine(line);</div>
+<div class="line"><span class="lineno">  375</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  376</span>    QPainter::drawLine(line.toLine());</div>
+<div class="line"><span class="lineno">  377</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad1638db27929491b3f1beb74d6cbad5e" name="ad1638db27929491b3f1beb74d6cbad5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1638db27929491b3f1beb74d6cbad5e">&#9670;&#160;</a></span>drawLine() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPPainter::drawLine </td>
+          <td>(</td>
+          <td class="paramtype">const QPointF &amp;</td>          <td class="paramname"><span class="paramname"><em>p1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QPointF &amp;</td>          <td class="paramname"><span class="paramname"><em>p2</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  550</span>{<a class="code hl_function" href="#a0b4b1b9bd495e182c731774dc800e6e0">drawLine</a>(QLineF(p1, p2));}</div>
+<div class="ttc" id="aclass_q_c_p_painter_html_a0b4b1b9bd495e182c731774dc800e6e0"><div class="ttname"><a href="#a0b4b1b9bd495e182c731774dc800e6e0">QCPPainter::drawLine</a></div><div class="ttdeci">void drawLine(const QLineF &amp;line)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:371</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a7e63fbcf47e35c6f2ecd11b8fef7c7d8" name="a7e63fbcf47e35c6f2ecd11b8fef7c7d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e63fbcf47e35c6f2ecd11b8fef7c7d8">&#9670;&#160;</a></span>makeNonCosmetic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPPainter::makeNonCosmetic </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Changes the pen width to 1 if it currently is 0. This function is called in the <a class="el" href="#af9c7a4cd1791403901f8c5b82a150195">setPen</a> overrides when the <a class="el" href="#a156cf16444ff5e0d81a73c615fdb156dac1e481bfaf408f2bd2eaad3ec341f36b">pmNonCosmetic</a> mode is set. </p>
+<div class="fragment"><div class="line"><span class="lineno">  480</span>{</div>
+<div class="line"><span class="lineno">  481</span>  <span class="keywordflow">if</span> (qFuzzyIsNull(pen().widthF()))</div>
+<div class="line"><span class="lineno">  482</span>  {</div>
+<div class="line"><span class="lineno">  483</span>    QPen p = pen();</div>
+<div class="line"><span class="lineno">  484</span>    p.setWidth(1);</div>
+<div class="line"><span class="lineno">  485</span>    QPainter::setPen(p);</div>
+<div class="line"><span class="lineno">  486</span>  }</div>
+<div class="line"><span class="lineno">  487</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aef102658219b24165f7ee2aad1b9e48f" name="aef102658219b24165f7ee2aad1b9e48f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef102658219b24165f7ee2aad1b9e48f">&#9670;&#160;</a></span>modes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PainterModes QCPPainter::modes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  537</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#af5d1d6e5df0adbc7de5633250fb3396c">mModes</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a64908e6298d5bbd83457dc987cc3a022" name="a64908e6298d5bbd83457dc987cc3a022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64908e6298d5bbd83457dc987cc3a022">&#9670;&#160;</a></span>restore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPPainter::restore </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Restores the painter (see QPainter::restore). Since <a class="el" href="class_q_c_p_painter.html" title="QPainter subclass used internally.">QCPPainter</a> adds some new internal state to QPainter, the save/restore functions are reimplemented to also save/restore those members.</p>
+<dl class="section note"><dt>Observação</dt><dd>this function hides the non-virtual base class implementation.</dd></dl>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#a8fd6821ee6fecbfa04444c9062912abd">save</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  467</span>{</div>
+<div class="line"><span class="lineno">  468</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="#a0189e641bbf7dc31ac15aef7b36501fa">mAntialiasingStack</a>.isEmpty())</div>
+<div class="line"><span class="lineno">  469</span>    <a class="code hl_variable" href="#a7055085da176aee0f6b23298f1003d08">mIsAntialiasing</a> = <a class="code hl_variable" href="#a0189e641bbf7dc31ac15aef7b36501fa">mAntialiasingStack</a>.pop();</div>
+<div class="line"><span class="lineno">  470</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  471</span>    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;Unbalanced save/restore&quot;</span>;</div>
+<div class="line"><span class="lineno">  472</span>  QPainter::restore();</div>
+<div class="line"><span class="lineno">  473</span>}</div>
+<div class="ttc" id="aclass_q_c_p_painter_html_a0189e641bbf7dc31ac15aef7b36501fa"><div class="ttname"><a href="#a0189e641bbf7dc31ac15aef7b36501fa">QCPPainter::mAntialiasingStack</a></div><div class="ttdeci">QStack&lt; bool &gt; mAntialiasingStack</div><div class="ttdef"><b>Definição</b> qcustomplot.h:563</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8fd6821ee6fecbfa04444c9062912abd" name="a8fd6821ee6fecbfa04444c9062912abd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fd6821ee6fecbfa04444c9062912abd">&#9670;&#160;</a></span>save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPPainter::save </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Saves the painter (see QPainter::save). Since <a class="el" href="class_q_c_p_painter.html" title="QPainter subclass used internally.">QCPPainter</a> adds some new internal state to QPainter, the save/restore functions are reimplemented to also save/restore those members.</p>
+<dl class="section note"><dt>Observação</dt><dd>this function hides the non-virtual base class implementation.</dd></dl>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#a64908e6298d5bbd83457dc987cc3a022">restore</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  453</span>{</div>
+<div class="line"><span class="lineno">  454</span>  <a class="code hl_variable" href="#a0189e641bbf7dc31ac15aef7b36501fa">mAntialiasingStack</a>.push(<a class="code hl_variable" href="#a7055085da176aee0f6b23298f1003d08">mIsAntialiasing</a>);</div>
+<div class="line"><span class="lineno">  455</span>  QPainter::save();</div>
+<div class="line"><span class="lineno">  456</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aaba1deb9188244d9ea65b035112b4d05" name="aaba1deb9188244d9ea65b035112b4d05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaba1deb9188244d9ea65b035112b4d05">&#9670;&#160;</a></span>setAntialiasing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPPainter::setAntialiasing </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>enabled</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets whether painting uses antialiasing or not. Use this method instead of using setRenderHint with QPainter::Antialiasing directly, as it allows <a class="el" href="class_q_c_p_painter.html" title="QPainter subclass used internally.">QCPPainter</a> to regain pixel exactness between antialiased and non-antialiased painting (Since Qt &lt; 5.0 uses slightly different coordinate systems for AA/Non-AA painting). </p>
+<div class="fragment"><div class="line"><span class="lineno">  386</span>{</div>
+<div class="line"><span class="lineno">  387</span>  setRenderHint(QPainter::Antialiasing, enabled);</div>
+<div class="line"><span class="lineno">  388</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a7055085da176aee0f6b23298f1003d08">mIsAntialiasing</a> != enabled)</div>
+<div class="line"><span class="lineno">  389</span>  {</div>
+<div class="line"><span class="lineno">  390</span>    <a class="code hl_variable" href="#a7055085da176aee0f6b23298f1003d08">mIsAntialiasing</a> = enabled;</div>
+<div class="line"><span class="lineno">  391</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="#af5d1d6e5df0adbc7de5633250fb3396c">mModes</a>.testFlag(<a class="code hl_enumvalue" href="#a156cf16444ff5e0d81a73c615fdb156daeda679cd55dcd468341d07d48a30b6ab">pmVectorized</a>)) <span class="comment">// antialiasing half-pixel shift only needed for rasterized outputs</span></div>
+<div class="line"><span class="lineno">  392</span>    {</div>
+<div class="line"><span class="lineno">  393</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a7055085da176aee0f6b23298f1003d08">mIsAntialiasing</a>)</div>
+<div class="line"><span class="lineno">  394</span>        translate(0.5, 0.5);</div>
+<div class="line"><span class="lineno">  395</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  396</span>        translate(-0.5, -0.5);</div>
+<div class="line"><span class="lineno">  397</span>    }</div>
+<div class="line"><span class="lineno">  398</span>  }</div>
+<div class="line"><span class="lineno">  399</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af6b1f7d2bbc548b10aa55d8b6ad49577" name="af6b1f7d2bbc548b10aa55d8b6ad49577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6b1f7d2bbc548b10aa55d8b6ad49577">&#9670;&#160;</a></span>setMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPPainter::setMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a156cf16444ff5e0d81a73c615fdb156d">QCPPainter::PainterMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>enabled</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</p>
+<p>Sets the mode of the painter. This controls whether the painter shall adjust its fixes/workarounds optimized for certain output devices. </p>
+<div class="fragment"><div class="line"><span class="lineno">  437</span>{</div>
+<div class="line"><span class="lineno">  438</span>  <span class="keywordflow">if</span> (!enabled &amp;&amp; <a class="code hl_variable" href="#af5d1d6e5df0adbc7de5633250fb3396c">mModes</a>.testFlag(mode))</div>
+<div class="line"><span class="lineno">  439</span>    <a class="code hl_variable" href="#af5d1d6e5df0adbc7de5633250fb3396c">mModes</a> &amp;= ~mode;</div>
+<div class="line"><span class="lineno">  440</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (enabled &amp;&amp; !<a class="code hl_variable" href="#af5d1d6e5df0adbc7de5633250fb3396c">mModes</a>.testFlag(mode))</div>
+<div class="line"><span class="lineno">  441</span>    <a class="code hl_variable" href="#af5d1d6e5df0adbc7de5633250fb3396c">mModes</a> |= mode;</div>
+<div class="line"><span class="lineno">  442</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5fac93adc29c7c4dea9f3e171e9e635e" name="a5fac93adc29c7c4dea9f3e171e9e635e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fac93adc29c7c4dea9f3e171e9e635e">&#9670;&#160;</a></span>setModes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPPainter::setModes </td>
+          <td>(</td>
+          <td class="paramtype">PainterModes</td>          <td class="paramname"><span class="paramname"><em>modes</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the mode of the painter. This controls whether the painter shall adjust its fixes/workarounds optimized for certain output devices. </p>
+<div class="fragment"><div class="line"><span class="lineno">  406</span>{</div>
+<div class="line"><span class="lineno">  407</span>  <a class="code hl_variable" href="#af5d1d6e5df0adbc7de5633250fb3396c">mModes</a> = <a class="code hl_function" href="#aef102658219b24165f7ee2aad1b9e48f">modes</a>;</div>
+<div class="line"><span class="lineno">  408</span>}</div>
+<div class="ttc" id="aclass_q_c_p_painter_html_aef102658219b24165f7ee2aad1b9e48f"><div class="ttname"><a href="#aef102658219b24165f7ee2aad1b9e48f">QCPPainter::modes</a></div><div class="ttdeci">PainterModes modes() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:537</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5c4d88f21564e156e88ef807f7cf0003" name="a5c4d88f21564e156e88ef807f7cf0003"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c4d88f21564e156e88ef807f7cf0003">&#9670;&#160;</a></span>setPen() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPPainter::setPen </td>
+          <td>(</td>
+          <td class="paramtype">const QColor &amp;</td>          <td class="paramname"><span class="paramname"><em>color</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</p>
+<p>Sets the pen (by color) of the painter and applies certain fixes to it, depending on the mode of this <a class="el" href="class_q_c_p_painter.html" title="QPainter subclass used internally.">QCPPainter</a>.</p>
+<dl class="section note"><dt>Observação</dt><dd>this function hides the non-virtual base class implementation. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  343</span>{</div>
+<div class="line"><span class="lineno">  344</span>  QPainter::setPen(color);</div>
+<div class="line"><span class="lineno">  345</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#af5d1d6e5df0adbc7de5633250fb3396c">mModes</a>.testFlag(<a class="code hl_enumvalue" href="#a156cf16444ff5e0d81a73c615fdb156dac1e481bfaf408f2bd2eaad3ec341f36b">pmNonCosmetic</a>))</div>
+<div class="line"><span class="lineno">  346</span>    <a class="code hl_function" href="#a7e63fbcf47e35c6f2ecd11b8fef7c7d8">makeNonCosmetic</a>();</div>
+<div class="line"><span class="lineno">  347</span>}</div>
+<div class="ttc" id="aclass_q_c_p_painter_html_a7e63fbcf47e35c6f2ecd11b8fef7c7d8"><div class="ttname"><a href="#a7e63fbcf47e35c6f2ecd11b8fef7c7d8">QCPPainter::makeNonCosmetic</a></div><div class="ttdeci">void makeNonCosmetic()</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:479</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af9c7a4cd1791403901f8c5b82a150195" name="af9c7a4cd1791403901f8c5b82a150195"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9c7a4cd1791403901f8c5b82a150195">&#9670;&#160;</a></span>setPen() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPPainter::setPen </td>
+          <td>(</td>
+          <td class="paramtype">const QPen &amp;</td>          <td class="paramname"><span class="paramname"><em>pen</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the pen of the painter and applies certain fixes to it, depending on the mode of this <a class="el" href="class_q_c_p_painter.html" title="QPainter subclass used internally.">QCPPainter</a>.</p>
+<dl class="section note"><dt>Observação</dt><dd>this function hides the non-virtual base class implementation. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  329</span>{</div>
+<div class="line"><span class="lineno">  330</span>  QPainter::setPen(pen);</div>
+<div class="line"><span class="lineno">  331</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#af5d1d6e5df0adbc7de5633250fb3396c">mModes</a>.testFlag(<a class="code hl_enumvalue" href="#a156cf16444ff5e0d81a73c615fdb156dac1e481bfaf408f2bd2eaad3ec341f36b">pmNonCosmetic</a>))</div>
+<div class="line"><span class="lineno">  332</span>    <a class="code hl_function" href="#a7e63fbcf47e35c6f2ecd11b8fef7c7d8">makeNonCosmetic</a>();</div>
+<div class="line"><span class="lineno">  333</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a25e76095aae41da0d08035060e5f81ca" name="a25e76095aae41da0d08035060e5f81ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25e76095aae41da0d08035060e5f81ca">&#9670;&#160;</a></span>setPen() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPPainter::setPen </td>
+          <td>(</td>
+          <td class="paramtype">Qt::PenStyle</td>          <td class="paramname"><span class="paramname"><em>penStyle</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</p>
+<p>Sets the pen (by style) of the painter and applies certain fixes to it, depending on the mode of this <a class="el" href="class_q_c_p_painter.html" title="QPainter subclass used internally.">QCPPainter</a>.</p>
+<dl class="section note"><dt>Observação</dt><dd>this function hides the non-virtual base class implementation. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  357</span>{</div>
+<div class="line"><span class="lineno">  358</span>  QPainter::setPen(penStyle);</div>
+<div class="line"><span class="lineno">  359</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#af5d1d6e5df0adbc7de5633250fb3396c">mModes</a>.testFlag(<a class="code hl_enumvalue" href="#a156cf16444ff5e0d81a73c615fdb156dac1e481bfaf408f2bd2eaad3ec341f36b">pmNonCosmetic</a>))</div>
+<div class="line"><span class="lineno">  360</span>    <a class="code hl_function" href="#a7e63fbcf47e35c6f2ecd11b8fef7c7d8">makeNonCosmetic</a>();</div>
+<div class="line"><span class="lineno">  361</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Atributos</h2>
+<a id="a0189e641bbf7dc31ac15aef7b36501fa" name="a0189e641bbf7dc31ac15aef7b36501fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0189e641bbf7dc31ac15aef7b36501fa">&#9670;&#160;</a></span>mAntialiasingStack</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStack&lt;bool&gt; QCPPainter::mAntialiasingStack</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7055085da176aee0f6b23298f1003d08" name="a7055085da176aee0f6b23298f1003d08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7055085da176aee0f6b23298f1003d08">&#9670;&#160;</a></span>mIsAntialiasing</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool QCPPainter::mIsAntialiasing</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5d1d6e5df0adbc7de5633250fb3396c" name="af5d1d6e5df0adbc7de5633250fb3396c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5d1d6e5df0adbc7de5633250fb3396c">&#9670;&#160;</a></span>mModes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PainterModes QCPPainter::mModes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>A documentação para essa classe foi gerada a partir dos seguintes arquivos:<ul>
+<li>C:/Users/pedro/Documents/Programa Bueno/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/versao-2/src/<a class="el" href="qcustomplot_8h_source.html">qcustomplot.h</a></li>
+<li>C:/Users/pedro/Documents/Programa Bueno/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/versao-2/src/<a class="el" href="qcustomplot_8cpp.html">qcustomplot.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

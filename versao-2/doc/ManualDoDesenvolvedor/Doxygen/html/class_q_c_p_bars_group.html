@@ -1,0 +1,972 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação Projeto Software: Referência da Classe QCPBarsGroup</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Documentação Projeto Software<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Tipos Públicos</a> &#124;
+<a href="#pub-methods">Membros Públicos</a> &#124;
+<a href="#pro-methods">Membros protegidos</a> &#124;
+<a href="#pro-attribs">Atributos Protegidos</a> &#124;
+<a href="#friends">Amigos</a> &#124;
+<a href="class_q_c_p_bars_group-members.html">Lista de todos os Membros</a>  </div>
+  <div class="headertitle"><div class="title">Referência da Classe QCPBarsGroup</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Groups multiple <a class="el" href="class_q_c_p_bars.html" title="A plottable representing a bar chart in a plot.">QCPBars</a> together so they appear side by side.  
+ <a href="#details">Mais...</a></p>
+
+<p><code>#include &lt;<a class="el" href="qcustomplot_8h_source.html">qcustomplot.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagrama de hierarquia da classe QCPBarsGroup:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_q_c_p_bars_group.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Tipos Públicos</h2></td></tr>
+<tr class="memitem:a4c0521120a97e60bbca37677a37075b6" id="r_a4c0521120a97e60bbca37677a37075b6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c0521120a97e60bbca37677a37075b6">SpacingType</a> { <a class="el" href="#a4c0521120a97e60bbca37677a37075b6ab53fa3efaf14867dd0f14d41d64e42ac">stAbsolute</a>
+, <a class="el" href="#a4c0521120a97e60bbca37677a37075b6ae94b05c27bc985dcdd8b1e1b7f163d26">stAxisRectRatio</a>
+, <a class="el" href="#a4c0521120a97e60bbca37677a37075b6ad369cee6287e0a86e8c2b643a3168c54">stPlotCoords</a>
+ }</td></tr>
+<tr class="separator:a4c0521120a97e60bbca37677a37075b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Membros Públicos</h2></td></tr>
+<tr class="memitem:aa4e043b9a22c6c5ea0f93740aca063e1" id="r_aa4e043b9a22c6c5ea0f93740aca063e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4e043b9a22c6c5ea0f93740aca063e1">QCPBarsGroup</a> (<a class="el" href="class_q_custom_plot.html">QCustomPlot</a> *parentPlot)</td></tr>
+<tr class="separator:aa4e043b9a22c6c5ea0f93740aca063e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb9475bcb6a5f18c8918e17d939d8dbd" id="r_adb9475bcb6a5f18c8918e17d939d8dbd"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb9475bcb6a5f18c8918e17d939d8dbd">~QCPBarsGroup</a> ()</td></tr>
+<tr class="separator:adb9475bcb6a5f18c8918e17d939d8dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a894a77c45325aad2e742d936bc1f8aea" id="r_a894a77c45325aad2e742d936bc1f8aea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4c0521120a97e60bbca37677a37075b6">SpacingType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a894a77c45325aad2e742d936bc1f8aea">spacingType</a> () const</td></tr>
+<tr class="separator:a894a77c45325aad2e742d936bc1f8aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a314d09aeb2ad209518b9183ca7ffe662" id="r_a314d09aeb2ad209518b9183ca7ffe662"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a314d09aeb2ad209518b9183ca7ffe662">spacing</a> () const</td></tr>
+<tr class="separator:a314d09aeb2ad209518b9183ca7ffe662"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c7e2d61b10594a4555b615e1fcaf49e" id="r_a2c7e2d61b10594a4555b615e1fcaf49e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c7e2d61b10594a4555b615e1fcaf49e">setSpacingType</a> (<a class="el" href="#a4c0521120a97e60bbca37677a37075b6">SpacingType</a> <a class="el" href="#a894a77c45325aad2e742d936bc1f8aea">spacingType</a>)</td></tr>
+<tr class="separator:a2c7e2d61b10594a4555b615e1fcaf49e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa553d327479d72a0c3dafcc724a190e2" id="r_aa553d327479d72a0c3dafcc724a190e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa553d327479d72a0c3dafcc724a190e2">setSpacing</a> (double <a class="el" href="#a314d09aeb2ad209518b9183ca7ffe662">spacing</a>)</td></tr>
+<tr class="separator:aa553d327479d72a0c3dafcc724a190e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e4f4e86abbec6a9342f204ef82abef8" id="r_a6e4f4e86abbec6a9342f204ef82abef8"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_q_c_p_bars.html">QCPBars</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a> () const</td></tr>
+<tr class="separator:a6e4f4e86abbec6a9342f204ef82abef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0754d659a020aa7fddfe81e657ce2d92" id="r_a0754d659a020aa7fddfe81e657ce2d92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_bars.html">QCPBars</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0754d659a020aa7fddfe81e657ce2d92">bars</a> (int index) const</td></tr>
+<tr class="separator:a0754d659a020aa7fddfe81e657ce2d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3780ec77919cb00840207ec7a0f00dd5" id="r_a3780ec77919cb00840207ec7a0f00dd5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3780ec77919cb00840207ec7a0f00dd5">size</a> () const</td></tr>
+<tr class="separator:a3780ec77919cb00840207ec7a0f00dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac959e79e852e8ef9aea6e0449ad000a" id="r_aac959e79e852e8ef9aea6e0449ad000a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac959e79e852e8ef9aea6e0449ad000a">isEmpty</a> () const</td></tr>
+<tr class="separator:aac959e79e852e8ef9aea6e0449ad000a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ddf23928c6cd89530bd34ab7ba7b177" id="r_a3ddf23928c6cd89530bd34ab7ba7b177"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ddf23928c6cd89530bd34ab7ba7b177">clear</a> ()</td></tr>
+<tr class="separator:a3ddf23928c6cd89530bd34ab7ba7b177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae26da07a23553052a178fb3fae90d0dc" id="r_ae26da07a23553052a178fb3fae90d0dc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae26da07a23553052a178fb3fae90d0dc">contains</a> (<a class="el" href="class_q_c_p_bars.html">QCPBars</a> *<a class="el" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>) const</td></tr>
+<tr class="separator:ae26da07a23553052a178fb3fae90d0dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a809ed63cc4ff7cd5b0b8c96b470163d3" id="r_a809ed63cc4ff7cd5b0b8c96b470163d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a809ed63cc4ff7cd5b0b8c96b470163d3">append</a> (<a class="el" href="class_q_c_p_bars.html">QCPBars</a> *<a class="el" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>)</td></tr>
+<tr class="separator:a809ed63cc4ff7cd5b0b8c96b470163d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a309a5f7233db189f3ea9c2d04ece6c13" id="r_a309a5f7233db189f3ea9c2d04ece6c13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a309a5f7233db189f3ea9c2d04ece6c13">insert</a> (int i, <a class="el" href="class_q_c_p_bars.html">QCPBars</a> *<a class="el" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>)</td></tr>
+<tr class="separator:a309a5f7233db189f3ea9c2d04ece6c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a215e28a5944f1159013a0e19169220e7" id="r_a215e28a5944f1159013a0e19169220e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a215e28a5944f1159013a0e19169220e7">remove</a> (<a class="el" href="class_q_c_p_bars.html">QCPBars</a> *<a class="el" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>)</td></tr>
+<tr class="separator:a215e28a5944f1159013a0e19169220e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Membros protegidos</h2></td></tr>
+<tr class="memitem:a7b00514f19ad58d0bb3fd5246a67fae2" id="r_a7b00514f19ad58d0bb3fd5246a67fae2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b00514f19ad58d0bb3fd5246a67fae2">registerBars</a> (<a class="el" href="class_q_c_p_bars.html">QCPBars</a> *<a class="el" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>)</td></tr>
+<tr class="separator:a7b00514f19ad58d0bb3fd5246a67fae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7073cdd7b1a40c6cb4b5f908145f8c4" id="r_ac7073cdd7b1a40c6cb4b5f908145f8c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7073cdd7b1a40c6cb4b5f908145f8c4">unregisterBars</a> (<a class="el" href="class_q_c_p_bars.html">QCPBars</a> *<a class="el" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>)</td></tr>
+<tr class="separator:ac7073cdd7b1a40c6cb4b5f908145f8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e2ca6002e7bab49670144d048a2bcc9" id="r_a8e2ca6002e7bab49670144d048a2bcc9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e2ca6002e7bab49670144d048a2bcc9">keyPixelOffset</a> (const <a class="el" href="class_q_c_p_bars.html">QCPBars</a> *<a class="el" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>, double keyCoord)</td></tr>
+<tr class="separator:a8e2ca6002e7bab49670144d048a2bcc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0beccd41bc3841a4c5b284823bc7d2de" id="r_a0beccd41bc3841a4c5b284823bc7d2de"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0beccd41bc3841a4c5b284823bc7d2de">getPixelSpacing</a> (const <a class="el" href="class_q_c_p_bars.html">QCPBars</a> *<a class="el" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>, double keyCoord)</td></tr>
+<tr class="separator:a0beccd41bc3841a4c5b284823bc7d2de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Atributos Protegidos</h2></td></tr>
+<tr class="memitem:a973d408cfbf88db95115aec71877f9e7" id="r_a973d408cfbf88db95115aec71877f9e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_custom_plot.html">QCustomPlot</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a973d408cfbf88db95115aec71877f9e7">mParentPlot</a></td></tr>
+<tr class="separator:a973d408cfbf88db95115aec71877f9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6794ee1a9c81864d627bff6a4b2d64ec" id="r_a6794ee1a9c81864d627bff6a4b2d64ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4c0521120a97e60bbca37677a37075b6">SpacingType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6794ee1a9c81864d627bff6a4b2d64ec">mSpacingType</a></td></tr>
+<tr class="separator:a6794ee1a9c81864d627bff6a4b2d64ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56471d7f548ca6141b7a5bf9629f7ece" id="r_a56471d7f548ca6141b7a5bf9629f7ece"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56471d7f548ca6141b7a5bf9629f7ece">mSpacing</a></td></tr>
+<tr class="separator:a56471d7f548ca6141b7a5bf9629f7ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affdb1e9233c277ff5a4c0a1121cf1fc0" id="r_affdb1e9233c277ff5a4c0a1121cf1fc0"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_q_c_p_bars.html">QCPBars</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a></td></tr>
+<tr class="separator:affdb1e9233c277ff5a4c0a1121cf1fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Amigos</h2></td></tr>
+<tr class="memitem:a721b87c7cdb8e83a90d77fc8a22e7195" id="r_a721b87c7cdb8e83a90d77fc8a22e7195"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a721b87c7cdb8e83a90d77fc8a22e7195">QCPBars</a></td></tr>
+<tr class="separator:a721b87c7cdb8e83a90d77fc8a22e7195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Groups multiple <a class="el" href="class_q_c_p_bars.html" title="A plottable representing a bar chart in a plot.">QCPBars</a> together so they appear side by side. </p>
+<div class="image">
+<img src="QCPBarsGroup.png" alt=""/>
+</div>
+<p>When showing multiple <a class="el" href="class_q_c_p_bars.html" title="A plottable representing a bar chart in a plot.">QCPBars</a> in one plot which have bars at identical keys, it may be desirable to have them appearing next to each other at each key. This is what adding the respective <a class="el" href="class_q_c_p_bars.html" title="A plottable representing a bar chart in a plot.">QCPBars</a> plottables to a <a class="el" href="class_q_c_p_bars_group.html" title="Groups multiple QCPBars together so they appear side by side.">QCPBarsGroup</a> achieves. (An alternative approach is to stack them on top of each other, see <a class="el" href="class_q_c_p_bars.html#ac22e00a6a41509538c21b04f0a57318c">QCPBars::moveAbove</a>.)</p>
+<h1><a class="anchor" id="qcpbarsgroup-usage"></a>
+Usage</h1>
+<p>To add a <a class="el" href="class_q_c_p_bars.html" title="A plottable representing a bar chart in a plot.">QCPBars</a> plottable to the group, create a new group and then add the respective bars intances: </p><div class="fragment"></div><!-- fragment --><p> Alternatively to appending to the group like shown above, you can also set the group on the <a class="el" href="class_q_c_p_bars.html" title="A plottable representing a bar chart in a plot.">QCPBars</a> plottable via <a class="el" href="class_q_c_p_bars.html#aedd1709061f0b307c47ddb45e172ef9a">QCPBars::setBarsGroup</a>.</p>
+<p>The spacing between the bars can be configured via <a class="el" href="#a2c7e2d61b10594a4555b615e1fcaf49e">setSpacingType</a> and <a class="el" href="#aa553d327479d72a0c3dafcc724a190e2">setSpacing</a>. The bars in this group appear in the plot in the order they were appended. To insert a bars plottable at a certain index position, or to reposition a bars plottable which is already in the group, use <a class="el" href="#a309a5f7233db189f3ea9c2d04ece6c13">insert</a>.</p>
+<p>To remove specific bars from the group, use either <a class="el" href="#a215e28a5944f1159013a0e19169220e7">remove</a> or call <a class="el" href="class_q_c_p_bars.html#aedd1709061f0b307c47ddb45e172ef9a">QCPBars::setBarsGroup(0)</a> on the respective bars plottable.</p>
+<p>To clear the entire group, call <a class="el" href="#a3ddf23928c6cd89530bd34ab7ba7b177">clear</a>, or simply delete the group.</p>
+<h1><a class="anchor" id="qcpbarsgroup-example"></a>
+Example</h1>
+<p>The image above is generated with the following code: </p><div class="fragment"></div><!-- fragment --> </div><h2 class="groupheader">Documentação das enumerações</h2>
+<a id="a4c0521120a97e60bbca37677a37075b6" name="a4c0521120a97e60bbca37677a37075b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c0521120a97e60bbca37677a37075b6">&#9670;&#160;</a></span>SpacingType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a4c0521120a97e60bbca37677a37075b6">QCPBarsGroup::SpacingType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Defines the ways the spacing between bars in the group can be specified. Thus it defines what the number passed to <a class="el" href="#aa553d327479d72a0c3dafcc724a190e2">setSpacing</a> actually means.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#a2c7e2d61b10594a4555b615e1fcaf49e">setSpacingType</a>, <a class="el" href="#aa553d327479d72a0c3dafcc724a190e2">setSpacing</a> </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumeradores</th></tr><tr><td class="fieldname"><a id="a4c0521120a97e60bbca37677a37075b6ab53fa3efaf14867dd0f14d41d64e42ac" name="a4c0521120a97e60bbca37677a37075b6ab53fa3efaf14867dd0f14d41d64e42ac"></a>stAbsolute&#160;</td><td class="fielddoc"><p>Bar spacing is in absolute pixels. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a4c0521120a97e60bbca37677a37075b6ae94b05c27bc985dcdd8b1e1b7f163d26" name="a4c0521120a97e60bbca37677a37075b6ae94b05c27bc985dcdd8b1e1b7f163d26"></a>stAxisRectRatio&#160;</td><td class="fielddoc"><p>Bar spacing is given by a fraction of the axis rect size. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a4c0521120a97e60bbca37677a37075b6ad369cee6287e0a86e8c2b643a3168c54" name="a4c0521120a97e60bbca37677a37075b6ad369cee6287e0a86e8c2b643a3168c54"></a>stPlotCoords&#160;</td><td class="fielddoc"><p>Bar spacing is in key coordinates and thus scales with the key axis range. </p>
+</td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno"> 5731</span>                   { <a class="code hl_enumvalue" href="#a4c0521120a97e60bbca37677a37075b6ab53fa3efaf14867dd0f14d41d64e42ac">stAbsolute</a>       </div>
+<div class="line"><span class="lineno"> 5732</span>                     ,<a class="code hl_enumvalue" href="#a4c0521120a97e60bbca37677a37075b6ae94b05c27bc985dcdd8b1e1b7f163d26">stAxisRectRatio</a> </div>
+<div class="line"><span class="lineno"> 5733</span>                     ,<a class="code hl_enumvalue" href="#a4c0521120a97e60bbca37677a37075b6ad369cee6287e0a86e8c2b643a3168c54">stPlotCoords</a>    </div>
+<div class="line"><span class="lineno"> 5734</span>                   };</div>
+<div class="ttc" id="aclass_q_c_p_bars_group_html_a4c0521120a97e60bbca37677a37075b6ab53fa3efaf14867dd0f14d41d64e42ac"><div class="ttname"><a href="#a4c0521120a97e60bbca37677a37075b6ab53fa3efaf14867dd0f14d41d64e42ac">QCPBarsGroup::stAbsolute</a></div><div class="ttdeci">@ stAbsolute</div><div class="ttdoc">Bar spacing is in absolute pixels.</div><div class="ttdef"><b>Definição</b> qcustomplot.h:5731</div></div>
+<div class="ttc" id="aclass_q_c_p_bars_group_html_a4c0521120a97e60bbca37677a37075b6ad369cee6287e0a86e8c2b643a3168c54"><div class="ttname"><a href="#a4c0521120a97e60bbca37677a37075b6ad369cee6287e0a86e8c2b643a3168c54">QCPBarsGroup::stPlotCoords</a></div><div class="ttdeci">@ stPlotCoords</div><div class="ttdoc">Bar spacing is in key coordinates and thus scales with the key axis range.</div><div class="ttdef"><b>Definição</b> qcustomplot.h:5733</div></div>
+<div class="ttc" id="aclass_q_c_p_bars_group_html_a4c0521120a97e60bbca37677a37075b6ae94b05c27bc985dcdd8b1e1b7f163d26"><div class="ttname"><a href="#a4c0521120a97e60bbca37677a37075b6ae94b05c27bc985dcdd8b1e1b7f163d26">QCPBarsGroup::stAxisRectRatio</a></div><div class="ttdeci">@ stAxisRectRatio</div><div class="ttdoc">Bar spacing is given by a fraction of the axis rect size.</div><div class="ttdef"><b>Definição</b> qcustomplot.h:5732</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Construtores e Destrutores</h2>
+<a id="aa4e043b9a22c6c5ea0f93740aca063e1" name="aa4e043b9a22c6c5ea0f93740aca063e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4e043b9a22c6c5ea0f93740aca063e1">&#9670;&#160;</a></span>QCPBarsGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QCPBarsGroup::QCPBarsGroup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_custom_plot.html">QCustomPlot</a> *</td>          <td class="paramname"><span class="paramname"><em>parentPlot</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Constructs a new bars group for the specified <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a> instance. </p>
+<div class="fragment"><div class="line"><span class="lineno">24028</span>                                                  :</div>
+<div class="line"><span class="lineno">24029</span>  QObject(parentPlot),</div>
+<div class="line"><span class="lineno">24030</span>  <a class="code hl_variable" href="#a973d408cfbf88db95115aec71877f9e7">mParentPlot</a>(parentPlot),</div>
+<div class="line"><span class="lineno">24031</span>  <a class="code hl_variable" href="#a6794ee1a9c81864d627bff6a4b2d64ec">mSpacingType</a>(<a class="code hl_enumvalue" href="#a4c0521120a97e60bbca37677a37075b6ab53fa3efaf14867dd0f14d41d64e42ac">stAbsolute</a>),</div>
+<div class="line"><span class="lineno">24032</span>  <a class="code hl_variable" href="#a56471d7f548ca6141b7a5bf9629f7ece">mSpacing</a>(4)</div>
+<div class="line"><span class="lineno">24033</span>{</div>
+<div class="line"><span class="lineno">24034</span>}</div>
+<div class="ttc" id="aclass_q_c_p_bars_group_html_a56471d7f548ca6141b7a5bf9629f7ece"><div class="ttname"><a href="#a56471d7f548ca6141b7a5bf9629f7ece">QCPBarsGroup::mSpacing</a></div><div class="ttdeci">double mSpacing</div><div class="ttdef"><b>Definição</b> qcustomplot.h:5763</div></div>
+<div class="ttc" id="aclass_q_c_p_bars_group_html_a6794ee1a9c81864d627bff6a4b2d64ec"><div class="ttname"><a href="#a6794ee1a9c81864d627bff6a4b2d64ec">QCPBarsGroup::mSpacingType</a></div><div class="ttdeci">SpacingType mSpacingType</div><div class="ttdef"><b>Definição</b> qcustomplot.h:5762</div></div>
+<div class="ttc" id="aclass_q_c_p_bars_group_html_a973d408cfbf88db95115aec71877f9e7"><div class="ttname"><a href="#a973d408cfbf88db95115aec71877f9e7">QCPBarsGroup::mParentPlot</a></div><div class="ttdeci">QCustomPlot * mParentPlot</div><div class="ttdef"><b>Definição</b> qcustomplot.h:5761</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adb9475bcb6a5f18c8918e17d939d8dbd" name="adb9475bcb6a5f18c8918e17d939d8dbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb9475bcb6a5f18c8918e17d939d8dbd">&#9670;&#160;</a></span>~QCPBarsGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QCPBarsGroup::~QCPBarsGroup </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">24037</span>{</div>
+<div class="line"><span class="lineno">24038</span>  <a class="code hl_function" href="#a3ddf23928c6cd89530bd34ab7ba7b177">clear</a>();</div>
+<div class="line"><span class="lineno">24039</span>}</div>
+<div class="ttc" id="aclass_q_c_p_bars_group_html_a3ddf23928c6cd89530bd34ab7ba7b177"><div class="ttname"><a href="#a3ddf23928c6cd89530bd34ab7ba7b177">QCPBarsGroup::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:24087</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentação das funções</h2>
+<a id="a809ed63cc4ff7cd5b0b8c96b470163d3" name="a809ed63cc4ff7cd5b0b8c96b470163d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a809ed63cc4ff7cd5b0b8c96b470163d3">&#9670;&#160;</a></span>append()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPBarsGroup::append </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_bars.html">QCPBars</a> *</td>          <td class="paramname"><span class="paramname"><em>bars</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds the specified <em>bars</em> plottable to this group. Alternatively, you can also use <a class="el" href="class_q_c_p_bars.html#aedd1709061f0b307c47ddb45e172ef9a">QCPBars::setBarsGroup</a> on the <em>bars</em> instance.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#a309a5f7233db189f3ea9c2d04ece6c13">insert</a>, <a class="el" href="#a215e28a5944f1159013a0e19169220e7">remove</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">24101</span>{</div>
+<div class="line"><span class="lineno">24102</span>  <span class="keywordflow">if</span> (!<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>)</div>
+<div class="line"><span class="lineno">24103</span>  {</div>
+<div class="line"><span class="lineno">24104</span>    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;bars is 0&quot;</span>;</div>
+<div class="line"><span class="lineno">24105</span>    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">24106</span>  }</div>
+<div class="line"><span class="lineno">24107</span>    </div>
+<div class="line"><span class="lineno">24108</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>.contains(<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>))</div>
+<div class="line"><span class="lineno">24109</span>    <a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>-&gt;setBarsGroup(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">24110</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">24111</span>    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;bars plottable is already in this bars group:&quot;</span> &lt;&lt; <span class="keyword">reinterpret_cast&lt;</span>quintptr<span class="keyword">&gt;</span>(<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>);</div>
+<div class="line"><span class="lineno">24112</span>}</div>
+<div class="ttc" id="aclass_q_c_p_bars_group_html_a6e4f4e86abbec6a9342f204ef82abef8"><div class="ttname"><a href="#a6e4f4e86abbec6a9342f204ef82abef8">QCPBarsGroup::bars</a></div><div class="ttdeci">QList&lt; QCPBars * &gt; bars() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:5749</div></div>
+<div class="ttc" id="aclass_q_c_p_bars_group_html_affdb1e9233c277ff5a4c0a1121cf1fc0"><div class="ttname"><a href="#affdb1e9233c277ff5a4c0a1121cf1fc0">QCPBarsGroup::mBars</a></div><div class="ttdeci">QList&lt; QCPBars * &gt; mBars</div><div class="ttdef"><b>Definição</b> qcustomplot.h:5764</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a6e4f4e86abbec6a9342f204ef82abef8" name="a6e4f4e86abbec6a9342f204ef82abef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e4f4e86abbec6a9342f204ef82abef8">&#9670;&#160;</a></span>bars() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; <a class="el" href="class_q_c_p_bars.html">QCPBars</a> * &gt; QCPBarsGroup::bars </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns all bars currently in this group.</p>
+<dl class="section see"><dt>Veja também</dt><dd>bars(int index) </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno"> 5749</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0754d659a020aa7fddfe81e657ce2d92" name="a0754d659a020aa7fddfe81e657ce2d92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0754d659a020aa7fddfe81e657ce2d92">&#9670;&#160;</a></span>bars() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_q_c_p_bars.html">QCPBars</a> * QCPBarsGroup::bars </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the <a class="el" href="class_q_c_p_bars.html" title="A plottable representing a bar chart in a plot.">QCPBars</a> instance with the specified <em>index</em> in this group. If no such <a class="el" href="class_q_c_p_bars.html" title="A plottable representing a bar chart in a plot.">QCPBars</a> exists, returns <code>nullptr</code>.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars()</a>, <a class="el" href="#a3780ec77919cb00840207ec7a0f00dd5">size</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">24071</span>{</div>
+<div class="line"><span class="lineno">24072</span>  <span class="keywordflow">if</span> (index &gt;= 0 &amp;&amp; index &lt; <a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>.size())</div>
+<div class="line"><span class="lineno">24073</span>  {</div>
+<div class="line"><span class="lineno">24074</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>.at(index);</div>
+<div class="line"><span class="lineno">24075</span>  } <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">24076</span>  {</div>
+<div class="line"><span class="lineno">24077</span>    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;index out of bounds:&quot;</span> &lt;&lt; index;</div>
+<div class="line"><span class="lineno">24078</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">24079</span>  }</div>
+<div class="line"><span class="lineno">24080</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a3ddf23928c6cd89530bd34ab7ba7b177" name="a3ddf23928c6cd89530bd34ab7ba7b177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ddf23928c6cd89530bd34ab7ba7b177">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPBarsGroup::clear </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all <a class="el" href="class_q_c_p_bars.html" title="A plottable representing a bar chart in a plot.">QCPBars</a> plottables from this group.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#aac959e79e852e8ef9aea6e0449ad000a">isEmpty</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">24088</span>{</div>
+<div class="line"><span class="lineno">24089</span>  <span class="keyword">const</span> QList&lt;QCPBars*&gt; oldBars = <a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>;</div>
+<div class="line"><span class="lineno">24090</span>  <span class="keywordflow">foreach</span> (<a class="code hl_class" href="class_q_c_p_bars.html">QCPBars</a> *<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>, oldBars)</div>
+<div class="line"><span class="lineno">24091</span>    <a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>-&gt;setBarsGroup(<span class="keyword">nullptr</span>); <span class="comment">// removes itself from mBars via removeBars</span></div>
+<div class="line"><span class="lineno">24092</span>}</div>
+<div class="ttc" id="aclass_q_c_p_bars_html"><div class="ttname"><a href="class_q_c_p_bars.html">QCPBars</a></div><div class="ttdoc">A plottable representing a bar chart in a plot.</div><div class="ttdef"><b>Definição</b> qcustomplot.h:5814</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae26da07a23553052a178fb3fae90d0dc" name="ae26da07a23553052a178fb3fae90d0dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae26da07a23553052a178fb3fae90d0dc">&#9670;&#160;</a></span>contains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool QCPBarsGroup::contains </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_bars.html">QCPBars</a> *</td>          <td class="paramname"><span class="paramname"><em>bars</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns whether the specified <em>bars</em> plottable is part of this group. </p>
+<div class="fragment"><div class="line"><span class="lineno"> 5754</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>.contains(<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0beccd41bc3841a4c5b284823bc7d2de" name="a0beccd41bc3841a4c5b284823bc7d2de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0beccd41bc3841a4c5b284823bc7d2de">&#9670;&#160;</a></span>getPixelSpacing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPBarsGroup::getPixelSpacing </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_q_c_p_bars.html">QCPBars</a> *</td>          <td class="paramname"><span class="paramname"><em>bars</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>keyCoord</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">24255</span>{</div>
+<div class="line"><span class="lineno">24256</span>  <span class="keywordflow">switch</span> (<a class="code hl_variable" href="#a6794ee1a9c81864d627bff6a4b2d64ec">mSpacingType</a>)</div>
+<div class="line"><span class="lineno">24257</span>  {</div>
+<div class="line"><span class="lineno">24258</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#a4c0521120a97e60bbca37677a37075b6ab53fa3efaf14867dd0f14d41d64e42ac">stAbsolute</a>:</div>
+<div class="line"><span class="lineno">24259</span>    {</div>
+<div class="line"><span class="lineno">24260</span>      <span class="keywordflow">return</span> <a class="code hl_variable" href="#a56471d7f548ca6141b7a5bf9629f7ece">mSpacing</a>;</div>
+<div class="line"><span class="lineno">24261</span>    }</div>
+<div class="line"><span class="lineno">24262</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#a4c0521120a97e60bbca37677a37075b6ae94b05c27bc985dcdd8b1e1b7f163d26">stAxisRectRatio</a>:</div>
+<div class="line"><span class="lineno">24263</span>    {</div>
+<div class="line"><span class="lineno">24264</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>-&gt;keyAxis()-&gt;orientation() == Qt::Horizontal)</div>
+<div class="line"><span class="lineno">24265</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>-&gt;keyAxis()-&gt;axisRect()-&gt;width()*<a class="code hl_variable" href="#a56471d7f548ca6141b7a5bf9629f7ece">mSpacing</a>;</div>
+<div class="line"><span class="lineno">24266</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">24267</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>-&gt;keyAxis()-&gt;axisRect()-&gt;height()*<a class="code hl_variable" href="#a56471d7f548ca6141b7a5bf9629f7ece">mSpacing</a>;</div>
+<div class="line"><span class="lineno">24268</span>    }</div>
+<div class="line"><span class="lineno">24269</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="#a4c0521120a97e60bbca37677a37075b6ad369cee6287e0a86e8c2b643a3168c54">stPlotCoords</a>:</div>
+<div class="line"><span class="lineno">24270</span>    {</div>
+<div class="line"><span class="lineno">24271</span>      <span class="keywordtype">double</span> keyPixel = <a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>-&gt;keyAxis()-&gt;coordToPixel(keyCoord);</div>
+<div class="line"><span class="lineno">24272</span>      <span class="keywordflow">return</span> qAbs(<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>-&gt;keyAxis()-&gt;coordToPixel(keyCoord+<a class="code hl_variable" href="#a56471d7f548ca6141b7a5bf9629f7ece">mSpacing</a>)-keyPixel);</div>
+<div class="line"><span class="lineno">24273</span>    }</div>
+<div class="line"><span class="lineno">24274</span>  }</div>
+<div class="line"><span class="lineno">24275</span>  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">24276</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a309a5f7233db189f3ea9c2d04ece6c13" name="a309a5f7233db189f3ea9c2d04ece6c13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a309a5f7233db189f3ea9c2d04ece6c13">&#9670;&#160;</a></span>insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPBarsGroup::insert </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_bars.html">QCPBars</a> *</td>          <td class="paramname"><span class="paramname"><em>bars</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts the specified <em>bars</em> plottable into this group at the specified index position <em>i</em>. This gives you full control over the ordering of the bars.</p>
+<p><em>bars</em> may already be part of this group. In that case, <em>bars</em> is just moved to the new index position.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#a809ed63cc4ff7cd5b0b8c96b470163d3">append</a>, <a class="el" href="#a215e28a5944f1159013a0e19169220e7">remove</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">24124</span>{</div>
+<div class="line"><span class="lineno">24125</span>  <span class="keywordflow">if</span> (!<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>)</div>
+<div class="line"><span class="lineno">24126</span>  {</div>
+<div class="line"><span class="lineno">24127</span>    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;bars is 0&quot;</span>;</div>
+<div class="line"><span class="lineno">24128</span>    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">24129</span>  }</div>
+<div class="line"><span class="lineno">24130</span>  </div>
+<div class="line"><span class="lineno">24131</span>  <span class="comment">// first append to bars list normally:</span></div>
+<div class="line"><span class="lineno">24132</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>.contains(<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>))</div>
+<div class="line"><span class="lineno">24133</span>    <a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>-&gt;setBarsGroup(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">24134</span>  <span class="comment">// then move to according position:</span></div>
+<div class="line"><span class="lineno">24135</span>  <a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>.move(<a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>.indexOf(<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>), qBound(0, i, <a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>.size()-1));</div>
+<div class="line"><span class="lineno">24136</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aac959e79e852e8ef9aea6e0449ad000a" name="aac959e79e852e8ef9aea6e0449ad000a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac959e79e852e8ef9aea6e0449ad000a">&#9670;&#160;</a></span>isEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool QCPBarsGroup::isEmpty </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns whether this bars group is empty.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#a3780ec77919cb00840207ec7a0f00dd5">size</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno"> 5752</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>.isEmpty(); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8e2ca6002e7bab49670144d048a2bcc9" name="a8e2ca6002e7bab49670144d048a2bcc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e2ca6002e7bab49670144d048a2bcc9">&#9670;&#160;</a></span>keyPixelOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPBarsGroup::keyPixelOffset </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_q_c_p_bars.html">QCPBars</a> *</td>          <td class="paramname"><span class="paramname"><em>bars</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>keyCoord</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">24189</span>{</div>
+<div class="line"><span class="lineno">24190</span>  <span class="comment">// find list of all base bars in case some mBars are stacked:</span></div>
+<div class="line"><span class="lineno">24191</span>  QList&lt;const QCPBars*&gt; baseBars;</div>
+<div class="line"><span class="lineno">24192</span>  <span class="keywordflow">foreach</span> (<span class="keyword">const</span> <a class="code hl_class" href="class_q_c_p_bars.html">QCPBars</a> *b, <a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>)</div>
+<div class="line"><span class="lineno">24193</span>  {</div>
+<div class="line"><span class="lineno">24194</span>    <span class="keywordflow">while</span> (b-&gt;<a class="code hl_function" href="class_q_c_p_bars.html#a1b58664864b141f45e02044a855b3213">barBelow</a>())</div>
+<div class="line"><span class="lineno">24195</span>      b = b-&gt;<a class="code hl_function" href="class_q_c_p_bars.html#a1b58664864b141f45e02044a855b3213">barBelow</a>();</div>
+<div class="line"><span class="lineno">24196</span>    <span class="keywordflow">if</span> (!baseBars.contains(b))</div>
+<div class="line"><span class="lineno">24197</span>      baseBars.append(b);</div>
+<div class="line"><span class="lineno">24198</span>  }</div>
+<div class="line"><span class="lineno">24199</span>  <span class="comment">// find base bar this &quot;bars&quot; is stacked on:</span></div>
+<div class="line"><span class="lineno">24200</span>  <span class="keyword">const</span> <a class="code hl_class" href="class_q_c_p_bars.html">QCPBars</a> *thisBase = <a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>;</div>
+<div class="line"><span class="lineno">24201</span>  <span class="keywordflow">while</span> (thisBase-&gt;<a class="code hl_function" href="class_q_c_p_bars.html#a1b58664864b141f45e02044a855b3213">barBelow</a>())</div>
+<div class="line"><span class="lineno">24202</span>    thisBase = thisBase-&gt;<a class="code hl_function" href="class_q_c_p_bars.html#a1b58664864b141f45e02044a855b3213">barBelow</a>();</div>
+<div class="line"><span class="lineno">24203</span>  </div>
+<div class="line"><span class="lineno">24204</span>  <span class="comment">// determine key pixel offset of this base bars considering all other base bars in this barsgroup:</span></div>
+<div class="line"><span class="lineno">24205</span>  <span class="keywordtype">double</span> result = 0;</div>
+<div class="line"><span class="lineno">24206</span>  <span class="keywordtype">int</span> index = baseBars.indexOf(thisBase);</div>
+<div class="line"><span class="lineno">24207</span>  <span class="keywordflow">if</span> (index &gt;= 0)</div>
+<div class="line"><span class="lineno">24208</span>  {</div>
+<div class="line"><span class="lineno">24209</span>    <span class="keywordflow">if</span> (baseBars.size() % 2 == 1 &amp;&amp; index == (baseBars.size()-1)/2) <span class="comment">// is center bar (int division on purpose)</span></div>
+<div class="line"><span class="lineno">24210</span>    {</div>
+<div class="line"><span class="lineno">24211</span>      <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">24212</span>    } <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">24213</span>    {</div>
+<div class="line"><span class="lineno">24214</span>      <span class="keywordtype">double</span> lowerPixelWidth, upperPixelWidth;</div>
+<div class="line"><span class="lineno">24215</span>      <span class="keywordtype">int</span> startIndex;</div>
+<div class="line"><span class="lineno">24216</span>      <span class="keywordtype">int</span> dir = (index &lt;= (baseBars.size()-1)/2) ? -1 : 1; <span class="comment">// if bar is to lower keys of center, dir is negative</span></div>
+<div class="line"><span class="lineno">24217</span>      <span class="keywordflow">if</span> (baseBars.size() % 2 == 0) <span class="comment">// even number of bars</span></div>
+<div class="line"><span class="lineno">24218</span>      {</div>
+<div class="line"><span class="lineno">24219</span>        startIndex = baseBars.size()/2 + (dir &lt; 0 ? -1 : 0);</div>
+<div class="line"><span class="lineno">24220</span>        result += <a class="code hl_function" href="#a0beccd41bc3841a4c5b284823bc7d2de">getPixelSpacing</a>(baseBars.at(startIndex), keyCoord)*0.5; <span class="comment">// half of middle spacing</span></div>
+<div class="line"><span class="lineno">24221</span>      } <span class="keywordflow">else</span> <span class="comment">// uneven number of bars</span></div>
+<div class="line"><span class="lineno">24222</span>      {</div>
+<div class="line"><span class="lineno">24223</span>        startIndex = (baseBars.size()-1)/2+dir;</div>
+<div class="line"><span class="lineno">24224</span>        baseBars.at((baseBars.size()-1)/2)-&gt;getPixelWidth(keyCoord, lowerPixelWidth, upperPixelWidth);</div>
+<div class="line"><span class="lineno">24225</span>        result += qAbs(upperPixelWidth-lowerPixelWidth)*0.5; <span class="comment">// half of center bar</span></div>
+<div class="line"><span class="lineno">24226</span>        result += <a class="code hl_function" href="#a0beccd41bc3841a4c5b284823bc7d2de">getPixelSpacing</a>(baseBars.at((baseBars.size()-1)/2), keyCoord); <span class="comment">// center bar spacing</span></div>
+<div class="line"><span class="lineno">24227</span>      }</div>
+<div class="line"><span class="lineno">24228</span>      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = startIndex; i != index; i += dir) <span class="comment">// add widths and spacings of bars in between center and our bars</span></div>
+<div class="line"><span class="lineno">24229</span>      {</div>
+<div class="line"><span class="lineno">24230</span>        baseBars.at(i)-&gt;getPixelWidth(keyCoord, lowerPixelWidth, upperPixelWidth);</div>
+<div class="line"><span class="lineno">24231</span>        result += qAbs(upperPixelWidth-lowerPixelWidth);</div>
+<div class="line"><span class="lineno">24232</span>        result += <a class="code hl_function" href="#a0beccd41bc3841a4c5b284823bc7d2de">getPixelSpacing</a>(baseBars.at(i), keyCoord);</div>
+<div class="line"><span class="lineno">24233</span>      }</div>
+<div class="line"><span class="lineno">24234</span>      <span class="comment">// finally half of our bars width:</span></div>
+<div class="line"><span class="lineno">24235</span>      baseBars.at(index)-&gt;getPixelWidth(keyCoord, lowerPixelWidth, upperPixelWidth);</div>
+<div class="line"><span class="lineno">24236</span>      result += qAbs(upperPixelWidth-lowerPixelWidth)*0.5;</div>
+<div class="line"><span class="lineno">24237</span>      <span class="comment">// correct sign of result depending on orientation and direction of key axis:</span></div>
+<div class="line"><span class="lineno">24238</span>      result *= dir*thisBase-&gt;<a class="code hl_function" href="class_q_c_p_abstract_plottable.html#aa6f25b97ee99988fe352f17cb9ed962b">keyAxis</a>()-&gt;<a class="code hl_function" href="class_q_c_p_axis.html#a45c45bed7e5666683b8d56afa66fa51f">pixelOrientation</a>();</div>
+<div class="line"><span class="lineno">24239</span>    }</div>
+<div class="line"><span class="lineno">24240</span>  }</div>
+<div class="line"><span class="lineno">24241</span>  <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">24242</span>}</div>
+<div class="ttc" id="aclass_q_c_p_abstract_plottable_html_aa6f25b97ee99988fe352f17cb9ed962b"><div class="ttname"><a href="class_q_c_p_abstract_plottable.html#aa6f25b97ee99988fe352f17cb9ed962b">QCPAbstractPlottable::keyAxis</a></div><div class="ttdeci">QCPAxis * keyAxis() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:3520</div></div>
+<div class="ttc" id="aclass_q_c_p_axis_html_a45c45bed7e5666683b8d56afa66fa51f"><div class="ttname"><a href="class_q_c_p_axis.html#a45c45bed7e5666683b8d56afa66fa51f">QCPAxis::pixelOrientation</a></div><div class="ttdeci">int pixelOrientation() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:2310</div></div>
+<div class="ttc" id="aclass_q_c_p_bars_group_html_a0beccd41bc3841a4c5b284823bc7d2de"><div class="ttname"><a href="#a0beccd41bc3841a4c5b284823bc7d2de">QCPBarsGroup::getPixelSpacing</a></div><div class="ttdeci">double getPixelSpacing(const QCPBars *bars, double keyCoord)</div><div class="ttdef"><b>Definição</b> qcustomplot.cpp:24254</div></div>
+<div class="ttc" id="aclass_q_c_p_bars_html_a1b58664864b141f45e02044a855b3213"><div class="ttname"><a href="class_q_c_p_bars.html#a1b58664864b141f45e02044a855b3213">QCPBars::barBelow</a></div><div class="ttdeci">QCPBars * barBelow() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:5847</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a7b00514f19ad58d0bb3fd5246a67fae2" name="a7b00514f19ad58d0bb3fd5246a67fae2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b00514f19ad58d0bb3fd5246a67fae2">&#9670;&#160;</a></span>registerBars()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPBarsGroup::registerBars </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_bars.html">QCPBars</a> *</td>          <td class="paramname"><span class="paramname"><em>bars</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">24165</span>{</div>
+<div class="line"><span class="lineno">24166</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>.contains(<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>))</div>
+<div class="line"><span class="lineno">24167</span>    <a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>.append(<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>);</div>
+<div class="line"><span class="lineno">24168</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a215e28a5944f1159013a0e19169220e7" name="a215e28a5944f1159013a0e19169220e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a215e28a5944f1159013a0e19169220e7">&#9670;&#160;</a></span>remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPBarsGroup::remove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_bars.html">QCPBars</a> *</td>          <td class="paramname"><span class="paramname"><em>bars</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes the specified <em>bars</em> plottable from this group.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#ae26da07a23553052a178fb3fae90d0dc">contains</a>, <a class="el" href="#a3ddf23928c6cd89530bd34ab7ba7b177">clear</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">24144</span>{</div>
+<div class="line"><span class="lineno">24145</span>  <span class="keywordflow">if</span> (!<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>)</div>
+<div class="line"><span class="lineno">24146</span>  {</div>
+<div class="line"><span class="lineno">24147</span>    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;bars is 0&quot;</span>;</div>
+<div class="line"><span class="lineno">24148</span>    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">24149</span>  }</div>
+<div class="line"><span class="lineno">24150</span>  </div>
+<div class="line"><span class="lineno">24151</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>.contains(<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>))</div>
+<div class="line"><span class="lineno">24152</span>    <a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>-&gt;setBarsGroup(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">24153</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">24154</span>    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;bars plottable is not in this bars group:&quot;</span> &lt;&lt; <span class="keyword">reinterpret_cast&lt;</span>quintptr<span class="keyword">&gt;</span>(<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>);</div>
+<div class="line"><span class="lineno">24155</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa553d327479d72a0c3dafcc724a190e2" name="aa553d327479d72a0c3dafcc724a190e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa553d327479d72a0c3dafcc724a190e2">&#9670;&#160;</a></span>setSpacing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPBarsGroup::setSpacing </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>spacing</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the spacing between adjacent bars. What the number passed as <em>spacing</em> actually means, is defined by the current <a class="el" href="#a4c0521120a97e60bbca37677a37075b6">SpacingType</a>, which can be set with <a class="el" href="#a2c7e2d61b10594a4555b615e1fcaf49e">setSpacingType</a>.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#a2c7e2d61b10594a4555b615e1fcaf49e">setSpacingType</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">24060</span>{</div>
+<div class="line"><span class="lineno">24061</span>  <a class="code hl_variable" href="#a56471d7f548ca6141b7a5bf9629f7ece">mSpacing</a> = <a class="code hl_function" href="#a314d09aeb2ad209518b9183ca7ffe662">spacing</a>;</div>
+<div class="line"><span class="lineno">24062</span>}</div>
+<div class="ttc" id="aclass_q_c_p_bars_group_html_a314d09aeb2ad209518b9183ca7ffe662"><div class="ttname"><a href="#a314d09aeb2ad209518b9183ca7ffe662">QCPBarsGroup::spacing</a></div><div class="ttdeci">double spacing() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:5742</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2c7e2d61b10594a4555b615e1fcaf49e" name="a2c7e2d61b10594a4555b615e1fcaf49e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c7e2d61b10594a4555b615e1fcaf49e">&#9670;&#160;</a></span>setSpacingType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPBarsGroup::setSpacingType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4c0521120a97e60bbca37677a37075b6">SpacingType</a></td>          <td class="paramname"><span class="paramname"><em>spacingType</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets how the spacing between adjacent bars is interpreted. See <a class="el" href="#a4c0521120a97e60bbca37677a37075b6">SpacingType</a>.</p>
+<p>The actual spacing can then be specified with <a class="el" href="#aa553d327479d72a0c3dafcc724a190e2">setSpacing</a>.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="#aa553d327479d72a0c3dafcc724a190e2">setSpacing</a> </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">24049</span>{</div>
+<div class="line"><span class="lineno">24050</span>  <a class="code hl_variable" href="#a6794ee1a9c81864d627bff6a4b2d64ec">mSpacingType</a> = <a class="code hl_function" href="#a894a77c45325aad2e742d936bc1f8aea">spacingType</a>;</div>
+<div class="line"><span class="lineno">24051</span>}</div>
+<div class="ttc" id="aclass_q_c_p_bars_group_html_a894a77c45325aad2e742d936bc1f8aea"><div class="ttname"><a href="#a894a77c45325aad2e742d936bc1f8aea">QCPBarsGroup::spacingType</a></div><div class="ttdeci">SpacingType spacingType() const</div><div class="ttdef"><b>Definição</b> qcustomplot.h:5741</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a3780ec77919cb00840207ec7a0f00dd5" name="a3780ec77919cb00840207ec7a0f00dd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3780ec77919cb00840207ec7a0f00dd5">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int QCPBarsGroup::size </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the number of <a class="el" href="class_q_c_p_bars.html" title="A plottable representing a bar chart in a plot.">QCPBars</a> plottables that are part of this group. </p>
+<div class="fragment"><div class="line"><span class="lineno"> 5751</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>.size(); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a314d09aeb2ad209518b9183ca7ffe662" name="a314d09aeb2ad209518b9183ca7ffe662"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a314d09aeb2ad209518b9183ca7ffe662">&#9670;&#160;</a></span>spacing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPBarsGroup::spacing </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 5742</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a56471d7f548ca6141b7a5bf9629f7ece">mSpacing</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a894a77c45325aad2e742d936bc1f8aea" name="a894a77c45325aad2e742d936bc1f8aea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a894a77c45325aad2e742d936bc1f8aea">&#9670;&#160;</a></span>spacingType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a4c0521120a97e60bbca37677a37075b6">SpacingType</a> QCPBarsGroup::spacingType </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 5741</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a6794ee1a9c81864d627bff6a4b2d64ec">mSpacingType</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac7073cdd7b1a40c6cb4b5f908145f8c4" name="ac7073cdd7b1a40c6cb4b5f908145f8c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7073cdd7b1a40c6cb4b5f908145f8c4">&#9670;&#160;</a></span>unregisterBars()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPBarsGroup::unregisterBars </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_q_c_p_bars.html">QCPBars</a> *</td>          <td class="paramname"><span class="paramname"><em>bars</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">24178</span>{</div>
+<div class="line"><span class="lineno">24179</span>  <a class="code hl_variable" href="#affdb1e9233c277ff5a4c0a1121cf1fc0">mBars</a>.removeOne(<a class="code hl_function" href="#a6e4f4e86abbec6a9342f204ef82abef8">bars</a>);</div>
+<div class="line"><span class="lineno">24180</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentação dos símbolos amigos e relacionados</h2>
+<a id="a721b87c7cdb8e83a90d77fc8a22e7195" name="a721b87c7cdb8e83a90d77fc8a22e7195"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a721b87c7cdb8e83a90d77fc8a22e7195">&#9670;&#160;</a></span>QCPBars</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_q_c_p_bars.html">QCPBars</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Atributos</h2>
+<a id="affdb1e9233c277ff5a4c0a1121cf1fc0" name="affdb1e9233c277ff5a4c0a1121cf1fc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affdb1e9233c277ff5a4c0a1121cf1fc0">&#9670;&#160;</a></span>mBars</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_q_c_p_bars.html">QCPBars</a>*&gt; QCPBarsGroup::mBars</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a973d408cfbf88db95115aec71877f9e7" name="a973d408cfbf88db95115aec71877f9e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a973d408cfbf88db95115aec71877f9e7">&#9670;&#160;</a></span>mParentPlot</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_q_custom_plot.html">QCustomPlot</a>* QCPBarsGroup::mParentPlot</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56471d7f548ca6141b7a5bf9629f7ece" name="a56471d7f548ca6141b7a5bf9629f7ece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56471d7f548ca6141b7a5bf9629f7ece">&#9670;&#160;</a></span>mSpacing</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPBarsGroup::mSpacing</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6794ee1a9c81864d627bff6a4b2d64ec" name="a6794ee1a9c81864d627bff6a4b2d64ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6794ee1a9c81864d627bff6a4b2d64ec">&#9670;&#160;</a></span>mSpacingType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a4c0521120a97e60bbca37677a37075b6">SpacingType</a> QCPBarsGroup::mSpacingType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>A documentação para essa classe foi gerada a partir dos seguintes arquivos:<ul>
+<li>C:/Users/pedro/Documents/Programa Bueno/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/versao-2/src/<a class="el" href="qcustomplot_8h_source.html">qcustomplot.h</a></li>
+<li>C:/Users/pedro/Documents/Programa Bueno/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/versao-2/src/<a class="el" href="qcustomplot_8cpp.html">qcustomplot.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

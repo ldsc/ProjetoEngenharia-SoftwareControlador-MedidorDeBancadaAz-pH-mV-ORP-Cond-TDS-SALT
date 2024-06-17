@@ -1,5 +1,6 @@
 #include "utils.h"
 
+
 #include <QList>
 
 double Utils::GetMediana(QList<double>* values)

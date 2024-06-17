@@ -165,90 +165,6 @@ thechapter - Implementação}
 Neste capítulo, são apresentados os códigos fonte implementados.
 \end_layout
 
-\begin_layout Description
-Nota: os códigos devem ser documentados usando padrão 
-\series bold
-javadoc
-\series default
-.
- Posteriormente usar o programa 
-\series bold
-doxygen 
-\series default
-para gerar a documentação no formato html.
- 
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Veja informações gerais aqui 
-\begin_inset CommandInset href
-LatexCommand href
-target "http://www.doxygen.org/"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-Veja exemplo aqui 
-\begin_inset CommandInset href
-LatexCommand href
-target "http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\end_deeper
-\begin_layout Description
-Nota: ao longo deste capítulo usamos inclusão direta de arquivos externos
- usando o pacote 
-\emph on
-listings
-\emph default
- do \SpecialChar LaTeX
-.
- Maiores detalhes de como a saída pode ser gerada estão disponíveis nos
- links abaixo.
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-target "http://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-target "http://mirrors.ctan.org/macros/latex/contrib/listings/listings.pdf"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\end_deeper
 \begin_layout Section
 Código fonte
 \begin_inset CommandInset label
@@ -561,6 +477,88 @@ lstinputlisting[ caption={Arquivo de implementação da classe utils.cpp},
 
 \end_inset
 
+Apresenta-se na listagem
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{instrumentor.h}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+note que dentro de 
+\backslash
+ref{CAplicacao-h} temos o label; o mesmo deve ser igual ao que se encontra
+ abaixo label={CAplicacao-h}
+\end_layout
+
+\end_inset
+
+ o arquivo com código da classe utils.h.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstset{style=C++} 
+\backslash
+lstinputlisting[ caption={Arquivo de cabeçalho da classe instrumentor.h},
+ label={instrumentor.h}] {../../src/instrumentor.h}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Apresenta-se na listagem 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{instrumentor.cpp}
+\end_layout
+
+\end_inset
+
+ o arquivo de implementação da classe measure.cpp.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstset{style=C++} 
+\backslash
+lstinputlisting[ caption={Arquivo de implementação da classe instrumentor.cpp},
+ label={instrumentor.cpp}] {../../src/instrumentor.cpp}
+\end_layout
+
+\end_inset
+
 Apresenta-se na listagem 
 \begin_inset ERT
 status open
@@ -605,7 +603,7 @@ texttt{main()}}, label={main.cpp}] {../../src/main.cpp}
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 note que para saída mudamos a cor de fundo para azul; geramos a saída e
@@ -639,22 +637,6 @@ lstinputlisting[caption=] {../../src/Programa.out}
 \end_inset
 
 
-\end_layout
-
-\begin_layout Description
-Nota: 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Não perca de vista a visão do todo; do projeto de engenharia como um todo.
- Cada capítulo, cada seção, cada parágrafo deve se encaixar.
- Este é um diferencial fundamental do engenheiro em relação ao técnico,
- a capacidade de desenvolver projetos, de ver o todo e suas diferentes partes,
- de modelar processos/sistemas/produtos de engenharia.
 \end_layout
 
 \end_body

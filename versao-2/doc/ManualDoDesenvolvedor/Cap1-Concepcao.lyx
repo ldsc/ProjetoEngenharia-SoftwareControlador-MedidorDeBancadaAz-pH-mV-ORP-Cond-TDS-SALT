@@ -231,6 +231,9 @@ O software será criado com a intenção de otimizar as análises químicas da
  Os dados deverão ser salvos e organizados em um documento do tipo .csv,
  juntamente com a elaboração dos respectivos parâmetros e cálculos estatísticos
  para as medidas realizadas.
+ Além de gerado um arquivo instrumentador no formato .json para avaliação
+ de performance do software.
+ 
 \end_layout
 
 \end_inset
@@ -278,7 +281,7 @@ especificação
 O equipamento alvo deste projeto de engenharia se trata de um medidor de
  bancada capaz de aferir com certa precisão as propriedades supracitadas.
  As especificações gerais do equipamento de modelo 86505 estão dispostas
- na Figura 1 abaixo: 
+ na Figura 2.1 abaixo: 
 \end_layout
 
 \begin_layout Standard
@@ -624,6 +627,49 @@ O usuário poderá acompanhar seus resultados em um gráfico integrado à interf
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle" tabularwidth="14cm">
+<column alignment="center" valignment="top">
+<column alignment="block" valignment="top" width="11.5cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+RF-07
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="block" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+O usuário poderá verificar a performance so software através de um instrumentado
+r.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Requisitos não funcionais
 \begin_inset Index idx
@@ -721,133 +767,6 @@ Windows
 </cell>
 </row>
 </lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-#O que são os casos de uso
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-Casos de uso
-\end_layout
-
-\end_inset
-
- do sistema – cenários
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:Casos-de-uso-do-programa"
-
-\end_inset
-
-
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-Cenário
-\end_layout
-
-\end_inset
-
-?
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Apague esta seção!
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-Segundo 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "prog-UML-blaha"
-literal "true"
-
-\end_inset
-
-, "um 
-\shape italic
-cenário
-\shape default
- pode ser um registro histórico de execução de um sistema real ou um experimento
- de execução teórica de um sistema proposto"
-\emph on
-.
-\end_layout
-
-\begin_layout Plain Layout
-Um 
-\shape italic
-caso de uso
-\shape default
- descreve um ou mais cenários de uso do software, exemplos de uso, como
- o sistema interage com usuários externos (atores).
- Ademais, ele deve representar uma seqüência típica de uso do software (a
- execução de determinadas tarefas-padrão).
- Também deve representar as exceções, casos em que o usuário comete algum
- erro, em que o sistema não consegue realizar as tarefas solicitadas.
- 
-\end_layout
-
-\begin_layout Plain Layout
-Segundo 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "prog-EngSof-Pressman"
-literal "true"
-
-\end_inset
-
-, o caso de uso deve "produzir uma descrição clara e não ambígua de como
- o usuário final e o sistema interagem um com o outro".
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "prog-EngSof-Pressman"
-literal "true"
-
-\end_inset
-
- diz ainda que "uma vez definidos o ator e seu caso de uso, uma hierarquia
- de comandos é identificada"
-\emph on
-.
-\end_layout
-
-\begin_layout Plain Layout
-Devem ser montados diversos diagramas de caso de uso.
- Por exemplo: para cada cenário, crie diagramas de seqüência listando os
- objetos e os diversos eventos que partem de um objeto para outro.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-As Figuras devem ficar GRANDES; bem legíveis!! se necessário dar zoom!!
-\end_layout
 
 \end_inset
 
@@ -978,10 +897,10 @@ name "subsec: Diagrama de caso de uso geral"
 
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
- do software
+do software
 \end_layout
 
 \end_inset
@@ -998,7 +917,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename imagens/Diagrama de caso de uso geral.png
+	filename imagens/CasodeUsoGeral.jpeg
 	lyxscale 20
 	width 100text%
 
@@ -1061,7 +980,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename imagens/Diagrama de caso de uso específico do programa.jpg
+	filename imagens/CasoUsoEspecifico.jpeg
 	width 100text%
 
 \end_inset
@@ -1073,7 +992,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Diagrama de caso de uso específico – Usuário envia comandos e analisa amostra
+Diagrama de caso de uso específico – Usuário faz medidas e realiza comandos
+ na interface
 \begin_inset CommandInset label
 LatexCommand label
 name "cap:Diagrama-de-caso-de-uso-especifico:Titulo"
