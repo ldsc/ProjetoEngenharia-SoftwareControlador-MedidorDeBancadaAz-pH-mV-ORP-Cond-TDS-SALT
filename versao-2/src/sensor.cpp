@@ -1,27 +1,15 @@
-#include "measure.cpp"
 #include "sensor.h"
-
 
 #include <stdexcept>
 
-class Sensor_86501_551 : public ISensor {
-private:
-    ESensorType m_sensor_type = ESensorType_86501_551;
-    double lastValue = 0.01;
-
-    double fRand5(double fMin, double fMax)
-    {
+double Sensor_86501_551::fRand5(double fMin, double fMax)
+{
         double f = (double)rand() / RAND_MAX;
         return fMin + f * (fMax - fMin);
-    }
-public:
-    Sensor_86501_551() {}
-    ~Sensor_86501_551() {}
+}
 
-    bool flag = true;
-
-    virtual IMeasure* GetMeasure(EMeasureMode mode, EMeasureUnit unit) override
-    {
+IMeasure *Sensor_86501_551::GetMeasure(EMeasureMode mode, EMeasureUnit unit)
+{
         STUDY_PROFILE_FUNCTION();
         double value;
 
@@ -67,10 +55,3 @@ public:
             break;
         }
     }
-
-    virtual ESensorType GetSensorType() override
-    {
-        STUDY_PROFILE_FUNCTION();
-        return ESensorType::ESensorType_86501_551;
-    }
-};

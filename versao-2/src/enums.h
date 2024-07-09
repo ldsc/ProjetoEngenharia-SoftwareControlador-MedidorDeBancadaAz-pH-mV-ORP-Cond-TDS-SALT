@@ -1,7 +1,6 @@
 #ifndef ENUMS_H
 #define ENUMS_H
 
-
 /// <summary>
 /// Measure mode of Sensor
 /// </summary>

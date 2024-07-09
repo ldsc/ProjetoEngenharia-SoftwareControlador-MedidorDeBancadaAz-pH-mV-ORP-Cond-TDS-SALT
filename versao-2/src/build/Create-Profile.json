@@ -1,1 +1,1 @@
-{"otherData": {},"traceEvents":[{},{"cat":"function","dur":54688,"name":"MainWindow::MainWindow(QWidget*)","ph":"X","pid":0,"tid":1,"ts":467119795036.100}]}
+{"otherData": {},"traceEvents":[{},{"cat":"function","dur":54058,"name":"MainWindow::MainWindow(QWidget*)","ph":"X","pid":0,"tid":1,"ts":1397705116493.300}]}

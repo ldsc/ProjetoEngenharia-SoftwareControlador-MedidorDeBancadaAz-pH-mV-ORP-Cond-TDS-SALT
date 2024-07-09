@@ -1,5 +1,5 @@
 #include "mainwindow.h"
-#include "sensor.cpp"
+#include "sensor.h"
 #include "ui_mainwindow.h"
 
 #include <Qfile>

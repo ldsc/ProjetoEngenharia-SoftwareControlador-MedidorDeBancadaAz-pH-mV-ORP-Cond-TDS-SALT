@@ -1,7 +1,6 @@
 #ifndef ABOUT_H
 #define ABOUT_H
 
-
 #include <QDialog>
 
 #include "Instrumentor.h"

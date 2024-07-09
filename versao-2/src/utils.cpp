@@ -1,6 +1,5 @@
 #include "utils.h"
 
-
 #include <QList>
 
 double Utils::GetMediana(QList<double>* values)
@@ -22,6 +21,7 @@ double Utils::GetMediana(QList<double>* values)
         m1 = values->value((values->count() - 1) / 2);
         return m1;
     }
+    return -1;
 }
 
 double Utils::GetMax(QList<double>* values)

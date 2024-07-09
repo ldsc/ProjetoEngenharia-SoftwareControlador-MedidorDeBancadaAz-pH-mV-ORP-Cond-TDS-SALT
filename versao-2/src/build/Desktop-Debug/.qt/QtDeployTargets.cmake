@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_Pedro_FILE C:/Users/pedro/Documents/Programa Bueno/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT/versao-2/src/bin/Pedro.exe)
+set(__QT_DEPLOY_TARGET_Pedro_RUNTIME_DLLS C:/Qt/6.7.0/mingw_64/bin/Qt6PrintSupport.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Quick.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Widgets.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6QmlModels.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Qml.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Network.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6OpenGL.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Core.dll)
