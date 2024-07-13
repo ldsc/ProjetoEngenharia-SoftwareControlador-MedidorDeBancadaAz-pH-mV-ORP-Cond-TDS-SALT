@@ -172,11 +172,10 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/andreduartebueno/workdir/Projeto-TCC-SimuladorDifusaoTermica-Nicholas-Bueno-Guilherme/imagens/Interface-vFinal.png
+	filename imagens/Interface.jpeg
 	lyxscale 30
 	width 100text%
 	height 85in
-	keepAspectRatio
 
 \end_inset
 
@@ -207,78 +206,86 @@ name "fig:Imagem da Interface Gráfica"
 
 \end_layout
 
-\begin_layout Standard
-O Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Imagem da Interface Gráfica"
-
+\begin_layout Itemize
+Sobre: Abre informações sobre o programa, como por exemplo 
+\begin_inset Quotes eld
 \end_inset
 
- mostra a janela principal do software e foram listadas grupos de funcionalidade
-s importantes ao usuário.
+Autores
+\begin_inset Quotes erd
+\end_inset
+
+ e Nome do Software.
 \end_layout
 
 \begin_layout Itemize
-explicar o funcionamento do software na prática...explicando o uso de cada
- uma das features/funcionalidades.
+Calibrar: Calibra os sensores antes das medidas.
 \end_layout
 
 \begin_layout Itemize
-aqui você dá um apanhado geral...
+Gravar: Da início a gravação das medidas.
 \end_layout
 
 \begin_layout Itemize
-Depois vai criar seções para funcionalidades específicas, detalhando seu
- uso...como nos exemplos abaixo
+Hold: Pausa a gravação das medidas.
+\end_layout
+
+\begin_layout Itemize
+Taxa de Atualização: Representa a taxa de atualização dos dados.
+\end_layout
+
+\begin_layout Itemize
+Tipo de sensor: Sessão para escolha do sensor.
+\end_layout
+
+\begin_layout Itemize
+Modo de Funcionamento: Sessão para escolha de qual medida se deseja aferir.
+\end_layout
+
+\begin_layout Itemize
+Unidade de medida: Sessão para escolha da unidade de medida.
+\end_layout
+
+\begin_layout Itemize
+Temperatura: Sessão para escolha da temperatura.
+\end_layout
+
+\begin_layout Itemize
+Temperatura Fixa: Seleção da fixação de uma temperatura para realização
+ das medições.
 \end_layout
 
 \begin_layout Section
-Funcionalidade específica A
+Funcionalidade específica - Calibração
 \end_layout
 
 \begin_layout Standard
-O que é?
-\end_layout
+Função Calibrar: Ao selecionar o botão 
+\begin_inset Quotes eld
+\end_inset
 
-\begin_layout Standard
-Como usar - exemplo de uso:
-\end_layout
+Calibrar
+\begin_inset Quotes erd
+\end_inset
 
-\begin_layout Subsection
-Item específico A1
-\end_layout
-
-\begin_layout Subsection
-Item específico A2
-\end_layout
-
-\begin_layout Subsection
-Item específico An
+ após a seleção do sensor, o programa realiza a calibração para a maior
+ precisão das medidas.
 \end_layout
 
 \begin_layout Section
-Funcionalidade específica B
+Funcionalidade específica - Salvar em arquivo de disco.
 \end_layout
 
 \begin_layout Standard
-O que é?
-\end_layout
+Função salvar em arquico de disco: Ao apertar no botão 
+\begin_inset Quotes eld
+\end_inset
 
-\begin_layout Standard
-Como usar - exemplo de uso:
-\end_layout
+Hold
+\begin_inset Quotes erd
+\end_inset
 
-\begin_layout Subsection
-Item específico B1
-\end_layout
-
-\begin_layout Subsection
-Item específico B2
-\end_layout
-
-\begin_layout Subsection
-Item específico Bn
+ após a realização das medidas, as mesmas são salvas em arquivo de disco.
 \end_layout
 
 \end_body

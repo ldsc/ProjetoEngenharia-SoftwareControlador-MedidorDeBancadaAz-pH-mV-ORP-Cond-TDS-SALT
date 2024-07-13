@@ -132,7 +132,7 @@ Apresenta-se neste capítulo os ciclos de planejamento/detalhamento para
 \end_layout
 
 \begin_layout Section
-Versão 0.1
+Versão 1
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Versão-0.1"
@@ -144,7 +144,7 @@ name "sec:Versão-0.1"
 
 \begin_layout Standard
 Na primeira versão foi construído todo o corpo do software, sendo as classes
- principais do software e toda a interface gráfica 
+ principais do software e a interface gráfica 
 \end_layout
 
 \begin_layout Standard
@@ -191,7 +191,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Versão 0.1, 
+Versão 1, 
 \shape italic
 \emph on
 imagem 
@@ -217,7 +217,7 @@ name "fig:Versão-0.1 - simples"
 \end_layout
 
 \begin_layout Section
-Versão 0.2
+Versão 2
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Versão-0.2"
@@ -269,7 +269,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Versão 0.2, 
+Versão 2, 
 \shape italic
 \emph on
 imagem do 

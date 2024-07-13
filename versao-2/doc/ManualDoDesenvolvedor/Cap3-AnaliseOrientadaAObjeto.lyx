@@ -229,7 +229,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename imagens/class diagram.jpeg
+	filename imagens/DiagramadeClasse.jpeg
 	lyxscale 30
 	width 100text%
 	height 80theight%
@@ -727,7 +727,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Diagrama de máquina de estado - Admissão de medida e gravação
+Diagrama de máquina de estado da classe Sensor - Admissão de medida e gravação
 \begin_inset CommandInset label
 LatexCommand label
 name "cap:Diagrama-de-maquina-de-estado"
@@ -780,7 +780,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename imagens/Atividades.jpeg
+	filename imagens/DiagramaAtividades.jpeg
 	lyxscale 85
 	width 100text%
 

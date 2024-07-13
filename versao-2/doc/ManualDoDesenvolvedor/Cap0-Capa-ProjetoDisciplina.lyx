@@ -874,10 +874,27 @@ PROJETO DE ENGENHARIA
 \end_inset
 
 DESENVOLVIMENTO DO SOFTWARE CONTROLADOR 
-\begin_inset Newline newline
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Medidor de bancada Az® pH/mV/ORP/Cond./TDS/SALT - Versão 2
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/ldsc/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT"
+literal "false"
+
 \end_inset
 
-Medidor de bancada Az® pH/mV/ORP/Cond./TDS/SALT - Versão 2
+
 \end_layout
 
 \begin_layout Standard

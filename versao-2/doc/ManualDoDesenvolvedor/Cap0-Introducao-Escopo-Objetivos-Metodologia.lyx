@@ -180,6 +180,17 @@ today ele vai colocar data no material impresso
 
 \end_layout
 
+\begin_layout Section
+Escopo do problema
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Escopo-do-Problema"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 O estudo da qualidade da água 
 \end_layout
@@ -195,17 +206,6 @@ e, onde e quão rápido a água está se movendo, quais reações geoquímicas
  de saturação das mesmas.
  A água, por ser o fluido de saturação mais comum do subsolo, atribui-se
  de grande interesse o estudo de suas propriedades.
-\end_layout
-
-\begin_layout Section
-Escopo do problema
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Escopo-do-Problema"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -401,7 +401,7 @@ name "fig:Etapas para o desenvolvimento do software"
 
 \end_inset
 
-
+b
 \end_layout
 
 \end_inset

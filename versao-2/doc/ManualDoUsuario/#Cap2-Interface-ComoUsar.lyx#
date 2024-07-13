@@ -25,12 +25,13 @@
 % disponibilizado em /usr/share/texmf/doc/latex/styles/listings.dvi
 \usepackage{listings}
 \end_preamble
+\options normaltoc, sumarioincompleto
 \use_default_options false
-\master /home2/andreduartebueno/workdir/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica/doc/manualDesenvolvedor-lyx/DocumentoMestre-Trabalho-ProgramacaoPratica.lyx
+\master DocumentoMestre-Trabalho-ProgramacaoPratica.lyx
 \maintain_unincluded_children false
 \language brazilian
 \language_package auto
-\inputencoding auto
+\inputencoding utf8
 \fontencoding global
 \font_roman "default" "default"
 \font_sans "default" "default"
@@ -49,10 +50,22 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
-\float_placement h
 \paperfontsize 12
 \spacing onehalf
-\use_hyperref false
+\use_hyperref true
+\pdf_title "Título da Monografia - Dissertação - Tese"
+\pdf_author "Nome do Autor"
+\pdf_subject "Descrever assunto"
+\pdf_keywords "Copiar do resumo"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref page
+\pdf_pdfusetitle true
 \papersize a4paper
 \use_geometry true
 \use_package amsmath 1
@@ -67,7 +80,7 @@
 \use_package undertilde 1
 \cite_engine basic
 \cite_engine_type default
-\biblio_style plain
+\biblio_style apalike
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -86,7 +99,7 @@
 \rightmargin 20mm
 \bottommargin 20mm
 \secnumdepth 2
-\tocdepth 2
+\tocdepth 1
 \paragraph_separation indent
 \paragraph_indentation default
 \is_math_indent 0
@@ -106,20 +119,42 @@
 \begin_body
 
 \begin_layout Chapter
-Documentação para o Desenvolvedor
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
+Interface Gráfica
+\begin_inset Index idx
 status open
 
 \begin_layout Plain Layout
+Interface gráfica
+\end_layout
+
+\end_inset
 
 
-\backslash
-lhead{
-\backslash
-thechapter - Documentação} 
+\end_layout
+
+\begin_layout Section
+A Interface Gráfica Geral
+\end_layout
+
+\begin_layout Standard
+A interface do programa é apresentada na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Imagem da Interface Gráfica"
+
+\end_inset
+
+.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+na imagem simulador desenvolvido pelo aluno Nicholas
+\end_layout
+
+\begin_layout Plain Layout
+note que capturamos a imagem da tela do software e adicionamos na figura
+ abaixo algumas informações de uso
 \end_layout
 
 \end_inset
@@ -128,20 +163,19 @@ thechapter - Documentação}
 \end_layout
 
 \begin_layout Standard
-A Documentação gerada pelo Doxygen está na pasta Versao-2/doc/ManualDoDesenvolve
-dor/Doxygen.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename imagens/Doxygen1.png
+	filename imagens/Interface.jpeg
+	lyxscale 30
 	width 100text%
+	height 85in
 
 \end_inset
 
@@ -152,10 +186,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Html gerado pelo Doxygen com a lista de arquivos 
+Imagem da Interface Gráfica
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Html-gerado-pelo"
+name "fig:Imagem da Interface Gráfica"
 
 \end_inset
 
@@ -170,50 +204,76 @@ name "fig:Html-gerado-pelo"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+Sobre: Abre informações sobre o programa, como por exemplo 
+\begin_inset Quotes eld
+\end_inset
+
+Autores
+\begin_inset Quotes erd
+\end_inset
+
+ e Nome do Software.
+\end_layout
+
+\begin_layout Itemize
+Calibrar: Calibra os sensores antes das medidas.
+\end_layout
+
+\begin_layout Itemize
+Gravar: Da início a gravação das medidas.
+\end_layout
+
+\begin_layout Itemize
+Hold: Pausa a gravação das medidas.
+\end_layout
+
+\begin_layout Itemize
+Taxa de Atualização: Representa a taxa de atualização dos dados.
+\end_layout
+
+\begin_layout Itemize
+Tipo de sensor: Sessão para escolha do sensor.
+\end_layout
+
+\begin_layout Itemize
+Modo de Funcionamento: Sessão para escolha de qual medida se deseja aferir.
+\end_layout
+
+\begin_layout Itemize
+Unidade de medida: Sessão para escolha da unidade de medida.
+\end_layout
+
+\begin_layout Itemize
+Temperatura: Sessão para escolha da temperatura.
+\end_layout
+
+\begin_layout Itemize
+Temperatura Fixa: Seleção da fixação de uma temperatura para realização
+ das medições.
+\end_layout
+
+\begin_layout Section
+Funcionalidade específica Calibração
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename imagens/Doxygen3.png
-	width 100text%
-
+Função Calibrar: Ao selecionar o botão 
+\begin_inset Quotes eld
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Html gerado pelo Doxygen do arquivo main.cpp 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Html-gerado-pelo-1"
-
+Calibrar
+\begin_inset Quotes erd
 \end_inset
 
-
+ após a seleção do sensor, o programa realiza a calibração para a maior
+ precisão das medidas.
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
+\begin_layout Section
+Funcionalidade específica B
 \end_layout
 
 \end_body

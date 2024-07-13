@@ -281,7 +281,7 @@ especificação
 O equipamento alvo deste projeto de engenharia se trata de um medidor de
  bancada capaz de aferir com certa precisão as propriedades supracitadas.
  As especificações gerais do equipamento de modelo 86505 estão dispostas
- na Figura 2.1 abaixo: 
+ na Figura 2.1: 
 \end_layout
 
 \begin_layout Standard
@@ -403,7 +403,7 @@ RF-01
 \begin_inset Text
 
 \begin_layout Plain Layout
-Interface: gráfica (Qt).
+Interface: gráfica e amigável (Qt).
 \end_layout
 
 \end_inset
@@ -442,7 +442,7 @@ RF-02
 \begin_inset Text
 
 \begin_layout Plain Layout
-Resultados serão armazenados em disco.
+Resultados serão armazenados em disco em formato universal (csv)
 \end_layout
 
 \end_inset
@@ -755,12 +755,7 @@ RNF-02
 \begin_inset Text
 
 \begin_layout Plain Layout
-O programa não deverá ser multi-plataforma, podendo ser executado apenas
- em 
-\emph on
-Windows
-\emph default
- (x32 bits e x64 bits).
+O programa deverá ser multi-plataforma.
 \end_layout
 
 \end_inset
@@ -804,89 +799,6 @@ do software
 
 \end_layout
 
-\begin_layout Standard
-A Tabela 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "cap:Exemplo-de-um-caso-de-uso (tabela)"
-
-\end_inset
-
- mostra a descrição de um caso de uso.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Caso de uso 1
-\begin_inset CommandInset label
-LatexCommand label
-name "cap:Exemplo-de-um-caso-de-uso (tabela)"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="1" columns="2">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="block" valignment="top" width="10cm">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Nome do caso de uso:
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Pesquisador realiza estudo de qualidade da água a ser utilizada no experimento
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Diagrama de caso de uso geral
 \begin_inset CommandInset label
@@ -902,6 +814,20 @@ status collapsed
 \begin_layout Plain Layout
 do software
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ilustrado na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cap:Diagrama-caso-uso-geral"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
@@ -965,6 +891,20 @@ status open
 \begin_layout Plain Layout
 do software
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ilustrado na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec: Diagrama de caso de uso específico"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 

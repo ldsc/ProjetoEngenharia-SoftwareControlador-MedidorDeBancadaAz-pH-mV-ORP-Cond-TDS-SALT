@@ -25,13 +25,12 @@
 % disponibilizado em /usr/share/texmf/doc/latex/styles/listings.dvi
 \usepackage{listings}
 \end_preamble
-\options normaltoc, sumarioincompleto
 \use_default_options false
 \master DocumentoMestre-Trabalho-ProgramacaoPratica.lyx
 \maintain_unincluded_children false
 \language brazilian
 \language_package auto
-\inputencoding utf8
+\inputencoding auto
 \fontencoding global
 \font_roman "default" "default"
 \font_sans "default" "default"
@@ -50,22 +49,10 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement h
 \paperfontsize 12
 \spacing onehalf
-\use_hyperref true
-\pdf_title "Título da Monografia - Dissertação - Tese"
-\pdf_author "Nome do Autor"
-\pdf_subject "Descrever assunto"
-\pdf_keywords "Copiar do resumo"
-\pdf_bookmarks true
-\pdf_bookmarksnumbered true
-\pdf_bookmarksopen true
-\pdf_bookmarksopenlevel 1
-\pdf_breaklinks true
-\pdf_pdfborder true
-\pdf_colorlinks false
-\pdf_backref page
-\pdf_pdfusetitle true
+\use_hyperref false
 \papersize a4paper
 \use_geometry true
 \use_package amsmath 1
@@ -99,7 +86,7 @@
 \rightmargin 20mm
 \bottommargin 20mm
 \secnumdepth 2
-\tocdepth 1
+\tocdepth 2
 \paragraph_separation indent
 \paragraph_indentation default
 \is_math_indent 0
@@ -107,7 +94,7 @@
 \quotes_style english
 \dynamic_quotes 0
 \papercolumns 1
-\papersides 1
+\papersides 2
 \paperpagestyle fancy
 \tracking_changes false
 \output_changes false
@@ -118,25 +105,28 @@
 
 \begin_body
 
-\begin_layout Chapter
-Apêndice
+\begin_layout Standard
+\align center
+
+\size large
+UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE
+\begin_inset Newline newline
+\end_inset
+
+LABORATÓRIO DE ENGENHARIA E EXPLORAÇÃO DE PETRÓLEO
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
+\align center
+
+\size large
+\begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-
-\backslash
-lhead{Apêndice 
-\backslash
-thechapter: Titulo do Apêndice}
-\backslash
-rhead{
-\backslash
-thepage}
+O título deve ser o mais claro possível, não deixando dúvidas sobre o assunto
+ em questão.
+ O uso de vírgula ou dois pontos pode deixar o título com mais impacto.
 \end_layout
 
 \end_inset
@@ -144,17 +134,74 @@ thepage}
 
 \end_layout
 
-\begin_layout Itemize
-Neste link 
-\begin_inset CommandInset href
-LatexCommand href
-target "https://gist.github.com/thiago-rezende/979bd63b3b8d3cd4eb1097367cf9b4bb"
-literal "false"
+\begin_layout Standard
+\begin_inset VSpace 5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+TRABALHO DA DISCIPLINA PROGRAMAÇÃO PRÁTICA
+\begin_inset Newline newline
+\end_inset
+
+PROJETO ENGENHARIA
+\begin_inset VSpace 3cm
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+SOFTWARE CONTROLADOR PARA O EQUIPAMENTO MEDIDOR DE BANCADA 
+\begin_inset Newline newline
+\end_inset
+
+Az® pH/mV/ORP/Cond./TDS/SALT
+\size default
+
+\begin_inset VSpace 5cm
+\end_inset
+
+
+\size large
+
+\begin_inset Newline newline
+\end_inset
+
+PEDRO HENRIQUE RIBEIRO
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 4cm
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+o valor de 4cm pode ser alterado, para que a distribuição fique mais uniforme
+\end_layout
 
 \end_inset
 
-pode acessar o código base que usei para construção do instrumentador para
- este programa.
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+MACAÉ - RJ
+\begin_inset Newline newline
+\end_inset
+
+Julho - 2022
 \end_layout
 
 \end_body

@@ -445,7 +445,7 @@ nota importante, o número de versões irá depender do tamanho do ciclo, ou
 \end_layout
 
 \begin_layout Itemize
-v0.2
+v0.1
 \end_layout
 
 \begin_deeper
@@ -463,6 +463,28 @@ Gráficos em tempo real
 
 \begin_layout Itemize
 Gravação de Medidas em arquivo de disco
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+v0.2
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Aquisição de medidas
+\end_layout
+
+\begin_layout Itemize
+Interface gráfica
+\end_layout
+
+\begin_layout Itemize
+Gráficos em tempo real
+\end_layout
+
+\begin_layout Itemize
+Gravação de medidas em arquivo de disco
 \end_layout
 
 \begin_layout Itemize
@@ -502,8 +524,8 @@ A tabela esta preenchida com dados de um dos exemplos de projeto; você deve
 
 \end_layout
 
-\begin_layout Standard
-\align center
+\begin_layout Enumerate
+\noindent
 \begin_inset Tabular
 <lyxtabular version="3" rows="22" columns="2">
 <features islongtable="true" longtabularalignment="center">

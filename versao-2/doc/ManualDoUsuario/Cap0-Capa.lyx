@@ -121,7 +121,7 @@ LABORATÓRIO DE ENGENHARIA E EXPLORAÇÃO DE PETRÓLEO
 
 \size large
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 O título deve ser o mais claro possível, não deixando dúvidas sobre o assunto
@@ -145,26 +145,25 @@ O título deve ser o mais claro possível, não deixando dúvidas sobre o assunt
 \align center
 
 \size large
-PROJETO ENGENHARIA
-\begin_inset Newline newline
-\end_inset
-
-MANUAL DO USUÁRIO DO SOFTWARE 
-\begin_inset Newline newline
-\end_inset
-
-XXX
-\begin_inset Newline newline
-\end_inset
-
 TRABALHO DA DISCIPLINA PROGRAMAÇÃO PRÁTICA
 \begin_inset Newline newline
 \end_inset
 
 PROJETO ENGENHARIA
-\end_layout
+\begin_inset VSpace 3cm
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
+SOFTWARE CONTROLADOR PARA O EQUIPAMENTO MEDIDOR DE BANCADA 
+\begin_inset Newline newline
+\end_inset
+
+Az® pH/mV/ORP/Cond./TDS/SALT
+\size default
+
 \begin_inset VSpace 5cm
 \end_inset
 
@@ -175,28 +174,15 @@ PROJETO ENGENHARIA
 \align center
 
 \size large
-Versão 1:
+GUSTAVO ESCHER PIRES MENDES
 \begin_inset Newline newline
 \end_inset
 
-AUTORES
-\begin_inset Newline newline
-\end_inset
-
-Versão 2:
-\begin_inset Newline newline
-\end_inset
-
-AUTORES
-\begin_inset Newline newline
-\end_inset
-
-Prof.
- André Duarte Bueno
+PEDRO HENRIQUE RIBEIRO
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 5cm
+\begin_inset VSpace 4cm
 \end_inset
 
 
@@ -220,7 +206,7 @@ MACAÉ - RJ
 \begin_inset Newline newline
 \end_inset
 
-Janeiro - 2023
+Julho - 2022
 \end_layout
 
 \end_body
